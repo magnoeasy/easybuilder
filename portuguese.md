@@ -1,5 +1,5 @@
 <h1>Easy Builder Tutorial em português</h1>
-<img style="margin-algin: center;" src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png">
+<img src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png">
 
 ## Primeiros passos no Easy Builder 🦶
 <p>Em primeiro plano precisamos criar um login no <b>"Easy Builder"(nossa plataforma de criação).<p>
@@ -60,14 +60,14 @@ Adicione o nome “Lopes”, e clique no botão _"Save & Close"_ !! <img src="ht
 
 Repita o processo colocando nome diferente.
 
-Você pode fazer o download da lista de registros em formato de  lista do excel clicando no botão  e então será enviado no seu email o link para download da lista excel.
-Um gif curto para te ajudar
+Você pode fazer o download da lista de registros em formato de  lista do excel clicando no botão _"Export Excel"_ e então será enviado no seu email o link para download da lista excel.<br>
+Um gif curto para te ajudar:
 
 <img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif"><br>
 
 ## Como Executar a Aplicação 💻
 <br>
-Ao chegar na tela do formulário, preencha o “Form Title”  e insira os componentes “Textfield” e “Email”:
+Ao chegar na tela do formulário, preencha o “Form Title”(o titulo do formulário) e insira os componentes “Textfield” e “Email”:
 <img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
 
 Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé da página e depois clique no botão _"Run"_ <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif"><br>Irá para a seguinte tela
@@ -77,6 +77,15 @@ Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé 
 Para inserir novos registros, clique no botão _"New"_ no topo desta tela⤵️<br>
 <img src="https://user-images.githubusercontent.com/81401104/114939985-8b186400-9e17-11eb-9738-a6de0dd97dc4.png">
 Então irá abrir a seguinte tela:
+<img src="https://user-images.githubusercontent.com/81401104/115062670-fd914e80-9ec0-11eb-9c75-7956b6bcefce.png"><br>
+Essa é a tela de registrar, onde irá inserir as novas informações dentro do sistema.
+Após preencher os campos, clique no botão _"Save & Close".
+<img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
+
+E você estará de volta na tela dos registros, com o formulário salvo e disponível para visualização.
+*Caso queira editar o formulário salvo, clique no <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
+(Embaixo da coluna do “Control”)_<br>
+
 ## AVISOS⚠️
 
 Na maioria dos componentes, não estará sendo mostrado as seções do “Properties of Field” (General, Values, Behavior, Presentation, Intro, Others) para evitar repetição de conteúdo. 
@@ -97,34 +106,43 @@ Se tiver qualquer dúvida, entre em contato com o suporte da Easy Comtec.
 
 
 São 30 componentes que iremos aprender a utilizar, são eles:
+<table>
+ <tr>
+  <td>Textfield</td>
+  <td>TextArea</td>
+  <td>Editor</td>
+  <td>Hidden</td>
+  <td>Integer</td>
+  <td>Decimal</td>
+  <td>Date</th>
+  <td>DateTime</td>
+  <td>Time</th>
+ </tr>
+ <tr>
+  <td>Checkbox</td>
+  <td>ChecklistDB</td>
+  <td>Radio</td>
+  <td>Dropdown</td>
+  <td>DropdownDB</td>
+  <td>AutoComplete</td>
+  <td>Label</td>
+  <td>Box</td>
+  <td>Signature</td>
+ </tr>
+ <tr>
+  <td>Static Image</td>
+  <td>Upload Image</td>
+  <td>File Upload</td>
+  <td>One-To-Many</td>
+  <td>Multitag</td>
+  <td>Additional Data</td>
+  <td>Button</td>
+  <td>HTML FIeld</td>
+  <td>Quizz</td>
+ </tr>
+ 
+</table>
 
--Textfield
--TextArea	
--Editor
--Hidden
--Integer
--Decimal
--Date
--DateTime
--Time
--Checkbox
--ChecklistDB
--Radio
--Dropdown
--DropdownDB
--AutoComplete
--Label
--Box
--Signature
--Static Image
--pload Image
--File Upload
--One-To-Many
--Multitag
--Additional Data
--Button
--HTML FIeld
--Quizz
 -Email
 -Password
 -Horizontal Line
