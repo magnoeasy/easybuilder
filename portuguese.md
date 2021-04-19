@@ -210,6 +210,7 @@ Agora você consegue visualizar seus registros:
 
 Execute a aplicação.
 
+<img src="https://user-images.githubusercontent.com/81401104/115288674-1b142180-a128-11eb-82f0-3a930b0e05aa.png">
 
 
 Observe que já está preenchido com (45)99887-6655, mas é possível alterá-lo.
@@ -222,25 +223,14 @@ Execute a aplicação. Ao preencher o campo você perceberá que será necessár
 
 Execute a aplicação. Ao preencher o campo você perceberá que será permitido no máximo 10 caracteres para que seja possível salvar o registro.
 
-“Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, clique no  , e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
-
-
-
-
-
-
-
-
-
-
-
-
+“Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
+clique no  , <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
 
 ## BEHAVIOR 🎬
 
 
-
+<img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
 
 Aqui você encontrará 3 caixas de seleção (Required, Disabled e Visible) e 3 listas suspensas (Visibility Rules, Required Rules e Disabled Rules).
 
@@ -262,13 +252,14 @@ Referente às regras de visibilidade, obrigatoriedade e desativabilidade, é imp
 
 Vamos testar isso na prática. Selecione e arraste o componente “Integer” para dentro do formulário.
 
-
+<img src="https://user-images.githubusercontent.com/81401104/115289821-64b13c00-a129-11eb-809d-d6fea45d85de.png">
 
  no “Properties of Field”, abaixo de “General”, em “Name” e “Label” preencha o campo com “Idade”. 
+<img src="https://user-images.githubusercontent.com/81401104/115289993-7a266600-a129-11eb-95ed-0cc10fe0de8b.png">
 
 
-
-Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” , clique no  do “Visibility Rules”, irá abrir a seguinte janela: no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
+Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” , clique no <img src="![image](https://user-images.githubusercontent.com/81401104/115290098-9f1ad900-a129-11eb-972c-be53e7c97379.png">
+do “Visibility Rules”, irá abrir a seguinte janela: no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
 
 
