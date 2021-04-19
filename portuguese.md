@@ -296,7 +296,9 @@ Preencha o campo “Idade” com “18” e observe que o campo “Número de Te
 
 Você pode aplicar essas regras da mesma forma para a obrigatoriedade e desativação.
 
-## OTHERS
+## OTHERS 📝
+![image](https://user-images.githubusercontent.com/81401104/115293506-cb385900-a12d-11eb-95ab-031c63694490.png)
+
 Aqui na seção “Others” você encontrará essa lista do “Feed Data”, que serve para preencher o campo com dados fictícios para validá-lo.
 
 Com o campo “Número de Telefone” ou “Nome Completo” você pode preenchê-lo com a opção “Phone” ou “People” respectivamente.
@@ -304,20 +306,23 @@ Com o campo “Número de Telefone” ou “Nome Completo” você pode preench�
 Agora execute a aplicação.
 
 Automaticamente se abrirá uma nova página no seu navegador, e você verá registro de números de telefones/nomes fictícios na tela (próxima página), que verificará o campo como válido.
+![image](https://user-images.githubusercontent.com/81401104/115293603-ec00ae80-a12d-11eb-9cd5-6b381b83ff9c.png)
 
 
 
-PRESENTATION
-
+## PRESENTATION 📊
+![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
 
 
 Nessa seção você consegue editar quanto de espaço o campo irá ocupar nas telas de desktops, tablets, mobiles horizontais e mobiles verticais respectivamente. O espaço ocupado pode variar de 8% até 100%.
 
 Clique no campo “Número de Telefone”  criado antes.
+![image](https://user-images.githubusercontent.com/81401104/115293785-1f433d80-a12e-11eb-8835-39fa7699f32a.png)
 
 
 Se você está usando desktop, clique na primeira lista suspensiva e então escolha a opção col-lg-12:100% e observe como ficou no formulário.
 
+![image](https://user-images.githubusercontent.com/81401104/115293817-2702e200-a12e-11eb-871a-709b8a766f4b.png)
 
 
 Execute a aplicação.
@@ -328,9 +333,8 @@ No item “CSS Class”  você pode informar a classe de css customizada para o 
 
 
 
-EVENTS
-
-
+## EVENTS 🎞️
+![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
 
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
@@ -338,8 +342,9 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Event
 
 
 
-INTRO
+## INTRO
 
+![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
 
 
 A seção “Intro” serve como uma introdução instrutiva, para explicar sobre o preenchimento dos campos ou o que você achar importante.
@@ -347,35 +352,23 @@ A seção “Intro” serve como uma introdução instrutiva, para explicar sobr
 É importante saber que essa funcionalidade só irá funcionar na primeira vez, se quiser testá-lo novamente será preciso criar um novo formulário.
 
 Vamos testar isso agora, selecione e solte dois componentes “Textfield” dentro do formulário. 
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/115294159-9d9fdf80-a12e-11eb-8c99-378be69a4962.png)
 
 No primeiro “Textfield”, em “Position” selecione “Top”, em “Order” digite “1”, em “Message” escreva “Esse é o primeiro” (imagem na próxima página).
 
-
-
+![image](https://user-images.githubusercontent.com/81401104/115294205-aee8ec00-a12e-11eb-928f-c37400f1bd77.png)
 
 No segundo “Textfield”, em “Position” selecione “Right”, em “Order” digite “2”, em “Message” escreva “Esse é o segundo” .
+![image](https://user-images.githubusercontent.com/81401104/115294376-ea83b600-a12e-11eb-832d-d96e58ea37c2.png)
+
+Agora execute a aplicação.Irá abrir a seguinte página:
+![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
 
 
-
-Agora execute a aplicação.
-
-
-
-
-
-
-Irá abrir a seguinte página:
-
-
-Clique no botão .
-
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png)
+.
 Então irá aparecer o efeito do intro na seguinte página:
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
 
 
 Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc), é efeito das configurações na seção “Intro”.
