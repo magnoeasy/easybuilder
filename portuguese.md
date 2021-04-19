@@ -19,7 +19,7 @@ Por fim clique em _Link Here_  para confirmar o email.⤴️<br>
 Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando em _Sign In_.⤵️<br>
 <img src="https://user-images.githubusercontent.com/81401104/114770895-58506c00-9d42-11eb-91b8-d35e97afe7cf.png">
 
-#### Feito o cadastro Parabens!!🎉<br>
+#### Feito o cadastro Parabens!!🥇🎉<br>
 
 ## E hora de por a mão na massa 🖐️
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
@@ -145,43 +145,37 @@ São 30 componentes que iremos aprender a utilizar, são eles:
  </tr>
 </table>
 <br>
-É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.
+É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.<br>
 
 O exemplo de “Properties of Field” da imagem abaixo é do componente “Textfield”.
+<img src="https://user-images.githubusercontent.com/81401104/115268685-e5b00980-a110-11eb-9b9e-1215c566626a.png">
+<br>
 
+É importante saber disso para que facilite o processo de localizar as seções, itens, etc.<br>
 
-É importante saber disso para que facilite o processo de localizar as seções, itens, etc.
-
-Outra situação recorrente é a referenciação dentro do tutorial de um componente para outro tutorial dentro deste documento.
+Outra situação recorrente é a referenciação dentro do tutorial de um componente para outro tutorial dentro deste documento.<br>
 
 É importante também que já tenha realizado os passos dos tutoriais  “Como Criar Seu Primeiro Projeto, Menu e Formulário” e “Como Executar a Aplicação”.
-
-Textfield
+<br>
+## Textfield 📃
 Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
-
-
-O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.
+<br>
+<img src="(https://user-images.githubusercontent.com/81401104/115268786-04ae9b80-a111-11eb-8a78-ba4c2540e8c3.png"><br>
+O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.<br>
 
 Selecione o componente “Textfield”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
+<br>
 
+## GENERAL 🎖️
 
-
-
-
-
-
-
-
-
-GENERAL
-
-
+<img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png"><br>
 
 Nessa aba “Properties of Field”, abaixo de “General”, tem o campo “Name”, este se refere a identificação do campo para a codificação, para possíveis programações posteriores. Geralmente nele você irá repetir o que estará escrito em “Label” que é a identificação do campo para o usuário.
 
 O campo “Column Title” serve para identificar quando for visualizar a lista (para visualizar em formato lista observe o topo da página, selecione “List” ).
 
 O campo “Placeholder” serve como um guia para o que preencher, é interessante que você visualize isso, escreva no campo “Testando”, observe o efeito no campo no formulário.
+<img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
 
 
 
