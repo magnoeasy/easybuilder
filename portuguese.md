@@ -102,9 +102,7 @@ Para realizar os tutoriais de “Static Image”, “Upload Image”, e “File 
 
 Se tiver qualquer dúvida, entre em contato com o suporte da Easy Comtec.
 
-## COMPONENTES 💾
-
-
+## COMPONENTES 🧱
 São 30 componentes que iremos aprender a utilizar, são eles:
 <table>
  <tr>
@@ -146,7 +144,7 @@ São 30 componentes que iremos aprender a utilizar, são eles:
   <td>Horizontal Line</td>
  </tr>
 </table>
-
+<br>
 É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.
 
 O exemplo de “Properties of Field” da imagem abaixo é do componente “Textfield”.
