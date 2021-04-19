@@ -721,3 +721,1008 @@ Para visualizar a utilização desse componente, desça até a seção “Source
 
 
 *** Entre em contato com o suporte da easy comtec para utilizar esse componente ****
+PRESENTATION
+
+
+
+Para poder visualizar as diferenças de apresentação, é obrigatório que já tenha adicionado valores na seção “Values”.
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
+
+Em “Style” você tem três opções que pode selecionar: “Fixed”, “Fluid” ou “Vertical”. Selecione cada opção e perceba a diferença na disposição visual dos itens.
+
+
+SOURCE
+
+
+Para fazer funcionar o componente “ChecklistDB” é necessário puxar os dados de outro formulário/datasource. 
+
+Logo, é necessário, que tenha criado esse outro formulário/banco de dados, e após atualizar a lista, apenas selecione a “Class” desse outro.
+
+Source Field:
+
+Label Field:
+
+Picture Field:
+
+Radio
+Vídeo: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
+
+Com o componente “Radio” você pode fornecer uma lista de opções mas selecionar apenas uma opção como verdadeira.
+
+Selecione o componente “Radio”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Desça até a seção “Values” desse tutorial para aprender como usar esse componente.
+
+
+
+
+
+
+
+
+
+VALUES
+
+
+
+
+Aqui você irá adicionar os valores, por exemplo, criar listas com as opções para selecionar, lembrando que apenas uma opção poderá ser selecionada com esse componente.
+
+Agora clique no botão , automaticamente abrirá a janela modal “Enumerations” (imagem na próxima página), em “Name” escreva “Gênero”, em“Type” mantenha a opção “String”.
+
+Clique no botão  e adicione “Masculino”, denovo clique e adicione a opção  “Feminino” e então clique no botão . (Imagem na próxima página)
+
+Duas coisas importantes de saber sobre a janela “Enumerations”:
+Em “Type” você tem duas opções que pode selecionar: “String” ou “Integer”. “String” se refere a palavras, “Integer” se refere a números.
+“Max Length” se refere a quantidade máxima de caracteres que cada opção terá.
+
+
+Ainda na seção “Values”,  tem o item “Default”, clicando nele irá aparecer as opções “Masculino” e “Feminino”, isso quer dizer que se você selecionar um desses dois agora, na hora de preencher o formulário um deles já estará selecionado, mas ainda será possível mudar caso queira. 
+
+Execute a aplicação.
+
+O componente será visto da seguinte maneira na tela de registrar:
+
+
+
+
+
+
+
+
+
+PRESENTATION
+
+
+
+Para poder visualizar as diferenças de apresentação desse componente, é obrigatório que já tenha adicionado valores na seção “Values”.
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
+
+Em “Style” você tem três opções que pode selecionar: “Fixed”, “Fluid” ou “Vertical”. Selecione cada opção e perceba a diferença entre eles referente a disposição visual dos itens.
+Dropdown
+Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
+
+O componente “Dropdown” serve para você fornecer uma lista de opções em formato de menu.
+
+Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Na seção “Values” do “Properties of Field”, clique no botão , irá aparecer a seguinte janela modal:
+
+Em “Name” escreva veículo, então clique no . Irá a aparecer o seguinte embaixo do botão:
+
+
+
+Edite o “Option A” para “Carro”. Adicione mais duas opções e altere-as para “Moto” e “Caminhão”. 
+
+
+
+Clique no botão , e após salvo, voltará automaticamente para a tela de design do formulário. 
+
+Execute a aplicação.
+
+Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
+
+
+
+
+VALUES
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Radio”.
+
+DropdownDB
+
+O componente “DropdownDB” serve para você fornecer uma lista de opções em formato de menu a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
+
+
+ (Obs: A única diferença entre o “AutoComplete” e o “DropdownDB” é que o “AutoComplete” aparece quando é pesquisado e o “DropdownDB” aparece numa lista)
+
+Selecione o componente “DropdownDB”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+Para aprender como usar esse componente, desça até a seção “Source” deste tutorial.
+
+
+
+
+
+
+
+
+
+
+
+SOURCE
+
+
+
+Nessa seção “Source” serão trazidos o conjunto de valores inseridos em outro campo, que pode ser de outro ou do mesmo formulário, desde que seja sob o mesmo projeto.
+
+Então, vamos começar criando mais um formulário (igual demonstrado no tutorial “Como Criar Seu Primeiro Projeto, Menu e Formulário”).
+
+E nesse novo formulário vamos adicionar o componente “Textfield” para dentro dele.
+
+
+
+  Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”.
+
+
+
+Agora execute a aplicação.
+
+Irá abrir a seguinte página:
+
+
+
+No campo “Cor” escreva “Vermelho”, clique no botão .. 
+
+
+
+Repita o processo para adicionar as cores “Verde”, “Amarelo” e “Azul.
+
+
+
+Agora vamos voltar para o outro formulário com o componente “DropdownDB”.
+
+
+
+E então em “Properties of Field”, desça até “Source” e em “Class” selecione o formulário que foi criado o campo “Cor” e em “Description Field” selecione o campo “Cor”.
+
+Execute a aplicação.
+
+
+Clique no botão  e irá abrir a seguinte página:
+
+
+
+
+
+Selecione o campo do DropDownDB:
+
+
+E você irá visualizar os valores adicionados no campo “Cor” do outro formulário. Selecione uma opção e então clique no botão :
+
+
+
+ Você pode realizar o mesmo processo com ambos os campos no mesmo formulário.
+Ainda na seção “Source”, em “Additional Data” você pode adicionar outro conjunto de valores de um campo desde que seja do mesmo formulário selecionado no “Class”.
+AutoComplete
+Vídeo: https://www.youtube.com/watch?v=l0tQAqhDfVk&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=24
+
+O componente “AutoComplete” serve para fornecer auto-completar a inserção do item a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
+
+A única diferença entre o “AutoComplete” e o “DropdownDB” é que o “AutoComplete” aparece quando é pesquisado e o “DropdownDB” aparece numa lista.
+
+Ou seja, sabendo utilizar o “DropdownDB” você também saberá utilizar o componente “Autocomplete”
+
+Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+Na seção “Source”, em “Class”  do “Autocomplete” selecione a opção “Cor” e em “Description Field” também selecione “Cor” 
+
+(O formulário “Cor” e campo “Cor” com os registros de “Vermelho”,”Verde”, “Azul” e “Amarelo” foram criados durante o tutorial do componente “DropdownDB”).
+
+Agora execute a aplicação.
+
+Na tela de registrar, perceberá que ao escrever as letras iniciais, irá aparecer as opções disponíveis:
+
+
+
+E então é só selecionar a opção desejada e prosseguir.
+
+
+
+FILTER
+
+
+
+Filter Name: Filtrar nome.
+
+Filter Value: Filtrar valor.
+
+
+SOURCE
+
+
+
+Class (classe, nome do formulário ou datasource)
+Description Field (Campo de descrição)
+
+Allow add and edit (Permitir adicionar e editar)
+
+Enable barcode scanner (Habilitar scanner de código de barras)
+
+Additional Data (Dados adicionais)
+
+Source From (Fonte de)
+
+To (Para)
+Label
+Vídeo: https://www.youtube.com/watch?v=SM_LHGXmJm0&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=25
+
+
+Com este componente você pode apresentar valores do tipo letras e números, estes valores não serão gravados no banco de dados.
+
+Selecione o componente “Label”, então arraste-o e solte-o onde está escrito “Drop new field here!”.
+ No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão para fazer a importação de um documento de texto do seu computador. 
+
+* O documento de texto tem que ser formato “.txt”.
+
+Clique no botão  para fazer o upload do documento.
+
+Para esse tutorial eu criei o seguinte documento:
+
+
+
+Perceba que cada item está em uma linha, isso tornará possível criar as opções.
+
+
+
+Selecione a primeira opção, e clique no botão ..
+
+
+
+Execute a aplicação.
+
+
+
+E após salvar, não será salvo no banco de dados, pois esse texto é apenas para orientação dentro do formulário.
+
+
+
+Box
+Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
+
+Com este componente você pode criar seções dentro do formulário, para organizar os componentes que estarão dentro dele e realizar funcionalidades conjuntas (das regras de visibilidade, por exemplo).
+
+Isso permitirá economizar tempo na hora de editar as seções do “Properties of Field”, por exemplo, criando regra de visualização para todo o conjunto de componentes dentro do groupbox.
+
+Selecione o componente “Box”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+Essa será a disposição inicial do componente no formulário:
+
+
+Agora arraste um componente “Textfield” e um “Integer” para dentro do “Groupbox”:
+
+
+Nomeie o textfield de “Letra”,  e o “Integer”(Number2) de “Número”:
+
+
+E agora, selecionando o box você consegue configurar o “Behavior”, “Presentation” e “Intro” de todos os componentes dentro dele de uma vez só. 
+
+Para saber mais sobre como editar e visualizar essas configurações do “Properties of Field”, acesse as seções “General”, “Behavior”, “Presentation” e “Intro” do componente “Textfield”.
+
+Obs: também é possível editar essas propriedades para cada componente individualmente dentro do GroupBox.
+
+Execute a aplicação.
+
+
+
+Adicione os valores nos dois campos e depois clique no botão .
+
+
+
+GENERAL
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
+
+Ao selecionar caixa do , será criado a borda para o componente, e também será possível editar o campo “Label”.
+Signature
+
+Com este componente você pode adicionar uma assinatura do usuário no seu formulário.
+
+Selecione o componente “Signature”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+Para total visualização do processo da utilização do componente “Signature” será necessário realizar as etapas dos tutoriais “Como Adicionar Um Usuário” e “Como Dar Permissão Ao Usuário”.
+
+
+Para fazer funcionar o componente “Signature” será preciso ter mais um componente “DateTime” ou “Date” e dois componentes “Hidden”.
+
+Então, primeiro, vamos adicionar o componente “DateTime” e nomeá-lo de “Data e Hora”, e vamos nomear o componente “Signature” de “Assinatura”.
+
+
+
+Selecione a caixa de seleção “Current DateTime” da seção “Values” do componente “DateTime”(Data e Hora) para sempre estar pegando a data e horário atual.
+
+Agora selecione e solte os 2 componentes “Hidden” em cima do “Assinatura” e do “Data e Hora”
+
+
+Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
+
+
+E no “Hidden” que está acima acima do “DateTime” o nomeie de “Hidden do DateTime”. E na seção “Data Type”, no item “Type” selecione a opção “DateTime”. (imagem abaixo)
+Agora vá até a seção “Signature” do componente “Signature”. No item “Date field” selecione a opção “Data e Hora” e no “Info field” selecione a opção  “Hidden Assinatura”.
+
+
+
+Execute a aplicação.
+
+Então irá abrir a seguinte tela:
+
+
+
+Agora copie a URL (Link) desse formulário:
+
+
+
+E então abra em uma janela anônima:
+
+
+
+Entre com seu usuário. 
+
+[Para continuar daqui em diante, é necessário ter realizado os passos dos tutoriais “Como Criar Seu Usuário” e “Como Dar Permissão Ao Seu Usuário”]
+
+Aparecerá a seguinte tela:
+
+
+Clique no botão  e abrirá a seguinte tela:
+
+
+Clique na caixa amarela “Click to Sign”, e aparecerá a seguinte janela:
+
+
+
+Então é só desenhar a assinatura, por exemplo: 
+
+:
+E então clicar no botão . Automaticamente voltará para essa página:
+
+
+
+Então clique no botão .
+
+Será direcionado para a seguinte página:
+
+
+
+E aqui você consegue visualizar os registros.
+
+Para visualizar o formulário preenchido com a assinatura, é só clicar no 
+ (abaixo de “Control”).
+
+SIGNATURE
+
+
+
+Date field: Selecionar o campo que contém o componente “Date” ou “DateTime”.
+
+Info field: Selecionar o campo que contém o componente “Hidden” atrelado à assinatura.
+Static Image
+Vídeo: https://www.youtube.com/watch?v=-B3EjQvR_UM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=27
+
+Com este componente você pode adicionar uma imagem que sempre estará sendo mostrada no formulário e não será salva dentro do banco de dados. 
+
+Sobre as imagens é possível adicionar eventos como abrir outros forms ou hiperlink para outros sites. 
+
+Selecione o componente “Image”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Clique no botão , então selecione a imagem. 
+
+
+
+Agora execute a aplicação.
+
+
+
+A imagem aparece no formulário, mas não será salva no banco de dados. Ela pode servir como referência instrutiva, logomarca ou hiperlink, entre outros.
+
+IMAGE
+
+
+
+Na seção “Image” do componente “Image” você pode dar descrição (“Description”) e um link, para qual será direcionado quando clicar na imagem. Lembre-se de clicar no para adicionar o evento de ao clicar na imagem ser direcionado para o link.
+
+
+Upload Image
+Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
+
+
+ Este componente permite você adicionar uma imagem com o formato desejado que ficará visível no registro
+
+Selecione o componente “ImageInput”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Execute a aplicação::
+
+
+
+Clique no quadrado do “ImageInput” onde diz “Drag and drop or click to upload a image”.
+
+Então procure e selecione uma foto do seu computador:e então clique no botão .
+
+
+Para visualizar a foto que você acabou de adicionar, clique no botão (Abaixo de “Control”)
+
+File Upload
+Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
+
+É um componente que permite anexar arquivos em um cadastro.
+
+Selecione o componente “FileUpload”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Execute a aplicação.
+
+
+
+Para fazer o upload do arquivo desejado, clique no botão , então você irá selecionar o arquivo do seu computador, e no campo do “File Upload”  ficará similar com o seguinte:
+
+
+
+E então clique no botão .
+
+Irá para a tela dos registros:
+
+
+
+Caso queira visualizar o registro do “FileUpload”, clique no  (Control).
+
+Então irá para a seguinte tela (próxima página):
+
+
+E para fazer o download do arquivo é só clicar no botão .
+
+
+
+
+
+
+UPLOAD
+
+
+
+É possível fazer upload de arquivos dos seguintes formatos:
+
+ Word                            Excel
+ Powerpoint                   TXT
+ PDF	                     Imagens
+
+Se deixar todas as caixas de seleção desmarcadas, será possível fazer o upload de qualquer um dos formatos. Se selecionar apenas um deles, será possível fazer upload de arquivo apenas daquele formato.
+
+
+
+OTHERS
+
+
+
+Ao selecionar a caixa de seleção “Allow to delete file from storage” será permitido deletar arquivos do storage (onde ficam armazenados os arquivos) .
+
+One-To-Many
+Vídeo: https://www.youtube.com/watch?v=zYkwNtSrJQY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=30
+
+
+Com este componente você consegue realizar uma relação de um para vários, por exemplo: Sala de aula - quem são os alunos, empresa - quem são os colaboradores.
+
+Selecione o componente “OneToMany”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Nas propriedades do “OneToMany”, na seção “Source”, adicione a opção “Cor” (Esse formulário “Cor” foi criado durante o tutorial do “DropdownDB”).
+
+
+
+
+É importante que esteja logado na tela de registros do formulário “Cor” para poder visualizar o resultado do processo. No momento, a tela de registro de cores está da seguinte maneira:
+
+                                           
+
+Volte na tela do One-To-Many e execute a aplicação.
+
+
+
+No campo “Cor”, preencha com “Laranja”, então clique no botão .
+
+
+Então, clique no botão .
+
+
+A tela dos registros do One-To-Many estará da seguinte forma:
+
+
+Agora, abra a tela dos registros das cores e atualize ela 
+
+
+
+Perceba que a cor “Laranja” foi adicionada na tela de registro do formulário “Cor”.
+
+
+
+
+
+
+
+
+ONE-TO-MANY
+
+
+
+ Open as Modal: Abrir como um modal. Um modal é uma janela em destaque dentro da página (igual aquela quando se cria ou edita um projeto).
+
+Source (Fonte): É da onde os dados serão buscados.
+
+Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recentemente mas a lista não ter sido atualizada, para isso serve o botão.
+
+
+Aggregation Data
+
+
+
+Source (Fonte)
+
+Destination (Destino)
+
+Operation (Operação)
+
+Column (Coluna)
+
+Output (Resultado)
+
+Operation (Operação)
+
+MultiTag
+
+
+É um componente que funciona como um autocomplete para múltiplos valores (relação 1:N).
+
+Selecione o componente “MultiTag”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+Para realizar o tutorial desse componente, desça até a seção “Source”.
+
+
+SOURCE
+
+
+
+Para fazermos uso do componente “MultiTag” teremos que criar 3 formulários. O primeiro para adicionar os nomes, o segundo para conectar os nomes a um componente “DropdownDB”, e então conectar o segundo com o terceiro formulário que será do “MultiTag”.
+
+Primeiro passo, crie um novo formulário com o componente “Textfield”, também nomeando-o de “Membro da Equipe” .
+
+
+
+e adicione os nomes “João”, “Maria”, “Carlos” e “Lucas”.
+
+
+
+
+
+Segundo passo, crie mais um formulário usando o componente “DropdownDB” e nomeando-o de “reunião da equipe”.
+
+
+
+Na seção “Source” desse componente, no item “Class” selecione a opção “Membro da Equipe”  e em “Description Field” também selecione “Membro da Equipe”. 
+
+
+
+ Clique no botão  no pé da página.
+
+Agora vamos criar o terceiro formulário, nomeando-o de “Participantes”.  Adicione o componente “Multitag” para dentro do formulário.
+
+
+Agora na seção “Source” do MultiTag, no item “Class” selecione “reuniaodaequipe”, e em “DescriptionField” selecione “reuniaodaequipeId1” - (imagem abaixo).
+
+
+
+Execute a aplicação.
+ 
+
+
+Comece a escrever as primeiras letras e logo aparecerá os nomes:
+
+
+Selecione “Lucas”, “Maria” e “João”.
+
+
+E então clique no botão .
+
+Irá aparecer da seguinte forma: 
+
+Para visualizar  e editar esse formulário adicionado, clique no botão .
+
+Additional Data
+
+
+Este componente permite apresentar dados extras através de um DataSource.
+
+Selecione o componente “AdditionalData”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+Para visualizar a utilização desse componente, desça até a seção “Additional Data” deste tutorial
+
+
+GENERAL
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
+
+Ao selecionar a caixa de seleção , será criado a borda para o componente, e também será possível editar o campo “Label”.
+
+
+
+ADDITIONAL DATA
+
+
+
+Em “DataSource” você irá selecionar o DataSource criado antes. Ao lado, serve para atualizar a lista, e o serve para adicionar um DataSource. 
+
+Para saber mais sobre como criar um DataSource, desça até o tutorial “DataSource”.
+
+É importante saber que o DataSource é o nome dado a conexão para um banco de dados a partir do servidor. Ou seja, é necessário você criar esse banco de dados, que pode ser  os registros criados dentro de outro formulário.
+
+Logo, é importante também que tenha criado o outro formulário dentro do mesmo projeto, e que tenha o campo adicionado para “puxar” o banco de dados. 
+
+DataSource Filter: irá realizar um filtro dentro do DataSource selecionado, ou seja, se o DataSource tem 10 fields, você pode selecionar se quer  todos ou apenas um deles. 
+
+Source Field: irá puxar as informações do campo origem.
+
+Show (Mostrar): As opções são:“First”, “Last” e “Max” que significam respectivamente “Primeiro”, “Último” e “Máximo”.
+ 
+Sorted by: Irá ordenar o DataSource pela opção escolhida.
+
+Vamos testar isso criando dois formulários. No primeiro vamos nomeá-lo de “Origem”, nesse vamos usar dois componentes: “Textfield” e “Dropdown”.
+
+Arraste o componente “Textfield” para dentro do formulário e o nomeie de “Nome”, faça o mesmo com o componente “Dropdown” e o nomeie com “Status”. 
+
+
+
+(Para aprender mais sobre o componente “Dropdown”, acesse o tutorial dele)
+
+No campo do “Status”, em “Values” clique no botão e adicione dois valores “Pendente” e “Aprovado”.
+
+Execute a aplicação:
+
+
+
+No campo do “Nome”  escreva “João Carlos” e do “Status” selecione a opção “Aprovado” e então clique no botão .
+
+Repita o processo adicionando o nome “Maria Aparecida” com o Status de “Pendente”.
+
+Agora vamos criar outro formulário, e nomeá-lo de “Destino”.
+
+E vamos arrastar o componente “DropdownDB” para dentro dele e nomeá-lo de “Origem”. 
+
+
+
+Na seção “Source” dele, em “Class” selecione a opção “Origem”. Em “Description Field” selecione “Nome”.
+
+Agora selecione o componente “Additional Data” e arraste ao lado do campo “Origem”.
+
+
+
+Agora na seção “Additional Data” do componente “Additional Data”, na linha do “DataSource” clique no e irá abrir a seguinte janela:
+
+
+
+Em “Title” escreva “Origem”,  em “Project” selecione o projeto no qual você criou os formulários anteriormente, e em “Class’’ selecione “Origem”. Irá aparecer da seguinte forma:
+
+
+Clique duas vezes nos campos “Nome” e “Status” que se encontram na lateral direita, e logo a tela ficará da seguinte maneira:
+
+
+Perceba que foram adicionados os campos “Nome” e “Status” dentro do DataSource.
+
+Agora clique no botão . E automaticamente voltará para a tela de edição do formulário:
+
+
+
+Agora na seção “Additional Data”, em “DataSource”, selecione a opção “Origem”, em “DataSource Filter” selecione a opção “OrigemID”, em “Source Field” selecione a opção “OrigemID”, em “Show” selecione “Last”, em “Sorted By” selecione a opção “Nome”.
+
+
+
+Agora selecione e arraste o componente “Label” em cima do “Additional Data”:
+
+
+
+Nomeie ele de “Status”:
+
+
+
+E na seção “Additional Data”, na lista do “DataLink” selecione a opção “Status”:
+
+
+
+E na seção “Others”, na lista do “Text Align” selecione a opção “Center”
+
+
+
+Execute a aplicação:
+
+
+
+Selecione o nome “João Carlos” e observe a mensagem ao lado:
+
+
+Selecione o nome “Maria Aparecida” e observe a mensagem ao lado:
+
+
+
+Button
+Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
+
+Com este componente é possível inserir funções personalizadas de JavaScript.
+
+Selecione o componente “Button”, então arraste-o e solte-o onde está escrito “Drop new field here!”
+
+Para saber mais sobre como usar esse componente, desça até a seção “Events” desse tutorial.
+
+
+
+
+
+GENERAL
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
+
+“Text” é o texto de identificação do botão para o usuário.
+
+
+
+
+EVENTS
+
+
+
+Vamos testar a seção “Events” começando por arrastar um novo componente “Button” dentro do formulário. 
+
+Nesse teste iremos fazer com que ao clicar o botão será mostrado uma mensagem.
+
+Agora, na seção “Events” desse novo botão, iremos clicar no botão .  
+Então abrirá a seguinte aba: 
+
+Em “Custom Scripts” copie e cole o seguinte script: 
+
+function alerta() {
+   alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
+}
+
+Então clique no botão  para testar se o script é válido, se ele for, irá aparecer no topo direito uma mensagem dizendo:  “Confirmation Custom Script Valid”.
+
+Agora volte na seção “Events”, em “Name” selecione a opção “OnClick”, e em “On” escreva “alerta()” e então clique no botão . 
+
+Então ficará da seguinte maneira:
+
+
+
+Execute a aplicação:
+
+
+
+Clique no botão azul  e então irá para a próxima página:
+
+
+
+Agora clique no  e você verá o seguinte aviso na tela:
+
+
+
+
+
+
+HTML Field
+Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
+
+ É um componente que permite inserir um texto em html no formulário.
+
+Selecione o componente “HTMLField”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+No campo “HTML” abaixo de “General”  (onde está indicando a flecha), você irá colar o seu código HTML.
+
+Por exemplo, copie e cole o seguinte código: 
+
+<p>Os documentos s&atilde;o <strong>obrigat&oacute;rios&nbsp;</strong></p>
+
+Logo você irá ver o seguinte:
+
+
+
+Perceba que a palavra “obrigatórios” está em negrito, devido ao código html.
+
+Execute a aplicação..
+
+
+
+E aqui você consegue visualizar a mensagem com formatação de texto dentro do seu formulário.
+
+
+
+GENERAL
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
+
+HTML: É onde você irá colar o seu código HTML. 
+
+
+Quiz
+Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
+
+
+Este componente cria um questionário de perguntas e respostas onde o usuário adiciona alternativas falsas e verdadeiras, colocando a pontuação das resposta verdadeiras no Score.
+
+Selecione o componente “Quiz”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+
+
+Clique no campo do “Enter Your Question” e escreva “Quanto é 1 + 1 ?” e clique no botão .
+
+
+
+Clique na flecha para adicionar as respostas.
+
+
+
+No campo do “Enter Your Answer” escreva “2” e marque a caixa de seleção  e então clique no botão .
+
+Repita essa última etapa adicionando a resposta “3” sem marcar a caixa de seleção .
+
+
+
+Agora vamos adicionar mais uma questão: “Quanto é 2 + 2 ?”
+
+E adicionar duas respostas: “4” e marcando a caixa de seleção, e “5” sem marcar a caixa de seleção.
+
+
+
+Agora, para que seja possível mostrar o resultado do quiz, adicione o componente “Integer” no formulário e o nomeie de “Porcentagem de Acerto”
+
+
+
+Agora clique de volta no Quiz, vá até a seção “Others”, em “Score Field” selecione a opção “Porcentagem de Acerto”.
+
+
+
+Execute a aplicação. Irá abrir essa página:
+
+
+
+Selecione as opções e perceberá que o campo “Porcentagem de Acerto” dará a porcentagem de acerto automaticamente.
+
+Após selecionar as opções desejadas, clique no botão .
+
+Então verá a tela dos registros e caso queira editar o form salvo, basta clicar no botão .
+
+
+
+
+
+
+
+
+
+
+OTHERS
+
+
+
+
+Para saber mais sobre como usar essa funcionalidade, vá até a seção “Others” do componente “Textfield”.
+
+Score Field: Irá selecionar o campo que está dentro do mesmo formulário para mostrar o resultado do quiz. Esse outro campo deve utilizar o componente “Integer” para cumprir sua função.
+
+Email
+Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
+
+O componente “Email” serve para aceitar somente preenchimento de email.
+
+Selecione o componente “Email”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
+
+
+
+Após soltar o componente email dentro do formulário, execute a aplicação.
+
+E perceba que na tela de registrar só será permitido salvar o que foi inserido no campo “Email” se o sistema considerar aquilo como email, por exemplo:
+
+
+
+
+Perceba que quando estava escrito apenas “Jesse” não era possível salvar, mas quando foi adicionado ao final “@gmail.com” se tornou possível salvá-lo.
+
+Password
+Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
+
+O componente “Password” vem com sua submáscara de campo preparada para password (****), ou seja, para tornar discreto o preenchimento de informações sensíveis, por exemplo, de CPF.
+
+Selecione o componente “Password”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
+
+
+
+Execute a aplicação
+
+
+
+
+
+Ao inserir os caracteres, perceba que ele estará oculto.
+
+
+
+
+E após salvar, irá para a tela de registros:
+
+
+
+E mesmo que acesse o formulário novamente, clicando no (abaixo de “Control”), ainda não será possível visualizar a informação inserida:
+
+
+
+
+Horizontal Line
+Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
+
+O “Horizontal Line” faz quebra de linha, com o objetivo principal de organizar a disposição dos componentes.
+
+Selecione o componente “Horizontal Line”, então arraste-o e solte-o onde está escrito “Drop new field here!”. 
+
+
+
+
+
+Ao colocar o “Horizontal Line” dentro do formulário, você perceberá que ele é só uma linha, com a única função de organizar a disposição dos componentes dentro da tela.
+
+Vamos adicionar dois componentes “Textfield” dentro do formulário, um à esquerda e o outro à direita do “Horizontal Line”.
+
+
+
+Agora, vá nas propriedades do “Horizontal Line”, na seção “Presentation”, na primeira lista (desktop), selecione a opção “Col-lg-12-100%”. A disposição visual estará da seguinte maneira:
+
+
+
+Agora execute a aplicação.
+
+ Perceberá que na tela de registrar estará organizado da mesma forma:
+
+É isso o que o “Horizontal Line” faz, quebra linhas para organizar a disposição dos componentes.
+
+Repeater
+O repeater é o componente utilizado para apresentação de dados dentro de uma page, com ele é possível reproduzir o conteúdo de um formulário no ambiente de page
+
+Selecione o componente, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
+
+Perceba que ao inserir o Repeater não poderá salvar a page até que tenha selecionado um Datasource na aba de propriedades.  
+ 
+
+Podemos fazer isso facilmente utilizando o builder. Para adicionar a fonte de dados que utilizaremos, devemos procurar a aba “Source”, dentro das propriedades do componente, e clicar no botão “+”. Neste exemplo nosso DataSource conterá três campos: Nome, idade e telefone.
+
+
+Para exibir os dados no repeater utilizamos outro componente, o label, e adicionamos um Datalink para ele
+Essa ligação de dados foi definida no Datasource que criamos no passo anterior. Procure em properties pela aba Datalink e selecione o elemento que você deseja exibir.
+
+Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
+Video call
