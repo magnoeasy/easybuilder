@@ -181,7 +181,7 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 
 ## VALUES 🔢
 
-
+<img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
 
 
 Em “Properties of Field”, abaixo de “Values”, há 4 campos e uma caixa de seleção, que são respectivamente: “Mask”, “Default”, “Minimum Length”, “Maximum Length” e “Enable Barcode Scanner”.
