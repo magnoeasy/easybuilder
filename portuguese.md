@@ -102,7 +102,7 @@ Para realizar os tutoriais de “Static Image”, “Upload Image”, e “File 
 
 Se tiver qualquer dúvida, entre em contato com o suporte da Easy Comtec.
 
-## COMPONENTES
+## COMPONENTES 💾
 
 
 São 30 componentes que iremos aprender a utilizar, são eles:
@@ -140,12 +140,12 @@ São 30 componentes que iremos aprender a utilizar, são eles:
   <td>HTML FIeld</td>
   <td>Quizz</td>
  </tr>
- 
+ <tr>
+  <td>Email</td>
+  <td>Password</td>
+  <td>Horizontal Line</td>
+ </tr>
 </table>
-
--Email
--Password
--Horizontal Line
 
 É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.
 
