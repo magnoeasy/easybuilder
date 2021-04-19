@@ -191,16 +191,18 @@ Em “Mask” você pode determinar o padrão específico de preenchimento, ou s
 Para que fique harmônico, vá em “Name” e “Label” e escreva “Número de Telefone”. Deixe o campo do “Placeholder” em branco.
 
 Execute a aplicação.
+<img src="https://user-images.githubusercontent.com/81401104/115287508-bd330a00-a126-11eb-9835-673d0eb26469.png">
 
 
-
-Preencha o campo “Número de telefone” com qualquer número, pode ser (45) 98765-4321 e  então clique no botão .
+Preencha o campo “Número de telefone” com qualquer número, pode ser (45) 98765-4321 
+e  então clique no botão <img src="https://user-images.githubusercontent.com/81401104/115287040-2e25f200-a126-11eb-85d5-c49772347aa9.png">
 
 
 
 
 
 Agora você consegue visualizar seus registros:
+<img src="https://user-images.githubusercontent.com/81401104/115287588-d63bbb00-a126-11eb-9a81-29435627ddd9.png"><br>
 
  e o processo é o mesmo de antes para adicionar novos registros.
 
