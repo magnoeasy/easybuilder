@@ -179,24 +179,7 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 
 
 
-Agora vamos editar os 4 campos. Em “Name” escreva “nomecompleto” (tudo junto), em “Label” e “Column Title” escreva “Nome Completo”, em “Placeholder” escreva “João Batista”.
-
-Agora vamos executar a aplicação (igual ensinado no tutorial “Como Executar a Aplicação”).
-
-
-
-
-
-
-
-
-
-
- Preencha o campo “Nome Completo” com qualquer nome e então clique no botão 
-
-
-Agora você consegue visualizar seus registros, e o processo é o mesmo de antes para adicionar novos registros
-VALUES
+## VALUES 🔢
 
 
 
@@ -252,7 +235,7 @@ Execute a aplicação. Ao preencher o campo você perceberá que será permitido
 
 
 
-BEHAVIOR
+## BEHAVIOR 🎬
 
 
 
