@@ -19,7 +19,7 @@ Por fim clique em _Link Here_  para confirmar o email.⤴️<br>
 Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando em _Sign In_.⤵️<br>
 <img src="https://user-images.githubusercontent.com/81401104/114770895-58506c00-9d42-11eb-91b8-d35e97afe7cf.png">
 
-#### Feito o cadastro Parabens!!🥇🎉<br>
+                                            Feito o cadastro Parabens!!🥇🎉
 
 ## E hora de por a mão na massa 🖐️
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
@@ -144,19 +144,18 @@ São 30 componentes que iremos aprender a utilizar, são eles:
   <td>Horizontal Line</td>
  </tr>
 </table>
-<br>
+
 É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.<br>
 
 O exemplo de “Properties of Field” da imagem abaixo é do componente “Textfield”.
 <img src="https://user-images.githubusercontent.com/81401104/115268685-e5b00980-a110-11eb-9b9e-1215c566626a.png">
-<br>
 
 É importante saber disso para que facilite o processo de localizar as seções, itens, etc.<br>
 
 Outra situação recorrente é a referenciação dentro do tutorial de um componente para outro tutorial dentro deste documento.<br>
 
 É importante também que já tenha realizado os passos dos tutoriais  “Como Criar Seu Primeiro Projeto, Menu e Formulário” e “Como Executar a Aplicação”.
-<br>
+
 ## Textfield 📃
 Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 <br>
@@ -164,7 +163,6 @@ Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZg
 O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.<br>
 
 Selecione o componente “Textfield”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
-<br>
 
 ## GENERAL 🎖️
 
@@ -178,8 +176,7 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 <img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
 
 
-
-## VALUES 🔢
+## VALUES 1️⃣
 
 <img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
 
@@ -196,9 +193,6 @@ Execute a aplicação.
 
 Preencha o campo “Número de telefone” com qualquer número, pode ser (45) 98765-4321 
 e  então clique no botão <img src="https://user-images.githubusercontent.com/81401104/115287040-2e25f200-a126-11eb-85d5-c49772347aa9.png">
-
-
-
 
 
 Agora você consegue visualizar seus registros:
@@ -226,9 +220,7 @@ Execute a aplicação. Ao preencher o campo você perceberá que será permitido
 “Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
 clique no  , <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
-
 ## BEHAVIOR 🎬
-
 
 <img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
 
@@ -264,23 +256,18 @@ do “Visibility Rules”, irá abrir a seguinte janela:<img src="https://user-i
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
 
-
  Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png)
 .
 
 Agora desmarque a caixa de seleção “Visible”.
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
 
-
 Então clique na lista suspensiva do “Visibility Rules” (do campo “Idade”) e selecione “Regra da Idade”:
 ![image](https://user-images.githubusercontent.com/81401104/115290819-5d3e6280-a12a-11eb-8a12-5ce14ccc26c9.png)
-
-
 
  e então aparecerá mais uma lista embaixo, clique e selecione “Idade”.
 (imagem na próxima página)
 ![image](https://user-images.githubusercontent.com/81401104/115290864-6deed880-a12a-11eb-9c10-250f6e028aa2.png)
-
 
 Agora execute a aplicação.
 
@@ -309,7 +296,6 @@ Automaticamente se abrirá uma nova página no seu navegador, e você verá regi
 ![image](https://user-images.githubusercontent.com/81401104/115293603-ec00ae80-a12d-11eb-9cd5-6b381b83ff9c.png)
 
 
-
 ## PRESENTATION 📊
 ![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
 
@@ -332,20 +318,15 @@ Você pode voltar na tela de edição do formulário e testar com as outras medi
 No item “CSS Class”  você pode informar a classe de css customizada para o componente.
 
 
-
 ## EVENTS 🎞️
 ![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
 
-
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
-
-
 
 
 ## INTRO
 
 ![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
-
 
 A seção “Intro” serve como uma introdução instrutiva, para explicar sobre o preenchimento dos campos ou o que você achar importante.
 
@@ -376,7 +357,6 @@ Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc
 
 Você pode continuar adicionando novos campos e alternando as ordens e as mensagens, mas lembre-se que só funciona da primeira vez, então para testar denovo é necessário criar um novo formulário.
 
-
 ## TextArea
 Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
@@ -396,88 +376,90 @@ E na tela de registrar, no campo do “Textarea” você pode adicionar valores 
 Após salvar:
 ![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
 
+## PRESENTATION
 
-PRESENTATION
-
+![image](https://user-images.githubusercontent.com/81401104/115909214-97b54180-a441-11eb-9ca8-45c8cfff9f75.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
 
 O item “Rows” se refere a quantas linhas você quer para o seu componente “Textarea”. Por exemplo, se colocar “4”, perceberá que o componente aumentou para 4 linhas.
-Editor
+
+## Editor 🎬
 Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
+![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
 
 É um componente que permite o usuário inserir texto com a formatação desejada.
 
 Selecione o componente “Editor”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
-
+![image](https://user-images.githubusercontent.com/81401104/115909949-933d5880-a442-11eb-9b38-d7781805f113.png)
 
 Execute a aplicação:
-
+![image](https://user-images.githubusercontent.com/81401104/115909971-9c2e2a00-a442-11eb-9d79-740daa7fcc39.png)
 
 E aqui você pode editar o texto com a formatação que quiser (sublinhado, negrito, entre outros), pode adicionar links, emojis e várias outras coisas.
 
-Após adicionar as informações que quiser, clique no botão .
+Após adicionar as informações que quiser, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115909993-a8b28280-a442-11eb-90a0-60ada9302880.png).
 
 E irá aparecer da seguinte forma:
 
+![image](https://user-images.githubusercontent.com/81401104/115910982-e532ae00-a443-11eb-8384-8290a56f32fe.png)
 
 
-Para editar o registro adicionado, clique no botão  (embaixo de “Control”).
-Hidden
+Para editar o registro adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png)
+ (embaixo de “Control”).
 
+## Hidden 🙈
+![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
 
 Com este componente você pode calcular valores que são ocultos ao usuário final, e enviar para salvar no banco de dados e consultar posteriormente em relatórios.
 
 Selecione o componente “Hidden”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
- Para aprender como usar o componente “Hidden”, acesse o tutorial do componente “Signature”.
- DATA TYPE
+Para aprender como usar o componente “Hidden”, acesse o tutorial do componente “Signature”.
 
-
+## DATA TYPE 🗃️
+![image](https://user-images.githubusercontent.com/81401104/115913172-a3573700-a446-11eb-9742-4f8601e03fb9.png)
 
 Em Type você pode selecionar uma das 5 opções possíveis:
-String (para campos de texto)
-Integer (para números inteiros)
-Decimal (para números decimais)
-DateTime (para data e hora)
-Boolean (para verdadeiro ou falso)
-
+<ol>
+ <li>String (para campos de texto)</li>
+ <li>Integer (para números inteiros)</li>
+ <li>Decimal (para números decimais)</li>
+ <li>DateTime (para data e hora)</li>
+ <li>Boolean (para verdadeiro ou falso)</li>
+</ol>
+<br>
 Default Value: Valor padrão (o valor será preenchido automaticamente, mas sendo possível alterar caso necessário).
-Integer
+
+## Integer 🔢
 Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
-
-
+![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
+<br>
 É um componente utilizado para quando se necessita digitar números inteiros para uma aplicação.
 
 Selecione o componente “Integer”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115914627-93d8ed80-a448-11eb-88da-c2e494da605e.png)
 
 Execute a aplicação.
-
-
+![image](https://user-images.githubusercontent.com/81401104/115914683-a6ebbd80-a448-11eb-8d68-2b03746f00f7.png)
 
 Perceba que só é possível  inserção de números dentro do campo.
 
 Após salvar, estará disposto da seguinte forma na tela dos registros:
+![image](https://user-images.githubusercontent.com/81401104/115914760-c1259b80-a448-11eb-88bf-61d43623e625.png)
 
-VALUES
-
-
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
 
 Em  “Values”, existem 3 campos e uma caixa de seleção, que são respectivamente: Default, Minimum Value, Maximum Value e Auto Increment.
-
 
 Default: se refere a um preenchimento automático de valor, por exemplo, insira no campo “Default” o valor “10”.
 
 Execute a aplicação:
+![image](https://user-images.githubusercontent.com/81401104/115914900-eb775900-a448-11eb-8f06-749e07b0e1c0.png)
 
-
-
-Clique no botão . 
-
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115915188-5fb1fc80-a449-11eb-89e1-57eae620af5d.png). 
 
 Observe que já está preenchido com “10”, mas é possível alterá-lo.
 
@@ -494,55 +476,49 @@ Execute a aplicação.
 Preencha o campo com “15” e depois com “16” e observe que o valor máximo permitido é “15”  para ser possível salvar as informações inseridas no campo.
 
 Auto Increment: Irá iniciar com o valor 1 e depois continuar com a sequência (2,3,4…) de forma automática. Se tiver um valor inicial definido, por exemplo, “34”, irá continuar a partir dele (35,36,37…), igual nas imagens de exemplo a seguir:
+![image](https://user-images.githubusercontent.com/81401104/115915247-73f5f980-a449-11eb-9de3-3542a5336c36.png)
+![image](https://user-images.githubusercontent.com/81401104/115915296-86703300-a449-11eb-8bce-144d0ff7cab7.png)
 
-
-
-
-Decimal
+## Decimal
 Vídeo: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
-
+![image](https://user-images.githubusercontent.com/81401104/115915315-8d974100-a449-11eb-8ba7-dd634492ea2e.png)
 
 É um componente usado para digitar números decimais para uma aplicação.
 
 Selecione o componente “Decimal”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115915538-d5b66380-a449-11eb-8316-c8407cf6c482.png)
 
 Execute a aplicação.
-
+![image](https://user-images.githubusercontent.com/81401104/115915563-dfd86200-a449-11eb-941a-b79f87108c94.png)
 
 Perceba que na tela de registrar a estrutura padrão é de número decimal.
 
 Após adicionado e salvo, estará disposto da seguinte forma na tela dos registros:
+![image](https://user-images.githubusercontent.com/81401104/115915596-e9fa6080-a449-11eb-8dcc-099eadcd2201.png)
 
-                                      VALUES
-
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115916759-9be65c80-a44b-11eb-944a-788bd6dcbe1d.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Integer”.
 
 Scale: Se refere a quantidade de algarismos após o ponto ou vírgula, por exemplo, adicione o valor “5” no campo do “Scale”. Ao executar a aplicação, ficará parecido com a seguinte imagem:
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/115916779-a1dc3d80-a44b-11eb-8f38-110d8c4f9cf3.png)
 Perceba que há cinco algarismos após o ponto.
 
-
-
-EVENTS
-
-
+## EVENTS 
+![image](https://user-images.githubusercontent.com/81401104/115916822-b3254a00-a44b-11eb-8feb-bd68d1342eaf.png)
 
 Para testar a seção “Events” vamos apagar os campos criados anteriormente com o componente “Decimal” e deixar vazio o formulário.
 
 Agora, selecione e arraste 3 componentes “Decimal”, um do lado do outro.
 Nomeie o primeiro de “Number1”, o segundo de “Number2” e o terceiro de “Total” (Igual na imagem abaixo)
-
-
+![image](https://user-images.githubusercontent.com/81401104/115918250-b0c3ef80-a44d-11eb-89f5-cc208a92f92e.png)
 
 Iremos realizar a seguinte função: ao preencher o valor do “Number1” e do “Number2” automaticamente será dado o resultado da soma desses dois campos no “Total” 
 
-Clique no botão  (se localiza na seção “Events”) do campo “Total”  e automaticamente abrirá essa aba:
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
+ (se localiza na seção “Events”) do campo “Total”  e automaticamente abrirá essa aba:
+![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
 
 Nesse campo do “Custom Scripts” copie e cole o seguinte:
 
@@ -552,91 +528,82 @@ Nesse campo do “Custom Scripts” copie e cole o seguinte:
 
 Agora volte para o “Form Design”  do lado de “Dev Properties”, no topo da página. 
 (Imagem abaixo)
+![image](https://user-images.githubusercontent.com/81401104/115918444-e7016f00-a44d-11eb-98df-a46551bd1200.png)
 
-
-
-Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” e então clique no botão . 
+Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png)
+. 
+![image](https://user-images.githubusercontent.com/81401104/115918534-026c7a00-a44e-11eb-994a-7cba89f79b6d.png)
 
 
 
 Após clicar no botão, ficará assim:
+![image](https://user-images.githubusercontent.com/81401104/115918646-25972980-a44e-11eb-92d4-722fc2ab5285.png)
 
 
 
 Faça a mesma coisa com o campo “Number2”.
 
 Execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/115918669-2d56ce00-a44e-11eb-8062-aa61ad0cdb77.png)
 
 
 
-Então clique no botão .
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png).
 
 Abrirá a seguinte página:
-
-
+![image](https://user-images.githubusercontent.com/81401104/115919016-a524f880-a44e-11eb-8654-73047c48392f.png)
 
 No “Number1” insira o valor “2.55”, e no “Number2” insira o valor “1.32” e automaticamente irá aparecer o valor “3.87” no campo “Total”. Você pode testar com outros valores se quiser.
 
-Após adicionar os valores, clique no botão .
-Date
-Vídeo: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
+Após adicionar os valores, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png)
+.
 
+## Date 📆
+Vídeo: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
+![image](https://user-images.githubusercontent.com/81401104/115919138-d0a7e300-a44e-11eb-9376-8aeb6e83f45c.png)
 
 Com o componente “Date” é possível adicionar uma data, data atual, uma data pré-definida ou uma outra data qualquer preenchida pelo usuário.
 
 Selecione o componente “Date”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115919171-db627800-a44e-11eb-8784-6df95f45ec2f.png)
 
 Execute a aplicação
 
 Na tela de registrar, o campo estará disposto da seguinte maneira:
-
-
+![image](https://user-images.githubusercontent.com/81401104/115919215-eae1c100-a44e-11eb-8f03-627c920c96d7.png)
 
 Perceba que o formato é de mês/dia/ano. Então é só selecionar a data e depois salvar:
+![image](https://user-images.githubusercontent.com/81401104/115919256-f8974680-a44e-11eb-816e-f9438eb08109.png)
 
-
-
-
-VALUES
-
-
+## VALUES
+![image](https://user-images.githubusercontent.com/81401104/115919565-60e62800-a44f-11eb-913a-b0a2256a3b8d.png)
 
 Default (Padrão): O campo será preenchido com uma data pré-determinada, mas é possível alterar, se necessário.
 
 Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”. 
 
 Current Date (Data atual). Ao selecionar essa caixa, o campo “Date” sempre estará preenchendo automaticamente com a data atual.
-DateTime
+
+## DateTime ⏲️
 Vídeo: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
 
 Com este componente você pode adicionar uma data e horário atual, data e horário pré definido ou uma outra data e horário qualquer preenchida pelo usuário
 
 Selecione o componente “DateTime”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/115919736-9f7be280-a44f-11eb-8b8a-d419b75b90d4.png)
 
-
-
-Execute a aplicação.
-
-
+Execute a aplicação.<br>
+![image](https://user-images.githubusercontent.com/81401104/115919778-aacf0e00-a44f-11eb-9db4-d2b72adada8a.png)
 
 Perceba que a data está no formato mês/dia/ano e o horário está no formato AM/PM.
-
+![image](https://user-images.githubusercontent.com/81401104/115919857-c803dc80-a44f-11eb-854f-cea22d401e9a.png)
 
 Após salvar, estará disposto da seguinte forma na tela dos registros:
+![image](https://user-images.githubusercontent.com/81401104/115919887-d18d4480-a44f-11eb-9f07-a3ee4eae8c79.png)
 
 
-
-
-
-
-
-
-VALUES
-
-
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115919926-de119d00-a44f-11eb-84e3-f7d7e912f67c.png)
 
 Default (Padrão): O campo será preenchido com uma data e horário pré-determinado, mas é possível alterar, se necessário.
 
@@ -644,68 +611,61 @@ Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”.
 
   “ --:-- --” é o formato padrão de horário da américa do norte, por exemplo, 04:45 AM ou 9:03 PM que no sistema brasileiro seriam 04:45 e 21:03 respectivamente.
 
-
 Current Date/Time (Data e horário atual): Ao selecionar essa caixa, o campo “DateTime” sempre estará preenchendo automaticamente com a data e horário atual.
-Time
+
+## Time ⌛
 Vídeo: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=18
+![image](https://user-images.githubusercontent.com/81401104/115920003-faadd500-a44f-11eb-9908-55c0199797e6.png)
 
 Com este componente você pode adicionar um horário atual, horário pré definido ou um outro horário qualquer preenchida pelo usuário.
 
 Selecione o componente “Time”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115920033-026d7980-a450-11eb-9758-c832bcd2d674.png)
 
 Execute a aplicação.
 
 O componente estará disposto da seguinte maneira na tela de registrar:
-
+![image](https://user-images.githubusercontent.com/81401104/115920056-0bf6e180-a450-11eb-82fc-eac0276ca393.png)
 
 Perceba que está no formato “--:-- --”, isso quer dizer que o horário é em AM/PM (AM para antes do meio dia e PM para depois do meio dia). 
 
 Após salvar o horário, a tela dos registros estará disposta da seguinte maneira:
+![image](https://user-images.githubusercontent.com/81401104/115920088-14e7b300-a450-11eb-91e3-6e54e96d6872.png)
 
-
-VALUES
-
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115920106-1c0ec100-a450-11eb-8461-27ea86d57921.png)
 
 Default (Padrão): O campo será preenchido com uma horário pré-determinado, mas é possível alterar, se necessário.
 
-CheckBox
+## CheckBox ✅
 Vídeo: https://www.youtube.com/watch?v=BSVBdBxE4sA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=19
+![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
 
 O componente  “Checkbox” é uma caixa de seleção que permite o usuário a fazer uma escolha binária, ou seja, uma escolha entre duas opções mutuamente exclusivas..
 
 Selecione o componente “Checkbox”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/115920271-56785e00-a450-11eb-9d7a-63d4658aa8aa.png)
 
-
-
- Escreva “Obrigatório” nos campos “Name” e “Label” que se encontram na seção “General” do ”Properties of Field” do checkbox.
-
-
-
+Escreva “Obrigatório” nos campos “Name” e “Label” que se encontram na seção “General” do ”Properties of Field” do checkbox.
+ ![image](https://user-images.githubusercontent.com/81401104/115920308-6728d400-a450-11eb-9652-555a054366a3.png)
 
 Agora execute a aplicação.
 
 Na tela de registrar você consegue visualizar o componente:
-
-
+![image](https://user-images.githubusercontent.com/81401104/115920336-6f810f00-a450-11eb-9fcc-4d291d9eae89.png)
+![image](https://user-images.githubusercontent.com/81401104/115920355-760f8680-a450-11eb-994d-e7b640b590f3.png)
 
 Após salvá-los, estará dispostos da seguinte forma na tela de registros:
+![image](https://user-images.githubusercontent.com/81401104/115920463-9ccdbd00-a450-11eb-9245-f4f2b18463b1.png)
 
-
-
-
-
-
-VALUES
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115920485-a48d6180-a450-11eb-8410-2395926bef07.png)
 
 
 A caixa de seleção “Default Value” se refere ao campo já estar marcado ou não na hora de realizar os registros.
 
-ChecklistDB
-
+## ChecklistDB 📁
+![image](https://user-images.githubusercontent.com/81401104/115920530-b2db7d80-a450-11eb-80a9-2f7f035b7451.png)
 
 Este componente cria uma lista de controle que será conectada a um DataSource. Os registros podem ser inseridos pelo usuário final.
 
@@ -713,11 +673,11 @@ Selecione o componente “ChecklistDB”, então arraste-o e solte-o onde está 
 
 Para visualizar a utilização desse componente, desça até a seção “Source” deste tutorial.
 
-
 *** Entre em contato com o suporte da easy comtec para utilizar esse componente ****
-PRESENTATION
 
+## PRESENTATION
 
+![image](https://user-images.githubusercontent.com/81401104/115920727-f635ec00-a450-11eb-9b9e-5ce77c810e4c.png)
 
 Para poder visualizar as diferenças de apresentação, é obrigatório que já tenha adicionado valores na seção “Values”.
 
@@ -725,21 +685,21 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Prese
 
 Em “Style” você tem três opções que pode selecionar: “Fixed”, “Fluid” ou “Vertical”. Selecione cada opção e perceba a diferença na disposição visual dos itens.
 
-
-SOURCE
-
+## SOURCE
+![image](https://user-images.githubusercontent.com/81401104/115920758-01891780-a451-11eb-8678-248b79757f77.png)
 
 Para fazer funcionar o componente “ChecklistDB” é necessário puxar os dados de outro formulário/datasource. 
 
 Logo, é necessário, que tenha criado esse outro formulário/banco de dados, e após atualizar a lista, apenas selecione a “Class” desse outro.
+<table>
+  <tr>
+   <td>Source Field:</td>
+   <td>Label Field:</td>
+   <td>Picture Field:</td>
+ </tr>
+</table>
 
-Source Field:
-
-Label Field:
-
-Picture Field:
-
-Radio
+## Radio
 Vídeo: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
 
 Com o componente “Radio” você pode fornecer uma lista de opções mas selecionar apenas uma opção como verdadeira.
