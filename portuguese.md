@@ -369,6 +369,7 @@ Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115
 .
 Então irá aparecer o efeito do intro na seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
+![image](https://user-images.githubusercontent.com/81401104/115908434-8c154b00-a440-11eb-8863-f01b4a55ac84.png)
 
 
 Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc), é efeito das configurações na seção “Intro”.
@@ -376,27 +377,27 @@ Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc
 Você pode continuar adicionando novos campos e alternando as ordens e as mensagens, mas lembre-se que só funciona da primeira vez, então para testar denovo é necessário criar um novo formulário.
 
 
-TextArea
+## TextArea
 Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
-
+![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
 
 Com o componente  “Textarea” você consegue adicionar valores do tipo letras e números, com uma área maior que uma linha.
 
 Selecione o componente “Textarea”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115908778-fa5a0d80-a440-11eb-9b57-b6066c60094c.png) <br>
 
 Execute a aplicação
 
 E na tela de registrar, no campo do “Textarea” você pode adicionar valores do tipo letras e números, com 2 linhas ou mais (pode-se adicionar mais linhas na seção “Presentation”, em “Rows”)
+![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)<br>
 
 
 
 Após salvar:
+![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
 
 
 PRESENTATION
-
 
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
