@@ -575,7 +575,7 @@ Na tela de registrar, o campo estará disposto da seguinte maneira:
 Perceba que o formato é de mês/dia/ano. Então é só selecionar a data e depois salvar:
 ![image](https://user-images.githubusercontent.com/81401104/115919256-f8974680-a44e-11eb-816e-f9438eb08109.png)
 
-## VALUES
+## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115919565-60e62800-a44f-11eb-913a-b0a2256a3b8d.png)
 
 Default (Padrão): O campo será preenchido com uma data pré-determinada, mas é possível alterar, se necessário.
@@ -699,82 +699,60 @@ Logo, é necessário, que tenha criado esse outro formulário/banco de dados, e 
  </tr>
 </table>
 
-## Radio
-Vídeo: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
+## Radio 🔘
+![image](https://user-images.githubusercontent.com/81401104/115922262-0d75d900-a453-11eb-9b6b-ddc37d5b072d.png)
+
 
 Com o componente “Radio” você pode fornecer uma lista de opções mas selecionar apenas uma opção como verdadeira.
 
 Selecione o componente “Radio”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/115922283-15357d80-a453-11eb-87fc-674c13781753.png)
 
 Desça até a seção “Values” desse tutorial para aprender como usar esse componente.
 
+Vídeo: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
 
-
-
-
-
-
-
-
-VALUES
-
-
+## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/115922505-5cbc0980-a453-11eb-816d-9ec435070fba.png)
 
 
 Aqui você irá adicionar os valores, por exemplo, criar listas com as opções para selecionar, lembrando que apenas uma opção poderá ser selecionada com esse componente.
 
-Agora clique no botão , automaticamente abrirá a janela modal “Enumerations” (imagem na próxima página), em “Name” escreva “Gênero”, em“Type” mantenha a opção “String”.
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
+, automaticamente abrirá a janela modal “Enumerations” (imagem na próxima página), em “Name” escreva “Gênero”, em“Type” mantenha a opção “String”.
 
-Clique no botão  e adicione “Masculino”, denovo clique e adicione a opção  “Feminino” e então clique no botão . (Imagem na próxima página)
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
+ e adicione “Masculino”, denovo clique ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
+e adicione a opção  “Feminino” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923621-e15b5780-a454-11eb-84e6-aaa8d7679277.png)
+ . (Imagem na próxima página)
 
 Duas coisas importantes de saber sobre a janela “Enumerations”:
 Em “Type” você tem duas opções que pode selecionar: “String” ou “Integer”. “String” se refere a palavras, “Integer” se refere a números.
 “Max Length” se refere a quantidade máxima de caracteres que cada opção terá.
 
+![image](https://user-images.githubusercontent.com/81401104/115923727-09e35180-a455-11eb-9bd3-4ce96ea55475.png)
 
 Ainda na seção “Values”,  tem o item “Default”, clicando nele irá aparecer as opções “Masculino” e “Feminino”, isso quer dizer que se você selecionar um desses dois agora, na hora de preencher o formulário um deles já estará selecionado, mas ainda será possível mudar caso queira. 
 
 Execute a aplicação.
 
 O componente será visto da seguinte maneira na tela de registrar:
+![image](https://user-images.githubusercontent.com/81401104/115923754-19629a80-a455-11eb-9717-635682b4ac28.png)
 
+## Dropdown 
+![image](https://user-images.githubusercontent.com/81401104/115923839-4020d100-a455-11eb-9f00-1e9c4c39a47d.png)
 
-
-
-
-
-
-
-
-PRESENTATION
-
-
-
-Para poder visualizar as diferenças de apresentação desse componente, é obrigatório que já tenha adicionado valores na seção “Values”.
-
-Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
-
-Em “Style” você tem três opções que pode selecionar: “Fixed”, “Fluid” ou “Vertical”. Selecione cada opção e perceba a diferença entre eles referente a disposição visual dos itens.
-Dropdown
-Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
 O componente “Dropdown” serve para você fornecer uma lista de opções em formato de menu.
 
 Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
 
 Na seção “Values” do “Properties of Field”, clique no botão , irá aparecer a seguinte janela modal:
 
 Em “Name” escreva veículo, então clique no . Irá a aparecer o seguinte embaixo do botão:
 
 
-
 Edite o “Option A” para “Carro”. Adicione mais duas opções e altere-as para “Moto” e “Caminhão”. 
-
-
 
 Clique no botão , e após salvo, voltará automaticamente para a tela de design do formulário. 
 
@@ -782,12 +760,9 @@ Execute a aplicação.
 
 Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
 
+Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
-
-
-VALUES
-
-
+## VALUES 1️⃣
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Radio”.
 
