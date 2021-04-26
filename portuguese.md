@@ -1123,66 +1123,50 @@ E para fazer o download do arquivo é só clicar no botão ![image](https://user
 Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
 ## UPLOAD 
-
-
+![image](https://user-images.githubusercontent.com/81401104/116145890-3f39aa80-a6b4-11eb-8e30-daab08873130.png)
 
 É possível fazer upload de arquivos dos seguintes formatos:
-
- Word                            Excel
- Powerpoint                   TXT
- PDF	                     Imagens
-
+<table>
+ <tr>
+  <td>Word</td>
+  <td>Powerpoint</td>
+  <td>Powerpoint</td>
+  <td>PDF</td>
+  <td>Excel</td>
+  <td>TXT</td>
+  <td>Imagens</td>
+ </tr>
+ </table>
+ 
 Se deixar todas as caixas de seleção desmarcadas, será possível fazer o upload de qualquer um dos formatos. Se selecionar apenas um deles, será possível fazer upload de arquivo apenas daquele formato.
 
-
-
 OTHERS
-
-
+![image](https://user-images.githubusercontent.com/81401104/116146427-de5ea200-a6b4-11eb-887d-e113a9397c09.png)
 
 Ao selecionar a caixa de seleção “Allow to delete file from storage” será permitido deletar arquivos do storage (onde ficam armazenados os arquivos) .
 
-One-To-Many
-Vídeo: https://www.youtube.com/watch?v=zYkwNtSrJQY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=30
-
+## One-To-Many 
+![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
 
 Com este componente você consegue realizar uma relação de um para vários, por exemplo: Sala de aula - quem são os alunos, empresa - quem são os colaboradores.
 
 Selecione o componente “OneToMany”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
-
-
 Nas propriedades do “OneToMany”, na seção “Source”, adicione a opção “Cor” (Esse formulário “Cor” foi criado durante o tutorial do “DropdownDB”).
 
-
-
-
 É importante que esteja logado na tela de registros do formulário “Cor” para poder visualizar o resultado do processo. No momento, a tela de registro de cores está da seguinte maneira:
-
-                                           
-
+                            
 Volte na tela do One-To-Many e execute a aplicação.
-
-
 
 No campo “Cor”, preencha com “Laranja”, então clique no botão .
 
-
 Então, clique no botão .
-
 
 A tela dos registros do One-To-Many estará da seguinte forma:
 
-
 Agora, abra a tela dos registros das cores e atualize ela 
 
-
-
 Perceba que a cor “Laranja” foi adicionada na tela de registro do formulário “Cor”.
-
-
-
-
 
 
 
