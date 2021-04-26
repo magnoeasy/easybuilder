@@ -742,34 +742,41 @@ O componente será visto da seguinte maneira na tela de registrar:
 ## Dropdown 
 ![image](https://user-images.githubusercontent.com/81401104/115923839-4020d100-a455-11eb-9f00-1e9c4c39a47d.png)
 
-
 O componente “Dropdown” serve para você fornecer uma lista de opções em formato de menu.
 
 Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/116135849-fc71d580-a6a7-11eb-924a-962830748a28.png)
 
-Na seção “Values” do “Properties of Field”, clique no botão , irá aparecer a seguinte janela modal:
+Na seção “Values” do “Properties of Field”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png)
+, irá aparecer a seguinte janela modal:
+![image](https://user-images.githubusercontent.com/81401104/116135980-24f9cf80-a6a8-11eb-8a04-ba06728e76e6.png)
 
-Em “Name” escreva veículo, então clique no . Irá a aparecer o seguinte embaixo do botão:
-
+Em “Name” escreva veículo, então clique no ![image](https://user-images.githubusercontent.com/81401104/116136117-4a86d900-a6a8-11eb-994e-083b8e5dba93.png)
+. Irá a aparecer o seguinte embaixo do botão:
+![image](https://user-images.githubusercontent.com/81401104/116136157-54104100-a6a8-11eb-81a1-be542bbc8014.png)
 
 Edite o “Option A” para “Carro”. Adicione mais duas opções e altere-as para “Moto” e “Caminhão”. 
+![image](https://user-images.githubusercontent.com/81401104/116136211-64c0b700-a6a8-11eb-887f-189f0f8d0ab1.png)
 
-Clique no botão , e após salvo, voltará automaticamente para a tela de design do formulário. 
+Clique no botão![image](https://user-images.githubusercontent.com/81401104/116136235-6db18880-a6a8-11eb-883f-89dd8444852f.png)
+ , e após salvo, voltará automaticamente para a tela de design do formulário. 
 
 Execute a aplicação.
 
 Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
+![image](https://user-images.githubusercontent.com/81401104/116136274-7904b400-a6a8-11eb-84c7-db352e7116f0.png)
 
 Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
 ## VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/81401104/116136301-8457df80-a6a8-11eb-9989-de387c22fe47.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Radio”.
 
 DropdownDB
+![image](https://user-images.githubusercontent.com/81401104/116136414-a6e9f880-a6a8-11eb-8374-e4210d16ff89.png)
 
 O componente “DropdownDB” serve para você fornecer uma lista de opções em formato de menu a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
-
 
  (Obs: A única diferença entre o “AutoComplete” e o “DropdownDB” é que o “AutoComplete” aparece quando é pesquisado e o “DropdownDB” aparece numa lista)
 
@@ -779,70 +786,58 @@ Para aprender como usar esse componente, desça até a seção “Source” dest
 
 
 
-
-
-
-
-
-
-
-
 SOURCE
-
-
+![image](https://user-images.githubusercontent.com/81401104/116136661-f8928300-a6a8-11eb-9b64-3fa9774a8237.png)
 
 Nessa seção “Source” serão trazidos o conjunto de valores inseridos em outro campo, que pode ser de outro ou do mesmo formulário, desde que seja sob o mesmo projeto.
 
 Então, vamos começar criando mais um formulário (igual demonstrado no tutorial “Como Criar Seu Primeiro Projeto, Menu e Formulário”).
 
 E nesse novo formulário vamos adicionar o componente “Textfield” para dentro dele.
+![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
 
 
 
   Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”.
+![image](https://user-images.githubusercontent.com/81401104/116136757-1d86f600-a6a9-11eb-9060-f0fbcd9a1897.png)
 
 
 
 Agora execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
 
 Irá abrir a seguinte página:
+![image](https://user-images.githubusercontent.com/81401104/116137641-2af0b000-a6aa-11eb-950b-d51d88b82d86.png)
 
-
-
-No campo “Cor” escreva “Vermelho”, clique no botão .. 
-
-
+No campo “Cor” escreva “Vermelho”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
+.. 
+![image](https://user-images.githubusercontent.com/81401104/116137594-20ceb180-a6aa-11eb-999e-663fc3472c10.png)
 
 Repita o processo para adicionar as cores “Verde”, “Amarelo” e “Azul.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116137728-48257e80-a6aa-11eb-891a-1451d4d93bee.png)
 
 Agora vamos voltar para o outro formulário com o componente “DropdownDB”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116137753-54a9d700-a6aa-11eb-9023-18de50099b10.png)
 
 E então em “Properties of Field”, desça até “Source” e em “Class” selecione o formulário que foi criado o campo “Cor” e em “Description Field” selecione o campo “Cor”.
 
 Execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/116137792-612e2f80-a6aa-11eb-9ecc-22a933eb639c.png)
 
-
-Clique no botão  e irá abrir a seguinte página:
-
-
-
-
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137809-68553d80-a6aa-11eb-9117-ccec127c6faf.png) e irá abrir a seguinte página:
+![image](https://user-images.githubusercontent.com/81401104/116137856-7c993a80-a6aa-11eb-82fd-d635d6053595.png)
 
 Selecione o campo do DropDownDB:
+![image](https://user-images.githubusercontent.com/81401104/116137880-8327b200-a6aa-11eb-89ee-a957342df7e7.png)
 
-
-E você irá visualizar os valores adicionados no campo “Cor” do outro formulário. Selecione uma opção e então clique no botão :
-
-
-
+E você irá visualizar os valores adicionados no campo “Cor” do outro formulário. Selecione uma opção e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137914-8cb11a00-a6aa-11eb-9c8e-be336ebe2ba2.png)
+![image](https://user-images.githubusercontent.com/81401104/116137958-9a669f80-a6aa-11eb-904d-bd6d856b889f.png)
+:
  Você pode realizar o mesmo processo com ambos os campos no mesmo formulário.
 Ainda na seção “Source”, em “Additional Data” você pode adicionar outro conjunto de valores de um campo desde que seja do mesmo formulário selecionado no “Class”.
-AutoComplete
-Vídeo: https://www.youtube.com/watch?v=l0tQAqhDfVk&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=24
+
+## AutoComplete
+![image](https://user-images.githubusercontent.com/81401104/116138049-b8340480-a6aa-11eb-93d7-6b47352f7108.png)
 
 O componente “AutoComplete” serve para fornecer auto-completar a inserção do item a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
 
@@ -851,7 +846,7 @@ A única diferença entre o “AutoComplete” e o “DropdownDB” é que o “
 Ou seja, sabendo utilizar o “DropdownDB” você também saberá utilizar o componente “Autocomplete”
 
 Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
+![image](https://user-images.githubusercontent.com/81401104/116138456-37c1d380-a6ab-11eb-9925-e7cb8e33dc66.png)
 
 Na seção “Source”, em “Class”  do “Autocomplete” selecione a opção “Cor” e em “Description Field” também selecione “Cor” 
 
@@ -860,25 +855,22 @@ Na seção “Source”, em “Class”  do “Autocomplete” selecione a opç�
 Agora execute a aplicação.
 
 Na tela de registrar, perceberá que ao escrever as letras iniciais, irá aparecer as opções disponíveis:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116138489-4314ff00-a6ab-11eb-86a2-03fd553ce2f5.png)
 
 E então é só selecionar a opção desejada e prosseguir.
 
+Vídeo: https://www.youtube.com/watch?v=l0tQAqhDfVk&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=24
 
-
-FILTER
-
-
+## FILTER 📮
+![image](https://user-images.githubusercontent.com/81401104/116138542-532cde80-a6ab-11eb-8703-6a7f19e6288a.png)
 
 Filter Name: Filtrar nome.
 
 Filter Value: Filtrar valor.
 
 
-SOURCE
-
-
+## SOURCE 🗂️
+![image](https://user-images.githubusercontent.com/81401104/116138589-62139100-a6ab-11eb-84fd-155de24154fb.png)
 
 Class (classe, nome do formulário ou datasource)
 Description Field (Campo de descrição)
@@ -892,41 +884,43 @@ Additional Data (Dados adicionais)
 Source From (Fonte de)
 
 To (Para)
-Label
-Vídeo: https://www.youtube.com/watch?v=SM_LHGXmJm0&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=25
 
+## Label
+![image](https://user-images.githubusercontent.com/81401104/116139186-1f9e8400-a6ac-11eb-82d0-6d9d36c4f6f4.png)
 
 Com este componente você pode apresentar valores do tipo letras e números, estes valores não serão gravados no banco de dados.
 
 Selecione o componente “Label”, então arraste-o e solte-o onde está escrito “Drop new field here!”.
- No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão para fazer a importação de um documento de texto do seu computador. 
+![image](https://user-images.githubusercontent.com/81401104/116139264-3644db00-a6ac-11eb-8e9a-09614b63beec.png)
+
+ No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png)
+ para fazer a importação de um documento de texto do seu computador. 
+![image](https://user-images.githubusercontent.com/81401104/116139356-51afe600-a6ac-11eb-86d4-71bd0fea7901.png)
 
 * O documento de texto tem que ser formato “.txt”.
 
-Clique no botão  para fazer o upload do documento.
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139413-5e343e80-a6ac-11eb-9ba4-4cd4a1a80ee2.png)
+ para fazer o upload do documento.
 
 Para esse tutorial eu criei o seguinte documento:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116139490-6f7d4b00-a6ac-11eb-9a93-cd86fed9bac8.png)
 
 Perceba que cada item está em uma linha, isso tornará possível criar as opções.
+![image](https://user-images.githubusercontent.com/81401104/116139529-7c9a3a00-a6ac-11eb-8b4b-5c178f2b33dd.png)
 
-
-
-Selecione a primeira opção, e clique no botão ..
-
-
+Selecione a primeira opção, e clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139572-8ae85600-a6ac-11eb-80b8-18d902d1c193.png)
+..
 
 Execute a aplicação.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116139603-92a7fa80-a6ac-11eb-9271-71a8c276398e.png)
 
 E após salvar, não será salvo no banco de dados, pois esse texto é apenas para orientação dentro do formulário.
+![image](https://user-images.githubusercontent.com/81401104/116139634-9cc9f900-a6ac-11eb-987a-c5d85e09a6d1.png)
 
+Vídeo: https://www.youtube.com/watch?v=SM_LHGXmJm0&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=25
 
-
-Box
-Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
+## Box 📦
+![image](https://user-images.githubusercontent.com/81401104/116139702-afdcc900-a6ac-11eb-8314-3a977ca34b4e.png)
 
 Com este componente você pode criar seções dentro do formulário, para organizar os componentes que estarão dentro dele e realizar funcionalidades conjuntas (das regras de visibilidade, por exemplo).
 
@@ -935,13 +929,13 @@ Isso permitirá economizar tempo na hora de editar as seções do “Properties 
 Selecione o componente “Box”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
 Essa será a disposição inicial do componente no formulário:
-
+![image](https://user-images.githubusercontent.com/81401104/116139757-bf5c1200-a6ac-11eb-85fb-a1ffd92cf91a.png)
 
 Agora arraste um componente “Textfield” e um “Integer” para dentro do “Groupbox”:
-
+![image](https://user-images.githubusercontent.com/81401104/116139844-dd297700-a6ac-11eb-990f-d359e60b69ea.png)
 
 Nomeie o textfield de “Letra”,  e o “Integer”(Number2) de “Número”:
-
+![image](https://user-images.githubusercontent.com/81401104/116139885-e9adcf80-a6ac-11eb-9309-a9076a4beccd.png)
 
 E agora, selecionando o box você consegue configurar o “Behavior”, “Presentation” e “Intro” de todos os componentes dentro dele de uma vez só. 
 
@@ -950,186 +944,185 @@ Para saber mais sobre como editar e visualizar essas configurações do “Prope
 Obs: também é possível editar essas propriedades para cada componente individualmente dentro do GroupBox.
 
 Execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/116139918-f5999180-a6ac-11eb-901b-18c68eb5108c.png)
 
 
+Adicione os valores nos dois campos e depois clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png)
+.
+![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
 
-Adicione os valores nos dois campos e depois clique no botão .
+Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
-
-
-GENERAL
-
-
+## GENERAL 📄
+![image](https://user-images.githubusercontent.com/81401104/116140548-dbac7e80-a6ad-11eb-9680-d9d5d23e0364.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
-Ao selecionar caixa do , será criado a borda para o componente, e também será possível editar o campo “Label”.
-Signature
+Ao selecionar caixa do ![image](https://user-images.githubusercontent.com/81401104/116140566-e23af600-a6ad-11eb-8a0c-79dd83cab49f.png), será criado a borda para o componente, e também será possível editar o campo “Label”.
+
+## Signature ✒️
+![image](https://user-images.githubusercontent.com/81401104/116140680-0c8cb380-a6ae-11eb-9d6b-4cbce5e464a6.png)
 
 Com este componente você pode adicionar uma assinatura do usuário no seu formulário.
 
 Selecione o componente “Signature”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
 Para total visualização do processo da utilização do componente “Signature” será necessário realizar as etapas dos tutoriais “Como Adicionar Um Usuário” e “Como Dar Permissão Ao Usuário”.
+![image](https://user-images.githubusercontent.com/81401104/116140718-1b736600-a6ae-11eb-897c-7476531eaf87.png)
 
 
 Para fazer funcionar o componente “Signature” será preciso ter mais um componente “DateTime” ou “Date” e dois componentes “Hidden”.
 
 Então, primeiro, vamos adicionar o componente “DateTime” e nomeá-lo de “Data e Hora”, e vamos nomear o componente “Signature” de “Assinatura”.
-
+![image](https://user-images.githubusercontent.com/81401104/116140745-23330a80-a6ae-11eb-96ae-78a7e38011a2.png)
 
 
 Selecione a caixa de seleção “Current DateTime” da seção “Values” do componente “DateTime”(Data e Hora) para sempre estar pegando a data e horário atual.
 
 Agora selecione e solte os 2 componentes “Hidden” em cima do “Assinatura” e do “Data e Hora”
+![image](https://user-images.githubusercontent.com/81401104/116140789-2fb76300-a6ae-11eb-998a-0b9da9737820.png)
 
 
 Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
-
+![image](https://user-images.githubusercontent.com/81401104/116140861-4fe72200-a6ae-11eb-85b4-ba85a0922eeb.png)
 
 E no “Hidden” que está acima acima do “DateTime” o nomeie de “Hidden do DateTime”. E na seção “Data Type”, no item “Type” selecione a opção “DateTime”. (imagem abaixo)
+![image](https://user-images.githubusercontent.com/81401104/116140915-642b1f00-a6ae-11eb-8baf-4c522e0ddbc1.png)
+
 Agora vá até a seção “Signature” do componente “Signature”. No item “Date field” selecione a opção “Data e Hora” e no “Info field” selecione a opção  “Hidden Assinatura”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116140947-6ee5b400-a6ae-11eb-8de9-748a987a4ed5.png)
 
 Execute a aplicação.
 
 Então irá abrir a seguinte tela:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116140966-75742b80-a6ae-11eb-9cd3-0ed8ad6a32e6.png)
 
 Agora copie a URL (Link) desse formulário:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116141019-83c24780-a6ae-11eb-9fd7-dbb5de4ffbab.png)
 
 E então abra em uma janela anônima:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116141051-8cb31900-a6ae-11eb-90f5-2a87e50ba625.png)
 
 Entre com seu usuário. 
 
 [Para continuar daqui em diante, é necessário ter realizado os passos dos tutoriais “Como Criar Seu Usuário” e “Como Dar Permissão Ao Seu Usuário”]
 
 Aparecerá a seguinte tela:
+![image](https://user-images.githubusercontent.com/81401104/116141142-abb1ab00-a6ae-11eb-9f0b-649dc9fd5d2a.png)
 
-
-Clique no botão  e abrirá a seguinte tela:
-
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116141954-b6207480-a6af-11eb-8b8e-157154509935.png)
+ e abrirá a seguinte tela:
+![image](https://user-images.githubusercontent.com/81401104/116141979-bf114600-a6af-11eb-8cda-c7385c77f094.png)
 
 Clique na caixa amarela “Click to Sign”, e aparecerá a seguinte janela:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116142075-da7c5100-a6af-11eb-9f99-a97d33c03da8.png)
 
 Então é só desenhar a assinatura, por exemplo: 
+![image](https://user-images.githubusercontent.com/81401104/116142120-e6681300-a6af-11eb-851f-a26f4172ecae.png)
 
-:
-E então clicar no botão . Automaticamente voltará para essa página:
+E então clicar no botão ![image](https://user-images.githubusercontent.com/81401104/116142149-eec04e00-a6af-11eb-8865-51292d30aef4.png). Automaticamente voltará para essa página:
+![image](https://user-images.githubusercontent.com/81401104/116142184-fa137980-a6af-11eb-943e-663390d51543.png)
 
-
-
-Então clique no botão .
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116142206-00a1f100-a6b0-11eb-9eec-ac2d4a76f486.png).
 
 Será direcionado para a seguinte página:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116142262-16171b00-a6b0-11eb-98dc-f67dfb2cce56.png)
 
 E aqui você consegue visualizar os registros.
 
-Para visualizar o formulário preenchido com a assinatura, é só clicar no 
- (abaixo de “Control”).
+Para visualizar o formulário preenchido com a assinatura, é só clicar no ![image](https://user-images.githubusercontent.com/81401104/116142292-1fa08300-a6b0-11eb-859f-e8a3af060214.png) (abaixo de “Control”).
 
-SIGNATURE
-
-
+## SIGNATURE 
+![image](https://user-images.githubusercontent.com/81401104/116142331-2929eb00-a6b0-11eb-9114-227e4a7a6f04.png)
 
 Date field: Selecionar o campo que contém o componente “Date” ou “DateTime”.
 
 Info field: Selecionar o campo que contém o componente “Hidden” atrelado à assinatura.
-Static Image
-Vídeo: https://www.youtube.com/watch?v=-B3EjQvR_UM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=27
+
+## Static Image 🖼️
+![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
 
 Com este componente você pode adicionar uma imagem que sempre estará sendo mostrada no formulário e não será salva dentro do banco de dados. 
 
 Sobre as imagens é possível adicionar eventos como abrir outros forms ou hiperlink para outros sites. 
 
 Selecione o componente “Image”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/116142976-e9173800-a6b0-11eb-8773-32c09bd26fee.png)
 
 
-
-Clique no botão , então selecione a imagem. 
-
-
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116142992-f0d6dc80-a6b0-11eb-8369-0b59b9806e0b.png), então selecione a imagem. 
+![image](https://user-images.githubusercontent.com/81401104/116143196-385d6880-a6b1-11eb-8403-3a432aaaef6d.png)
 
 Agora execute a aplicação.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116143236-43b09400-a6b1-11eb-9a9c-5fec3787631a.png)
 
 A imagem aparece no formulário, mas não será salva no banco de dados. Ela pode servir como referência instrutiva, logomarca ou hiperlink, entre outros.
 
-IMAGE
+Vídeo: https://www.youtube.com/watch?v=-B3EjQvR_UM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=27
+
+## IMAGE 🖼️
+![image](https://user-images.githubusercontent.com/81401104/116143264-4dd29280-a6b1-11eb-8a11-e98399a84373.png)
+
+Na seção “Image” do componente “Image” você pode dar descrição (“Description”) e um link, para qual será direcionado quando clicar na imagem. Lembre-se de clicar no ![image](https://user-images.githubusercontent.com/81401104/116143294-5a56eb00-a6b1-11eb-84a9-37a064bb07e3.png)
+para adicionar o evento de ao clicar na imagem ser direcionado para o link.
+![image](https://user-images.githubusercontent.com/81401104/116143334-6773da00-a6b1-11eb-8d29-8f974312f577.png)
 
 
-
-Na seção “Image” do componente “Image” você pode dar descrição (“Description”) e um link, para qual será direcionado quando clicar na imagem. Lembre-se de clicar no para adicionar o evento de ao clicar na imagem ser direcionado para o link.
-
-
-Upload Image
-Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
+## Upload Image 📩
+![image](https://user-images.githubusercontent.com/81401104/116143456-8d997a00-a6b1-11eb-9ff1-0436b57b9ad6.png)
 
 
- Este componente permite você adicionar uma imagem com o formato desejado que ficará visível no registro
+Este componente permite você adicionar uma imagem com o formato desejado que ficará visível no registro
 
 Selecione o componente “ImageInput”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/116143496-98eca580-a6b1-11eb-9161-b2ff32ac8d54.png)
 
 Execute a aplicação::
-
-
+![image](https://user-images.githubusercontent.com/81401104/116143528-a144e080-a6b1-11eb-83fd-3080eaec246b.png)
 
 Clique no quadrado do “ImageInput” onde diz “Drag and drop or click to upload a image”.
 
-Então procure e selecione uma foto do seu computador:e então clique no botão .
+Então procure e selecione uma foto do seu computador:![image](https://user-images.githubusercontent.com/81401104/116143599-b7eb3780-a6b1-11eb-9a59-09fc5abc7fd1.png)
+
+e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116143623-bf124580-a6b1-11eb-9b71-9e7c337b0e4b.png).
+![image](https://user-images.githubusercontent.com/81401104/116143651-c9344400-a6b1-11eb-8193-31b85dc80c11.png)
 
 
-Para visualizar a foto que você acabou de adicionar, clique no botão (Abaixo de “Control”)
+Para visualizar a foto que você acabou de adicionar, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116143693-d3564280-a6b1-11eb-8522-78da4e1fef90.png)(Abaixo de “Control”)
 
-File Upload
-Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
+Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
+
+## File Upload 📩
+![image](https://user-images.githubusercontent.com/81401104/116143924-1adcce80-a6b2-11eb-8c4d-62e5bd5a86ec.png)
 
 É um componente que permite anexar arquivos em um cadastro.
 
 Selecione o componente “FileUpload”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/116143977-29c38100-a6b2-11eb-8932-1e33c6430892.png)
 
 Execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/116144037-39db6080-a6b2-11eb-9b89-18c4da8312af.png)
 
+Para fazer o upload do arquivo desejado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116144079-45c72280-a6b2-11eb-9bb9-265356f3afc3.png)
+, então você irá selecionar o arquivo do seu computador, e no campo do “File Upload”  ficará similar com o seguinte:
+![image](https://user-images.githubusercontent.com/81401104/116144260-8161ec80-a6b2-11eb-8b70-08aa6c644e41.png)
 
-
-Para fazer o upload do arquivo desejado, clique no botão , então você irá selecionar o arquivo do seu computador, e no campo do “File Upload”  ficará similar com o seguinte:
-
-
-
-E então clique no botão .
+E então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116144317-93dc2600-a6b2-11eb-8b79-12570ae46c80.png).
 
 Irá para a tela dos registros:
+![image](https://user-images.githubusercontent.com/81401104/116144349-9e96bb00-a6b2-11eb-9e8d-5fa5acc0f58b.png)
 
-
-
-Caso queira visualizar o registro do “FileUpload”, clique no  (Control).
+Caso queira visualizar o registro do “FileUpload”, clique no ![image](https://user-images.githubusercontent.com/81401104/116144386-a8b8b980-a6b2-11eb-9872-e7b158064521.png)(Control).
 
 Então irá para a seguinte tela (próxima página):
+![image](https://user-images.githubusercontent.com/81401104/116144593-c25a0100-a6b2-11eb-9a55-7f29f846d8a1.png)
+
+E para fazer o download do arquivo é só clicar no botão ![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png).
 
 
-E para fazer o download do arquivo é só clicar no botão .
+Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
-
-
-
-
-
-UPLOAD
+## UPLOAD 
 
 
 
