@@ -1369,224 +1369,207 @@ Então abrirá a seguinte aba:
 
 Em “Custom Scripts” copie e cole o seguinte script: 
 
->function alerta() {
+function alerta() {
    alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
 }
->
-Então clique no botão  para testar se o script é válido, se ele for, irá aparecer no topo direito uma mensagem dizendo:  “Confirmation Custom Script Valid”.
 
-Agora volte na seção “Events”, em “Name” selecione a opção “OnClick”, e em “On” escreva “alerta()” e então clique no botão . 
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
+para testar se o script é válido, se ele for, irá aparecer no topo direito uma mensagem dizendo:  “Confirmation Custom Script Valid”.
+
+Agora volte na seção “Events”, em “Name” selecione a opção “OnClick”, e em “On” escreva “alerta()”
+e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298711-27752b80-a773-11eb-9b58-b0e031acccb3.png). 
 
 Então ficará da seguinte maneira:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116298756-38be3800-a773-11eb-80b5-377dcd0ca9b9.png)
 
 Execute a aplicação:
+![image](https://user-images.githubusercontent.com/81401104/116298763-3f4caf80-a773-11eb-9706-6cb3823fecb4.png)
 
+Clique no botão azul ![image](https://user-images.githubusercontent.com/81401104/116298781-45db2700-a773-11eb-9d95-db2991ee2dd1.png) e então irá para a próxima página ⬇️:
+![image](https://user-images.githubusercontent.com/81401104/116298880-63a88c00-a773-11eb-9473-d1eb9946b026.png)
 
+Agora clique no ![image](https://user-images.githubusercontent.com/81401104/116298917-702ce480-a773-11eb-88bd-3830605f5c17.png)e você verá o seguinte aviso na tela:
+![image](https://user-images.githubusercontent.com/81401104/116298965-7d49d380-a773-11eb-91d1-c0fc8c7437b5.png)
 
-Clique no botão azul  e então irá para a próxima página:
-
-
-
-Agora clique no  e você verá o seguinte aviso na tela:
-
-
-
-
-
-
-HTML Field
-Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
+## HTML Field 
+![image](https://user-images.githubusercontent.com/81401104/116299196-c26e0580-a773-11eb-9812-83ce2acc8d91.png)
 
  É um componente que permite inserir um texto em html no formulário.
 
 Selecione o componente “HTMLField”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/116299220-c8fc7d00-a773-11eb-978e-6a32ae5ef2b3.png)
 
 No campo “HTML” abaixo de “General”  (onde está indicando a flecha), você irá colar o seu código HTML.
 
 Por exemplo, copie e cole o seguinte código: 
-
-<p>Os documentos s&atilde;o <strong>obrigat&oacute;rios&nbsp;</strong></p>
+![image](https://user-images.githubusercontent.com/81401104/116300074-d5350a00-a774-11eb-80be-e09fd664078b.png)
 
 Logo você irá ver o seguinte:
-
-
+<p>Osdocumentos s&atilde;o <strong>obrigat&oacute;rios&nbsp;</strong></p>
 
 Perceba que a palavra “obrigatórios” está em negrito, devido ao código html.
 
 Execute a aplicação..
-
-
+![image](https://user-images.githubusercontent.com/81401104/116300162-f4339c00-a774-11eb-8a26-5e41adbadded.png)
 
 E aqui você consegue visualizar a mensagem com formatação de texto dentro do seu formulário.
 
+Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
-
-GENERAL
-
+## HTML Field > GENERAL
+![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
 
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
 HTML: É onde você irá colar o seu código HTML. 
 
-
 Quiz
-Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
+![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
 
 
 Este componente cria um questionário de perguntas e respostas onde o usuário adiciona alternativas falsas e verdadeiras, colocando a pontuação das resposta verdadeiras no Score.
 
 Selecione o componente “Quiz”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/116300290-1d542c80-a775-11eb-8615-ed2d342a04e8.png)
 
 
-
-Clique no campo do “Enter Your Question” e escreva “Quanto é 1 + 1 ?” e clique no botão .
-
-
+Clique no campo do “Enter Your Question” e escreva “Quanto é 1 + 1 ?” e clique no botão ![image](https://user-images.githubusercontent.com/81401104/116300346-2cd37580-a775-11eb-8e02-41eabd2abd67.png)
+.
+![image](https://user-images.githubusercontent.com/81401104/116300437-470d5380-a775-11eb-85bd-0a714bf4b95e.png)
 
 Clique na flecha para adicionar as respostas.
+![image](https://user-images.githubusercontent.com/81401104/116300466-4ffe2500-a775-11eb-92f2-eaa272a9bb42.png)
 
 
+No campo do “Enter Your Answer” escreva “2” 
+e marque a caixa de seleção  e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116300507-58eef680-a775-11eb-8077-ac3545e3c6ab.png)
+.
 
-No campo do “Enter Your Answer” escreva “2” e marque a caixa de seleção  e então clique no botão .
-
-Repita essa última etapa adicionando a resposta “3” sem marcar a caixa de seleção .
-
-
+Repita essa última etapa adicionando a resposta “3” sem marcar a caixa de seleção ![image](https://user-images.githubusercontent.com/81401104/116300583-6e642080-a775-11eb-8475-4a253709993f.png)
+.
 
 Agora vamos adicionar mais uma questão: “Quanto é 2 + 2 ?”
 
-E adicionar duas respostas: “4” e marcando a caixa de seleção, e “5” sem marcar a caixa de seleção.
-
-
+E adicionar duas respostas: “4” e marcando a caixa de seleção![image](https://user-images.githubusercontent.com/81401104/116300627-7c19a600-a775-11eb-8218-4497a05bc066.png)
+, e “5” sem marcar a caixa de seleção.
+![image](https://user-images.githubusercontent.com/81401104/116300663-876cd180-a775-11eb-9b35-436c9dc1824d.png)
 
 Agora, para que seja possível mostrar o resultado do quiz, adicione o componente “Integer” no formulário e o nomeie de “Porcentagem de Acerto”
-
-
+![image](https://user-images.githubusercontent.com/81401104/116300738-9eabbf00-a775-11eb-9b79-12cc42fa1809.png)
 
 Agora clique de volta no Quiz, vá até a seção “Others”, em “Score Field” selecione a opção “Porcentagem de Acerto”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116300760-a4a1a000-a775-11eb-9943-ce331e32e35b.png)
 
 Execute a aplicação. Irá abrir essa página:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116300780-acf9db00-a775-11eb-91b7-13e680c9f867.png)
 
 Selecione as opções e perceberá que o campo “Porcentagem de Acerto” dará a porcentagem de acerto automaticamente.
 
-Após selecionar as opções desejadas, clique no botão .
+Após selecionar as opções desejadas, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116300816-b5eaac80-a775-11eb-800d-4ab1214bfe00.png).
 
-Então verá a tela dos registros e caso queira editar o form salvo, basta clicar no botão .
+Então verá a tela dos registros e caso queira editar o form salvo,
+basta clicar no botão ![image](https://user-images.githubusercontent.com/81401104/116300853-bf741480-a775-11eb-894f-42b430729206.png)
+.
 
+Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
-
-
-
-
-
-
-
-
-OTHERS
-
-
+## OTHERS
+![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
 
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Others” do componente “Textfield”.
 
 Score Field: Irá selecionar o campo que está dentro do mesmo formulário para mostrar o resultado do quiz. Esse outro campo deve utilizar o componente “Integer” para cumprir sua função.
 
-Email
-Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
+## Email 📧
+![image](https://user-images.githubusercontent.com/81401104/116300945-df0b3d00-a775-11eb-94f1-020c4570ff92.png)
+
 
 O componente “Email” serve para aceitar somente preenchimento de email.
 
 Selecione o componente “Email”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
-
+![image](https://user-images.githubusercontent.com/81401104/116301051-fba77500-a775-11eb-86ac-68f9e46c79f3.png)
 
 
 Após soltar o componente email dentro do formulário, execute a aplicação.
 
 E perceba que na tela de registrar só será permitido salvar o que foi inserido no campo “Email” se o sistema considerar aquilo como email, por exemplo:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301098-0cf08180-a776-11eb-9d70-cbcf97856503.png)
 
 
 Perceba que quando estava escrito apenas “Jesse” não era possível salvar, mas quando foi adicionado ao final “@gmail.com” se tornou possível salvá-lo.
 
+Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
+
 Password
-Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
+![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
+
 
 O componente “Password” vem com sua submáscara de campo preparada para password (****), ou seja, para tornar discreto o preenchimento de informações sensíveis, por exemplo, de CPF.
 
 Selecione o componente “Password”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301341-50e38680-a776-11eb-8523-6521d135ed3f.png)
 
 Execute a aplicação
-
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301371-580a9480-a776-11eb-8d8e-9b8de2d2c2ae.png)
 
 Ao inserir os caracteres, perceba que ele estará oculto.
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301389-5d67df00-a776-11eb-9912-7887ff144d83.png)
 
 E após salvar, irá para a tela de registros:
+![image](https://user-images.githubusercontent.com/81401104/116301438-6658b080-a776-11eb-8d57-5b9642f39791.png)
 
+E mesmo que acesse o formulário novamente, clicando no ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png)
+(abaixo de “Control”), ainda não será possível visualizar a informação inserida:
 
+Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
 
-E mesmo que acesse o formulário novamente, clicando no (abaixo de “Control”), ainda não será possível visualizar a informação inserida:
-
-
-
-
-Horizontal Line
-Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
+## Horizontal Line
+![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
 
 O “Horizontal Line” faz quebra de linha, com o objetivo principal de organizar a disposição dos componentes.
 
 Selecione o componente “Horizontal Line”, então arraste-o e solte-o onde está escrito “Drop new field here!”. 
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301545-89836000-a776-11eb-939f-27e7d0fbb75a.png)
 
 
 Ao colocar o “Horizontal Line” dentro do formulário, você perceberá que ele é só uma linha, com a única função de organizar a disposição dos componentes dentro da tela.
 
 Vamos adicionar dois componentes “Textfield” dentro do formulário, um à esquerda e o outro à direita do “Horizontal Line”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301693-b172c380-a776-11eb-86cb-10f56540a199.png)
 
 Agora, vá nas propriedades do “Horizontal Line”, na seção “Presentation”, na primeira lista (desktop), selecione a opção “Col-lg-12-100%”. A disposição visual estará da seguinte maneira:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116301717-b899d180-a776-11eb-9c8e-c57364ab9365.png)
 
 Agora execute a aplicação.
 
- Perceberá que na tela de registrar estará organizado da mesma forma:
+Perceberá que na tela de registrar estará organizado da mesma forma:
+![image](https://user-images.githubusercontent.com/81401104/116301747-c0597600-a776-11eb-851c-d2cb1b5df620.png)
 
 É isso o que o “Horizontal Line” faz, quebra linhas para organizar a disposição dos componentes.
 
+Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
+
 Repeater
+![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
+
 O repeater é o componente utilizado para apresentação de dados dentro de uma page, com ele é possível reproduzir o conteúdo de um formulário no ambiente de page
 
 Selecione o componente, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/116301801-d23b1900-a776-11eb-8804-a91c7c2885f6.png)
 
 Perceba que ao inserir o Repeater não poderá salvar a page até que tenha selecionado um Datasource na aba de propriedades.  
- 
+![image](https://user-images.githubusercontent.com/81401104/116301842-dd8e4480-a776-11eb-947a-2b584c4d1a07.png)
 
 Podemos fazer isso facilmente utilizando o builder. Para adicionar a fonte de dados que utilizaremos, devemos procurar a aba “Source”, dentro das propriedades do componente, e clicar no botão “+”. Neste exemplo nosso DataSource conterá três campos: Nome, idade e telefone.
 
-
 Para exibir os dados no repeater utilizamos outro componente, o label, e adicionamos um Datalink para ele
+![image](https://user-images.githubusercontent.com/81401104/116301880-e8e17000-a776-11eb-93ab-12295c0cfeb8.png)
+
 Essa ligação de dados foi definida no Datasource que criamos no passo anterior. Procure em properties pela aba Datalink e selecione o elemento que você deseja exibir.
+![image](https://user-images.githubusercontent.com/81401104/116302012-10d0d380-a777-11eb-80b4-27ff612e3271.png)
 
 Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
-Video call
+
+## Video call Coming Soon
