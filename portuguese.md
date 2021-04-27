@@ -275,8 +275,6 @@ Automaticamente se abrirá uma nova página no seu navegador (tela dos registros
 
 ![image](https://user-images.githubusercontent.com/81401104/115290923-8101a880-a12a-11eb-83b8-c57244d444a9.png)
 
-
-
 Preencha o campo “Idade” com “18” e observe que o campo “Número de Telefone” surge para ser preenchido.
 
  e se preencher o campo “Idade” com “17”, o campo “Número de Telefone” não irá aparecer.
@@ -310,19 +308,16 @@ Se você está usando desktop, clique na primeira lista suspensiva e então esco
 
 ![image](https://user-images.githubusercontent.com/81401104/115293817-2702e200-a12e-11eb-871a-709b8a766f4b.png)
 
-
 Execute a aplicação.
 
 Você pode voltar na tela de edição do formulário e testar com as outras medidas para visualizar como ficam.
 
 No item “CSS Class”  você pode informar a classe de css customizada para o componente.
 
-
 ## EVENTS 🎞️
 ![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
-
 
 ## INTRO
 
@@ -345,13 +340,11 @@ No segundo “Textfield”, em “Position” selecione “Right”, em “Order
 Agora execute a aplicação.Irá abrir a seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
 
-
 Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png)
 .
 Então irá aparecer o efeito do intro na seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
 ![image](https://user-images.githubusercontent.com/81401104/115908434-8c154b00-a440-11eb-8863-f01b4a55ac84.png)
-
 
 Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc), é efeito das configurações na seção “Intro”.
 
@@ -370,8 +363,6 @@ Execute a aplicação
 
 E na tela de registrar, no campo do “Textarea” você pode adicionar valores do tipo letras e números, com 2 linhas ou mais (pode-se adicionar mais linhas na seção “Presentation”, em “Rows”)
 ![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)<br>
-
-
 
 Após salvar:
 ![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
@@ -404,7 +395,6 @@ Após adicionar as informações que quiser, clique no botão ![image](https://u
 E irá aparecer da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/81401104/115910982-e532ae00-a443-11eb-8384-8290a56f32fe.png)
-
 
 Para editar o registro adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png)
  (embaixo de “Control”).
@@ -534,19 +524,13 @@ Clique no campo “Number1”, vá na seção “Events”, em “Name” seleci
 . 
 ![image](https://user-images.githubusercontent.com/81401104/115918534-026c7a00-a44e-11eb-994a-7cba89f79b6d.png)
 
-
-
 Após clicar no botão, ficará assim:
 ![image](https://user-images.githubusercontent.com/81401104/115918646-25972980-a44e-11eb-92d4-722fc2ab5285.png)
-
-
 
 Faça a mesma coisa com o campo “Number2”.
 
 Execute a aplicação.
 ![image](https://user-images.githubusercontent.com/81401104/115918669-2d56ce00-a44e-11eb-8062-aa61ad0cdb77.png)
-
-
 
 Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png).
 
@@ -1151,29 +1135,31 @@ Ao selecionar a caixa de seleção “Allow to delete file from storage” será
 Com este componente você consegue realizar uma relação de um para vários, por exemplo: Sala de aula - quem são os alunos, empresa - quem são os colaboradores.
 
 Selecione o componente “OneToMany”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+![image](https://user-images.githubusercontent.com/81401104/116289651-0c9db980-a769-11eb-9df0-988ae6d2e400.png)
 
 Nas propriedades do “OneToMany”, na seção “Source”, adicione a opção “Cor” (Esse formulário “Cor” foi criado durante o tutorial do “DropdownDB”).
 
 É importante que esteja logado na tela de registros do formulário “Cor” para poder visualizar o resultado do processo. No momento, a tela de registro de cores está da seguinte maneira:
+![image](https://user-images.githubusercontent.com/81401104/116289742-22ab7a00-a769-11eb-8656-a357837e9301.png)
                             
 Volte na tela do One-To-Many e execute a aplicação.
+![image](https://user-images.githubusercontent.com/81401104/116289811-322ac300-a769-11eb-9028-279990166b68.png)
 
-No campo “Cor”, preencha com “Laranja”, então clique no botão .
+No campo “Cor”, preencha com “Laranja”, então clique no botão![image](https://user-images.githubusercontent.com/81401104/116289846-3bb42b00-a769-11eb-9772-eaed741142d9.png).
+![image](https://user-images.githubusercontent.com/81401104/116290130-86ce3e00-a769-11eb-8ae5-336dcc0f6b33.png)
 
-Então, clique no botão .
+Então, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116290167-8f267900-a769-11eb-8ba4-8d735c2edee4.png).
 
 A tela dos registros do One-To-Many estará da seguinte forma:
+![image](https://user-images.githubusercontent.com/81401104/116290350-c006ae00-a769-11eb-9828-7d154ea90a29.png)
 
 Agora, abra a tela dos registros das cores e atualize ela 
+![image](https://user-images.githubusercontent.com/81401104/116290418-d14fba80-a769-11eb-8c29-1438b8408c17.png)
 
 Perceba que a cor “Laranja” foi adicionada na tela de registro do formulário “Cor”.
 
-
-
-
-ONE-TO-MANY
-
-
+> ONE-TO-MANY
+![image](https://user-images.githubusercontent.com/81401104/116290453-d9a7f580-a769-11eb-80e5-d7ee45d896e1.png)
 
  Open as Modal: Abrir como um modal. Um modal é uma janela em destaque dentro da página (igual aquela quando se cria ou edita um projeto).
 
@@ -1181,25 +1167,22 @@ Source (Fonte): É da onde os dados serão buscados.
 
 Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recentemente mas a lista não ter sido atualizada, para isso serve o botão.
 
+## Aggregation Data
+![image](https://user-images.githubusercontent.com/81401104/116293240-0ad5f500-a76d-11eb-8e8d-57a1da964cdb.png)
 
-Aggregation Data
+<table>
+ <tr>
+  <td>Source (Fonte)</td>
+  <td>Destination (Destino)</td>
+  <td>Operation (Operação)</td>
+  <td>Column (Coluna)</td>
+  <td>Output (Resultado)</td>
+ </tr>
+</table>
 
+## MultiTag 
 
-
-Source (Fonte)
-
-Destination (Destino)
-
-Operation (Operação)
-
-Column (Coluna)
-
-Output (Resultado)
-
-Operation (Operação)
-
-MultiTag
-
+![image](https://user-images.githubusercontent.com/81401104/116293660-820b8900-a76d-11eb-989d-784ab96c9c0a.png)
 
 É um componente que funciona como um autocomplete para múltiplos valores (relação 1:N).
 
@@ -1208,57 +1191,52 @@ Selecione o componente “MultiTag”, então arraste-o e solte-o onde está esc
 Para realizar o tutorial desse componente, desça até a seção “Source”.
 
 
-SOURCE
-
-
+## MultiTag > SOURCE
+![image](https://user-images.githubusercontent.com/81401104/116294214-18d84580-a76e-11eb-8bae-155664fc2f1d.png)
 
 Para fazermos uso do componente “MultiTag” teremos que criar 3 formulários. O primeiro para adicionar os nomes, o segundo para conectar os nomes a um componente “DropdownDB”, e então conectar o segundo com o terceiro formulário que será do “MultiTag”.
 
 Primeiro passo, crie um novo formulário com o componente “Textfield”, também nomeando-o de “Membro da Equipe” .
-
-
+![image](https://user-images.githubusercontent.com/81401104/116294485-66ed4900-a76e-11eb-8306-3449a5e14a23.png)
 
 e adicione os nomes “João”, “Maria”, “Carlos” e “Lucas”.
-
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/116294508-6d7bc080-a76e-11eb-9ccd-7600c3156bb7.png)
+![image](https://user-images.githubusercontent.com/81401104/116294542-78365580-a76e-11eb-8acf-cd7267ee2b3f.png)
 
 Segundo passo, crie mais um formulário usando o componente “DropdownDB” e nomeando-o de “reunião da equipe”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116294676-9dc35f00-a76e-11eb-9d3f-9bf6f0716d02.png)
 
 Na seção “Source” desse componente, no item “Class” selecione a opção “Membro da Equipe”  e em “Description Field” também selecione “Membro da Equipe”. 
+![image](https://user-images.githubusercontent.com/81401104/116294695-a4ea6d00-a76e-11eb-99c3-d933c3f4106c.png)
 
-
-
- Clique no botão  no pé da página.
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116294723-afa50200-a76e-11eb-9530-bd7de54c0609.png) no pé da página.
 
 Agora vamos criar o terceiro formulário, nomeando-o de “Participantes”.  Adicione o componente “Multitag” para dentro do formulário.
-
+![image](https://user-images.githubusercontent.com/81401104/116294771-bf244b00-a76e-11eb-885b-c27f6e54910a.png)
 
 Agora na seção “Source” do MultiTag, no item “Class” selecione “reuniaodaequipe”, e em “DescriptionField” selecione “reuniaodaequipeId1” - (imagem abaixo).
-
-
+![image](https://user-images.githubusercontent.com/81401104/116294811-c64b5900-a76e-11eb-8409-8649aa97d828.png)
 
 Execute a aplicação.
- 
-
+![image](https://user-images.githubusercontent.com/81401104/116294887-db27ec80-a76e-11eb-9170-d8bc8c8924c2.png)
 
 Comece a escrever as primeiras letras e logo aparecerá os nomes:
-
+![image](https://user-images.githubusercontent.com/81401104/116294901-e24efa80-a76e-11eb-8817-81eb9446c17e.png)
 
 Selecione “Lucas”, “Maria” e “João”.
+![image](https://user-images.githubusercontent.com/81401104/116294942-eb3fcc00-a76e-11eb-8570-deb48375c6d3.png)
 
 
-E então clique no botão .
-
+E então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116294980-f561ca80-a76e-11eb-9602-277e3c8f8579.png)
+.
 Irá aparecer da seguinte forma: 
+![image](https://user-images.githubusercontent.com/81401104/116295016-feeb3280-a76e-11eb-8561-490f44818321.png)
 
-Para visualizar  e editar esse formulário adicionado, clique no botão .
+Para visualizar  e editar esse formulário adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116295079-14f8f300-a76f-11eb-96e4-6fc8d24d8abc.png)
+.
 
-Additional Data
-
+## Additional Data ➡️📃
+![image](https://user-images.githubusercontent.com/81401104/116295496-89cc2d00-a76f-11eb-908d-21fef404e665.png)
 
 Este componente permite apresentar dados extras através de um DataSource.
 
@@ -1266,22 +1244,17 @@ Selecione o componente “AdditionalData”, então arraste-o e solte-o onde est
 
 Para visualizar a utilização desse componente, desça até a seção “Additional Data” deste tutorial
 
-
-GENERAL
-
-
+## Additional Data > GENERAL
+![image](https://user-images.githubusercontent.com/81401104/116295959-0828cf00-a770-11eb-87d6-744a17419669.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
-Ao selecionar a caixa de seleção , será criado a borda para o componente, e também será possível editar o campo “Label”.
+Ao selecionar a caixa de seleção ![image](https://user-images.githubusercontent.com/81401104/116295860-ed565a80-a76f-11eb-84d2-b3f4a8b40d18.png), será criado a borda para o componente, e também será possível editar o campo “Label”.
 
+< ADDITIONAL DATA
+![image](https://user-images.githubusercontent.com/81401104/116296018-1a0a7200-a770-11eb-8f89-adac9ff3dd8a.png)
 
-
-ADDITIONAL DATA
-
-
-
-Em “DataSource” você irá selecionar o DataSource criado antes. Ao lado, serve para atualizar a lista, e o serve para adicionar um DataSource. 
+Em “DataSource” você irá selecionar o DataSource criado antes. Ao lado,![image](https://user-images.githubusercontent.com/81401104/116296065-27276100-a770-11eb-87e6-82d451cce125.png) serve para atualizar a lista, e o ![image](https://user-images.githubusercontent.com/81401104/116296149-3f977b80-a770-11eb-8771-9dfb8c91937a.png) serve para adicionar um DataSource. 
 
 Para saber mais sobre como criar um DataSource, desça até o tutorial “DataSource”.
 
@@ -1300,82 +1273,71 @@ Sorted by: Irá ordenar o DataSource pela opção escolhida.
 Vamos testar isso criando dois formulários. No primeiro vamos nomeá-lo de “Origem”, nesse vamos usar dois componentes: “Textfield” e “Dropdown”.
 
 Arraste o componente “Textfield” para dentro do formulário e o nomeie de “Nome”, faça o mesmo com o componente “Dropdown” e o nomeie com “Status”. 
-
-
+![image](https://user-images.githubusercontent.com/81401104/116296241-5c33b380-a770-11eb-98d3-9f11357effa5.png)
 
 (Para aprender mais sobre o componente “Dropdown”, acesse o tutorial dele)
 
-No campo do “Status”, em “Values” clique no botão e adicione dois valores “Pendente” e “Aprovado”.
+No campo do “Status”, em “Values” clique no botão ![image](https://user-images.githubusercontent.com/81401104/116296368-884f3480-a770-11eb-8470-f88450cd50ff.png) e adicione dois valores “Pendente” e “Aprovado”.
+![image](https://user-images.githubusercontent.com/81401104/116296416-9604ba00-a770-11eb-84e7-4d3f96649545.png)
 
 Execute a aplicação:
+![image](https://user-images.githubusercontent.com/81401104/116296442-9f8e2200-a770-11eb-8750-5a1165958d44.png)
 
-
-
-No campo do “Nome”  escreva “João Carlos” e do “Status” selecione a opção “Aprovado” e então clique no botão .
+No campo do “Nome”  escreva “João Carlos” e do “Status” selecione a opção “Aprovado” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116296486-addc3e00-a770-11eb-84d8-ddaad8354b06.png)
+.
 
 Repita o processo adicionando o nome “Maria Aparecida” com o Status de “Pendente”.
 
 Agora vamos criar outro formulário, e nomeá-lo de “Destino”.
 
 E vamos arrastar o componente “DropdownDB” para dentro dele e nomeá-lo de “Origem”. 
-
-
+![image](https://user-images.githubusercontent.com/81401104/116296558-c0ef0e00-a770-11eb-99ab-1fddef838c4c.png)
 
 Na seção “Source” dele, em “Class” selecione a opção “Origem”. Em “Description Field” selecione “Nome”.
 
 Agora selecione o componente “Additional Data” e arraste ao lado do campo “Origem”.
+![image](https://user-images.githubusercontent.com/81401104/116296848-11666b80-a771-11eb-959c-d36516fff50a.png)
 
-
-
-Agora na seção “Additional Data” do componente “Additional Data”, na linha do “DataSource” clique no e irá abrir a seguinte janela:
-
-
+Agora na seção “Additional Data” do componente “Additional Data”, na linha do “DataSource” clique no ![image](https://user-images.githubusercontent.com/81401104/116296897-1f1bf100-a771-11eb-9d41-7de58f56e049.png) e irá abrir a seguinte janela:
+![image](https://user-images.githubusercontent.com/81401104/116296950-3064fd80-a771-11eb-8b26-0dc26464b164.png)
 
 Em “Title” escreva “Origem”,  em “Project” selecione o projeto no qual você criou os formulários anteriormente, e em “Class’’ selecione “Origem”. Irá aparecer da seguinte forma:
-
+![image](https://user-images.githubusercontent.com/81401104/116297001-3ce95600-a771-11eb-883d-e40445da76ef.png)
 
 Clique duas vezes nos campos “Nome” e “Status” que se encontram na lateral direita, e logo a tela ficará da seguinte maneira:
-
+![image](https://user-images.githubusercontent.com/81401104/116297054-47a3eb00-a771-11eb-8996-eeb1c198a7ff.png)
 
 Perceba que foram adicionados os campos “Nome” e “Status” dentro do DataSource.
 
-Agora clique no botão . E automaticamente voltará para a tela de edição do formulário:
-
-
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/116297093-5094bc80-a771-11eb-85b0-db2b35a0cb66.png) . E automaticamente voltará para a tela de edição do formulário:
+![image](https://user-images.githubusercontent.com/81401104/116297143-5c807e80-a771-11eb-9dda-3d4be6e3870d.png)
 
 Agora na seção “Additional Data”, em “DataSource”, selecione a opção “Origem”, em “DataSource Filter” selecione a opção “OrigemID”, em “Source Field” selecione a opção “OrigemID”, em “Show” selecione “Last”, em “Sorted By” selecione a opção “Nome”.
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297187-64d8b980-a771-11eb-89e3-f970860b5a1d.png)
 
 Agora selecione e arraste o componente “Label” em cima do “Additional Data”:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297222-6c985e00-a771-11eb-99e7-321425182cc7.png)
 
 Nomeie ele de “Status”:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297244-7326d580-a771-11eb-90fa-ad5f44c59814.png)
 
 E na seção “Additional Data”, na lista do “DataLink” selecione a opção “Status”:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297291-8043c480-a771-11eb-87e2-0ef88e601a8d.png)
 
 E na seção “Others”, na lista do “Text Align” selecione a opção “Center”
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297327-89cd2c80-a771-11eb-906a-c17fb8dc2d13.png)
 
 Execute a aplicação:
-
-
+![image](https://user-images.githubusercontent.com/81401104/116297363-93569480-a771-11eb-8c70-2e70c8236691.png)
 
 Selecione o nome “João Carlos” e observe a mensagem ao lado:
-
+![image](https://user-images.githubusercontent.com/81401104/116297403-9c476600-a771-11eb-879d-bff518d372dd.png)
 
 Selecione o nome “Maria Aparecida” e observe a mensagem ao lado:
+![image](https://user-images.githubusercontent.com/81401104/116297452-a79a9180-a771-11eb-9f3d-f5c93261eccc.png)
 
-
-
-Button
-Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
+## Button ⏸️
+![image](https://user-images.githubusercontent.com/81401104/116297504-b4b78080-a771-11eb-8a78-7491dd87ff6b.png)
 
 Com este componente é possível inserir funções personalizadas de JavaScript.
 
@@ -1383,38 +1345,34 @@ Selecione o componente “Button”, então arraste-o e solte-o onde está escri
 
 Para saber mais sobre como usar esse componente, desça até a seção “Events” desse tutorial.
 
+Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
-
-
-
-GENERAL
-
-
+## Button > GENERAL
+![image](https://user-images.githubusercontent.com/81401104/116297653-de70a780-a771-11eb-8ec2-ddf7bcc2823f.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
 “Text” é o texto de identificação do botão para o usuário.
 
-
-
-
-EVENTS
-
-
+## Button > EVENTS
+![image](https://user-images.githubusercontent.com/81401104/116297753-fd6f3980-a771-11eb-9b3a-ce10856d2c26.png)
 
 Vamos testar a seção “Events” começando por arrastar um novo componente “Button” dentro do formulário. 
 
 Nesse teste iremos fazer com que ao clicar o botão será mostrado uma mensagem.
 
 Agora, na seção “Events” desse novo botão, iremos clicar no botão .  
+![image](https://user-images.githubusercontent.com/81401104/116297841-17108100-a772-11eb-9445-eec11a9ed85c.png)
+
 Então abrirá a seguinte aba: 
+![image](https://user-images.githubusercontent.com/81401104/116297876-22fc4300-a772-11eb-85d9-5ce36a4c9f75.png)
 
 Em “Custom Scripts” copie e cole o seguinte script: 
 
-function alerta() {
+>function alerta() {
    alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
 }
-
+>
 Então clique no botão  para testar se o script é válido, se ele for, irá aparecer no topo direito uma mensagem dizendo:  “Confirmation Custom Script Valid”.
 
 Agora volte na seção “Events”, em “Name” selecione a opção “OnClick”, e em “On” escreva “alerta()” e então clique no botão . 
