@@ -257,8 +257,7 @@ do “Visibility Rules”, irá abrir a seguinte janela:<img src="https://user-i
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
 
- Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png)
-.
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
 
 Agora desmarque a caixa de seleção “Visible”.
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
@@ -278,7 +277,7 @@ Automaticamente se abrirá uma nova página no seu navegador (tela dos registros
 
 Preencha o campo “Idade” com “18” e observe que o campo “Número de Telefone” surge para ser preenchido.
 
- e se preencher o campo “Idade” com “17”, o campo “Número de Telefone” não irá aparecer.
+e se preencher o campo “Idade” com “17”, o campo “Número de Telefone” não irá aparecer.
 
 Você pode aplicar essas regras da mesma forma para a obrigatoriedade e desativação.
 
@@ -377,7 +376,6 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Prese
 O item “Rows” se refere a quantas linhas você quer para o seu componente “Textarea”. Por exemplo, se colocar “4”, perceberá que o componente aumentou para 4 linhas.
 
 ## Editor 🎬
-Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 ![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
 
 É um componente que permite o usuário inserir texto com a formatação desejada.
@@ -399,6 +397,8 @@ E irá aparecer da seguinte forma:
 
 Para editar o registro adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png)
  (embaixo de “Control”).
+ 
+Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
 ## Hidden 🙈
 ![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
@@ -424,7 +424,6 @@ Em Type você pode selecionar uma das 5 opções possíveis:
 Default Value: Valor padrão (o valor será preenchido automaticamente, mas sendo possível alterar caso necessário).
 
 ## Integer 🔢
-Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 ![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
 <br>
 É um componente utilizado para quando se necessita digitar números inteiros para uma aplicação.
@@ -439,6 +438,8 @@ Perceba que só é possível  inserção de números dentro do campo.
 
 Após salvar, estará disposto da seguinte forma na tela dos registros:
 ![image](https://user-images.githubusercontent.com/81401104/115914760-c1259b80-a448-11eb-88bf-61d43623e625.png)
+
+Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
