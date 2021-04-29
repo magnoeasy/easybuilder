@@ -21,12 +21,13 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
 
                                             Feito o cadastro Parabens!!🥇🎉
 
-## E hora de por a mão na massa 🖐️
+## É hora de por a mão na massa 🖐️
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
 <br>
 Apos o login no Builder você irá se deparar com o seguinte contéudo:<br>
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
-Na aba “Main” e logo abaixo em “Project title” escreva o título do seu projeto (pode ser “ProjetoTeste”) e clique no botão _Save & Close_
+Na aba “Main” e logo abaixo em “Project title” escreva o título do seu projeto (pode ser “ProjetoTeste”) 
+e clique no botão _Save & Close_
 <img src="https://user-images.githubusercontent.com/81401104/114924580-872f1680-9e04-11eb-921e-9c819dd64965.gif">
 
 (Irá demorar um pouco aqui pois estará sendo criado o banco de dados para o seu projeto)
@@ -34,7 +35,7 @@ Na aba “Main” e logo abaixo em “Project title” escreva o título do seu 
 Agora você estará na sua página inicial com as três abas principais, nesse caso automaticamente será a aba “Project”. 
 
 Então, voltará na tela inicial com as duas abas principais “Form” e “Report” (que significa “Formulário” e “Relatório” respectivamente), agora clique na aba “Form”:
-<img src="https://user-images.githubusercontent.com/81401104/114937050-a97c6080-9e13-11eb-98d7-d6bbc6a8cd4d.png">
+![image](https://user-images.githubusercontent.com/81401104/116601837-502b2b80-a901-11eb-8e29-009d8ff21b96.png)
 E agora clique no botão _New_, automaticamente irá abrir uma nova aba no seu navegador.
 <img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png"><br>
 Nessa nova página, no campo do “Form Title” escreva o título do seu formulário (pode ser “FormulárioTeste”).
@@ -54,9 +55,8 @@ Aqui estará disponível a visualização dos registros salvos. ⤴️<br>
 > Clique no botão _"New"_, você será direcionado para a seguinte tela:
 <img src="https://user-images.githubusercontent.com/81401104/114778942-dc5b2180-9d4b-11eb-9fd7-5e9e03c4ed8a.gif">
 Adicione o nome “Lopes”, e clique no botão _"Save & Close"_ !! <img src="https://user-images.githubusercontent.com/81401104/114939285-9a4ae200-9e16-11eb-9884-5e9c3dbce5e5.gif">
-<h3>⚠️Atenção para não confundir _"Save"_ envez _"Save & Close"_</h3>
+<h3>⚠️Atenção para não confundir _"Save"_ envez _"Save & Close"</h3>
 <img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png"><br>
-
 
 Repita o processo colocando nome diferente.
 
@@ -66,25 +66,28 @@ Um gif curto para te ajudar:
 <img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif"><br>
 
 ### Como Executar a Aplicação 💻
-<br>
+
 Ao chegar na tela do formulário, preencha o “Form Title”(o titulo do formulário) e insira os componentes “Textfield” e “Email”:
 <img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
 
 Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé da página e depois clique no botão _"Run"_ <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif"><br>Irá para a seguinte tela
 <img src="https://user-images.githubusercontent.com/81401104/114936950-805bd000-9e13-11eb-8877-16341176b8e5.png">
 
->Essa é a tela dos registros após eles terem sido inseridos e salvos.⤴️<br>
-Para inserir novos registros, clique no botão _"New"_ no topo desta tela⤵️<br>
+Essa é a tela dos registros após eles terem sido inseridos e salvos.⤴️
+
+Para inserir novos registros, clique no botão _"New"_ no topo desta tela⬇️
 <img src="https://user-images.githubusercontent.com/81401104/114939985-8b186400-9e17-11eb-9738-a6de0dd97dc4.png">
+
 Então irá abrir a seguinte tela:
 <img src="https://user-images.githubusercontent.com/81401104/115062670-fd914e80-9ec0-11eb-9c75-7956b6bcefce.png"><br>
 Essa é a tela de registrar, onde irá inserir as novas informações dentro do sistema.
+
 Após preencher os campos, clique no botão _"Save & Close".
 <img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
 
 E você estará de volta na tela dos registros, com o formulário salvo e disponível para visualização.
 *Caso queira editar o formulário salvo, clique no <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
-(Embaixo da coluna do “Control”)_<br>
+(Embaixo da coluna do “Control”)
 
 ## AVISOS⚠️
 
@@ -158,14 +161,15 @@ Outra situação recorrente é a referenciação dentro do tutorial de um compon
 
 ## Textfield 📃
 
-<img src="(https://user-images.githubusercontent.com/81401104/115268786-04ae9b80-a111-11eb-8a78-ba4c2540e8c3.png"><br>
+![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
+
 O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.<br>
 
 Selecione o componente “Textfield”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
 
-Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
+🔗Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
-## GENERAL 🎖️
+### Textfield 🔛 GENERAL 🎖️
 
 <img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png"><br>
 
@@ -177,7 +181,7 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 <img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
 
 
-## VALUES 1️⃣
+### Textfield 🔛 VALUES 1️⃣
 
 <img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
 
@@ -219,9 +223,9 @@ Execute a aplicação. Ao preencher o campo você perceberá que será necessár
 Execute a aplicação. Ao preencher o campo você perceberá que será permitido no máximo 10 caracteres para que seja possível salvar o registro.
 
 “Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
-clique no  , <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
+clique no <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
-## BEHAVIOR 🎬
+### Textfield 🔛 BEHAVIOR 🎬
 
 <img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
 
@@ -252,7 +256,7 @@ Vamos testar isso na prática. Selecione e arraste o componente “Integer” pa
 
 
 Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” , clique no 
-<img src="https://user-images.githubusercontent.com/81401104/1152900989f1ad900a129-11eb-972c-be53e7c97379.png">
+![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
 do “Visibility Rules”, irá abrir a seguinte janela:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
@@ -281,7 +285,7 @@ e se preencher o campo “Idade” com “17”, o campo “Número de Telefone�
 
 Você pode aplicar essas regras da mesma forma para a obrigatoriedade e desativação.
 
-## OTHERS 📝
+### Textfield 🔛 OTHERS 📝
 ![image](https://user-images.githubusercontent.com/81401104/115293506-cb385900-a12d-11eb-95ab-031c63694490.png)
 
 Aqui na seção “Others” você encontrará essa lista do “Feed Data”, que serve para preencher o campo com dados fictícios para validá-lo.
@@ -294,7 +298,7 @@ Automaticamente se abrirá uma nova página no seu navegador, e você verá regi
 ![image](https://user-images.githubusercontent.com/81401104/115293603-ec00ae80-a12d-11eb-9cd5-6b381b83ff9c.png)
 
 
-## PRESENTATION 📊
+### Textfield 🔛 PRESENTATION 📊
 ![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
 
 
@@ -314,12 +318,12 @@ Você pode voltar na tela de edição do formulário e testar com as outras medi
 
 No item “CSS Class”  você pode informar a classe de css customizada para o componente.
 
-## EVENTS 🎞️
+### Textfield 🔛 EVENTS 🎞️
 ![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
 
-## INTRO
+### Textfield 🔛 INTRO ℹ️ 
 
 ![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
 
@@ -340,8 +344,8 @@ No segundo “Textfield”, em “Position” selecione “Right”, em “Order
 Agora execute a aplicação.Irá abrir a seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png)
-.
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png).
+
 Então irá aparecer o efeito do intro na seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
 ![image](https://user-images.githubusercontent.com/81401104/115908434-8c154b00-a440-11eb-8863-f01b4a55ac84.png)
@@ -350,8 +354,7 @@ Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc
 
 Você pode continuar adicionando novos campos e alternando as ordens e as mensagens, mas lembre-se que só funciona da primeira vez, então para testar denovo é necessário criar um novo formulário.
 
-## TextArea
-Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
+## TextArea 📄
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
 
 Com o componente  “Textarea” você consegue adicionar valores do tipo letras e números, com uma área maior que uma linha.
@@ -362,12 +365,14 @@ Selecione o componente “Textarea”, então arraste-o e solte-o onde está esc
 Execute a aplicação
 
 E na tela de registrar, no campo do “Textarea” você pode adicionar valores do tipo letras e números, com 2 linhas ou mais (pode-se adicionar mais linhas na seção “Presentation”, em “Rows”)
-![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)<br>
-
+![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)
 Após salvar:
+
 ![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
 
-## PRESENTATION
+🔗Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
+
+## PRESENTATION 📊
 
 ![image](https://user-images.githubusercontent.com/81401104/115909214-97b54180-a441-11eb-9ca8-45c8cfff9f75.png)
 
@@ -398,7 +403,7 @@ E irá aparecer da seguinte forma:
 Para editar o registro adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png)
  (embaixo de “Control”).
  
-Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
+🔗Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
 ## Hidden 🙈
 ![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
@@ -439,7 +444,7 @@ Perceba que só é possível  inserção de números dentro do campo.
 Após salvar, estará disposto da seguinte forma na tela dos registros:
 ![image](https://user-images.githubusercontent.com/81401104/115914760-c1259b80-a448-11eb-88bf-61d43623e625.png)
 
-Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
+🔗Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
@@ -472,7 +477,6 @@ Auto Increment: Irá iniciar com o valor 1 e depois continuar com a sequência (
 ![image](https://user-images.githubusercontent.com/81401104/115915296-86703300-a449-11eb-8bce-144d0ff7cab7.png)
 
 ## Decimal
-Vídeo: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
 ![image](https://user-images.githubusercontent.com/81401104/115915315-8d974100-a449-11eb-8ba7-dd634492ea2e.png)
 
 É um componente usado para digitar números decimais para uma aplicação.
@@ -488,7 +492,9 @@ Perceba que na tela de registrar a estrutura padrão é de número decimal.
 Após adicionado e salvo, estará disposto da seguinte forma na tela dos registros:
 ![image](https://user-images.githubusercontent.com/81401104/115915596-e9fa6080-a449-11eb-8dcc-099eadcd2201.png)
 
-## VALUES 1️⃣
+🔗Vídeo: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
+
+### Decimal ➡️ VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115916759-9be65c80-a44b-11eb-944a-788bd6dcbe1d.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Integer”.
@@ -497,7 +503,7 @@ Scale: Se refere a quantidade de algarismos após o ponto ou vírgula, por exemp
 ![image](https://user-images.githubusercontent.com/81401104/115916779-a1dc3d80-a44b-11eb-8f38-110d8c4f9cf3.png)
 Perceba que há cinco algarismos após o ponto.
 
-## EVENTS 
+### Decimal ➡️ EVENTS 
 ![image](https://user-images.githubusercontent.com/81401104/115916822-b3254a00-a44b-11eb-8feb-bd68d1342eaf.png)
 
 Para testar a seção “Events” vamos apagar os campos criados anteriormente com o componente “Decimal” e deixar vazio o formulário.
@@ -514,7 +520,7 @@ Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115
 
 Nesse campo do “Custom Scripts” copie e cole o seguinte:
 
- function soma() {
+function soma() {
     this.entity.Total = this.entity.Number1 + this.entity.Number2;
 }
 
@@ -522,11 +528,13 @@ Agora volte para o “Form Design”  do lado de “Dev Properties”, no topo d
 (Imagem abaixo)
 ![image](https://user-images.githubusercontent.com/81401104/115918444-e7016f00-a44d-11eb-98df-a46551bd1200.png)
 
-Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png)
-. 
+Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” 
+e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png).
+
 ![image](https://user-images.githubusercontent.com/81401104/115918534-026c7a00-a44e-11eb-994a-7cba89f79b6d.png)
 
 Após clicar no botão, ficará assim:
+
 ![image](https://user-images.githubusercontent.com/81401104/115918646-25972980-a44e-11eb-92d4-722fc2ab5285.png)
 
 Faça a mesma coisa com o campo “Number2”.
@@ -545,7 +553,6 @@ Após adicionar os valores, clique no botão ![image](https://user-images.github
 .
 
 ## Date 📆
-Vídeo: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
 ![image](https://user-images.githubusercontent.com/81401104/115919138-d0a7e300-a44e-11eb-9376-8aeb6e83f45c.png)
 
 Com o componente “Date” é possível adicionar uma data, data atual, uma data pré-definida ou uma outra data qualquer preenchida pelo usuário.
@@ -561,6 +568,8 @@ Na tela de registrar, o campo estará disposto da seguinte maneira:
 Perceba que o formato é de mês/dia/ano. Então é só selecionar a data e depois salvar:
 ![image](https://user-images.githubusercontent.com/81401104/115919256-f8974680-a44e-11eb-816e-f9438eb08109.png)
 
+Vídeo: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
+
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115919565-60e62800-a44f-11eb-913a-b0a2256a3b8d.png)
 
@@ -571,7 +580,7 @@ Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”.
 Current Date (Data atual). Ao selecionar essa caixa, o campo “Date” sempre estará preenchendo automaticamente com a data atual.
 
 ## DateTime ⏲️
-Vídeo: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
+![image](https://user-images.githubusercontent.com/81401104/116605437-cb8edc00-a905-11eb-9d85-da4e8267a93c.png)
 
 Com este componente você pode adicionar uma data e horário atual, data e horário pré definido ou uma outra data e horário qualquer preenchida pelo usuário
 
@@ -587,6 +596,7 @@ Perceba que a data está no formato mês/dia/ano e o horário está no formato A
 Após salvar, estará disposto da seguinte forma na tela dos registros:
 ![image](https://user-images.githubusercontent.com/81401104/115919887-d18d4480-a44f-11eb-9f07-a3ee4eae8c79.png)
 
+Vídeo: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
 
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115919926-de119d00-a44f-11eb-84e3-f7d7e912f67c.png)
@@ -600,7 +610,6 @@ Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”.
 Current Date/Time (Data e horário atual): Ao selecionar essa caixa, o campo “DateTime” sempre estará preenchendo automaticamente com a data e horário atual.
 
 ## Time ⌛
-Vídeo: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=18
 ![image](https://user-images.githubusercontent.com/81401104/115920003-faadd500-a44f-11eb-9908-55c0199797e6.png)
 
 Com este componente você pode adicionar um horário atual, horário pré definido ou um outro horário qualquer preenchida pelo usuário.
@@ -617,6 +626,8 @@ Perceba que está no formato “--:-- --”, isso quer dizer que o horário é e
 
 Após salvar o horário, a tela dos registros estará disposta da seguinte maneira:
 ![image](https://user-images.githubusercontent.com/81401104/115920088-14e7b300-a450-11eb-91e3-6e54e96d6872.png)
+
+Vídeo: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=18
 
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115920106-1c0ec100-a450-11eb-8461-27ea86d57921.png)
@@ -752,7 +763,7 @@ Execute a aplicação.
 Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
 ![image](https://user-images.githubusercontent.com/81401104/116136274-7904b400-a6a8-11eb-84c7-db352e7116f0.png)
 
-Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
+🔗Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
 ## VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/116136301-8457df80-a6a8-11eb-9989-de387c22fe47.png)
