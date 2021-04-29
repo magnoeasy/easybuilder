@@ -76,10 +76,13 @@ Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé 
 Essa é a tela dos registros após eles terem sido inseridos e salvos.⤴️
 
 Para inserir novos registros, clique no botão _"New"_ no topo desta tela⬇️
+
 <img src="https://user-images.githubusercontent.com/81401104/114939985-8b186400-9e17-11eb-9738-a6de0dd97dc4.png">
 
 Então irá abrir a seguinte tela:
-<img src="https://user-images.githubusercontent.com/81401104/115062670-fd914e80-9ec0-11eb-9c75-7956b6bcefce.png"><br>
+
+<img src="https://user-images.githubusercontent.com/81401104/115062670-fd914e80-9ec0-11eb-9c75-7956b6bcefce.png">
+
 Essa é a tela de registrar, onde irá inserir as novas informações dentro do sistema.
 
 Após preencher os campos, clique no botão _"Save & Close".
@@ -159,7 +162,7 @@ Outra situação recorrente é a referenciação dentro do tutorial de um compon
 
 É importante também que já tenha realizado os passos dos tutoriais  “Como Criar Seu Primeiro Projeto, Menu e Formulário” e “Como Executar a Aplicação”.
 
-## Textfield 📃
+## Textfield 📓
 
 ![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
 
@@ -169,7 +172,7 @@ Selecione o componente “Textfield”, então arraste-o e solte-o onde está es
 
 🔗Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
-### Textfield 🔛 GENERAL 🎖️
+### Textfield 📓 > GENERAL 🎖️
 
 <img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png"><br>
 
@@ -181,7 +184,7 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 <img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
 
 
-### Textfield 🔛 VALUES 1️⃣
+### Textfield 📓 > VALUES 1️⃣
 
 <img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
 
@@ -225,7 +228,7 @@ Execute a aplicação. Ao preencher o campo você perceberá que será permitido
 “Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
 clique no <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
-### Textfield 🔛 BEHAVIOR 🎬
+### Textfield 📓 > BEHAVIOR 🎬
 
 <img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
 
@@ -255,9 +258,10 @@ Vamos testar isso na prática. Selecione e arraste o componente “Integer” pa
 <img src="https://user-images.githubusercontent.com/81401104/115289993-7a266600-a129-11eb-95ed-0cc10fe0de8b.png">
 
 
-Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” , clique no 
-![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
-do “Visibility Rules”, irá abrir a seguinte janela:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
+Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” ,clique no ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
+do “Visibility Rules”,
+
+irá abrir a seguinte janela:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
 
@@ -285,7 +289,7 @@ e se preencher o campo “Idade” com “17”, o campo “Número de Telefone�
 
 Você pode aplicar essas regras da mesma forma para a obrigatoriedade e desativação.
 
-### Textfield 🔛 OTHERS 📝
+### Textfield 📓 > OTHERS 📝
 ![image](https://user-images.githubusercontent.com/81401104/115293506-cb385900-a12d-11eb-95ab-031c63694490.png)
 
 Aqui na seção “Others” você encontrará essa lista do “Feed Data”, que serve para preencher o campo com dados fictícios para validá-lo.
@@ -298,7 +302,7 @@ Automaticamente se abrirá uma nova página no seu navegador, e você verá regi
 ![image](https://user-images.githubusercontent.com/81401104/115293603-ec00ae80-a12d-11eb-9cd5-6b381b83ff9c.png)
 
 
-### Textfield 🔛 PRESENTATION 📊
+### Textfield 📓 > PRESENTATION 📊
 ![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
 
 
@@ -318,12 +322,12 @@ Você pode voltar na tela de edição do formulário e testar com as outras medi
 
 No item “CSS Class”  você pode informar a classe de css customizada para o componente.
 
-### Textfield 🔛 EVENTS 🎞️
+### Textfield 📓 > EVENTS 🎞️
 ![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
 
-### Textfield 🔛 INTRO ℹ️ 
+### Textfield > INTRO ℹ️ 
 
 ![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
 
@@ -372,7 +376,7 @@ Após salvar:
 
 🔗Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 
-## PRESENTATION 📊
+### TextArea 📄 > PRESENTATION 📊
 
 ![image](https://user-images.githubusercontent.com/81401104/115909214-97b54180-a441-11eb-9ca8-45c8cfff9f75.png)
 
@@ -380,7 +384,7 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Prese
 
 O item “Rows” se refere a quantas linhas você quer para o seu componente “Textarea”. Por exemplo, se colocar “4”, perceberá que o componente aumentou para 4 linhas.
 
-## Editor 🎬
+### TextArea 📄 > Editor 🎬
 ![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
 
 É um componente que permite o usuário inserir texto com a formatação desejada.
@@ -405,7 +409,7 @@ Para editar o registro adicionado, clique no botão ![image](https://user-images
  
 🔗Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
-## Hidden 🙈
+### TextArea 📄 > Hidden 🙈
 ![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
 
 Com este componente você pode calcular valores que são ocultos ao usuário final, e enviar para salvar no banco de dados e consultar posteriormente em relatórios.
@@ -414,7 +418,7 @@ Selecione o componente “Hidden”, então arraste-o e solte-o onde está escri
 
 Para aprender como usar o componente “Hidden”, acesse o tutorial do componente “Signature”.
 
-## DATA TYPE 🗃️
+### TextArea 📄 > DATA TYPE 🗃️
 ![image](https://user-images.githubusercontent.com/81401104/115913172-a3573700-a446-11eb-9742-4f8601e03fb9.png)
 
 Em Type você pode selecionar uma das 5 opções possíveis:
@@ -428,7 +432,7 @@ Em Type você pode selecionar uma das 5 opções possíveis:
 <br>
 Default Value: Valor padrão (o valor será preenchido automaticamente, mas sendo possível alterar caso necessário).
 
-## Integer 🔢
+### TextArea 📄 > Integer 🔢
 ![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
 <br>
 É um componente utilizado para quando se necessita digitar números inteiros para uma aplicação.
@@ -446,7 +450,7 @@ Após salvar, estará disposto da seguinte forma na tela dos registros:
 
 🔗Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 
-## VALUES 1️⃣
+### TextArea 📄 > VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
 
 Em  “Values”, existem 3 campos e uma caixa de seleção, que são respectivamente: Default, Minimum Value, Maximum Value e Auto Increment.
@@ -647,12 +651,14 @@ Escreva “Obrigatório” nos campos “Name” e “Label” que se encontram 
  ![image](https://user-images.githubusercontent.com/81401104/115920308-6728d400-a450-11eb-9652-555a054366a3.png)
 
 Agora execute a aplicação.
-
 Na tela de registrar você consegue visualizar o componente:
+
 ![image](https://user-images.githubusercontent.com/81401104/115920336-6f810f00-a450-11eb-9fcc-4d291d9eae89.png)
+
 ![image](https://user-images.githubusercontent.com/81401104/115920355-760f8680-a450-11eb-994d-e7b640b590f3.png)
 
 Após salvá-los, estará dispostos da seguinte forma na tela de registros:
+
 ![image](https://user-images.githubusercontent.com/81401104/115920463-9ccdbd00-a450-11eb-9245-f4f2b18463b1.png)
 
 ## VALUES 1️⃣
