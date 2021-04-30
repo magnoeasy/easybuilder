@@ -24,10 +24,13 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
 ## É hora de por a mão na massa 🖐️
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
 <br>
-Apos o login no Builder você irá se deparar com o seguinte contéudo:<br>
+Apos o login no Builder você irá se deparar com o seguinte contéudo:
+
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
 Na aba “Main” e logo abaixo em “Project title” escreva o título do seu projeto (pode ser “ProjetoTeste”) 
+
 e clique no botão _Save & Close_
+
 <img src="https://user-images.githubusercontent.com/81401104/114924580-872f1680-9e04-11eb-921e-9c819dd64965.gif">
 
 (Irá demorar um pouco aqui pois estará sendo criado o banco de dados para o seu projeto)
@@ -86,6 +89,7 @@ Então irá abrir a seguinte tela:
 Essa é a tela de registrar, onde irá inserir as novas informações dentro do sistema.
 
 Após preencher os campos, clique no botão _"Save & Close".
+
 <img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
 
 E você estará de volta na tela dos registros, com o formulário salvo e disponível para visualização.
@@ -166,7 +170,7 @@ Outra situação recorrente é a referenciação dentro do tutorial de um compon
 
 ![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
 
-O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.<br>
+O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.
 
 Selecione o componente “Textfield”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
 
@@ -363,13 +367,18 @@ Você pode continuar adicionando novos campos e alternando as ordens e as mensag
 
 Com o componente  “Textarea” você consegue adicionar valores do tipo letras e números, com uma área maior que uma linha.
 
-Selecione o componente “Textarea”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-![image](https://user-images.githubusercontent.com/81401104/115908778-fa5a0d80-a440-11eb-9b57-b6066c60094c.png) <br>
+Selecione o componente “Textarea”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada
+
+“Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+![image](https://user-images.githubusercontent.com/81401104/115908778-fa5a0d80-a440-11eb-9b57-b6066c60094c.png)
 
 Execute a aplicação
 
 E na tela de registrar, no campo do “Textarea” você pode adicionar valores do tipo letras e números, com 2 linhas ou mais (pode-se adicionar mais linhas na seção “Presentation”, em “Rows”)
+
 ![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)
+
 Após salvar:
 
 ![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
@@ -486,14 +495,17 @@ Auto Increment: Irá iniciar com o valor 1 e depois continuar com a sequência (
 É um componente usado para digitar números decimais para uma aplicação.
 
 Selecione o componente “Decimal”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
 ![image](https://user-images.githubusercontent.com/81401104/115915538-d5b66380-a449-11eb-8316-c8407cf6c482.png)
 
 Execute a aplicação.
+
 ![image](https://user-images.githubusercontent.com/81401104/115915563-dfd86200-a449-11eb-941a-b79f87108c94.png)
 
 Perceba que na tela de registrar a estrutura padrão é de número decimal.
 
 Após adicionado e salvo, estará disposto da seguinte forma na tela dos registros:
+
 ![image](https://user-images.githubusercontent.com/81401104/115915596-e9fa6080-a449-11eb-8dcc-099eadcd2201.png)
 
 🔗Vídeo: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
@@ -796,7 +808,8 @@ Então, vamos começar criando mais um formulário (igual demonstrado no tutoria
 E nesse novo formulário vamos adicionar o componente “Textfield” para dentro dele.
 ![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
 
-  Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”.
+Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”.
+  
 ![image](https://user-images.githubusercontent.com/81401104/116136757-1d86f600-a6a9-11eb-9060-f0fbcd9a1897.png)
 
 Agora execute a aplicação.
@@ -842,6 +855,7 @@ A única diferença entre o “AutoComplete” e o “DropdownDB” é que o “
 Ou seja, sabendo utilizar o “DropdownDB” você também saberá utilizar o componente “Autocomplete”
 
 Selecione o componente “Dropdown”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
 ![image](https://user-images.githubusercontent.com/81401104/116138456-37c1d380-a6ab-11eb-9925-e7cb8e33dc66.png)
 
 Na seção “Source”, em “Class”  do “Autocomplete” selecione a opção “Cor” e em “Description Field” também selecione “Cor” 
@@ -889,7 +903,8 @@ Selecione o componente “Label”, então arraste-o e solte-o onde está escrit
 ![image](https://user-images.githubusercontent.com/81401104/116139264-3644db00-a6ac-11eb-8e9a-09614b63beec.png)
 
  No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png)
- para fazer a importação de um documento de texto do seu computador. 
+ para fazer a importação de um documento de texto do seu computador.
+ 
 ![image](https://user-images.githubusercontent.com/81401104/116139356-51afe600-a6ac-11eb-86d4-71bd0fea7901.png)
 
 * O documento de texto tem que ser formato “.txt”.
@@ -904,7 +919,6 @@ Perceba que cada item está em uma linha, isso tornará possível criar as opç�
 ![image](https://user-images.githubusercontent.com/81401104/116139529-7c9a3a00-a6ac-11eb-8b4b-5c178f2b33dd.png)
 
 Selecione a primeira opção, e clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139572-8ae85600-a6ac-11eb-80b8-18d902d1c193.png)
-..
 
 Execute a aplicação.
 ![image](https://user-images.githubusercontent.com/81401104/116139603-92a7fa80-a6ac-11eb-9271-71a8c276398e.png)
@@ -978,13 +992,18 @@ Agora selecione e solte os 2 componentes “Hidden” em cima do “Assinatura�
 ![image](https://user-images.githubusercontent.com/81401104/116140789-2fb76300-a6ae-11eb-998a-0b9da9737820.png)
 
 
-Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
+Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. 
+E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
+
 ![image](https://user-images.githubusercontent.com/81401104/116140861-4fe72200-a6ae-11eb-85b4-ba85a0922eeb.png)
 
-E no “Hidden” que está acima acima do “DateTime” o nomeie de “Hidden do DateTime”. E na seção “Data Type”, no item “Type” selecione a opção “DateTime”. (imagem abaixo)
+E no “Hidden” que está acima acima do “DateTime” o nomeie de “Hidden do DateTime”. 
+E na seção “Data Type”, no item “Type” selecione a opção “DateTime”. (imagem abaixo)
+
 ![image](https://user-images.githubusercontent.com/81401104/116140915-642b1f00-a6ae-11eb-8baf-4c522e0ddbc1.png)
 
 Agora vá até a seção “Signature” do componente “Signature”. No item “Date field” selecione a opção “Data e Hora” e no “Info field” selecione a opção  “Hidden Assinatura”.
+
 ![image](https://user-images.githubusercontent.com/81401104/116140947-6ee5b400-a6ae-11eb-8de9-748a987a4ed5.png)
 
 Execute a aplicação.
@@ -993,9 +1012,11 @@ Então irá abrir a seguinte tela:
 ![image](https://user-images.githubusercontent.com/81401104/116140966-75742b80-a6ae-11eb-9cd3-0ed8ad6a32e6.png)
 
 Agora copie a URL (Link) desse formulário:
+
 ![image](https://user-images.githubusercontent.com/81401104/116141019-83c24780-a6ae-11eb-9fd7-dbb5de4ffbab.png)
 
 E então abra em uma janela anônima:
+
 ![image](https://user-images.githubusercontent.com/81401104/116141051-8cb31900-a6ae-11eb-90f5-2a87e50ba625.png)
 
 Entre com seu usuário. 
@@ -1353,7 +1374,7 @@ Selecione o componente “Button”, então arraste-o e solte-o onde está escri
 
 Para saber mais sobre como usar esse componente, desça até a seção “Events” desse tutorial.
 
-Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
+🔗Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
 ## Button > GENERAL
 ![image](https://user-images.githubusercontent.com/81401104/116297653-de70a780-a771-11eb-8ec2-ddf7bcc2823f.png)
@@ -1422,7 +1443,7 @@ Execute a aplicação..
 
 E aqui você consegue visualizar a mensagem com formatação de texto dentro do seu formulário.
 
-Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
+🔗Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
 ## HTML Field > GENERAL
 ![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
@@ -1480,7 +1501,7 @@ Então verá a tela dos registros e caso queira editar o form salvo,
 basta clicar no botão ![image](https://user-images.githubusercontent.com/81401104/116300853-bf741480-a775-11eb-894f-42b430729206.png)
 .
 
-Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
+🔗Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
 ## OTHERS
 ![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
@@ -1508,11 +1529,10 @@ E perceba que na tela de registrar só será permitido salvar o que foi inserido
 
 Perceba que quando estava escrito apenas “Jesse” não era possível salvar, mas quando foi adicionado ao final “@gmail.com” se tornou possível salvá-lo.
 
-Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
+🔗Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
 
-Password
+## Password
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
-
 
 O componente “Password” vem com sua submáscara de campo preparada para password (****), ou seja, para tornar discreto o preenchimento de informações sensíveis, por exemplo, de CPF.
 
@@ -1531,7 +1551,7 @@ E após salvar, irá para a tela de registros:
 E mesmo que acesse o formulário novamente, clicando no ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png)
 (abaixo de “Control”), ainda não será possível visualizar a informação inserida:
 
-Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
+🔗Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
 
 ## Horizontal Line
 ![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
@@ -1557,7 +1577,7 @@ Perceberá que na tela de registrar estará organizado da mesma forma:
 
 É isso o que o “Horizontal Line” faz, quebra linhas para organizar a disposição dos componentes.
 
-Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
+🔗Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
 
 ## Repeater
 ![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
