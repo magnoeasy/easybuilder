@@ -1082,7 +1082,7 @@ Na seção “Image” do componente “Image” você pode dar descrição (“
 para adicionar o evento de ao clicar na imagem ser direcionado para o link.
 ![image](https://user-images.githubusercontent.com/81401104/116143334-6773da00-a6b1-11eb-8d29-8f974312f577.png)
 
-## Upload Image 📩
+## Upload Image 📸📩
 ![image](https://user-images.githubusercontent.com/81401104/116143456-8d997a00-a6b1-11eb-9ff1-0436b57b9ad6.png)
 
 Este componente permite você adicionar uma imagem com o formato desejado que ficará visível no registro
@@ -1105,7 +1105,7 @@ Para visualizar a foto que você acabou de adicionar, clique no botão ![image](
 
 🔗Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
 
-## File Upload 📩
+## File Upload 📂📩
 ![image](https://user-images.githubusercontent.com/81401104/116143924-1adcce80-a6b2-11eb-8c4d-62e5bd5a86ec.png)
 
 É um componente que permite anexar arquivos em um cadastro.
@@ -1135,7 +1135,7 @@ E para fazer o download do arquivo é só clicar no botão ![image](https://user
 
 🔗Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
-## UPLOAD 
+### File Upload 📂📩 > UPLOAD 🗂️
 ![image](https://user-images.githubusercontent.com/81401104/116145890-3f39aa80-a6b4-11eb-8e30-daab08873130.png)
 
 É possível fazer upload de arquivos dos seguintes formatos:
@@ -1153,12 +1153,12 @@ E para fazer o download do arquivo é só clicar no botão ![image](https://user
  
 Se deixar todas as caixas de seleção desmarcadas, será possível fazer o upload de qualquer um dos formatos. Se selecionar apenas um deles, será possível fazer upload de arquivo apenas daquele formato.
 
-OTHERS
+### File Upload 📂📩 > OTHERS 🖥️
 ![image](https://user-images.githubusercontent.com/81401104/116146427-de5ea200-a6b4-11eb-887d-e113a9397c09.png)
 
 Ao selecionar a caixa de seleção “Allow to delete file from storage” será permitido deletar arquivos do storage (onde ficam armazenados os arquivos) .
 
-## One-To-Many 
+## One-To-Many 📃➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
 
 Com este componente você consegue realizar uma relação de um para vários, por exemplo: Sala de aula - quem são os alunos, empresa - quem são os colaboradores.
@@ -1187,7 +1187,7 @@ Agora, abra a tela dos registros das cores e atualize ela
 
 Perceba que a cor “Laranja” foi adicionada na tela de registro do formulário “Cor”.
 
-> ONE-TO-MANY
+### One-To-Many 📃➡️📃 > ONE-TO-MANY
 ![image](https://user-images.githubusercontent.com/81401104/116290453-d9a7f580-a769-11eb-80e5-d7ee45d896e1.png)
 
  Open as Modal: Abrir como um modal. Um modal é uma janela em destaque dentro da página (igual aquela quando se cria ou edita um projeto).
@@ -1196,7 +1196,7 @@ Source (Fonte): É da onde os dados serão buscados.
 
 Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recentemente mas a lista não ter sido atualizada, para isso serve o botão.
 
-## Aggregation Data
+### One-To-Many 📃➡️📃 > Aggregation Data
 ![image](https://user-images.githubusercontent.com/81401104/116293240-0ad5f500-a76d-11eb-8e8d-57a1da964cdb.png)
 
 <table>
@@ -1209,7 +1209,7 @@ Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recent
  </tr>
 </table>
 
-## MultiTag 
+## MultiTag 🏷️
 
 ![image](https://user-images.githubusercontent.com/81401104/116293660-820b8900-a76d-11eb-989d-784ab96c9c0a.png)
 
@@ -1220,7 +1220,7 @@ Selecione o componente “MultiTag”, então arraste-o e solte-o onde está esc
 Para realizar o tutorial desse componente, desça até a seção “Source”.
 
 
-## MultiTag > SOURCE
+### MultiTag 🏷️ > SOURCE 🔌
 ![image](https://user-images.githubusercontent.com/81401104/116294214-18d84580-a76e-11eb-8bae-155664fc2f1d.png)
 
 Para fazermos uso do componente “MultiTag” teremos que criar 3 formulários. O primeiro para adicionar os nomes, o segundo para conectar os nomes a um componente “DropdownDB”, e então conectar o segundo com o terceiro formulário que será do “MultiTag”.
@@ -1273,14 +1273,14 @@ Selecione o componente “AdditionalData”, então arraste-o e solte-o onde est
 
 Para visualizar a utilização desse componente, desça até a seção “Additional Data” deste tutorial
 
-## Additional Data > GENERAL
+### Additional Data➡️📃 > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116295959-0828cf00-a770-11eb-87d6-744a17419669.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
 Ao selecionar a caixa de seleção ![image](https://user-images.githubusercontent.com/81401104/116295860-ed565a80-a76f-11eb-84d2-b3f4a8b40d18.png), será criado a borda para o componente, e também será possível editar o campo “Label”.
 
-< ADDITIONAL DATA
+### Additional Data➡️📃 > ADDITIONAL DATA 
 ![image](https://user-images.githubusercontent.com/81401104/116296018-1a0a7200-a770-11eb-8f89-adac9ff3dd8a.png)
 
 Em “DataSource” você irá selecionar o DataSource criado antes. Ao lado,![image](https://user-images.githubusercontent.com/81401104/116296065-27276100-a770-11eb-87e6-82d451cce125.png) serve para atualizar a lista, e o ![image](https://user-images.githubusercontent.com/81401104/116296149-3f977b80-a770-11eb-8771-9dfb8c91937a.png) serve para adicionar um DataSource. 
@@ -1376,14 +1376,14 @@ Para saber mais sobre como usar esse componente, desça até a seção “Events
 
 🔗Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
-## Button > GENERAL
+### Button ⏸️ > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116297653-de70a780-a771-11eb-8ec2-ddf7bcc2823f.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
 “Text” é o texto de identificação do botão para o usuário.
 
-## Button > EVENTS
+### Button ⏸️ > EVENTS ⚙️ 
 ![image](https://user-images.githubusercontent.com/81401104/116297753-fd6f3980-a771-11eb-9b3a-ce10856d2c26.png)
 
 Vamos testar a seção “Events” começando por arrastar um novo componente “Button” dentro do formulário. 
@@ -1445,7 +1445,7 @@ E aqui você consegue visualizar a mensagem com formatação de texto dentro do 
 
 🔗Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
-## HTML Field > GENERAL
+## HTML Field 🦰 > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
 
 
@@ -1503,7 +1503,7 @@ basta clicar no botão ![image](https://user-images.githubusercontent.com/814011
 
 🔗Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
-## OTHERS
+## HTML Field 🦰 > OTHERS 
 ![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
 
 
@@ -1531,7 +1531,7 @@ Perceba que quando estava escrito apenas “Jesse” não era possível salvar, 
 
 🔗Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
 
-## Password
+## Password *️⃣
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
 
 O componente “Password” vem com sua submáscara de campo preparada para password (****), ou seja, para tornar discreto o preenchimento de informações sensíveis, por exemplo, de CPF.
@@ -1553,14 +1553,13 @@ E mesmo que acesse o formulário novamente, clicando no ![image](https://user-im
 
 🔗Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
 
-## Horizontal Line
+## Horizontal Line 📏🪓
 ![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
 
 O “Horizontal Line” faz quebra de linha, com o objetivo principal de organizar a disposição dos componentes.
 
 Selecione o componente “Horizontal Line”, então arraste-o e solte-o onde está escrito “Drop new field here!”. 
 ![image](https://user-images.githubusercontent.com/81401104/116301545-89836000-a776-11eb-939f-27e7d0fbb75a.png)
-
 
 Ao colocar o “Horizontal Line” dentro do formulário, você perceberá que ele é só uma linha, com a única função de organizar a disposição dos componentes dentro da tela.
 
@@ -1579,7 +1578,7 @@ Perceberá que na tela de registrar estará organizado da mesma forma:
 
 🔗Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
 
-## Repeater
+## Repeater 🔁
 ![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
 
 O repeater é o componente utilizado para apresentação de dados dentro de uma page, com ele é possível reproduzir o conteúdo de um formulário no ambiente de page
