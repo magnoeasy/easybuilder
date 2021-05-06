@@ -1619,8 +1619,7 @@ Relationship (Relacionamento):
 
 Nessa aba  está presente o seguinte botão:![image](https://user-images.githubusercontent.com/81401104/117339826-90952700-ae76-11eb-84cc-17807a3e741a.png). 
 Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela modal:
-
-![image](https://user-images.githubusercontent.com/81401104/117339869-a0ad0680-ae76-11eb-9045-bf5c685eb6ee.png)
+![Uploading confirmation.gif…]()
 
 (Tradução:Você tem certeza que você quer deletar a aba ? Sim, Não)
 
@@ -1638,114 +1637,106 @@ Agora vamos criar o segundo formulário, e nomeá-lo de “Extra Info do Animal�
 
 ![image](https://user-images.githubusercontent.com/81401104/117339995-c76b3d00-ae76-11eb-9dea-9bbd595ae36a.png)
 
-
 Salve e execute a aplicação.
 
 Agora volte para a edição do primeiro formulário (“Animais”).
 
+Agora clique no botão![image](https://user-images.githubusercontent.com/81401104/117344604-ed471080-ae7b-11eb-85ff-5fbbef0a98df.png). 
+Irá aparecer a seguinte aba:
 
-Agora clique no botão . Irá aparecer a seguinte aba:
+![image](https://user-images.githubusercontent.com/81401104/117344752-1f587280-ae7c-11eb-8c39-1e758bec3a9f.png)
 
 
 Em “Class Name” pesquise por “extrainfodoanimal” e selecione-a.
+![image](https://user-images.githubusercontent.com/81401104/117344869-4b73f380-ae7c-11eb-8a82-9fac413210e7.png)
 
 
 Em “Tab Name” escreva “Tab da Info Extra”. Em “Relationship” selecione a opção “1:N”.
 
 Irá mostrar o seguinte conteúdo:
+![image](https://user-images.githubusercontent.com/81401104/117346140-c25dbc00-ae7d-11eb-90c6-3fcb15d25b77.png)
 
 
 Em “Operation” selecione a opção “Count”.
+![image](https://user-images.githubusercontent.com/81401104/117344974-68102b80-ae7c-11eb-8c86-89c29a5bf02a.png)
 
-
-E então clique no botão 
+E então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117345056-7f4f1900-ae7c-11eb-8bf6-1750cfae6008.png)
 
 Irá aparecer da seguinte forma:
-
+![image](https://user-images.githubusercontent.com/81401104/117345227-ad345d80-ae7c-11eb-9f1c-e02d68264424.png)
 
 Salve e execute a aplicação da tab. 
-
-
+![image](https://user-images.githubusercontent.com/81401104/117346298-f638e180-ae7d-11eb-8b7e-8627eb7f1706.png)
 
 Adicione o registro de “Elefante”.
+![image](https://user-images.githubusercontent.com/81401104/117346326-fcc75900-ae7d-11eb-8058-d6011c340685.png)
 
-
-
-Agora clique no botão   (se localiza na coluna do “Control”), para editar o formulário.
-
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117346687-75c6b080-ae7e-11eb-9fa4-2860043b383c.png) (se localiza na coluna do “Control”), para editar o formulário.
 
 Selecione a tab “Tab da Info Extra” que está ao lado de “Main”.
 
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117346550-47e16c00-ae7e-11eb-85aa-878bbc5f97d7.png).
 
-
-Agora clique no botão .
-
-
-
-Escreva “Savana” e clique no botão .
-
-
+Escreva “Savana” e clique no botão ![image](https://user-images.githubusercontent.com/81401104/117347081-fc7b8d80-ae7e-11eb-9caf-c26e13eefe71.png)
+![image](https://user-images.githubusercontent.com/81401104/117347208-2f258600-ae7f-11eb-8069-a9ae1265d6ac.png)
 
 Você pode adicionar mais registros referente ao mesmo animal.
 
 E também é possível salvar mais campos na tab referente ao mesmo animal, basta adicionar mais um campo no formulário ‘Extra Info do Animal’ e então adicionar o campo extra no “Aggregation Fields” durante a edição da tab. E então é só salvar e executar a aplicação.
 
-Dev Properties (Form)
-
-
-
- Use AutoSaved Form: Usar formulário salvo automáticamente.
- Use Data History Change: Usar mudança de histórico dos dados.
- Use Default Columns: Usar colunas padrão.
- Can Receive E-mails: Pode receber e-mails.
---
+## Dev Properties (Form)
+![formtesev](https://user-images.githubusercontent.com/81401104/117347868-f2a65a00-ae7f-11eb-92df-85b8c9cea828.gif)
+<ul>
+ <li>Use AutoSaved Form: Usar formulário salvo automáticamente.</li>
+ <li>Use AutoSaved Form: Usar formulário salvo automáticamente.</li>
+ <li>Use Data History Change: Usar mudança de histórico dos dados.</li>
+ <li>Use Default Columns: Usar colunas padrão.</li>
+ <li>Can Receive E-mails: Pode receber e-mails.</li>
+ </ul>
+ 
 Synchronize Data (Sincronizar dados)
-
- Inserts at first sync: Insere na primeira sincronização.
- Inserts: Insere.
- Updates: Atualizações.
- Deletions: Deletações.
-
---
+<ul>
+ <li>Inserts at first sync: Insere na primeira sincronização.</li>
+ <li>Inserts: Insere.</li>
+ <li>Updates: Atualizações.</li>
+ <li>Deletions: Deletações.</li>
+</ul>
 
 Custom Scripts (Roteiros personalizados):
 
---
+<ul>
+ <li>Custom API Operations (Operações personalizadas da API).</li>
+ <li>Get All API (Obter toda API).</li>
+ <li>Get by Id API (Obter por Id da API)</li>
+ <li>Save API (Salvar API).</li>
+ <li>Delete API: (Deletar API).</li>
+ <li>Call Custom API After (Chamar API Personalizada após).</li>
+ <li>Create (Criar).</li>
+ <li>Update (Atualizar).</li>
+ <li>Create (Criar).</li>
+ <li>Delete (Deletar).</li>
+ <li>Create (Criar).</li>
+</ul>
 
-Custom API Operations (Operações personalizadas da API).
-Get All API (Obter toda API).
-Get by Id API (Obter por Id da API)
-Save API (Salvar API).
-Delete API: (Deletar API).
-Call Custom API After (Chamar API Personalizada após).
-Create (Criar).
-Update (Atualizar).
-Delete (Deletar).
-Form Rule (Regra do formulário) - Ao clicar nele, irá abrir o seguinte modal:
-
-
-
+e Form Rule (Regra do formulário) - Ao clicar nele, irá abrir o seguinte modal:
+![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif)
+.
 
 Notification (Form) 
 Clique no botão  (Acima do “No notification found!”). Irá abrir o seguinte modal:
 
 
-
 Event type (tipo de evento): 
-
 
 Create: Criar	
 Update: Atualizar
 Delete: Deletar
 
-
 Notification (notificação):
 
 Nesse ‘Dropdown’ você irá selecionar a notificação criada a partir do ‘Tools’.
 
-
 Subscribers Type (Tipo de inscrito): 
-
 
 
 User: Usuário
