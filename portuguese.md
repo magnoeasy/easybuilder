@@ -1445,17 +1445,15 @@ E aqui você consegue visualizar a mensagem com formatação de texto dentro do 
 
 🔗Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
-## HTML Field 🦰 > GENERAL 🎖️
+### HTML Field 🦰 > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
-
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
 HTML: É onde você irá colar o seu código HTML. 
 
-Quiz
+### HTML Field 🦰 > Quiz
 ![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
-
 
 Este componente cria um questionário de perguntas e respostas onde o usuário adiciona alternativas falsas e verdadeiras, colocando a pontuação das resposta verdadeiras no Score.
 
@@ -1503,9 +1501,8 @@ basta clicar no botão ![image](https://user-images.githubusercontent.com/814011
 
 🔗Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
-## HTML Field 🦰 > OTHERS 
+### HTML Field 🦰 > OTHERS 
 ![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
-
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Others” do componente “Textfield”.
 
@@ -1514,18 +1511,15 @@ Score Field: Irá selecionar o campo que está dentro do mesmo formulário para 
 ## Email 📧
 ![image](https://user-images.githubusercontent.com/81401104/116300945-df0b3d00-a775-11eb-94f1-020c4570ff92.png)
 
-
 O componente “Email” serve para aceitar somente preenchimento de email.
 
 Selecione o componente “Email”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no componente que você acabou de soltar).
 ![image](https://user-images.githubusercontent.com/81401104/116301051-fba77500-a775-11eb-86ac-68f9e46c79f3.png)
 
-
 Após soltar o componente email dentro do formulário, execute a aplicação.
 
 E perceba que na tela de registrar só será permitido salvar o que foi inserido no campo “Email” se o sistema considerar aquilo como email, por exemplo:
 ![image](https://user-images.githubusercontent.com/81401104/116301098-0cf08180-a776-11eb-9d70-cbcf97856503.png)
-
 
 Perceba que quando estava escrito apenas “Jesse” não era possível salvar, mas quando foi adicionado ao final “@gmail.com” se tornou possível salvá-lo.
 
@@ -1600,3 +1594,1007 @@ Essa ligação de dados foi definida no Datasource que criamos no passo anterior
 Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
 
 ## Video call Coming Soon
+
+Tab (Form)
+
+Quando você estiver na tela de design do seu formulário, no topo irá aparecer esse botão verde , clique nele.
+
+Irá aparecer a  seguinte nova aba:
+
+Class Name: Nome da classe (é um campo ‘autocomplete’, logo, comece a escrever as primeiras letras da classe do formulário ou banco de dados intencionado e então a opção irá aparecer para ser selecionada).
+
+Tab Name: Nome da Tab. 
+
+Relationship (Relacionamento): 
+1:1  (Relacionamento de um para um)
+1:N  (Relacionamento de um para muitos)
+
+
+Nessa aba  está presente o seguinte botão:. Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela modal: 
+
+
+(Tradução:Você tem certeza que você quer deletar a aba ? Sim, Não)
+
+---
+
+Tutorial na próxima página
+Para esse tutorial de como usar a ‘Tab’, iremos nos utilizar de dois formulários.
+
+Vamos criar o primeiro formulário, nomeá-lo de “Animais”, e então adicionar um componente textfield e nomeá-lo de “Animais de Grande Porte”.
+
+
+
+
+Salve e execute a aplicação.
+
+Agora vamos criar o segundo formulário, e nomeá-lo de “Extra Info do Animal”, e adicionar o componente “Textfield” e nomeá-lo de “Habitat do Animal”.
+
+
+
+Salve e execute a aplicação.
+
+Agora volte para a edição do primeiro formulário (“Animais”).
+
+
+Agora clique no botão . Irá aparecer a seguinte aba:
+
+
+
+Em “Class Name” pesquise por “extrainfodoanimal” e selecione-a.
+
+
+
+
+Em “Tab Name” escreva “Tab da Info Extra”. Em “Relationship” selecione a opção “1:N”.
+
+Irá mostrar o seguinte conteúdo:
+
+
+Em “Operation” selecione a opção “Count”.
+
+
+E então clique no botão 
+
+Irá aparecer da seguinte forma:
+
+
+Salve e execute a aplicação da tab. 
+
+
+
+Adicione o registro de “Elefante”.
+
+
+
+Agora clique no botão   (se localiza na coluna do “Control”), para editar o formulário.
+
+
+Selecione a tab “Tab da Info Extra” que está ao lado de “Main”.
+
+
+
+Agora clique no botão .
+
+
+
+Escreva “Savana” e clique no botão .
+
+
+
+Você pode adicionar mais registros referente ao mesmo animal.
+
+E também é possível salvar mais campos na tab referente ao mesmo animal, basta adicionar mais um campo no formulário ‘Extra Info do Animal’ e então adicionar o campo extra no “Aggregation Fields” durante a edição da tab. E então é só salvar e executar a aplicação.
+
+Dev Properties (Form)
+
+
+
+ Use AutoSaved Form: Usar formulário salvo automáticamente.
+ Use Data History Change: Usar mudança de histórico dos dados.
+ Use Default Columns: Usar colunas padrão.
+ Can Receive E-mails: Pode receber e-mails.
+--
+Synchronize Data (Sincronizar dados)
+
+ Inserts at first sync: Insere na primeira sincronização.
+ Inserts: Insere.
+ Updates: Atualizações.
+ Deletions: Deletações.
+
+--
+
+Custom Scripts (Roteiros personalizados):
+
+--
+
+Custom API Operations (Operações personalizadas da API).
+Get All API (Obter toda API).
+Get by Id API (Obter por Id da API)
+Save API (Salvar API).
+Delete API: (Deletar API).
+Call Custom API After (Chamar API Personalizada após).
+Create (Criar).
+Update (Atualizar).
+Delete (Deletar).
+Form Rule (Regra do formulário) - Ao clicar nele, irá abrir o seguinte modal:
+
+
+
+
+Notification (Form) 
+Clique no botão  (Acima do “No notification found!”). Irá abrir o seguinte modal:
+
+
+
+Event type (tipo de evento): 
+
+
+Create: Criar	
+Update: Atualizar
+Delete: Deletar
+
+
+Notification (notificação):
+
+Nesse ‘Dropdown’ você irá selecionar a notificação criada a partir do ‘Tools’.
+
+
+Subscribers Type (Tipo de inscrito): 
+
+
+
+User: Usuário
+
+Role: Função
+
+Ao selecionar “User” ou “Role”, irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
+
+
+
+(Para aprender como adicionar um usuário, acesse o tutorial “Como Adicionar Um Usuário”).
+
+Ao selecionar o usuário e clicar no botão , ficará da seguinte forma:
+
+
+
+Então, é só clicar no botão .
+
+
+
+Kanban
+
+Para criar um Kanban, é necessário criar um novo form, e então, o cabeçário irá aparecer da seguinte forma: 
+
+
+
+Selecione a opção “Kanban”:
+
+
+Preencha o campo “Form Title”, e depois selecionar o “Project” e “Menu Group”.
+
+
+
+E então clique no botão  no pé da página.
+
+Para que seja possível o Kanban puxar as tarefas, é necessário criar outro formulário com o registro dessas tarefas.
+
+Então agora vamos criar novo formulário:
+
+
+
+Preencha as informações essenciais: “Form Title” com “Task” e selecione o mesmo projeto e menu do Kanban.
+
+
+
+e então adicione 3 componentes para dentro do formulário: um “Dropdown” e dois “Textfield”:
+
+
+
+Nomeie o ‘Dropdown’ de “Column Field”, o 1º textfield de “Label” e o 2º textfield de “Description”.
+
+
+
+Clique no campo do “Column Field”, nas propriedades do campo, na seção “Values”, clique no botão verde de adição:  
+
+
+Na janela modal do “Enumerations”, coloque o nome de “Status”, Type “String”. Clique no botão  e adicione as opções “Pendente”, “Aprovado” e “Recusado”.
+
+
+Então clique no botão . Execute a aplicação.
+
+Agora, volte na tela do Kanban e atualize a página (aperte a tecla F5).
+
+Nas propriedades do campo, no dropdown “Form” selecione o formulário que acabamos de criar (“Task”). 
+
+
+E nos ‘dropdowns’ do ‘Column Field’, ‘Label’ e ‘Description’ selecione os respectivos campos que criamos para eles: “Column Field”, “Label” e “Description”. (igual na imagem abaixo)
+
+
+Agora execute a aplicação do Kanban.
+
+
+Aqui você consegue ver o layout do Kanban.
+
+Vamos continuar com o processo, clique no botão .
+
+
+Em “Column Field” selecione a opção ‘‘Pendente’’, em ‘Label’ escreva “Website do Hotel” e em ‘Description’ escreva “Prazo de 1 mês”.
+
+
+
+Clique no botão .
+
+
+
+E agora você pode passar o item “Website do Hotel” para a aba “aprovado” ou “recusado” (basta selecionar, pressionar e arrastar até o outro cartão).
+
+
+
+E esse é o Kanban em funcionamento. Para adicionar mais tasks, é só repetir o processo:
+
+
+
+
+
+Replicação de Software
+
+Entrar em contato com o suporte da Easy Comtec.
+List
+Para visualizar o formulário em formato de lista, crie um novo formulário e adicione os componentes “Textfield” e “Integer” e nomeie-os de “Nome” e “Idade” respectivamente.
+
+
+
+Clique no botão  no pé da página.
+
+Agora selecione a opção “List” no cabeçário. Irá aparecer da seguinte forma:
+
+
+
+Ao clicar no botão , irá aparecer a seguinte janela modal:
+
+
+
+Select fields to be displayed in list: Selecione os campos para aparecer na lista.
+
+Select All: Selecionar todos.
+
+Select none: Selecionar nenhum.
+
+Close: Fechar.
+--
+De volta na tela da lista, ao clicar no botão  (nova coluna), o seguinte modal irá aparecer:
+
+
+
+
+Add Column (adicionar coluna):
+
+Type (tipo):
+Expression
+Button
+
+Field Title (título do campo):
+
+Format (formato):
+String
+Decimal
+Integer
+Date/Days
+Date/Months
+Date/Years
+Date/Hours
+Expression (expressão):
+
+Botão  serve para avaliar se a expressão é válida ou não.
+
+--
+
+Caso queira editar as propriedades das colunas, passe o mouse em cima do nome de alguma das colunas e então irá aparecer os seguintes símbolos no canto esquerdo:
+
+, clique no símbolo de baixo, então irá mostrar as propriedades para serem editadas:
+
+
+
+
+
+
+E aqui dá para editar o nome da classe, título da coluna, largura da coluna e criar eventos.
+
+--
+
+Execute essa aplicação (com “Nome” e “Idade”). E então adicione os seguintes registros:
+“Joaquim Santos” - “34”
+“Maria Alice” - “23”
+“João Carlos” - “21”
+
+
+
+Agora volte na edição da lista.
+
+
+
+Solte o componente “Integer” onde diz “Drop new filter here!” e o nomeie de “filtro de idade”.
+
+
+
+E nas propriedades do “Filtro de Idade”, na seção “Others”, em “Filtered Field” selecione a opção “Idade”.
+
+
+
+Agora execute a aplicação.
+
+
+
+Perceba que ao lado do campo do “Filtro da Idade” tem um símbolo de “ = (igual) “, você pode alterá-lo para outros tipos de símbolos.
+
+
+
+Por exemplo, esse símbolo em destaque significa “Igual ou maior”, selecione este.
+
+Agora digite no campo do filtro o número “22” e então clique no botão .
+
+E perceba que agora não é mais mostrado o “João Carlos” que tem idade de “21”.
+
+
+O botão “Clear” apaga o que estiver escrito dentro do campo do filtro.
+
+
+
+
+Como Adicionar Um Usuário
+
+Para realizar esse tutorial, é necessário que tenha feito antes os passos no tutorial do 
+“End User Access” na seção das configurações do projeto.
+
+Após você ter criado o seu formulário, e clicar no botão   e depois no , irá abrir a tela dos registros:
+
+
+
+No topo desta tela, clique em “Admin”, irá aparecer uma lista de opções, selecione a opção “User”.
+
+
+
+E então o título da tela irá mudar para “User”, pois iremos registrar usuários, igual na imagem a seguir:
+
+
+Clique no botão .
+
+
+
+Preencha os campos com as informações correspondentes. Nesse caso eu criei um usuário fictício, apenas para demonstrar.
+
+
+Então, clique no botão .
+
+E irá aparecer a tela de registro de usuário.
+
+
+
+
+
+
+
+
+
+Como Dar Permissão Ao Usuário
+
+Para realizar esse tutorial, é necessário que tenha feito antes os passos no tutorial do 
+“Como Adicionar Um Usuário”.
+
+Após ter criar o formulário e executar a aplicação, você irá se deparar com a tela dos registros:
+
+
+No topo dessa página, clique no “Admin”, selecione a opção “Role”
+
+E então irá abrir a seguinte tela:
+
+
+Clique no  botão  e então abrirá a seguinte página:
+
+Em “Name” escreva “Usuário” e em “Manager” selecione a opção criada antes. Então selecione todas as opções “View, Insert, Update, Delete”  (dependendo do que você quer, irá selecionar apenas alguns).
+
+
+Então clique no botão.
+
+Então irá para a seguinte página:
+
+
+Clique no botão  para voltar a editar o mesmo formulário:
+
+
+
+E agora clique no aba “User Role”, no topo esquerdo essa página:
+
+
+
+Irá para a seguinte tela:
+
+
+
+Clique no botão .
+
+
+
+Agora clique no campo do “User ID” e selecione o usuário criado anteriormente:
+
+
+Então clique no botão .
+
+
+
+E agora você consegue visualizar os usuários que estão inseridos no “Role”.
+Tools
+Formulário X
+Vídeo: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
+
+A criação deste formulário servirá para realizar os tutoriais das seções do “Tools”:
+
+
+
+Dessa forma será mais fácil de prosseguir com as próximas etapas do aprendizado.
+
+Então, crie o seu novo formulário, o nomeie de “Formulário X” e selecione um “Project” e “Menu” criado antes para testar.
+
+
+
+Arraste um componente “Textfield” e um “Dropdown” para dentro do formulário:
+
+
+
+Renomeie o “Textfield” para “Nome Completo” e o “DropdownDB” para “Função”, tanto no “Name” quanto no “Label”  na seção “General” do “Properties of Field”.
+
+
+Na seção “Values” do campo “Função”, adicione as opções “Programador”, “Suporte” e “Designer”:
+
+
+Execute a aplicação:.
+
+
+
+Agora adicione o seguinte conjunto de nomes e funções:
+
+Marcos / Programador
+Lucas / Programador
+Paulo / Suporte
+Bruna / Suporte
+João / Designer
+Carla / Designer
+
+Após salvo esse conjunto, estará disposto da seguinte forma na tela de registros:
+
+
+
+
+DataSource
+Vídeo: https://www.youtube.com/watch?v=MS_UWKBwO80&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=38
+
+Para criar um DataSource, é necessário ter um form origem (pode ser o “Formulário X” criado durante o tutorial do mesmo).
+
+Ao logar na sua conta no Builder, você irá se deparar com a seguinte tela:
+
+Agora clique em Tools, que se localiza na barra cinza, e selecione a opção DataSource:
+
+
+
+Após clicá-lo, irá aparecer a seguinte tela:
+
+
+
+Então clique no botão  no topo esquerdo.
+
+
+Após clicar no botão, irá abrir a seguinte janela modal:
+
+
+
+Em “Title” escreva o título do seu datasource, pode ser “DataSource X”, em “Project” selecione o projeto sob o qual criou o “Formulário X” (Tutorial - “Formulário X”), and in Class it will be “formulariox”.
+
+
+
+Clique duas vezes nos itens que aparece do lado direito da tela: “Funcao” e “Nome_Completo”.
+
+
+
+Perceba que foi adicionado para dentro do datasource. Agora clique no botão .
+
+Seu datasource foi criado:
+
+
+
+Process
+Process Job
+Report
+Vídeo: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
+
+Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “Como Criar Um DataSource”.
+
+Na tela inicial, quando logar na conta, se depará com a seguinte tela:
+
+
+
+Selecione a aba “Report” e clique no botão .
+
+Irá abrir a seguinte janela modal:
+
+
+
+No “Title”, escreva o título do seu relatório (pode ser “Report X”), em “Project” e “Menu” selecione os mesmos do “DataSource X”:
+
+
+Clique no botão . 
+
+
+
+Perceba que agora foi importado os campos “Nome Completo” e “Função” para dentro do relatório.
+
+Clique no botão .
+Agora vá na aba do “Project”.
+
+
+
+Na linha do seu projeto, o qual você criou o “Relatório X”, clique no botão , irá abrir a seguinte página:
+
+
+Clique no “Menu” que você criou anteriormente, irá mostrar uma lista de formulários, relatórios, etc. Selecione o “Relatório X”
+
+
+
+E resultará nisso:
+
+
+
+Chart
+Vídeo: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
+
+Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “DataSource”.
+
+Na tela inicial, quando logar na conta, se depará com a seguinte tela:
+
+
+
+Clique no “Tools”, na barra cinza no cabeçalho e selecione o “Chart”.
+
+
+
+
+
+Será adicionado mais uma aba nessa tela inicial.
+ Nessa aba do “Chart” clique no botão . Irá abrir a seguinte janela modal:
+
+
+
+Em “Project” selecione o mesmo projeto que você usou para o tutorial do  “Formulário X” e “Como Criar Um Data Source”.
+
+Em “Chart” selecione a opção “Pie”, em “Style” a opção “Default”. Em “Title” escreva “Porcentagem por Função”. Em “Position” escreva “1”.
+
+Na caixa de seleção “Internal/External” selecione a opção “Internal”. 
+
+Em “DataSource” selecione a opção “DataSource X” (Criado durante o tutorial  “Como Criar Um DataSource”).
+
+Em “Group by” selecione a opção “Função”, em “Value” a opção “Nome_Completo”. Em “Operation” selecione “Count”. (Ficará similar a imagem da próxima página)
+
+
+
+Então clique no botão :
+
+
+
+Agora clique no botão .
+
+
+
+Agora clique na aba do “Project” e execute o projeto sob o qual criou o seu “Chart”.
+
+
+Clique no botão verde  (Run Project):
+
+
+E aqui você consegue visualizar a porcentagem de funcionários por função em formato de pizza. 
+API
+
+Para fazer uso da API, entre em contato com o suporte da Easy Comtec.
+
+Template
+
+Para fazer uso do “Template”, entre em contato com o suporte da Easy Comtec.
+
+
+
+Scheduler
+
+Para fazer uso do Scheduler, entrar em contato com o suporte da Easy Comtec.
+
+
+
+
+
+Notification
+
+Para utilizar essa funcionalidade, vá até o menu do “Tools” (se localiza na tela inicial quando se loga na conta) e selecione “Notification”:
+
+
+
+Ao selecionar, irá abrir a seguinte aba:
+
+
+
+Clique no botão  button:
+
+
+
+Em “Project” selecione o projeto.
+
+Em “Name” escreva o nome da notificação.
+
+Em “Notify Using” (Notificar usando) tem duas opções:  Email e  Push, é possível selecionar ambas as opções.
+
+Em “Subject” você irá escrever o assunto.
+
+Em “Content”  você irá escrever o conteúdo da notificação.
+
+Após ter editado os campos, clique no botão :
+
+
+
+Pronto, sua notificação foi criada.
+
+
+Configurações do Projeto
+
+Para acessar as configurações do projeto é necessário realizar os seguintes passos:
+
+Ao logar na sua conta, irá se deparar com as três abas iniciais (Form, Project, Report). Selecione a aba do “Project.
+
+
+
+A partir daqui é possível editar as configurações do projeto por meio de dois caminhos:
+
+Criando um novo projeto
+Editando um projeto existente
+
+Para a primeira opção, basta clicar no botão  (se localiza no topo esquerdo).
+
+Pela segunda opção, é necessário clicar no (se localiza na linha do seu projeto, abaixo de “Control”).
+
+Ambos caminhos levarão para a mesma janela modal:
+
+
+Main
+
+Nessa aba do “Main” iremos alterar as principais configurações do projeto.
+
+No campo do “Project title” escreva o título do seu projeto (digite o nome do projeto que você deseja criar ou um nome de sistema que identifique o objetivo do sistema, por exemplo: CRM, ERP, etc.).
+
+Ao clicar em “Advanced Settings”, novas configurações aparecerão:
+
+Project configurations (configurações do projeto)
+DataBase configurations (configurações do banco de dados)
+Email Server Configuration (configuração do servidor de email)
+Other configurations (outras configurações)
+
+
+Project Configurations
+
+
+
+Project name: (Nome do projeto) Este campo é para identificar o nome do software.
+
+Original Project: Indica qual projeto será usado como fonte para copiar formulário e dados.
+
+Namespace: Usado para renderização do template.
+
+Data Class: Nome da class que implementa o ORM.
+
+Data Class Namespace: (Nome da classe dos dados) Usado para renderização do template.
+
+Service Reference: (Serviço de referência) Usado para renderização do template.
+
+MvC Project Name:  (Nome do projeto MvC) Usado para renderização do template.
+
+
+Database Configurations
+
+
+
+Database server: Instância do servidor de banco de dados do SQL Server.
+
+Database name: Cria um banco de dados no servidor sql e preencha este campo com o nome do banco de dados criado.
+
+Database login: Login para acessar o servidor SQL.
+
+Database password: Senha para acessar o servidor SQL.
+
+Blob Container Connection String: Blob Container Connection String deve ser copiado do Azure Portal.
+
+Blob Container Name: Container onde os arquivos estarão armazenados.
+
+Botão “Test Database Connection”: Ao clicar nele, irá testar a conexão do banco de dados.
+
+
+Email Server Configuration
+
+
+
+SMTP Configurations: Configurações do SMTP (Simple Mail Transfer Protocol). 
+
+Display name: Use um nome informal que irá ajudar você a identificar o servidor (será melhor usar o provedor de email tal como Gmail or Yahoo).
+
+Server name: Especificação do servidor SMTP. Você pode achá-lo navegando pela página web do seu provedor.
+
+Port: 25 ou 587. 
+
+Email: Conta de email que a aplicação irá usar para enviar email.
+
+User name: Nome de usuário que a aplicação irá usar para enviar email.
+
+Password: Senha para acessar o email escolhido.
+
+ Use SSL: Transferência de email SMTP não fornece criptografia. Então se você quer uma conexão mais segura, será uma boa escolha usar uma extensão SSL/TLS ou STARTTLS, as quais usam uma porta separada para comunicação criptografada.
+
+Test SMTP Email Configuration: Irá testar e validar as configurações de email SMTP
+
+POP Configurations: Configurações do POP (Post Office Protocol). O POP é um protocolo padrão para aplicações de internet usado por clientes de e-mail para recuperar e-mail de um servidor de e-mail.
+
+Os campos de “Display Name”, “Server Name”, “Port”, “Email”, “User name”, “Password” e “Use SSL” do POP Configurations recebem as mesmas instruções dos mesmos campos do SMTP Configurations, explicados acima.
+
+
+
+
+
+
+
+
+
+
+
+Other configurations
+
+
+Azure search key: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros. 
+
+Azure é um serviço de computação na nuvem criado pela Microsoft,  para construir, testar e gerenciar aplicações e serviços através dos centros de processamentos de dados da Microsoft.
+
+Azure search name: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros
+
+Google Analytics ID: É uma string do tipo “UA-000000-2”
+
+Custom Css: Por aqui você consegue editar o CSS, ao selecionar a caixa, o seguinte campo irá aparecer para você colar o seu código css: 
+
+
+
+ Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
+
+Field Format Settings: Configurações de formato dos campo
+
+Date:
+MM/dd/yyyy = (mês/ dia/ ano) 
+dd/MM/yyyy = (dia/ mês/ ano)
+
+DateTime: 
+MM/dd/yyyy hh:mm:ss a = [Mês/ dia/ ano  hora (0 a 12 AM/PM) :minuto :segundo]
+MM/dd/yyyy HH:mm:ss = [Mês/ dia/ ano  hora (0 a 23) :minuto: segundo]
+dd/MM/yyyy hh:mm:ss a = [dia/ mês/ ano  hora (0 a 12 AM/PM) :minuto :segundo]
+dd/MM/yyyy HH:mm:ss = [dia/ mês/ ano  hora (0 a 23) :minuto :segundo]
+
+Time: 
+HH:mm:ss = [Horas (0 a 23) :minutos :segundos]
+hh:mm :ss = [Horas (0 a 12) :minutos :segundos]
+
+Decimal:
+. (ponto)
+, (vírgula)
+
+
+
+
+
+
+
+
+
+End-User Access
+
+Ao selecionar a aba do “End-User Access”, a seguinte tela irá aparecer:
+
+Aparece o item “End-user access type” - que significa “tipo de acesso ao usuário final” - com um dropdown com 3 opções:
+
+Deny
+Anonymous
+Authenticated 
+
+Ao selecionar a primeira opção (“Deny”), você estará negando acesso ao projeto pelo usuário final.
+
+Ao selecionar a segundo opção (“Anonymous”), os seguintes campos irão aparecer:
+
+
+URL Access: Acesso da URL
+
+Host: Hospedagem
+
+Ao selecionar a 3ª opção (“Authenticated”), os seguintes conjuntos de campos irá aparecer:
+
+
+
+
+URL Access: Acesso da URL
+
+Host: Hospedagem
+ 
+ Create default user form (Criar formulário padrão de usuário): Para tornar possível adicionar usuários e administradores, basta selecionar esse checkbox e então clicar no botão .
+
+
+
+Após fazer isso, vá na aba dos forms e então procure pelos títulos “User”, “Role” e “UserRole”
+
+
+
+Agora é possível adicionar usuários e funções.
+
+User form (Formulário do usuário)
+
+First Name (Primeiro Nome)
+
+Last Name (Último Nome)
+
+Username (Nome de usuário)
+
+Email
+
+Password (Senha)
+
+Email Confirmed (Confirmação de email)
+
+Password Change Required (Necessário trocar senha)
+
+Lockout Enabled (Bloqueio ativado) 
+
+Lockout End Date (Data final do bloqueio)
+
+Access Failed Count (Contagem de falha de acesso)
+
+User Push Notification Token (Token para ‘push notification’)
+
+ Use Sign-up (Usar inscrição) 
+
+ Send Email To New Users:  Enviar email para novos usuários
+
+
+Ao descer a visão na tela, visualiza-se a seção do “Lockout Settings” (Configurações de bloqueio):
+
+
+
+Max attempts before lockout (Quantidade máxima de tentativas antes de bloquear)
+
+Default lockout time frame (in minutes) [Tempo padrão (em minutos) de bloqueio]
+
+ User lockout enabled by default (Bloqueio de usuário habilitado por padrão)
+
+
+E logo abaixo tem a seção “Password requirements” (requisitos de senha):
+
+
+
+Length (Comprimento): quantidade de caracteres.
+
+Digit (Digito).
+
+Lowercase (Letra minúscula).
+
+Non Letter or Digit (Caracteres especiais)
+
+Uppercase (Letra maiúscula)
+
+
+
+E abaixo tem “Roles Configurations”:
+
+
+
+Role Form (Formulário da função).
+
+Name (Nome)
+
+Permission (Permissão)
+
+Role Manager (Gerente da função)
+
+Roles x Users Form (Formulário de usuário x funções) 
+
+Menus
+
+Name: Nome do menu que o usuário final verá no site.
+
+Position: Posição que o menu irá aparecer dentro do seu grupo.
+
+Por exemplo, no momento tenho esses dois menus:
+
+Vamos adicionar um menu de nome “Menu Off”, na posição “2”:
+
+
+
+Clique no botão :
+
+
+
+Para editar o nome, posição e/ou relação de pai dos menus, é só clicar no botão  ao lado do nome do menu, na seção “Menu Hierarchy”.
+
+Para deletar um menu, é só clicar no .
+
+Para visualizar os menus criados, é necessário ir até a tela do “Project” e execute a aplicação:
+
+
+
+
+Ao clicar em cada um dos menus, irá aparecer a lista de formulários, relatórios e gráficos correspondentes a cada um
+
+Parent: Tornar menu pai para montar sua hierarquia de menu.
+
+Edite o 2º menu (“ParentTest”) ou o qual você já tenha criado:
+
+
+
+Adicione e salve o “Menu Storage” como “Parent”:
+
+
+Agora vamos visualizar dentro da aplicação do projeto como ficará:
+
+
+
+
+Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de hierarquia entre os menus
+
+
+
+ 
+
+
+
+DataBase Manager
+
+
+Ao clicar no  (Embaixo de “Tables”), você poderá ver o ID e os campos de cada formulário:
+
+
+
+: Excluir tables selecionadas.
+
+: Limpar os dados das tables selecionadas.
+
+Editors
+
+
+
+Member Users (usuários membros) podem visualizar e editar o seu sistema.
+
+Só podem ser adicionados quem já estiver registrado no sistema.
+
+Ao aparecer o nome/email de quem você quer adicionar, selecione-o e depois clique no botão :
+
+
+Então clique no botão .
+
+Email
+
+ Create default email form: Criar formulário de email padrão
+
+Email form: Formulário do email
+
+Sent by: Enviado por
+
+Subject: Assunto
+
+CC: Carbon Copy
+
+Body: Corpo
+
+Images
+
+Na seção “Icons” é possível realizar o upload das imagens dos ícones, que podem ser das proporções “144x144”, “76x76”, “32x32” e “16x16”.
+
+Exemplo: 
+
+Na seção “Background”  é possível realizar o upload da imagem de fundo, que será visualizada na tela de login do projeto. Por exemplo:
+
+ 
+
+Para fazer o upload de qualquer uma imagem, apenas clique no botão 
