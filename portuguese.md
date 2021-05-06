@@ -1622,7 +1622,6 @@ Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela mo
 ![image](https://user-images.githubusercontent.com/81401104/117351537-3e5b0280-ae84-11eb-8d36-1768dc42c2b2.png)
 
 (Tradução:Você tem certeza que você quer deletar a aba ? Sim, Não)
----
 
 Para esse tutorial de como usar a ‘Tab’, iremos nos utilizar de dois formulários.
 
@@ -1657,6 +1656,7 @@ Irá mostrar o seguinte conteúdo:
 
 
 Em “Operation” selecione a opção “Count”.
+
 ![image](https://user-images.githubusercontent.com/81401104/117344974-68102b80-ae7c-11eb-8c86-89c29a5bf02a.png)
 
 E então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117345056-7f4f1900-ae7c-11eb-8bf6-1750cfae6008.png)
@@ -1670,7 +1670,8 @@ Salve e execute a aplicação da tab.
 Adicione o registro de “Elefante”.
 ![image](https://user-images.githubusercontent.com/81401104/117346326-fcc75900-ae7d-11eb-8058-d6011c340685.png)
 
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117346687-75c6b080-ae7e-11eb-9fa4-2860043b383c.png) (se localiza na coluna do “Control”), para editar o formulário.
+Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117346687-75c6b080-ae7e-11eb-9fa4-2860043b383c.png) (se localiza na coluna do “Control”), 
+para editar o formulário.
 
 Selecione a tab “Tab da Info Extra” que está ao lado de “Main”.
 
@@ -1753,113 +1754,118 @@ User: Usuário
 
 Role: Função
 
-Ao selecionar _“User” ou _“Role” , irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
+Ao selecionar “User” ou “Role” , irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
 
 ![image](https://user-images.githubusercontent.com/81401104/117353039-0b197300-ae86-11eb-808c-56572e834f7e.png)
 
-
 (Para aprender como adicionar um usuário, acesse o tutorial “Como Adicionar Um Usuário”).
 
-Ao selecionar o usuário e clicar no botão , ficará da seguinte forma:
+Ao selecionar o usuário e clicar no botão ![image](https://user-images.githubusercontent.com/81401104/117354764-1c637f00-ae88-11eb-912a-f800877ca922.png)
+
+ficará da seguinte forma:
+![image](https://user-images.githubusercontent.com/81401104/117354934-52086800-ae88-11eb-92c9-5b71f09f2fcb.png)
 
 
+Então, é só clicar no botão ![image](https://user-images.githubusercontent.com/81401104/117354955-59c80c80-ae88-11eb-8bed-4d5c93b42426.png).
 
-Então, é só clicar no botão .
+![image](https://user-images.githubusercontent.com/81401104/117355449-f68aaa00-ae88-11eb-9e6f-17232328d2e1.png)
 
-
-
-Kanban
+## Kanban 🎰
 
 Para criar um Kanban, é necessário criar um novo form, e então, o cabeçário irá aparecer da seguinte forma: 
-
-
+![image](https://user-images.githubusercontent.com/81401104/117355489-03a79900-ae89-11eb-8310-c882e6007371.png)
 
 Selecione a opção “Kanban”:
-
+![image](https://user-images.githubusercontent.com/81401104/117355507-0a361080-ae89-11eb-97fb-6360484e2868.png)
 
 Preencha o campo “Form Title”, e depois selecionar o “Project” e “Menu Group”.
+![image](https://user-images.githubusercontent.com/81401104/117355514-0f935b00-ae89-11eb-82f6-ea3fa051b143.png)
 
-
-
-E então clique no botão  no pé da página.
+E então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117355559-1fab3a80-ae89-11eb-95a7-3ed3a17901b0.png)no pé da página.
 
 Para que seja possível o Kanban puxar as tarefas, é necessário criar outro formulário com o registro dessas tarefas.
 
 Então agora vamos criar novo formulário:
-
-
+![image](https://user-images.githubusercontent.com/81401104/117355713-4d907f00-ae89-11eb-8ba7-58a3f9b709a2.png)
 
 Preencha as informações essenciais: “Form Title” com “Task” e selecione o mesmo projeto e menu do Kanban.
-
-
+![image](https://user-images.githubusercontent.com/81401104/117355777-5da85e80-ae89-11eb-8539-3e5b57736a37.png)
 
 e então adicione 3 componentes para dentro do formulário: um “Dropdown” e dois “Textfield”:
-
-
+![image](https://user-images.githubusercontent.com/81401104/117355805-639e3f80-ae89-11eb-9da6-6b330c4fe683.png)
 
 Nomeie o ‘Dropdown’ de “Column Field”, o 1º textfield de “Label” e o 2º textfield de “Description”.
+![image](https://user-images.githubusercontent.com/81401104/117355844-6f8a0180-ae89-11eb-9b5f-aeb0a576e9a7.png)
 
+Clique no campo do “Column Field”, nas propriedades do campo, na seção “Values”
 
+clique no botão verde de adição:  
 
-Clique no campo do “Column Field”, nas propriedades do campo, na seção “Values”, clique no botão verde de adição:  
+![image](https://user-images.githubusercontent.com/81401104/117355886-7e70b400-ae89-11eb-9a6e-8d44744862fe.png)
 
+Na janela modal do “Enumerations”, coloque o nome de “Status”, Type “String”. 
 
-Na janela modal do “Enumerations”, coloque o nome de “Status”, Type “String”. Clique no botão  e adicione as opções “Pendente”, “Aprovado” e “Recusado”.
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117355963-95afa180-ae89-11eb-86dd-0891fc620005.png)
 
+e adicione as opções “Pendente”, “Aprovado” e “Recusado”.
+![image](https://user-images.githubusercontent.com/81401104/117356003-a6f8ae00-ae89-11eb-894e-ffe8b6d0e679.png)
 
-Então clique no botão . Execute a aplicação.
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117356027-afe97f80-ae89-11eb-8f54-6361f0cbfa9e.png). Execute a aplicação.
 
 Agora, volte na tela do Kanban e atualize a página (aperte a tecla F5).
-
 Nas propriedades do campo, no dropdown “Form” selecione o formulário que acabamos de criar (“Task”). 
 
+![image](https://user-images.githubusercontent.com/81401104/117356142-ce4f7b00-ae89-11eb-93eb-9bc7da56bcf6.png)
 
 E nos ‘dropdowns’ do ‘Column Field’, ‘Label’ e ‘Description’ selecione os respectivos campos que criamos para eles: “Column Field”, “Label” e “Description”. (igual na imagem abaixo)
 
+![image](https://user-images.githubusercontent.com/81401104/117356172-d7404c80-ae89-11eb-9246-b7c0a71a3135.png)
 
 Agora execute a aplicação do Kanban.
+![image](https://user-images.githubusercontent.com/81401104/117356213-e0311e00-ae89-11eb-9402-33f064527765.png)
 
 
 Aqui você consegue ver o layout do Kanban.
 
-Vamos continuar com o processo, clique no botão .
-
+Vamos continuar com o processo, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117356329-f939cf00-ae89-11eb-9af5-369a5fa44655.png).
+![image](https://user-images.githubusercontent.com/81401104/117356357-0060dd00-ae8a-11eb-8b0e-decc2e26ffb4.png)
 
 Em “Column Field” selecione a opção ‘‘Pendente’’, em ‘Label’ escreva “Website do Hotel” e em ‘Description’ escreva “Prazo de 1 mês”.
+![image](https://user-images.githubusercontent.com/81401104/117356387-0b1b7200-ae8a-11eb-8285-1dd12578453b.png)
 
 
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117356400-0f478f80-ae8a-11eb-9be9-e0496b074cc5.png).
 
-Clique no botão .
-
-
+![image](https://user-images.githubusercontent.com/81401104/117356439-1a022480-ae8a-11eb-85e1-295dc2d82773.png)
 
 E agora você pode passar o item “Website do Hotel” para a aba “aprovado” ou “recusado” (basta selecionar, pressionar e arrastar até o outro cartão).
-
-
+![image](https://user-images.githubusercontent.com/81401104/117356479-271f1380-ae8a-11eb-982a-b193af472914.png)
 
 E esse é o Kanban em funcionamento. Para adicionar mais tasks, é só repetir o processo:
+![image](https://user-images.githubusercontent.com/81401104/117356511-30a87b80-ae8a-11eb-8bf8-33d94e12b295.png)
+
+![image](https://user-images.githubusercontent.com/81401104/117356524-356d2f80-ae8a-11eb-8555-4c4420a34297.png)
 
 
-
-
-
-Replicação de Software
+## Replicação de Software
 
 Entrar em contato com o suporte da Easy Comtec.
-List
+
+## List
 Para visualizar o formulário em formato de lista, crie um novo formulário e adicione os componentes “Textfield” e “Integer” e nomeie-os de “Nome” e “Idade” respectivamente.
 
+![image](https://user-images.githubusercontent.com/81401104/117356608-50d83a80-ae8a-11eb-8c5d-0cb586b107f7.png)
 
 
-Clique no botão  no pé da página.
+Clique no botão ![image13](https://user-images.githubusercontent.com/81401104/117356813-909f2200-ae8a-11eb-92bb-54bf1653130b.png) no pé da página.
 
 Agora selecione a opção “List” no cabeçário. Irá aparecer da seguinte forma:
 
 
+Ao clicar no botão ![image](https://user-images.githubusercontent.com/81401104/117356874-a14f9800-ae8a-11eb-8fcf-ac2385cfd89b.png), 
 
-Ao clicar no botão , irá aparecer a seguinte janela modal:
-
-
+irá aparecer a seguinte janela modal:
+![image](https://user-images.githubusercontent.com/81401104/117356905-aa406980-ae8a-11eb-9446-cc7d74e01f11.png)
 
 Select fields to be displayed in list: Selecione os campos para aparecer na lista.
 
@@ -1868,11 +1874,10 @@ Select All: Selecionar todos.
 Select none: Selecionar nenhum.
 
 Close: Fechar.
---
-De volta na tela da lista, ao clicar no botão  (nova coluna), o seguinte modal irá aparecer:
 
-
-
+De volta na tela da lista, ao clicar no botão  ![image](https://user-images.githubusercontent.com/81401104/117357136-f12e5f00-ae8a-11eb-8bc7-b6c401199f1f.png)
+(nova coluna), o seguinte modal irá aparecer:
+## TERMINEI AQUI----------
 
 Add Column (adicionar coluna):
 
