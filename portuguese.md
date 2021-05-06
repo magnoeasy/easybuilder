@@ -1619,10 +1619,9 @@ Relationship (Relacionamento):
 
 Nessa aba  está presente o seguinte botão:![image](https://user-images.githubusercontent.com/81401104/117339826-90952700-ae76-11eb-84cc-17807a3e741a.png). 
 Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela modal:
-![Uploading confirmation.gif…]()
+![image](https://user-images.githubusercontent.com/81401104/117351537-3e5b0280-ae84-11eb-8d36-1768dc42c2b2.png)
 
 (Tradução:Você tem certeza que você quer deletar a aba ? Sim, Não)
-
 ---
 
 Para esse tutorial de como usar a ‘Tab’, iremos nos utilizar de dois formulários.
@@ -1719,32 +1718,43 @@ Custom Scripts (Roteiros personalizados):
 </ul>
 
 e Form Rule (Regra do formulário) - Ao clicar nele, irá abrir o seguinte modal:
-![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif)
-.
+![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif).
 
-Notification (Form) 
-Clique no botão  (Acima do “No notification found!”). Irá abrir o seguinte modal:
+## Notification (Form)
+![image](https://user-images.githubusercontent.com/81401104/117351815-8a0dac00-ae84-11eb-97ac-106552f4e3bb.png)
 
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117351832-92fe7d80-ae84-11eb-9dbb-0cf81e760ed6.png)(Acima do “No notification found!”). 
 
-Event type (tipo de evento): 
+Irá abrir o seguinte modal:
 
-Create: Criar	
-Update: Atualizar
-Delete: Deletar
+![image](https://user-images.githubusercontent.com/81401104/117351893-a4478a00-ae84-11eb-9626-f05ff645b658.png)
+
+### Event type (tipo de evento):
+
+![image](https://user-images.githubusercontent.com/81401104/117352103-eec90680-ae84-11eb-87f9-7cc47b144288.png)
+
+<ol>
+ <li>Create: Criar</li>
+ <li>Update: Atualizar</li>
+ <li>Delete: Deletar</li>
+ </ol>
 
 Notification (notificação):
+
+![image](https://user-images.githubusercontent.com/81401104/117352524-76af1080-ae85-11eb-9193-dce786518d22.png)
 
 Nesse ‘Dropdown’ você irá selecionar a notificação criada a partir do ‘Tools’.
 
 Subscribers Type (Tipo de inscrito): 
 
+![image](https://user-images.githubusercontent.com/81401104/117352586-89294a00-ae85-11eb-96f3-372a8ce8743e.png)
 
-User: Usuário
+<b>User:</b> Usuário
+<b>Role:</b> Função
 
-Role: Função
+Ao selecionar <br>“User”</br> ou <br>“Role”</br>, irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
 
-Ao selecionar “User” ou “Role”, irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
-
+![image](https://user-images.githubusercontent.com/81401104/117353039-0b197300-ae86-11eb-808c-56572e834f7e.png)
 
 
 (Para aprender como adicionar um usuário, acesse o tutorial “Como Adicionar Um Usuário”).
