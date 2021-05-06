@@ -1420,7 +1420,7 @@ Clique no botão azul ![image](https://user-images.githubusercontent.com/8140110
 Agora clique no ![image](https://user-images.githubusercontent.com/81401104/116298917-702ce480-a773-11eb-88bd-3830605f5c17.png)e você verá o seguinte aviso na tela:
 ![image](https://user-images.githubusercontent.com/81401104/116298965-7d49d380-a773-11eb-91d1-c0fc8c7437b5.png)
 
-## HTML Field 
+## HTML Field 🦰
 ![image](https://user-images.githubusercontent.com/81401104/116299196-c26e0580-a773-11eb-9812-83ce2acc8d91.png)
 
  É um componente que permite inserir um texto em html no formulário.
@@ -1452,7 +1452,7 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Gener
 
 HTML: É onde você irá colar o seu código HTML. 
 
-### HTML Field 🦰 > Quiz
+## Quiz 🧩
 ![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
 
 Este componente cria um questionário de perguntas e respostas onde o usuário adiciona alternativas falsas e verdadeiras, colocando a pontuação das resposta verdadeiras no Score.
@@ -1501,7 +1501,7 @@ basta clicar no botão ![image](https://user-images.githubusercontent.com/814011
 
 🔗Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
-### HTML Field 🦰 > OTHERS 
+### Quiz 🧩 > OTHERS 
 ![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Others” do componente “Textfield”.
@@ -1593,42 +1593,50 @@ Essa ligação de dados foi definida no Datasource que criamos no passo anterior
 
 Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
 
-## Video call Coming Soon
+## Video call Coming Soon 🚧
+  Em breve
 
-Tab (Form)
+## Tab (Form)
+![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)
 
-Quando você estiver na tela de design do seu formulário, no topo irá aparecer esse botão verde , clique nele.
+Quando você estiver na tela de design do seu formulário, 
+no topo irá aparecer esse botão verde ![image](https://user-images.githubusercontent.com/81401104/117339417-1795cf80-ae76-11eb-8072-6d4fc65a7563.png),clique nele.
 
 Irá aparecer a  seguinte nova aba:
 
+![image](https://user-images.githubusercontent.com/81401104/117339555-3eec9c80-ae76-11eb-8dc4-509c62d30dde.png)
+
 Class Name: Nome da classe (é um campo ‘autocomplete’, logo, comece a escrever as primeiras letras da classe do formulário ou banco de dados intencionado e então a opção irá aparecer para ser selecionada).
 
-Tab Name: Nome da Tab. 
+Tab Name: Nome da Tab.
+![image](https://user-images.githubusercontent.com/81401104/117339638-57f54d80-ae76-11eb-9d43-d4fe1b82083a.png)
 
 Relationship (Relacionamento): 
 1:1  (Relacionamento de um para um)
 1:N  (Relacionamento de um para muitos)
 
+![image](https://user-images.githubusercontent.com/81401104/117339722-72c7c200-ae76-11eb-9547-1e4759878ab0.png)
 
-Nessa aba  está presente o seguinte botão:. Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela modal: 
+Nessa aba  está presente o seguinte botão:![image](https://user-images.githubusercontent.com/81401104/117339826-90952700-ae76-11eb-84cc-17807a3e741a.png). 
+Ele serve para deletar a tab, ao clicar nele, irá aparecer a seguinte janela modal:
 
+![image](https://user-images.githubusercontent.com/81401104/117339869-a0ad0680-ae76-11eb-9045-bf5c685eb6ee.png)
 
 (Tradução:Você tem certeza que você quer deletar a aba ? Sim, Não)
 
 ---
 
-Tutorial na próxima página
 Para esse tutorial de como usar a ‘Tab’, iremos nos utilizar de dois formulários.
 
 Vamos criar o primeiro formulário, nomeá-lo de “Animais”, e então adicionar um componente textfield e nomeá-lo de “Animais de Grande Porte”.
 
-
-
+![image](https://user-images.githubusercontent.com/81401104/117339961-bde1d500-ae76-11eb-83c6-17278f81b1f2.png)
 
 Salve e execute a aplicação.
 
 Agora vamos criar o segundo formulário, e nomeá-lo de “Extra Info do Animal”, e adicionar o componente “Textfield” e nomeá-lo de “Habitat do Animal”.
 
+![image](https://user-images.githubusercontent.com/81401104/117339995-c76b3d00-ae76-11eb-9dea-9bbd595ae36a.png)
 
 
 Salve e execute a aplicação.
@@ -1639,10 +1647,7 @@ Agora volte para a edição do primeiro formulário (“Animais”).
 Agora clique no botão . Irá aparecer a seguinte aba:
 
 
-
 Em “Class Name” pesquise por “extrainfodoanimal” e selecione-a.
-
-
 
 
 Em “Tab Name” escreva “Tab da Info Extra”. Em “Relationship” selecione a opção “1:N”.
