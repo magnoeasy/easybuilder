@@ -1749,10 +1749,11 @@ Subscribers Type (Tipo de inscrito):
 
 ![image](https://user-images.githubusercontent.com/81401104/117352586-89294a00-ae85-11eb-96f3-372a8ce8743e.png)
 
-<b>User:</b> Usuário
-<b>Role:</b> Função
+User: Usuário
 
-Ao selecionar <br>“User”</br> ou <br>“Role”</br>, irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
+Role: Função
+
+Ao selecionar _“User” ou _“Role” , irá aparecer um ‘dropdown’ com a lista dos usuários ou funções adicionadas.
 
 ![image](https://user-images.githubusercontent.com/81401104/117353039-0b197300-ae86-11eb-808c-56572e834f7e.png)
 
