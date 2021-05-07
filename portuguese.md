@@ -991,7 +991,6 @@ Selecione a caixa de seleção “Current DateTime” da seção “Values” do
 Agora selecione e solte os 2 componentes “Hidden” em cima do “Assinatura” e do “Data e Hora”
 ![image](https://user-images.githubusercontent.com/81401104/116140789-2fb76300-a6ae-11eb-998a-0b9da9737820.png)
 
-
 Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. 
 E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
 
@@ -1882,10 +1881,10 @@ De volta na tela da lista, ao clicar no botão  ![image](https://user-images.git
 
 Add Column (adicionar coluna):
 
-#### Type (tipo):
- Expression
+Type (tipo):
+ _Expression
  
- Button
+ _Button
 
 Field Title (título do campo):
 
@@ -1968,205 +1967,248 @@ No topo desta tela, clique em “Admin”, irá aparecer uma lista de opções, 
 
 E então o título da tela irá mudar para “User”, pois iremos registrar usuários, igual na imagem a seguir:
 
+![image](https://user-images.githubusercontent.com/81401104/117496464-7a0dcf00-af4d-11eb-9576-ab1bd51d557f.png)
 
-Clique no botão .
-
-
+Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117496555-96aa0700-af4d-11eb-8756-099fc146e27e.png)
 
 Preencha os campos com as informações correspondentes. Nesse caso eu criei um usuário fictício, apenas para demonstrar.
 
+![image](https://user-images.githubusercontent.com/81401104/117496621-afb2b800-af4d-11eb-8c06-fca41baea985.png)
 
-Então, clique no botão .
+Então, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117496650-ba6d4d00-af4d-11eb-8f67-b658b1eedcaa.png).
 
 E irá aparecer a tela de registro de usuário.
 
+![image](https://user-images.githubusercontent.com/81401104/117496853-fa343480-af4d-11eb-8370-35318b17e664.png)
 
-Como Dar Permissão Ao Usuário
+## Como Dar Permissão Ao Usuário 
 
 Para realizar esse tutorial, é necessário que tenha feito antes os passos no tutorial do 
 “Como Adicionar Um Usuário”.
 
 Após ter criar o formulário e executar a aplicação, você irá se deparar com a tela dos registros:
 
+![image](https://user-images.githubusercontent.com/81401104/117496975-2bad0000-af4e-11eb-8bf0-0eaa05261cdd.png)
 
 No topo dessa página, clique no “Admin”, selecione a opção “Role”
 
+![image](https://user-images.githubusercontent.com/81401104/117497065-4f704600-af4e-11eb-929a-bad1a2d9ba6c.png)
+
 E então irá abrir a seguinte tela:
+![image](https://user-images.githubusercontent.com/81401104/117497117-66169d00-af4e-11eb-84ef-ca3a5bc8123f.png)
 
 
-Clique no  botão  e então abrirá a seguinte página:
+Clique no  botão  ![image15](https://user-images.githubusercontent.com/81401104/117497267-aa09a200-af4e-11eb-97e1-8b37ea971925.png) e então abrirá a seguinte página:
 
 Em “Name” escreva “Usuário” e em “Manager” selecione a opção criada antes. Então selecione todas as opções “View, Insert, Update, Delete”  (dependendo do que você quer, irá selecionar apenas alguns).
+![image](https://user-images.githubusercontent.com/81401104/117497319-be4d9f00-af4e-11eb-9c74-74576df35800.png)
 
 
-Então clique no botão.
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117497338-c574ad00-af4e-11eb-9870-9864f5a8303c.png).
 
 Então irá para a seguinte página:
+![image](https://user-images.githubusercontent.com/81401104/117497375-cefe1500-af4e-11eb-890e-4b3ac6877436.png)
 
+Clique no botão  ![image](https://user-images.githubusercontent.com/81401104/117497416-d7eee680-af4e-11eb-8776-60c5dc96225f.png) 
+para voltar a editar o mesmo formulário:
 
-Clique no botão  para voltar a editar o mesmo formulário:
-
-
+![image](https://user-images.githubusercontent.com/81401104/117497463-e806c600-af4e-11eb-9dec-e86b8081a948.png)
 
 E agora clique no aba “User Role”, no topo esquerdo essa página:
-
+![image](https://user-images.githubusercontent.com/81401104/117497499-f359f180-af4e-11eb-9400-06e6202c1a8f.png)
 
 
 Irá para a seguinte tela:
 
+![image](https://user-images.githubusercontent.com/81401104/117497526-fc4ac300-af4e-11eb-9c3d-6a280b7175f5.png)
 
 
-Clique no botão .
+Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117497552-04a2fe00-af4f-11eb-8bb6-b8a9de3cfff6.png).
 
-
+![image](https://user-images.githubusercontent.com/81401104/117497586-11bfed00-af4f-11eb-940d-1cc03ead0bbc.png)
 
 Agora clique no campo do “User ID” e selecione o usuário criado anteriormente:
+![image](https://user-images.githubusercontent.com/81401104/117498058-a62a4f80-af4f-11eb-84dd-85f1add2c189.png)
 
 
-Então clique no botão .
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117498098-b4786b80-af4f-11eb-9005-648c8442eeb8.png)
 
+![image](https://user-images.githubusercontent.com/81401104/117498136-c2c68780-af4f-11eb-82e4-e3df9f74a30d.png)
 
 
 E agora você consegue visualizar os usuários que estão inseridos no “Role”.
-Tools
-Formulário X
-Vídeo: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
+## Tools 🔧 
+
+### 🔧 Formulário X
 
 A criação deste formulário servirá para realizar os tutoriais das seções do “Tools”:
 
+![image](https://user-images.githubusercontent.com/81401104/117498835-b5f66380-af50-11eb-9015-d259556c6480.png)
 
 
 Dessa forma será mais fácil de prosseguir com as próximas etapas do aprendizado.
 
 Então, crie o seu novo formulário, o nomeie de “Formulário X” e selecione um “Project” e “Menu” criado antes para testar.
 
+![image](https://user-images.githubusercontent.com/81401104/117498862-bf7fcb80-af50-11eb-82a6-aa9210888d5a.png)
 
 
 Arraste um componente “Textfield” e um “Dropdown” para dentro do formulário:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117498884-c8709d00-af50-11eb-8d47-c88c15d3374f.png)
 
 Renomeie o “Textfield” para “Nome Completo” e o “DropdownDB” para “Função”, tanto no “Name” quanto no “Label”  na seção “General” do “Properties of Field”.
+
+![image](https://user-images.githubusercontent.com/81401104/117498919-d4f4f580-af50-11eb-8be6-3433989b24cc.png)
 
 
 Na seção “Values” do campo “Função”, adicione as opções “Programador”, “Suporte” e “Designer”:
 
+![image](https://user-images.githubusercontent.com/81401104/117498935-dde5c700-af50-11eb-9133-08d51e46eb3e.png)
+
 
 Execute a aplicação:.
 
+![image](https://user-images.githubusercontent.com/81401104/117498964-e6d69880-af50-11eb-99b0-8aa2ad98e4b1.png)
 
 
 Agora adicione o seguinte conjunto de nomes e funções:
-
-Marcos / Programador
-Lucas / Programador
-Paulo / Suporte
-Bruna / Suporte
-João / Designer
-Carla / Designer
+<ol>
+ <li>Marcos / Programador</li>
+ <li>Lucas / Programador</li>
+ <li>Paulo / Suporte</li>
+ <li>Bruna / Suporte</li>
+ <li>João / Designer</li>
+ <li>Carla / Designer</li>
+</ol>
 
 Após salvo esse conjunto, estará disposto da seguinte forma na tela de registros:
+![image](https://user-images.githubusercontent.com/81401104/117499097-1dacae80-af51-11eb-877c-8564f794eb49.png)
 
 
+🔗 Vídeo: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
 
-
-DataSource
-Vídeo: https://www.youtube.com/watch?v=MS_UWKBwO80&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=38
+### 🔧 DataSource
 
 Para criar um DataSource, é necessário ter um form origem (pode ser o “Formulário X” criado durante o tutorial do mesmo).
 
 Ao logar na sua conta no Builder, você irá se deparar com a seguinte tela:
+![image](https://user-images.githubusercontent.com/81401104/117499229-4f257a00-af51-11eb-87bc-beb33ee83f53.png)
+
 
 Agora clique em Tools, que se localiza na barra cinza, e selecione a opção DataSource:
 
+![image](https://user-images.githubusercontent.com/81401104/117499296-69f7ee80-af51-11eb-8a0c-aac6b3cd0319.png)
 
 
 Após clicá-lo, irá aparecer a seguinte tela:
 
+![image](https://user-images.githubusercontent.com/81401104/117499322-71b79300-af51-11eb-92c5-dc8c47f0597c.png)
 
+Então clique no botão  ![image15](https://user-images.githubusercontent.com/81401104/117499337-77ad7400-af51-11eb-8d48-bb4059e2e299.png) no topo esquerdo.
 
-Então clique no botão  no topo esquerdo.
-
+![image](https://user-images.githubusercontent.com/81401104/117499374-88f68080-af51-11eb-8b81-bd9c6dca2b5a.png)
 
 Após clicar no botão, irá abrir a seguinte janela modal:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117499428-9a3f8d00-af51-11eb-8343-01e4a365726b.png)
 
 Em “Title” escreva o título do seu datasource, pode ser “DataSource X”, em “Project” selecione o projeto sob o qual criou o “Formulário X” (Tutorial - “Formulário X”), and in Class it will be “formulariox”.
 
+![image](https://user-images.githubusercontent.com/81401104/117499461-a62b4f00-af51-11eb-96c0-b7a12606c05f.png)
 
 
 Clique duas vezes nos itens que aparece do lado direito da tela: “Funcao” e “Nome_Completo”.
 
+![image](https://user-images.githubusercontent.com/81401104/117499488-b17e7a80-af51-11eb-88bf-42e58cc815e5.png)
 
 
-Perceba que foi adicionado para dentro do datasource. Agora clique no botão .
+Perceba que foi adicionado para dentro do datasource. Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png).
 
 Seu datasource foi criado:
 
+![image](https://user-images.githubusercontent.com/81401104/117499564-c3f8b400-af51-11eb-8d66-6a1d6709301e.png)
 
+🔗Vídeo: https://www.youtube.com/watch?v=MS_UWKBwO80&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=38
 
-Process
-Process Job
-Report
-Vídeo: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
+### 🔧 Process
+
+### 🔧 Process Job
+
+### 🔧 Report
+
 
 Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “Como Criar Um DataSource”.
 
 Na tela inicial, quando logar na conta, se depará com a seguinte tela:
 
+![image](https://user-images.githubusercontent.com/81401104/117499648-e68acd00-af51-11eb-9ede-a7bbe83a7c04.png)
 
 
-Selecione a aba “Report” e clique no botão .
+Selecione a aba “Report” e clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117499659-eb4f8100-af51-11eb-8075-0631c0c7d796.png).
 
 Irá abrir a seguinte janela modal:
 
+![image](https://user-images.githubusercontent.com/81401104/117499711-fbfff700-af51-11eb-93cc-c85776bd4528.png)
 
 
 No “Title”, escreva o título do seu relatório (pode ser “Report X”), em “Project” e “Menu” selecione os mesmos do “DataSource X”:
 
+![image](https://user-images.githubusercontent.com/81401104/117499743-04f0c880-af52-11eb-9f58-6172f7120b14.png)
 
-Clique no botão . 
 
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117499759-0a4e1300-af52-11eb-8351-f8822d611d15.png). 
+
+![image](https://user-images.githubusercontent.com/81401104/117499788-13d77b00-af52-11eb-8a9c-c52cfbb2732e.png)
 
 
 Perceba que agora foi importado os campos “Nome Completo” e “Função” para dentro do relatório.
 
-Clique no botão .
+Clique no botão ![image63](https://user-images.githubusercontent.com/81401104/117499928-51d49f00-af52-11eb-860e-39138a8212f2.png).
+
 Agora vá na aba do “Project”.
+![image](https://user-images.githubusercontent.com/81401104/117499953-5d27ca80-af52-11eb-859f-0537b2d324e5.png)
 
 
+Na linha do seu projeto, o qual você criou o “Relatório X”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117499977-644ed880-af52-11eb-8c2d-f860cacd36af.png),
 
-Na linha do seu projeto, o qual você criou o “Relatório X”, clique no botão , irá abrir a seguinte página:
+irá abrir a seguinte página:
+
+![image](https://user-images.githubusercontent.com/81401104/117500066-7d578980-af52-11eb-8b9e-78a8bd29e404.png)
 
 
 Clique no “Menu” que você criou anteriormente, irá mostrar uma lista de formulários, relatórios, etc. Selecione o “Relatório X”
 
+![image](https://user-images.githubusercontent.com/81401104/117500104-8c3e3c00-af52-11eb-9b1d-b2139dfa011b.png)
 
 
 E resultará nisso:
 
+![image](https://user-images.githubusercontent.com/81401104/117500134-95c7a400-af52-11eb-87be-3f2715215787.png)
 
 
-Chart
-Vídeo: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
+🔗Vídeo: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
+
+### 🔧 Chart
 
 Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “DataSource”.
 
 Na tela inicial, quando logar na conta, se depará com a seguinte tela:
 
+![image](https://user-images.githubusercontent.com/81401104/117500168-a546ed00-af52-11eb-8f92-f53eb209c406.png)
 
 
 Clique no “Tools”, na barra cinza no cabeçalho e selecione o “Chart”.
 
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/117500204-aed05500-af52-11eb-8835-8227434d6a60.png)
+https://user-images.githubusercontent.com/81401104/117500271-c27bbb80-af52-11eb-9903-a5ab193500d9.png
 
 Será adicionado mais uma aba nessa tela inicial.
- Nessa aba do “Chart” clique no botão . Irá abrir a seguinte janela modal:
+ Nessa aba do “Chart” clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117500373-ed660f80-af52-11eb-925a-67afe16e1688.png). 
+ 
+ Irá abrir a seguinte janela modal:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117500403-f951d180-af52-11eb-8902-ebdb411f7c52.png)
 
 Em “Project” selecione o mesmo projeto que você usou para o tutorial do  “Formulário X” e “Como Criar Um Data Source”.
 
@@ -2178,78 +2220,90 @@ Em “DataSource” selecione a opção “DataSource X” (Criado durante o tut
 
 Em “Group by” selecione a opção “Função”, em “Value” a opção “Nome_Completo”. Em “Operation” selecione “Count”. (Ficará similar a imagem da próxima página)
 
+![image](https://user-images.githubusercontent.com/81401104/117500450-0a9ade00-af53-11eb-943e-8ff5ac8de953.png)
 
 
-Então clique no botão :
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117500474-11295580-af53-11eb-84f2-aede22facfd8.png):
+
+![image](https://user-images.githubusercontent.com/81401104/117500491-18506380-af53-11eb-98b2-1db015861014.png)
 
 
+Agora clique no botão ![image63](https://user-images.githubusercontent.com/81401104/117500529-23a38f00-af53-11eb-8d9d-d0fdb81ecc4e.png).
 
-Agora clique no botão .
-
+![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
 
 
 Agora clique na aba do “Project” e execute o projeto sob o qual criou o seu “Chart”.
 
+![image](https://user-images.githubusercontent.com/81401104/117500573-31f1ab00-af53-11eb-884e-9df70220a071.png)
 
-Clique no botão verde  (Run Project):
+
+Clique no botão verde ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project):
+
+![image](https://user-images.githubusercontent.com/81401104/117500632-4635a800-af53-11eb-853d-cf459742db3e.png)
 
 
 E aqui você consegue visualizar a porcentagem de funcionários por função em formato de pizza. 
-API
+
+🔗Vídeo: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
+
+
+### 🔧 API
 
 Para fazer uso da API, entre em contato com o suporte da Easy Comtec.
 
-Template
+### 🔧 Template
 
 Para fazer uso do “Template”, entre em contato com o suporte da Easy Comtec.
 
 
 
-Scheduler
+### 🔧 Scheduler
 
 Para fazer uso do Scheduler, entrar em contato com o suporte da Easy Comtec.
 
 
 
-
-
-Notification
+### 🔧 Notification
 
 Para utilizar essa funcionalidade, vá até o menu do “Tools” (se localiza na tela inicial quando se loga na conta) e selecione “Notification”:
 
+![image](https://user-images.githubusercontent.com/81401104/117500707-5f3e5900-af53-11eb-8530-58021dfa3e4e.png)
 
 
 Ao selecionar, irá abrir a seguinte aba:
 
+![image](https://user-images.githubusercontent.com/81401104/117500735-682f2a80-af53-11eb-93c2-68b2c3000b0b.png)
 
 
-Clique no botão  button:
+Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117500751-711ffc00-af53-11eb-9613-d2057dfa745f.png) button:
 
+![image](https://user-images.githubusercontent.com/81401104/117500779-79783700-af53-11eb-9bf6-9afec7900475.png)
 
 
 Em “Project” selecione o projeto.
 
 Em “Name” escreva o nome da notificação.
 
-Em “Notify Using” (Notificar usando) tem duas opções:  Email e  Push, é possível selecionar ambas as opções.
+Em “Notify Using” (Notificar usando) tem duas opções: 🔳 Email e  🔳Push, é possível selecionar ambas as opções.
 
 Em “Subject” você irá escrever o assunto.
 
 Em “Content”  você irá escrever o conteúdo da notificação.
 
-Após ter editado os campos, clique no botão :
+Após ter editado os campos, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117500950-be03d280-af53-11eb-9835-0a068f77115b.png):
 
-
+![image](https://user-images.githubusercontent.com/81401104/117500965-c52ae080-af53-11eb-92bc-b00b064efd6c.png)
 
 Pronto, sua notificação foi criada.
 
-
-Configurações do Projeto
+## 🧰 Configurações do Projeto
 
 Para acessar as configurações do projeto é necessário realizar os seguintes passos:
 
 Ao logar na sua conta, irá se deparar com as três abas iniciais (Form, Project, Report). Selecione a aba do “Project.
 
+![image](https://user-images.githubusercontent.com/81401104/117501401-6023ba80-af54-11eb-95f5-28b6cc5bc149.png)
 
 
 A partir daqui é possível editar as configurações do projeto por meio de dois caminhos:
@@ -2257,14 +2311,17 @@ A partir daqui é possível editar as configurações do projeto por meio de doi
 Criando um novo projeto
 Editando um projeto existente
 
-Para a primeira opção, basta clicar no botão  (se localiza no topo esquerdo).
+Para a primeira opção, basta clicar no botão ![image15](https://user-images.githubusercontent.com/81401104/117501571-9cefb180-af54-11eb-8c4f-f70cbc95056a.png)
+(se localiza no topo esquerdo).
 
-Pela segunda opção, é necessário clicar no (se localiza na linha do seu projeto, abaixo de “Control”).
+Pela segunda opção, é necessário clicar no ![image](https://user-images.githubusercontent.com/81401104/117501498-80ec1000-af54-11eb-9514-ba34653f6604.png)(se localiza na linha do seu projeto, abaixo de “Control”).
 
 Ambos caminhos levarão para a mesma janela modal:
 
+![image](https://user-images.githubusercontent.com/81401104/117501659-bbee4380-af54-11eb-82a5-9b019dd60014.png)
 
-Main
+### 🧰 Main
+![image](https://user-images.githubusercontent.com/81401104/117502018-4afb5b80-af55-11eb-95b3-b0fcbcc8628c.png)
 
 Nessa aba do “Main” iremos alterar as principais configurações do projeto.
 
@@ -2278,9 +2335,8 @@ Email Server Configuration (configuração do servidor de email)
 Other configurations (outras configurações)
 
 
-Project Configurations
-
-
+#### 🧰 Project Configurations
+![image](https://user-images.githubusercontent.com/81401104/117502040-551d5a00-af55-11eb-8235-f2be3fa455ba.png)
 
 Project name: (Nome do projeto) Este campo é para identificar o nome do software.
 
@@ -2297,8 +2353,8 @@ Service Reference: (Serviço de referência) Usado para renderização do templa
 MvC Project Name:  (Nome do projeto MvC) Usado para renderização do template.
 
 
-Database Configurations
-
+#### 🧰 Database Configurations
+![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
 
 
 Database server: Instância do servidor de banco de dados do SQL Server.
@@ -2315,9 +2371,8 @@ Blob Container Name: Container onde os arquivos estarão armazenados.
 
 Botão “Test Database Connection”: Ao clicar nele, irá testar a conexão do banco de dados.
 
-
-Email Server Configuration
-
+#### 🧰Email Server Configuration
+![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
 
 
 SMTP Configurations: Configurações do SMTP (Simple Mail Transfer Protocol). 
@@ -2334,7 +2389,7 @@ User name: Nome de usuário que a aplicação irá usar para enviar email.
 
 Password: Senha para acessar o email escolhido.
 
- Use SSL: Transferência de email SMTP não fornece criptografia. Então se você quer uma conexão mais segura, será uma boa escolha usar uma extensão SSL/TLS ou STARTTLS, as quais usam uma porta separada para comunicação criptografada.
+🔳 Use SSL: Transferência de email SMTP não fornece criptografia. Então se você quer uma conexão mais segura, será uma boa escolha usar uma extensão SSL/TLS ou STARTTLS, as quais usam uma porta separada para comunicação criptografada.
 
 Test SMTP Email Configuration: Irá testar e validar as configurações de email SMTP
 
@@ -2343,17 +2398,8 @@ POP Configurations: Configurações do POP (Post Office Protocol). O POP é um p
 Os campos de “Display Name”, “Server Name”, “Port”, “Email”, “User name”, “Password” e “Use SSL” do POP Configurations recebem as mesmas instruções dos mesmos campos do SMTP Configurations, explicados acima.
 
 
-
-
-
-
-
-
-
-
-
-Other configurations
-
+#### 🧰 Other configurations
+![image](https://user-images.githubusercontent.com/81401104/117502437-e42a7200-af55-11eb-8f7c-2563c6c8d25c.png)
 
 Azure search key: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros. 
 
@@ -2363,11 +2409,12 @@ Azure search name: Habilita uma barra de pesquisa do builder que pesquisa por fo
 
 Google Analytics ID: É uma string do tipo “UA-000000-2”
 
-Custom Css: Por aqui você consegue editar o CSS, ao selecionar a caixa, o seguinte campo irá aparecer para você colar o seu código css: 
+🔳Custom Css: Por aqui você consegue editar o CSS, ao selecionar a caixa, o seguinte campo irá aparecer para você colar o seu código css: 
+
+![image](https://user-images.githubusercontent.com/81401104/117502480-f5737e80-af55-11eb-8be1-17afe142f315.png)
 
 
-
- Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
+ 🔳Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
 
 Field Format Settings: Configurações de formato dos campo
 
@@ -2381,36 +2428,33 @@ MM/dd/yyyy HH:mm:ss = [Mês/ dia/ ano  hora (0 a 23) :minuto: segundo]
 dd/MM/yyyy hh:mm:ss a = [dia/ mês/ ano  hora (0 a 12 AM/PM) :minuto :segundo]
 dd/MM/yyyy HH:mm:ss = [dia/ mês/ ano  hora (0 a 23) :minuto :segundo]
 
-Time: 
+##### Time: 
 HH:mm:ss = [Horas (0 a 23) :minutos :segundos]
 hh:mm :ss = [Horas (0 a 12) :minutos :segundos]
 
-Decimal:
+##### Decimal:
 . (ponto)
 , (vírgula)
 
-
-
-
-
-
-
-
-
-End-User Access
+#### 🧰 End-User Access
 
 Ao selecionar a aba do “End-User Access”, a seguinte tela irá aparecer:
 
+![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
+
 Aparece o item “End-user access type” - que significa “tipo de acesso ao usuário final” - com um dropdown com 3 opções:
 
-Deny
-Anonymous
-Authenticated 
+<ol>
+ <li>Deny</li>
+ <li>Anonymous</li>
+ <li>Authenticated </li>
+</ol>
 
 Ao selecionar a primeira opção (“Deny”), você estará negando acesso ao projeto pelo usuário final.
 
 Ao selecionar a segundo opção (“Anonymous”), os seguintes campos irão aparecer:
 
+![image](https://user-images.githubusercontent.com/81401104/117502636-2a7fd100-af56-11eb-8e9c-a14169e485f9.png)
 
 URL Access: Acesso da URL
 
@@ -2418,19 +2462,21 @@ Host: Hospedagem
 
 Ao selecionar a 3ª opção (“Authenticated”), os seguintes conjuntos de campos irá aparecer:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117502732-4f744400-af56-11eb-9909-ae4c6263b23a.png)
 
 
 URL Access: Acesso da URL
 
 Host: Hospedagem
  
- Create default user form (Criar formulário padrão de usuário): Para tornar possível adicionar usuários e administradores, basta selecionar esse checkbox e então clicar no botão .
+🔳Create default user form (Criar formulário padrão de usuário): Para tornar possível adicionar usuários e administradores, basta selecionar esse checkbox 
 
+e então clicar no botão ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
 
 
 Após fazer isso, vá na aba dos forms e então procure pelos títulos “User”, “Role” e “UserRole”
 
+![image](https://user-images.githubusercontent.com/81401104/117502850-80547900-af56-11eb-8b86-fdb985867b86.png)
 
 
 Agora é possível adicionar usuários e funções.
@@ -2459,24 +2505,26 @@ Access Failed Count (Contagem de falha de acesso)
 
 User Push Notification Token (Token para ‘push notification’)
 
- Use Sign-up (Usar inscrição) 
+ 🔳Use Sign-up (Usar inscrição) 
 
- Send Email To New Users:  Enviar email para novos usuários
+ 🔳Send Email To New Users:  Enviar email para novos usuários
 
 
 Ao descer a visão na tela, visualiza-se a seção do “Lockout Settings” (Configurações de bloqueio):
 
+![image](https://user-images.githubusercontent.com/81401104/117502886-906c5880-af56-11eb-9a78-8eecb36f2c12.png)
 
 
 Max attempts before lockout (Quantidade máxima de tentativas antes de bloquear)
 
 Default lockout time frame (in minutes) [Tempo padrão (em minutos) de bloqueio]
 
- User lockout enabled by default (Bloqueio de usuário habilitado por padrão)
+🔳 User lockout enabled by default (Bloqueio de usuário habilitado por padrão)
 
 
 E logo abaixo tem a seção “Password requirements” (requisitos de senha):
 
+![image](https://user-images.githubusercontent.com/81401104/117502897-96623980-af56-11eb-8d7d-ff54f88df364.png)
 
 
 Length (Comprimento): quantidade de caracteres.
@@ -2489,11 +2537,9 @@ Non Letter or Digit (Caracteres especiais)
 
 Uppercase (Letra maiúscula)
 
-
-
 E abaixo tem “Roles Configurations”:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117502930-9e21de00-af56-11eb-873a-6fd52398d5e8.png)
 
 Role Form (Formulário da função).
 
@@ -2505,7 +2551,8 @@ Role Manager (Gerente da função)
 
 Roles x Users Form (Formulário de usuário x funções) 
 
-Menus
+#### 🧰 Menus
+![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
 
 Name: Nome do menu que o usuário final verá no site.
 
@@ -2513,22 +2560,26 @@ Position: Posição que o menu irá aparecer dentro do seu grupo.
 
 Por exemplo, no momento tenho esses dois menus:
 
+![image](https://user-images.githubusercontent.com/81401104/117503025-c4477e00-af56-11eb-98dc-013cdfb8c095.png)
+
 Vamos adicionar um menu de nome “Menu Off”, na posição “2”:
 
+![image](https://user-images.githubusercontent.com/81401104/117503038-ca3d5f00-af56-11eb-8793-a8f941a80af7.png)
 
 
-Clique no botão :
+Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
 
+![image](https://user-images.githubusercontent.com/81401104/117503085-d9bca800-af56-11eb-8598-f5c64ef87c59.png)
 
+Para editar o nome, posição e/ou relação de pai dos menus, é só clicar no botão  ![image](https://user-images.githubusercontent.com/81401104/117503213-0670bf80-af57-11eb-80fe-c06ff430d3ca.png) ao lado do nome do menu, na seção “Menu Hierarchy”.
 
-Para editar o nome, posição e/ou relação de pai dos menus, é só clicar no botão  ao lado do nome do menu, na seção “Menu Hierarchy”.
-
-Para deletar um menu, é só clicar no .
+Para deletar um menu, é só clicar no ![image](https://user-images.githubusercontent.com/81401104/117503281-1c7e8000-af57-11eb-8576-a0f3a8a72d50.png).
 
 Para visualizar os menus criados, é necessário ir até a tela do “Project” e execute a aplicação:
 
+![image](https://user-images.githubusercontent.com/81401104/117503363-39b34e80-af57-11eb-9e9c-86ad21797cc1.png)
 
-
+![image](https://user-images.githubusercontent.com/81401104/117503398-49329780-af57-11eb-91f5-7835e8a296d2.png)
 
 Ao clicar em cada um dos menus, irá aparecer a lista de formulários, relatórios e gráficos correspondentes a cada um
 
@@ -2536,51 +2587,56 @@ Parent: Tornar menu pai para montar sua hierarquia de menu.
 
 Edite o 2º menu (“ParentTest”) ou o qual você já tenha criado:
 
+![image](https://user-images.githubusercontent.com/81401104/117503437-551e5980-af57-11eb-8e29-11005b3b594b.png)
 
 
 Adicione e salve o “Menu Storage” como “Parent”:
 
+![image](https://user-images.githubusercontent.com/81401104/117503446-5a7ba400-af57-11eb-9231-7c04ca84174f.png)
+
 
 Agora vamos visualizar dentro da aplicação do projeto como ficará:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117503478-623b4880-af57-11eb-9906-681d3ebf4c39.png)
 
 
 Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de hierarquia entre os menus
 
+![image](https://user-images.githubusercontent.com/81401104/117503496-67989300-af57-11eb-84ad-ed7d23e1504e.png)
 
 
- 
+#### 🧰 DataBase Manager
+![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
 
 
+Ao clicar no  ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png)(Embaixo de “Tables”), você poderá ver o ID e os campos de cada formulário:
 
-DataBase Manager
-
-
-Ao clicar no  (Embaixo de “Tables”), você poderá ver o ID e os campos de cada formulário:
+![image](https://user-images.githubusercontent.com/81401104/117503633-96166e00-af57-11eb-8b30-ac3af4c008e7.png)
 
 
+![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): Excluir tables selecionadas.
 
-: Excluir tables selecionadas.
+![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png) : Limpar os dados das tables selecionadas.
 
-: Limpar os dados das tables selecionadas.
-
-Editors
-
+#### 🧰 Editors
+![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
 
 
 Member Users (usuários membros) podem visualizar e editar o seu sistema.
 
 Só podem ser adicionados quem já estiver registrado no sistema.
 
-Ao aparecer o nome/email de quem você quer adicionar, selecione-o e depois clique no botão :
+Ao aparecer o nome/email de quem você quer adicionar, selecione-o e depois clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503708-b6462d00-af57-11eb-83a1-d290782c2d07.png):
+
+![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
 
-Então clique no botão .
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
 
-Email
+#### 🧰 Email
+![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
 
- Create default email form: Criar formulário de email padrão
+ 🔳Create default email form: Criar formulário de email padrão
 
 Email form: Formulário do email
 
@@ -2592,14 +2648,18 @@ CC: Carbon Copy
 
 Body: Corpo
 
-Images
+#### 🧰 Images
+![image](https://user-images.githubusercontent.com/81401104/117503797-db3aa000-af57-11eb-988b-3cfb2da12c11.png)
 
 Na seção “Icons” é possível realizar o upload das imagens dos ícones, que podem ser das proporções “144x144”, “76x76”, “32x32” e “16x16”.
 
-Exemplo: 
+Exemplo: ![image](https://user-images.githubusercontent.com/81401104/117503818-e4c40800-af57-11eb-946c-acd10e8e1d6b.png)
+
 
 Na seção “Background”  é possível realizar o upload da imagem de fundo, que será visualizada na tela de login do projeto. Por exemplo:
 
- 
+![image](https://user-images.githubusercontent.com/81401104/117503835-ebeb1600-af57-11eb-9b59-f2e9f3353ffe.png)
 
-Para fazer o upload de qualquer uma imagem, apenas clique no botão 
+
+Para fazer o upload de qualquer uma imagem, apenas clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png)
+
