@@ -19,7 +19,7 @@ Por fim clique em _Link Here_  para confirmar o email.⤴️<br>
 Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando em _Sign In_.⤵️<br>
 <img src="https://user-images.githubusercontent.com/81401104/114770895-58506c00-9d42-11eb-91b8-d35e97afe7cf.png">
 
-                                            Feito o cadastro Parabens!!🥇🎉
+                                                Feito o cadastro Parabens!!🥇🎉
 
 ## É hora de por a mão na massa 🖐️
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
@@ -1877,94 +1877,94 @@ Close: Fechar.
 
 De volta na tela da lista, ao clicar no botão  ![image](https://user-images.githubusercontent.com/81401104/117357136-f12e5f00-ae8a-11eb-8bc7-b6c401199f1f.png)
 (nova coluna), o seguinte modal irá aparecer:
-## TERMINEI AQUI----------
+
+![image](https://user-images.githubusercontent.com/81401104/117493345-39ac5200-af49-11eb-8d26-110eccd17aeb.png)
 
 Add Column (adicionar coluna):
 
-Type (tipo):
-Expression
-Button
+#### Type (tipo):
+ Expression
+ 
+ Button
 
 Field Title (título do campo):
 
 Format (formato):
-String
-Decimal
-Integer
-Date/Days
-Date/Months
-Date/Years
-Date/Hours
+<ul>
+  <li>String</li>
+ <li>Decimal</li>
+ <li>Integer</li>
+ <li>Date/Days</li>
+ <li>Date/Months</li>
+ <li>Date/Years</li>
+ <li>Date/Hours</li>
+ </ul>
+
 Expression (expressão):
 
-Botão  serve para avaliar se a expressão é válida ou não.
-
---
+Botão ![image](https://user-images.githubusercontent.com/81401104/117493695-b50e0380-af49-11eb-949f-79c2fcd1e4d0.png) serve para avaliar se a expressão é válida ou não.
 
 Caso queira editar as propriedades das colunas, passe o mouse em cima do nome de alguma das colunas e então irá aparecer os seguintes símbolos no canto esquerdo:
 
-, clique no símbolo de baixo, então irá mostrar as propriedades para serem editadas:
+![image](https://user-images.githubusercontent.com/81401104/117493776-d111a500-af49-11eb-8f88-46f1d5e89512.png)
 
+clique no símbolo de baixo, então irá mostrar as propriedades para serem editadas:
 
-
-
-
+![image](https://user-images.githubusercontent.com/81401104/117493909-fdc5bc80-af49-11eb-85fd-fd9f57bc722b.png)
 
 E aqui dá para editar o nome da classe, título da coluna, largura da coluna e criar eventos.
 
---
-
 Execute essa aplicação (com “Nome” e “Idade”). E então adicione os seguintes registros:
+
 “Joaquim Santos” - “34”
+  
 “Maria Alice” - “23”
+  
 “João Carlos” - “21”
 
-
+![image](https://user-images.githubusercontent.com/81401104/117494677-0e2a6700-af4b-11eb-95cb-8c46e2239be6.png)
 
 Agora volte na edição da lista.
-
-
+![image](https://user-images.githubusercontent.com/81401104/117494721-197d9280-af4b-11eb-8dbc-632f23d94998.png)
 
 Solte o componente “Integer” onde diz “Drop new filter here!” e o nomeie de “filtro de idade”.
 
-
+![image](https://user-images.githubusercontent.com/81401104/117494875-4c278b00-af4b-11eb-835b-babf23c015ce.png)
 
 E nas propriedades do “Filtro de Idade”, na seção “Others”, em “Filtered Field” selecione a opção “Idade”.
 
-
+![image](https://user-images.githubusercontent.com/81401104/117494896-56e22000-af4b-11eb-98d1-c82499a2c4b2.png)
 
 Agora execute a aplicação.
 
-
+![image](https://user-images.githubusercontent.com/81401104/117494967-6f523a80-af4b-11eb-9938-7b7ff758c1e5.png)
 
 Perceba que ao lado do campo do “Filtro da Idade” tem um símbolo de “ = (igual) “, você pode alterá-lo para outros tipos de símbolos.
 
-
+![image](https://user-images.githubusercontent.com/81401104/117495247-c1935b80-af4b-11eb-8aa8-aede23006352.png)
 
 Por exemplo, esse símbolo em destaque significa “Igual ou maior”, selecione este.
 
-Agora digite no campo do filtro o número “22” e então clique no botão .
+Agora digite no campo do filtro o número “22” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117495272-cb1cc380-af4b-11eb-80a4-1cfbb943095c.png).
 
 E perceba que agora não é mais mostrado o “João Carlos” que tem idade de “21”.
 
+![image](https://user-images.githubusercontent.com/81401104/117495313-d66fef00-af4b-11eb-9776-d1327976c8f6.png)
 
-O botão “Clear” apaga o que estiver escrito dentro do campo do filtro.
+O botão ![image](https://user-images.githubusercontent.com/81401104/117495817-85142f80-af4c-11eb-913e-74647933fe0a.png) apaga o que estiver escrito dentro do campo do filtro.
 
-
-
-
-Como Adicionar Um Usuário
+## Como Adicionar Um Usuário 
 
 Para realizar esse tutorial, é necessário que tenha feito antes os passos no tutorial do 
 “End User Access” na seção das configurações do projeto.
 
-Após você ter criado o seu formulário, e clicar no botão   e depois no , irá abrir a tela dos registros:
+Após você ter criado o seu formulário, e clicar no botão ![image13](https://user-images.githubusercontent.com/81401104/117496019-cf95ac00-af4c-11eb-98d6-3422efb10385.png) e depois no ![image14](https://user-images.githubusercontent.com/81401104/117496042-d7555080-af4c-11eb-991d-9703a4f82bdb.png), irá abrir a tela dos registros:
 
-
+![image](https://user-images.githubusercontent.com/81401104/117496064-e0deb880-af4c-11eb-8b49-c002c05f6e9d.png)
 
 No topo desta tela, clique em “Admin”, irá aparecer uma lista de opções, selecione a opção “User”.
 
-
+![image](https://user-images.githubusercontent.com/81401104/117496105-f0f69800-af4c-11eb-8424-88da419dab10.png)
 
 E então o título da tela irá mudar para “User”, pois iremos registrar usuários, igual na imagem a seguir:
 
@@ -1979,13 +1979,6 @@ Preencha os campos com as informações correspondentes. Nesse caso eu criei um 
 Então, clique no botão .
 
 E irá aparecer a tela de registro de usuário.
-
-
-
-
-
-
-
 
 
 Como Dar Permissão Ao Usuário
