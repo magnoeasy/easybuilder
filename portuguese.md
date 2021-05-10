@@ -22,6 +22,8 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
                                                 Feito o cadastro Parabens!!🥇🎉
 
 ## É hora de por a mão na massa 🖐️
+![Uploading image.png…]()
+
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
 <br>
 Apos o login no Builder você irá se deparar com o seguinte contéudo:
@@ -2201,7 +2203,6 @@ Na tela inicial, quando logar na conta, se depará com a seguinte tela:
 Clique no “Tools”, na barra cinza no cabeçalho e selecione o “Chart”.
 
 ![image](https://user-images.githubusercontent.com/81401104/117500204-aed05500-af52-11eb-8835-8227434d6a60.png)
-https://user-images.githubusercontent.com/81401104/117500271-c27bbb80-af52-11eb-9903-a5ab193500d9.png
 
 Será adicionado mais uma aba nessa tela inicial.
  Nessa aba do “Chart” clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117500373-ed660f80-af52-11eb-925a-67afe16e1688.png). 
@@ -2257,11 +2258,9 @@ Para fazer uso da API, entre em contato com o suporte da Easy Comtec.
 Para fazer uso do “Template”, entre em contato com o suporte da Easy Comtec.
 
 
-
 ### 🔧 Scheduler
 
 Para fazer uso do Scheduler, entrar em contato com o suporte da Easy Comtec.
-
 
 
 ### 🔧 Notification
