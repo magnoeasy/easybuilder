@@ -22,7 +22,6 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
                                                 Feito o cadastro Parabens!!🥇🎉
 
 ## É hora de por a mão na massa 🖐️
-![Uploading image.png…]()
 
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
 <br>
