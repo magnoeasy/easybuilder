@@ -268,7 +268,7 @@ will open the following window:<img src="https://user-images.githubusercontent.c
 in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "Greater or Equal", in "Value" write "18".
 
 
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
 
 Now deselect the "Visible" checkbox.
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
@@ -530,7 +530,7 @@ Name the first as "Number1", the second as "Number2" and the third as "Total" (L
 
 We will perform the following function: when filling the value of the "Number1" and of the "Number2", the result of the sum of these two fields will automatically be given in the "Total". 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
  (is located in the "Events" section) of the "Total" field and will automatically open this tab:
 ![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
 
@@ -986,7 +986,7 @@ To continue from here, you need to have done the steps in the tutorials "How to 
 The following screen will appear:
 ![image](https://user-images.githubusercontent.com/81401104/116141142-abb1ab00-a6ae-11eb-9f0b-649dc9fd5d2a.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116141954-b6207480-a6af-11eb-8b8e-157154509935.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116141954-b6207480-a6af-11eb-8b8e-157154509935.png)
  and the following screen will open:
 ![image](https://user-images.githubusercontent.com/81401104/116141979-bf114600-a6af-11eb-8cda-c7385c77f094.png)
 
@@ -1137,7 +1137,7 @@ Go back to the One-To-Many screen and run the application.
 In the "Color" field, fill in "Orange", then click the button ![image](https://user-images.githubusercontent.com/81401104/116289846-3bb42b00-a769-11eb-9772-eaed741142d9.png).
 ![image](https://user-images.githubusercontent.com/81401104/116290130-86ce3e00-a769-11eb-8ae5-336dcc0f6b33.png)
 
-Então, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116290167-8f267900-a769-11eb-8ba4-8d735c2edee4.png).
+Então, Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116290167-8f267900-a769-11eb-8ba4-8d735c2edee4.png).
 
 The One-To-Many registration screen will look like this:
 
