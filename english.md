@@ -469,7 +469,7 @@ Default: refers to an automatic value filling, for example, enter in the "Defaul
 Run the application:
 ![image](https://user-images.githubusercontent.com/81401104/115914900-eb775900-a448-11eb-8f06-749e07b0e1c0.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115915188-5fb1fc80-a449-11eb-89e1-57eae620af5d.png). 
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115915188-5fb1fc80-a449-11eb-89e1-57eae620af5d.png). 
 
 Notice that it is already filled in with "10", but you can change it.
 
@@ -735,7 +735,7 @@ Here you will add the values, for example, create lists with the options to sele
 Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
 will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
  and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
 and add "Female" and then click the ![image](https://user-images.githubusercontent.com/81401104/115923621-e15b5780-a454-11eb-84e6-aaa8d7679277.png) button
  . (Image on the next page)
@@ -772,7 +772,7 @@ In "Name" write vehicle, then click on the ![image](https://user-images.githubus
 Edit the "Option A" to "Car". Add two more options and change them to "Motorcycle" and "Truck". 
 ![image](https://user-images.githubusercontent.com/81401104/116136211-64c0b700-a6a8-11eb-887f-189f0f8d0ab1.png)
 
-Clique no botão![image](https://user-images.githubusercontent.com/81401104/116136235-6db18880-a6a8-11eb-883f-89dd8444852f.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116136235-6db18880-a6a8-11eb-883f-89dd8444852f.png)
  button, and after saving, you will automatically return to the form design screen. 
 
 Run the application.
@@ -911,7 +911,7 @@ Select the "Label" component, then drag and drop it where it says "Drop new fiel
 
 * The text document has to be in ".txt" format.
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139413-5e343e80-a6ac-11eb-9ba4-4cd4a1a80ee2.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116139413-5e343e80-a6ac-11eb-9ba4-4cd4a1a80ee2.png)
  button to upload the document.
 
 For this tutorial I have created the following document:
@@ -1000,7 +1000,7 @@ Then just draw the signature, for example:
 And then click the ![image](https://user-images.githubusercontent.com/81401104/116142149-eec04e00-a6af-11eb-8865-51292d30aef4.png) button. It will automatically return to this page:
 ![image](https://user-images.githubusercontent.com/81401104/116142184-fa137980-a6af-11eb-943e-663390d51543.png)
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116142206-00a1f100-a6b0-11eb-9eec-ac2d4a76f486.png).
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116142206-00a1f100-a6b0-11eb-9eec-ac2d4a76f486.png).
 
 You will be directed to the following page:
 ![image](https://user-images.githubusercontent.com/81401104/116142262-16171b00-a6b0-11eb-98dc-f67dfb2cce56.png)
@@ -1591,7 +1591,7 @@ Save and run the application.
 
 Now go back to editing the first form ("Animals").
 
-Agora clique no botão![image](https://user-images.githubusercontent.com/81401104/117344604-ed471080-ae7b-11eb-85ff-5fbbef0a98df.png). 
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117344604-ed471080-ae7b-11eb-85ff-5fbbef0a98df.png). 
 The following tab will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117344752-1f587280-ae7c-11eb-8c39-1e758bec3a9f.png)
@@ -1627,7 +1627,7 @@ to edit the form.
 
 Select the "Extra Info Tab" that is next to "Main".
 
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117346550-47e16c00-ae7e-11eb-85aa-878bbc5f97d7.png).
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117346550-47e16c00-ae7e-11eb-85aa-878bbc5f97d7.png).
 
 Type "Savannah" and click the ![image](https://user-images.githubusercontent.com/81401104/117347081-fc7b8d80-ae7e-11eb-9caf-c26e13eefe71.png) button.
 ![image](https://user-images.githubusercontent.com/81401104/117347208-2f258600-ae7f-11eb-8069-a9ae1265d6ac.png)
@@ -1961,7 +1961,7 @@ Então clique no botão ![image](https://user-images.githubusercontent.com/81401
 Then you will go to the following page:
 ![image](https://user-images.githubusercontent.com/81401104/117497375-cefe1500-af4e-11eb-890e-4b3ac6877436.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117497416-d7eee680-af4e-11eb-8776-60c5dc96225f.png) 
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117497416-d7eee680-af4e-11eb-8776-60c5dc96225f.png) 
 button to go back to editing the same form:
 
 ![image](https://user-images.githubusercontent.com/81401104/117497463-e806c600-af4e-11eb-9dec-e86b8081a948.png)
@@ -1975,7 +1975,7 @@ You will get to the following screen:
 ![image](https://user-images.githubusercontent.com/81401104/117497526-fc4ac300-af4e-11eb-9c3d-6a280b7175f5.png)
 
 
-Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117497552-04a2fe00-af4f-11eb-8bb6-b8a9de3cfff6.png).
+Now click on the button ![image15](https://user-images.githubusercontent.com/81401104/117497552-04a2fe00-af4f-11eb-8bb6-b8a9de3cfff6.png).
 
 ![image](https://user-images.githubusercontent.com/81401104/117497586-11bfed00-af4f-11eb-940d-1cc03ead0bbc.png)
 
@@ -2108,7 +2108,7 @@ In the "Title", type the title of your report (it can be "Report X"), in "Projec
 ![image](https://user-images.githubusercontent.com/81401104/117499743-04f0c880-af52-11eb-9f58-6172f7120b14.png)
 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117499759-0a4e1300-af52-11eb-8351-f8822d611d15.png). 
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117499759-0a4e1300-af52-11eb-8351-f8822d611d15.png). 
 
 ![image](https://user-images.githubusercontent.com/81401104/117499788-13d77b00-af52-11eb-8a9c-c52cfbb2732e.png)
 
