@@ -351,7 +351,7 @@ In the second "Textfield", in "Position" select "Right", in "Order" type "2", in
 Now run the application, and the following page will open:
 ![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png).
+click on button ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png).
 
 Then the intro effect will appear on the following page:
 ![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
@@ -558,7 +558,7 @@ Do the same thing with the field "Number2".
 Run the application.
 ![image](https://user-images.githubusercontent.com/81401104/115918669-2d56ce00-a44e-11eb-8062-aa61ad0cdb77.png)
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png).
+then click on button ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png).
 
 The following page will open:
 ![image](https://user-images.githubusercontent.com/81401104/115919016-a524f880-a44e-11eb-8654-73047c48392f.png)
@@ -1353,9 +1353,9 @@ function alert() {
    alert('Can be used in alerts, redirect to another page, execute a javascript function')
 }
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
+then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
+then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
 
 Now go back to the "Events" section, under "Name" select the "OnClick" option, and under "On" write "alert()".
@@ -1812,7 +1812,7 @@ Click the ![image13](https://user-images.githubusercontent.com/81401104/11735681
 Now select the "List" option in the header. It will appear as follows:
 
 
-Ao clicar no botão ![image](https://user-images.githubusercontent.com/81401104/117356874-a14f9800-ae8a-11eb-8fcf-ac2385cfd89b.png), 
+by clicking the button ![image](https://user-images.githubusercontent.com/81401104/117356874-a14f9800-ae8a-11eb-8fcf-ac2385cfd89b.png), 
 
 the following modal window will appear:
 ![image](https://user-images.githubusercontent.com/81401104/117356905-aa406980-ae8a-11eb-9446-cc7d74e01f11.png)
@@ -1926,7 +1926,7 @@ Fill in the fields with the corresponding information. In this case I created a 
 
 ![image](https://user-images.githubusercontent.com/81401104/117496621-afb2b800-af4d-11eb-8c06-fca41baea985.png)
 
-Então, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117496650-ba6d4d00-af4d-11eb-8f67-b658b1eedcaa.png).
+Then click the button ![image](https://user-images.githubusercontent.com/81401104/117496650-ba6d4d00-af4d-11eb-8f67-b658b1eedcaa.png).
 
 And the user registration screen will appear.
 
@@ -1956,7 +1956,7 @@ Under "Name" type "User" and under "Manager" select the option created earlier. 
 ![image](https://user-images.githubusercontent.com/81401104/117497319-be4d9f00-af4e-11eb-9c74-74576df35800.png)
 
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117497338-c574ad00-af4e-11eb-9870-9864f5a8303c.png).
+Then click the button ![image](https://user-images.githubusercontent.com/81401104/117497338-c574ad00-af4e-11eb-9870-9864f5a8303c.png).
 
 Then you will go to the following page:
 ![image](https://user-images.githubusercontent.com/81401104/117497375-cefe1500-af4e-11eb-890e-4b3ac6877436.png)
@@ -1983,7 +1983,7 @@ Now click on the "User ID" field and select the user you created earlier:
 ![image](https://user-images.githubusercontent.com/81401104/117498058-a62a4f80-af4f-11eb-84dd-85f1add2c189.png)
 
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117498098-b4786b80-af4f-11eb-9005-648c8442eeb8.png)
+Then click the button ![image](https://user-images.githubusercontent.com/81401104/117498098-b4786b80-af4f-11eb-9005-648c8442eeb8.png)
 
 ![image](https://user-images.githubusercontent.com/81401104/117498136-c2c68780-af4f-11eb-82e4-e3df9f74a30d.png)
 
@@ -2115,7 +2115,7 @@ Now click on the button ![image](https://user-images.githubusercontent.com/81401
 
 Notice that now the fields "Full Name" and "Role" have been imported into the report.
 
-Clique no botão ![image63](https://user-images.githubusercontent.com/81401104/117499928-51d49f00-af52-11eb-860e-39138a8212f2.png).
+click the button ![image63](https://user-images.githubusercontent.com/81401104/117499928-51d49f00-af52-11eb-860e-39138a8212f2.png).
 
 Now go to the "Project" tab.
 ![image](https://user-images.githubusercontent.com/81401104/117499953-5d27ca80-af52-11eb-859f-0537b2d324e5.png)
@@ -2170,12 +2170,12 @@ In "Group by" select the option "Function", in "Value" the option "Full_Name". I
 ![image](https://user-images.githubusercontent.com/81401104/117500450-0a9ade00-af53-11eb-943e-8ff5ac8de953.png)
 
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117500474-11295580-af53-11eb-84f2-aede22facfd8.png):
+Now click the button ![image](https://user-images.githubusercontent.com/81401104/117500474-11295580-af53-11eb-84f2-aede22facfd8.png):
 
 ![image](https://user-images.githubusercontent.com/81401104/117500491-18506380-af53-11eb-98b2-1db015861014.png)
 
 
-Agora clique no botão ![image63](https://user-images.githubusercontent.com/81401104/117500529-23a38f00-af53-11eb-8d9d-d0fdb81ecc4e.png).
+Now click the button ![image63](https://user-images.githubusercontent.com/81401104/117500529-23a38f00-af53-11eb-8d9d-d0fdb81ecc4e.png).
 
 ![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
 
@@ -2221,7 +2221,7 @@ Selecting this will open the following tab:
 ![image](https://user-images.githubusercontent.com/81401104/117500735-682f2a80-af53-11eb-93c2-68b2c3000b0b.png)
 
 
-Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117500751-711ffc00-af53-11eb-9613-d2057dfa745f.png) button:
+click the button ![image15](https://user-images.githubusercontent.com/81401104/117500751-711ffc00-af53-11eb-9613-d2057dfa745f.png) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500779-79783700-af53-11eb-9bf6-9afec7900475.png)
 
@@ -2333,14 +2333,13 @@ When selecting the 3rd option ("Authenticated"), the following sets of fields wi
 
 ![image](https://user-images.githubusercontent.com/81401104/117502732-4f744400-af56-11eb-9909-ae4c6263b23a.png)
 
-
 URL Access: URL Access
 
 Host: Host
  
 🔳Create default user form: To make it possible to add users and administrators, simply select this checkbox 
 
-and then click the ![image63] button (https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
+and then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
 
 
 After doing so, go to the forms tab and then look for the titles "User", "Role" and "UserRole".
@@ -2436,7 +2435,7 @@ Let's add a menu named "Menu Off", at position "2":
 ![image](https://user-images.githubusercontent.com/81401104/117503038-ca3d5f00-af56-11eb-8793-a8f941a80af7.png)
 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
+click the button ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
 
 ![image](https://user-images.githubusercontent.com/81401104/117503085-d9bca800-af56-11eb-8598-f5c64ef87c59.png)
 
@@ -2499,7 +2498,7 @@ When the name/email of the person you want to add appears, select him/her and th
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
+Then click the button ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
 
 #### 🧰 Email
 ![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
