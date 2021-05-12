@@ -1,6 +1,44 @@
 <h1>Easy Builder tutorial in English</h1>
 <img src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png">
 
+# Table Content
+- [First steps in Easy Builder 🦶](#id-frist)
+- [It's time to get hands-on 🖐️](#id-hands)
+- [Components 🧱](#id-component)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+    - [Textfield 📓](#id-textfield)
+- 
+
+<div id='id-frist'/>
+
 ## First steps in Easy Builder 🦶
 <p>At first we need to create a login to <b>"Easy Builder"(our creation platform).<p>
 - Accessing the link https://builder.easy.rocks/
@@ -20,6 +58,7 @@ There now you can already log in to <b>"Easy Builder"</b> without problems by cl
 <img src="https://user-images.githubusercontent.com/81401104/114770895-58506c00-9d42-11eb-91b8-d35e97afe7cf.png">
 
                                                 Done registering Congratulations!!🥇🎉
+<div id='id-hands'/>
 
 ## It's time to get hands-on 🖐️
 
@@ -112,7 +151,9 @@ To perform the "Static Image", "Upload Image", and "File Upload" tutorials, you 
 
 If you have any questions, please contact Easy Comtec support.
 
-## COMPONENTS 🧱
+<div id='id-component'/>
+
+# COMPONENTS 🧱
 There are 30 components that we will learn how to use, they are:
 <table>
  <tr>
@@ -167,6 +208,8 @@ Another recurring situation is referencing within the tutorial from one componen
 
 It is also important that you have already performed the steps in the tutorials "How to Create Your First Project, Menu and Form" and "How to Run the Application".
 
+<div id='id-textfield'/>
+
 ## Textfield 📓
 
 ![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
@@ -187,7 +230,6 @@ The "Column Title" field is used to identify the field when viewing the list (to
 
 The "Placeholder" field serves as a guide for what to fill in, it is interesting that you visualize this, write in the "Testing" field, observe the effect on the field in the form.
 <img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
-
 
 ### Textfield 📓 > VALUES 1️⃣
 
