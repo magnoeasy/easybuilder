@@ -116,42 +116,42 @@ If you have any questions, please contact Easy Comtec support.
 There are 30 components that we will learn how to use, they are:
 <table>
  <tr>
-  <tdd>Textfield</td>
+  <td>Textfield</td>
   <td>TextArea</td>
-  <tdd>Editor</td>
-  <tdd>Hidden</td>
+  <td>Editor</td>
+  <td>Hidden</td>
   <td>Integer</td>
-  <tdd>Decimal</td>
-  <tdd>Date</th>
-  <tdd>DateTime</td>
+  <td>Decimal</td>
+  <td>Date</th>
+  <td>DateTime</td>
   <td>Time</th>
  </tr>
  <tr>
-  <tdd>Checkbox</td>
+  <td>Checkbox</td>
   <td>ChecklistDB</td>
   <td>Radio</td>
-  <tdd>Dropdown</td>
-  <tdd>DropdownDB</td>
-  <tdd>AutoComplete</td>
-  <tdd>Label</td>
+  <td>Dropdown</td>
+  <td>DropdownDB</td>
+  <td>AutoComplete</td>
+  <td>Label</td>
   <td>Box</td>
-  <tdd>Signature</td>
+  <td>Signature</td>
  </tr>
  <tr>
-  <tdt>Static Image</td>
-  <tdd>Upload Image</td>
-  <tdd>File Upload</td>
-  <tdd>One-To-Many</td>
-  <tdd>Multitag</td>
- <tdd>Additional Data</td>
-  <tdd>Button</td>
-  <tdd>HTML FIeld</td>
-  <tdd>Quizz</td>
+  <td>Static Image</td>
+  <td>Upload Image</td>
+  <td>File Upload</td>
+  <td>One-To-Many</td>
+  <td>Multitag</td>
+ <td>Additional Data</td>
+  <td>Button</td>
+  <td>HTML FIeld</td>
+  <td>Quizz</td>
  </tr>
  <tr>
-  <tdd>Email</td>
-  <tdd>Password</td>
-  <tdd>Horizontal Line</td>
+  <td>Email</td>
+  <td>Password</td>
+  <td>Horizontal Line</td>
  </tr>
 </table>
 
@@ -708,9 +708,9 @@ To make the "ChecklistDB" component work, you need to pull data from another for
 So, it is necessary, that you have created that other form/database, and after updating the list, just select the "Class" of that other one.
 <table>
   <tr>
-   <tdd>Source Field:</td>
-   <tdd>Label Field:</td>
-   <tdd>Picture Field:</td>
+   <td>Source Field:</td>
+   <td>Label Field:</td>
+   <td>Picture Field:</td>
  </tr>
 </table>
 
@@ -725,7 +725,7 @@ Select the "Radio" component, then drag and drop it where it says "Drop new fiel
 
 Scroll down to the "Values" section of this tutorial to learn how to use this component.
 
-Video: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
+🔗Video: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
 
 ### Radio 🔘 > VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115922505-5cbc0980-a453-11eb-816d-9ec435070fba.png)
@@ -1101,12 +1101,12 @@ And to download the file, just click the ![image](https://user-images.githubuser
 You can upload files of the following formats:
 <table>
  <tr>
-  <tdd>Word</td>
+  <td>Word</td>
   <td>Powerpoint</td>
   <td>Powerpoint</td>
-  <tdd>PDF</td>
-  <tdd>Excel</td>
-  <tdd>TXT</td>
+  <td>PDF</td>
+  <td>Excel</td>
+  <td>TXT</td>
   <td>Images</td>
  </tr>
  </table>
@@ -1154,11 +1154,11 @@ Refresh Source: Sometimes the source may have been created recently but the list
 
 <table>
  <tr>
-  <tdd>Source (Source)</td>
-  <tdd>Destination (Destination)</td>
-  <tdd>Operation (Operation)</td>
-  <tdd>Column (Column)</td>
-  <tdd>Output (Result)</td>
+  <td>Source (Source)</td>
+  <td>Destination (Destination)</td>
+  <td>Operation (Operation)</td>
+  <td>Column (Column)</td>
+  <td>Output (Result)</td>
  </tr>
 </table>
 
@@ -1208,13 +1208,13 @@ Start typing the first letters and soon the names will appear:
 ![image](https://user-images.githubusercontent.com/81401104/116294942-eb3fcc00-a76e-11eb-8570-deb48375c6d3.png)
 
 
-And then click the ![image](https://user-images.githubusercontent.com/81401104/116294980-f561ca80-a76e-11eb-9602-277e3c8f8579.png) button
-.
+And then click the ![image](https://user-images.githubusercontent.com/81401104/116294980-f561ca80-a76e-11eb-9602-277e3c8f8579.png) button.
+
 It will appear as follows: 
+
 ![image](https://user-images.githubusercontent.com/81401104/116295016-feeb3280-a76e-11eb-8561-490f44818321.png)
 
 To view and edit this added form, click the ![image](https://user-images.githubusercontent.com/81401104/116295079-14f8f300-a76f-11eb-96e4-6fc8d24d8abc.png) button.
-.
 
 ## Additional Data ➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116295496-89cc2d00-a76f-11eb-908d-21fef404e665.png)
