@@ -400,6 +400,8 @@ This visualization of the highlighted field with the message beside (or below, e
 
 You can keep adding new fields and switching the order and messages, but remember that it only works the first time, so to test it again you need to create a new form.
 
+<div id='id-TextAread'/>
+
 ## TextArea 📄
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
 
@@ -431,6 +433,8 @@ To learn more about how to use this functionality, go to the "Presentation" sect
 
 The "Rows" item refers to how many rows you want for your "Textarea" component. For example, if you put in "4", you will notice that the component has grown to 4 rows.
 
+<div id='id-Editor'/>
+
 ## Editor 🎬
 ![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
 
@@ -456,6 +460,8 @@ To edit the added record, click the ![image](https://user-images.githubuserconte
  
 🔗Video: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
+<div id='id-Hidden'/>
+
 ## Hidden 🙈
 ![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
 
@@ -479,6 +485,8 @@ Under Type you can select one of 5 possible options:
 <br>
 
 Default Value: Default value (the value will be filled in automatically, but can be changed if necessary).
+
+<div id='id-Integer'/>
 
 ## Integer 🔢
 ![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
@@ -527,6 +535,8 @@ Fill the field with "15" and then with "16" and notice that the maximum value al
 Auto Increment: Will start with the value 1 and then continue with the sequence (2,3,4...) automatically. If you have an initial value defined, for example "34", it will continue from there (35,36,37...), like in the following example images:
 ![image](https://user-images.githubusercontent.com/81401104/115915247-73f5f980-a449-11eb-9de3-3542a5336c36.png)
 ![image](https://user-images.githubusercontent.com/81401104/115915296-86703300-a449-11eb-8bce-144d0ff7cab7.png)
+
+<div id='id-Decimal'/>
 
 ## Decimal 💲
 ![image](https://user-images.githubusercontent.com/81401104/115915315-8d974100-a449-11eb-8ba7-dd634492ea2e.png)
@@ -606,6 +616,7 @@ In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and
 
 After adding the values, click on the ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png) button.
 .
+<div id='id-Date'/>
 
 ## Date 📆 
 ![image](https://user-images.githubusercontent.com/81401104/115919138-d0a7e300-a44e-11eb-9376-8aeb6e83f45c.png)
@@ -633,6 +644,8 @@ Default: The field will be filled with a pre-determined date, but you can change
 By default the format is "mm/dd/yyyy", which means "month/day/year". 
 
 Current Date. By checking this box, the "Date" field will always be automatically filled in with the current date.
+
+<div id='id-DateTime'/>
 
 ## DateTime 📆⏲️ 
 ![image](https://user-images.githubusercontent.com/81401104/116605437-cb8edc00-a905-11eb-9d85-da4e8267a93c.png)
@@ -664,6 +677,8 @@ By default the format is "mm/dd/yyyy" which means "month/day/year".
 
 Current Date/Time: By checking this box, the "DateTime" field will always be automatically filled in with the current date and time.
 
+<div id='id-Time'/>
+
 ## Time ⌛ 
 ![image](https://user-images.githubusercontent.com/81401104/115920003-faadd500-a44f-11eb-9908-55c0199797e6.png)
 
@@ -688,6 +703,9 @@ Video: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZg
 ![image](https://user-images.githubusercontent.com/81401104/115920106-1c0ec100-a450-11eb-8461-27ea86d57921.png)
 
 Default: The field will be populated with a predetermined time, but you can change it if necessary.
+
+<div id='id-CheckBox'/>
+
 
 ## CheckBox ✅
 ![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
@@ -717,6 +735,8 @@ After saving them, they will be arranged as follows on the registration screen:
 The "Default Value" checkbox refers to whether the field is already checked or unchecked when making the records.
 
 🔗Video: https://www.youtube.com/watch?v=BSVBdBxE4sA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=19
+
+<div id='id-ChecklistDB'/>
 
 ## ChecklistDB 📁
 ![image](https://user-images.githubusercontent.com/81401104/115920530-b2db7d80-a450-11eb-80a9-2f7f035b7451.png)
@@ -752,6 +772,8 @@ So, it is necessary, that you have created that other form/database, and after u
    <td>Picture Field:</td>
  </tr>
 </table>
+
+<div id='id-Radio'/>
 
 ## Radio 🔘
 ![image](https://user-images.githubusercontent.com/81401104/115922262-0d75d900-a453-11eb-9b6b-ddc37d5b072d.png)
@@ -792,6 +814,8 @@ Run the application.
 The component will look like this on the registration screen:
 ![image](https://user-images.githubusercontent.com/81401104/115923754-19629a80-a455-11eb-9717-635682b4ac28.png)
 
+<div id='id-Dropdown'/>
+
 ## Dropdown 🗄️
 ![image](https://user-images.githubusercontent.com/81401104/115923839-4020d100-a455-11eb-9f00-1e9c4c39a47d.png)
 
@@ -825,6 +849,8 @@ On the registration screen, the "Dropdown" will work as follows:
 ![image](https://user-images.githubusercontent.com/81401104/116136301-8457df80-a6a8-11eb-9989-de387c22fe47.png)
 
 To learn more about how to use this feature, go to the "Values" section of the "Radio" component.
+
+<div id='id-DropdownDB'/>
 
 ## DropdownDB 📥
 ![image](https://user-images.githubusercontent.com/81401104/116136414-a6e9f880-a6a8-11eb-8374-e4210d16ff89.png)
@@ -886,6 +912,8 @@ And you will see the values added in the "Color" field of the other form. Select
  You can do the same process with both fields in the same form.
 Still in the "Source" section, under "Additional Data" you can add another set of values from a field as long as it is from the same form selected in "Class".
 
+<div id='id-AutoComplete'/>
+
 ## AutoComplete 🗄️🧲
 ![image](https://user-images.githubusercontent.com/81401104/116138049-b8340480-a6aa-11eb-93d7-6b47352f7108.png)
 
@@ -935,6 +963,8 @@ Source From
 
 To
 
+<div id='id-Label'/>
+
 ## Label 🔤
 ![image](https://user-images.githubusercontent.com/81401104/116139186-1f9e8400-a6ac-11eb-82d0-6d9d36c4f6f4.png)
 
@@ -968,6 +998,8 @@ Add the values in the two fields and then click the ![image] button (https://use
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
 
 By selecting the box of the ![image](https://user-images.githubusercontent.com/81401104/116140566-e23af600-a6ad-11eb-8a0c-79dd83cab49f.png), you will create the border for the component, and you can also edit the "Label" field.
+
+<div id='id-Signature'/>
 
 ## Signature ✒️
 ![image](https://user-images.githubusercontent.com/81401104/116140680-0c8cb380-a6ae-11eb-9d6b-4cbce5e464a6.png)
@@ -1055,6 +1087,8 @@ Date field: Select the field that contains the "Date" or "DateTime" component
 
 Info field: Select the field that contains the "Hidden" component attached to the signature.
 
+<div id='id-Static'/>
+
 ## Static Image 🖼️
 ![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
 
@@ -1082,6 +1116,8 @@ In the "Image" section of the "Image" component you can give description ("Descr
 to add the event that clicking on the image will take you to the link.
 ![image](https://user-images.githubusercontent.com/81401104/116143334-6773da00-a6b1-11eb-8d29-8f974312f577.png)
 
+<div id='id-Upload'/>
+
 ## Upload Image 📸📩
 ![image](https://user-images.githubusercontent.com/81401104/116143456-8d997a00-a6b1-11eb-9ff1-0436b57b9ad6.png)
 
@@ -1103,6 +1139,8 @@ and then click the ![image](https://user-images.githubusercontent.com/81401104/1
 To view the photo you just added, click the ![image](https://user-images.githubusercontent.com/81401104/116143693-d3564280-a6b1-11eb-8522-78da4e1fef90.png) button (under "Control")
 
 🔗Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
+
+<div id='id-File'/>
 
 ## File Upload 📂📩
 ![image](https://user-images.githubusercontent.com/81401104/116143924-1adcce80-a6b2-11eb-8c4d-62e5bd5a86ec.png)
@@ -1157,6 +1195,8 @@ If you leave all the checkboxes unchecked, you will be able to upload any of the
 
 Selecting the checkbox "Allow to delete file from storage" will allow deleting files from storage (where files are stored) .
 
+<div id='id-One-To-Many'/>
+
 ## One-To-Many 📃➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
 
@@ -1200,6 +1240,8 @@ Refresh Source: Sometimes the source may have been created recently but the list
   <td>Output (Result)</td>
  </tr>
 </table>
+
+<div id='id-MultiTag'/>
 
 ## MultiTag 🏷️
 
@@ -1254,6 +1296,8 @@ It will appear as follows:
 ![image](https://user-images.githubusercontent.com/81401104/116295016-feeb3280-a76e-11eb-8561-490f44818321.png)
 
 To view and edit this added form, click the ![image](https://user-images.githubusercontent.com/81401104/116295079-14f8f300-a76f-11eb-96e4-6fc8d24d8abc.png) button.
+
+<div id='id-Additional'/>
 
 ## Additional Data ➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116295496-89cc2d00-a76f-11eb-908d-21fef404e665.png)
@@ -1354,6 +1398,8 @@ Select the name "João Carlos" and observe the message beside:
 
 Select the name "Maria Aparecida" and notice the message beside:
 ![image](https://user-images.githubusercontent.com/81401104/116297452-a79a9180-a771-11eb-9f3d-f5c93261eccc.png)
+
+<div id='id-Button'/>
 
 ## Button ⏸️
 ![image](https://user-images.githubusercontent.com/81401104/116297504-b4b78080-a771-11eb-8a78-7491dd87ff6b.png)
