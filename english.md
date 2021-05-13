@@ -32,7 +32,37 @@
     - [Email 📧](#id-Email)
     - [Password *️⃣](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
-- 
+- [Form]
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
+    - [Repeater 🔁](#id-Repeater)
 
 <div id='id-frist'/>
 
@@ -1490,6 +1520,8 @@ To learn more about how to use this functionality, go to the "General" section o
 
 HTML: This is where you will paste your HTML code. 
 
+<div id='id-Quiz'/>
+
 ## Quiz 🧩
 ![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
 
@@ -1545,6 +1577,8 @@ To learn more about how to use this feature, go to the "Others" section of the "
 
 Score Field: Will select the field that is inside the same form to show the quiz score. This other field must use the "Integer" component to fulfill its function.
 
+<div id='id-Email'/>
+
 ## Email 📧
 ![image](https://user-images.githubusercontent.com/81401104/116300945-df0b3d00-a775-11eb-94f1-020c4570ff92.png)
 
@@ -1561,6 +1595,8 @@ And notice that on the register screen you will only be allowed to save what you
 Notice that when it was written only "Jesse" it was not possible to save, but when "@gmail.com" was added to the end it became possible to save it.
 
 🔗Video: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
+
+<div id='id-Password'/>
 
 ## Password *️⃣
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
@@ -1583,6 +1619,8 @@ And even if you access the form again by clicking on the ![image](https://user-i
 (below "Control"), you still won't be able to view the entered information:
 
 🔗Video: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
+
+<div id='id-Horizontal'/>
 
 ## Horizontal Line 📏🪓
 ![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
@@ -1609,6 +1647,8 @@ This is what the "Horizontal Line" does, it breaks lines to organize the layout 
 
 🔗Video: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
 
+<div id='id-Repeater'/>
+
 ## Repeater 🔁
 ![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
 
@@ -1630,8 +1670,12 @@ This data link was defined in the Datasource that we created in the previous ste
 
 Notice that the fields are automatically displayed as defined in the Datasource
 
+<div id='id-Video'/>
+
 ## Video call Coming Soon 🚧
   Coming Soon
+
+<div id='id-Tab'/>
 
 ## Tab (Form)
 ![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)
@@ -1721,6 +1765,8 @@ You can add more records for the same animal.
 
 And it is also possible to save more fields in the tab for the same animal, just add one more field in the 'Extra Animal Info' form and then add the extra field in the "Aggregation Fields" while editing the tab. Then just save and run the application.
 
+<div id='id-Properties'/>
+
 ## Dev Properties (Form)
 ![formtesev](https://user-images.githubusercontent.com/81401104/117347868-f2a65a00-ae7f-11eb-92df-85b8c9cea828.gif)
 <ul>
@@ -1758,6 +1804,8 @@ Custom Scripts:
 e Form Rule - Clicking on it will open the following modal:
 ![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif).
 
+<div id='id-Notification'/>
+
 ## Notification (Form)
 ![image](https://user-images.githubusercontent.com/81401104/117351815-8a0dac00-ae84-11eb-97ac-106552f4e3bb.png)
 
@@ -1766,6 +1814,9 @@ Click the ![image](https://user-images.githubusercontent.com/81401104/117351832-
 The following modal will open:
 
 ![image](https://user-images.githubusercontent.com/81401104/117351893-a4478a00-ae84-11eb-9626-f05ff645b658.png)
+
+
+<div id='id-Event'/>
 
 ### Event type:
 
@@ -1807,6 +1858,8 @@ Then just click the ![image](https://user-images.githubusercontent.com/81401104/
 
 ![image](https://user-images.githubusercontent.com/81401104/117355449-f68aaa00-ae88-11eb-9e6f-17232328d2e1.png)
 
+<div id='id-Kanban'/>
+
 ## Kanban 🎰
 To create a kanban, you need to create a new form, and then the header will appear as follows: 
 ![image](https://user-images.githubusercontent.com/81401104/117355489-03a79900-ae89-11eb-8310-c882e6007371.png)
@@ -1841,12 +1894,12 @@ click on the green add button:
 
 In the "Enumerations" modal window, set the name to "Status", Type "String". 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117355963-95afa180-ae89-11eb-86dd-0891fc620005.png)
+click on the button ![image](https://user-images.githubusercontent.com/81401104/117355963-95afa180-ae89-11eb-86dd-0891fc620005.png)
 
 and add the options "Pending", "Approved", and "Rejected".
 ![image](https://user-images.githubusercontent.com/81401104/117356003-a6f8ae00-ae89-11eb-894e-ffe8b6d0e679.png)
 
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117356027-afe97f80-ae89-11eb-8f54-6361f0cbfa9e.png). Run the application.
+Então click on the button ![image](https://user-images.githubusercontent.com/81401104/117356027-afe97f80-ae89-11eb-8f54-6361f0cbfa9e.png). Run the application.
 
 Now go back to the Kanban screen and refresh the page (hit the F5 key).
 In the field properties, on the "Form" dropdown select the form we just created ("Task"). 
@@ -1870,7 +1923,7 @@ In "Column Field" select the option ''Pending'', in 'Label' write "Hotel Website
 ![image](https://user-images.githubusercontent.com/81401104/117356387-0b1b7200-ae8a-11eb-8285-1dd12578453b.png)
 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117356400-0f478f80-ae8a-11eb-9be9-e0496b074cc5.png).
+click on the button ![image](https://user-images.githubusercontent.com/81401104/117356400-0f478f80-ae8a-11eb-9be9-e0496b074cc5.png).
 
 ![image](https://user-images.githubusercontent.com/81401104/117356439-1a022480-ae8a-11eb-85e1-295dc2d82773.png)
 
@@ -1882,9 +1935,13 @@ And this is the Kanban in action. To add more tasks, just repeat the process:
 
 ![image](https://user-images.githubusercontent.com/81401104/117356524-356d2f80-ae8a-11eb-8555-4c4420a34297.png)
 
+<div id='id-Software'/>
+
 ## Software Replication
 
 Contact Easy Comtec support.
+
+<div id='id-List'/>
 
 ## List
 To view the form in list format, create a new form and add the components "Textfield" and "Integer" and name them "Name" and "Age" respectively.
@@ -1988,6 +2045,8 @@ And notice that now "Joao Carlos", who is "21", is no longer shown.
 
 The ![image](https://user-images.githubusercontent.com/81401104/117495817-85142f80-af4c-11eb-913e-74647933fe0a.png) button deletes whatever is written inside the filter field.
 
+<div id='id-How'/>
+
 ## How to Add a User 
 
 To complete this tutorial, you must have gone through the steps in the 
@@ -2005,7 +2064,7 @@ And then the title of the screen will change to "User", because we will register
 
 ![image](https://user-images.githubusercontent.com/81401104/117496464-7a0dcf00-af4d-11eb-9576-ab1bd51d557f.png)
 
-Clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117496555-96aa0700-af4d-11eb-8756-099fc146e27e.png)
+Click on the button ![image15](https://user-images.githubusercontent.com/81401104/117496555-96aa0700-af4d-11eb-8756-099fc146e27e.png)
 
 Fill in the fields with the corresponding information. In this case I created a dummy user, just to demonstrate.
 
@@ -2016,6 +2075,8 @@ Then click the button ![image](https://user-images.githubusercontent.com/8140110
 And the user registration screen will appear.
 
 ![image](https://user-images.githubusercontent.com/81401104/117496853-fa343480-af4d-11eb-8370-35318b17e664.png)
+
+<div id='id-Permission'/>
 
 ## How to Give User Permission 
 
@@ -2074,6 +2135,9 @@ Then click the button ![image](https://user-images.githubusercontent.com/8140110
 
 
 And now you can see the users that are inserted in the "Role".
+
+<div id='id-Tools'/>
+
 ## Tools 🔧 
 
 ### 🔧 X form
@@ -2125,6 +2189,8 @@ After saving this set, it will be arranged as follows on the records screen:
 
 🔗 Video: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
 
+<div id='id-DataSource'/>
+
 ### 🔧 DataSource
 
 To create a DataSource, you need to have a source form (it can be the "Form X" created during its tutorial).
@@ -2168,9 +2234,15 @@ Your datasource is created:
 
 🔗Video: https://www.youtube.com/watch?v=MS_UWKBwO80&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=38
 
+<div id='id-Process'/>
+
 ### 🔧 Process
 
+<div id='id-Job'/>
+
 ### 🔧 Process Job
+
+<div id='id-Report'/>
 
 ### 🔧 Report
 
@@ -2224,6 +2296,8 @@ And it will result in this:
 
 
 🔗Video: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
+
+<div id='id-Chart'/>
 
 ### 🔧 Chart
 
@@ -2279,21 +2353,26 @@ And here you can see the percentage of employees per role in a pie chart format.
 
 🔗Video: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
 
+<div id='id-API'/>
 
 ### 🔧 API
 
 To make use of the API, please contact Easy Comtec support.
 
+<div id='id-Template'/>
+
 ### 🔧 Template
 
 To make use of the "Template", contact Easy Comtec support.
 
+<div id='id-Scheduler'/>
 
 ### 🔧 Scheduler
 
 To make use of the Scheduler, contact Easy Comtec support.
 
-
+<div id='id-2Notification'/>
+         
 ### 🔧 Notification
 
 To use this feature, go to the "Tools" menu (located on the home screen when you log into your account) and select "Notification":
@@ -2326,7 +2405,9 @@ After you have edited the fields, click the ![image](https://user-images.githubu
 ![image](https://user-images.githubusercontent.com/81401104/117500965-c52ae080-af53-11eb-92bc-b00b064efd6c.png)
 There, your notification has been created.
 
-## 🧰 Project Settings
+<div id='id-ProjectSettings'/>
+
+## Project Settings 🧰
 
 To access the project settings you need to perform the following steps:
 
@@ -2349,6 +2430,8 @@ Both paths will lead to the same modal window:
 
 ![image](https://user-images.githubusercontent.com/81401104/117501659-bbee4380-af54-11eb-82a5-9b019dd60014.png)
 
+<div id='id-Main'/>
+
 ### 🧰 Main
 ![image](https://user-images.githubusercontent.com/81401104/117502018-4afb5b80-af55-11eb-95b3-b0fcbcc8628c.png)
 
@@ -2363,6 +2446,7 @@ DataBase configurations
 Email Server Configuration
 Other configurations
 
+<div id='id-ProjectConfigurations'/>
 
 #### 🧰 Project Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502040-551d5a00-af55-11eb-8235-f2be3fa455ba.png)
@@ -2381,6 +2465,7 @@ Service Reference: (Service Reference) Used for rendering the template.
 
 MvC Project Name:  (MvC Project Name) Used for rendering the template.
 
+<div id='id-DatabaseConfigurations'/>
 
 #### 🧰 Database Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
@@ -2504,6 +2589,8 @@ Role Manager
 
 Roles x Users Form (Role Form) 
 
+<div id='id-2Menus'/>
+
 #### 🧰 Menus
 ![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
 
@@ -2556,6 +2643,7 @@ Menu Hierarchy: Where you will see the order and hierarchy relation between the 
 
 ![image](https://user-images.githubusercontent.com/81401104/117503496-67989300-af57-11eb-84ad-ed7d23e1504e.png)
 
+<div id='id-DataBaseManager'/>
 
 #### 🧰 DataBase Manager
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
@@ -2570,6 +2658,8 @@ By clicking on the ![image](https://user-images.githubusercontent.com/81401104/1
 
 ![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png) : Clear the data from the selected tables.
 
+<div id='id-Editors'/>
+
 #### 🧰 Editors
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
 
@@ -2582,8 +2672,9 @@ When the name/email of the person you want to add appears, select him/her and th
 
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
-
 Then click the button ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
+
+<div id='id-2Email'/>
 
 #### 🧰 Email
 ![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
@@ -2599,6 +2690,8 @@ Subject: Subject
 CC: Carbon Copy
 
 Body: Body
+
+<div id='id-2Images'/>
 
 #### 🧰 Images
 ![image](https://user-images.githubusercontent.com/81401104/117503797-db3aa000-af57-11eb-988b-3cfb2da12c11.png)
