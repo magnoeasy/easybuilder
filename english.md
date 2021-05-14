@@ -1,6 +1,6 @@
 <h1>Easy Builder tutorial in English</h1>
 <img src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png">
-<
+
 # Table Content
 - [First steps in Easy Builder 🦶](#id-frist)
 - [It's time to get hands-on 🖐️](#id-hands)
