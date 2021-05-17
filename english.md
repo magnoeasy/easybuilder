@@ -6,16 +6,16 @@
 - [It's time to get hands-on 🖐️](#id-hands)
 - [Components 🧱](#id-component)
     - [Textfield 📓](#id-textfield)
-    - [TextArea 📄](#id-TextArea)
+    - [TextArea 📄](#id-textarea)
     - [Editor 🎬](#id-Editor)
     - [Hidden 🙈](#id-Hidden)
     - [Integer 🔢](#id-Integer)
     - [Decimal 💲](#id-Decimal)
     - [Date 📆](#id-Date)
-    - [DateTime 📆⏲️](#DateTime)
+    - [DateTime 📆⏲️](#id-DateTime)
     - [Time ⌛](#id-Time)
     - [CheckBox ✅](#id-CheckBox)
-    - [ChecklistDB 📁](#ChecklistDB)
+    - [ChecklistDB 📁](#id-ChecklistDB)
     - [Radio 🔘](#id-Radio)
     - [DropdownDB 📥](#id-DropdownDB)
     - [AutoComplete 🗄️🧲](#id-AutoComplete)
@@ -136,7 +136,9 @@ A short gif to help you:
 <img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif"><br>
 
 ### How to Run the Application 💻
+    
 When you get to the form screen, fill in the "Form Title"(the title of the form) and insert the "Textfield" and "Email" components:
+    
 <img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
 
 We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif"><br>You will go to the following screen
@@ -430,7 +432,7 @@ This visualization of the highlighted field with the message beside (or below, e
 
 You can keep adding new fields and switching the order and messages, but remember that it only works the first time, so to test it again you need to create a new form.
 
-<div id='id-TextAread'/>
+<div id='id-textarea'/>
 
 ## TextArea 📄
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
@@ -645,7 +647,7 @@ The following page will open:
 In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and automatically it will show the value "3.87" in the "Total" field. You can test with other values if you wish.
 
 After adding the values, click on the ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png) button.
-.
+
 <div id='id-Date'/>
 
 ## Date 📆 
@@ -2226,7 +2228,7 @@ Double click on the items that appear on the right side of the screen: "Funcao" 
 ![image](https://user-images.githubusercontent.com/81401104/117499488-b17e7a80-af51-11eb-88bf-42e58cc815e5.png)
 
 
-Notice that it has been added into the datasource. Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png).
+Notice that it has been added into the datasource.now click on button ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png).
 
 Your datasource is created:
 
@@ -2656,13 +2658,14 @@ By clicking on the ![image](https://user-images.githubusercontent.com/81401104/1
 
 ![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): Excluir tables selecionadas.
 
+
 ![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png) : Clear the data from the selected tables.
+
 
 <div id='id-Editors'/>
 
 #### 🧰 Editors
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
-
 
 Member Users can view and edit your system.
 
