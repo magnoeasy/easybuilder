@@ -229,7 +229,9 @@ São 30 componentes que iremos aprender a utilizar, são eles:
 É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.<br>
 
 O exemplo de “Properties of Field” da imagem abaixo é do componente “Textfield”.
-<img src="https://user-images.githubusercontent.com/81401104/115268685-e5b00980-a110-11eb-9b9e-1215c566626a.png">
+
+![sq](https://user-images.githubusercontent.com/81401104/119602180-fd8a4580-bdc0-11eb-9dab-3af21b272167.gif)
+
 
 É importante saber disso para que facilite o processo de localizar as seções, itens, etc.<br>
 
@@ -332,7 +334,8 @@ Vamos testar isso na prática. Selecione e arraste o componente “Integer” pa
 <img src="https://user-images.githubusercontent.com/81401104/115289821-64b13c00-a129-11eb-809d-d6fea45d85de.png">
 
  no “Properties of Field”, abaixo de “General”, em “Name” e “Label” preencha o campo com “Idade”. 
-<img src="https://user-images.githubusercontent.com/81401104/115289993-7a266600-a129-11eb-95ed-0cc10fe0de8b.png">
+ 
+![idade2](https://user-images.githubusercontent.com/81401104/119603354-64a8f980-bdc3-11eb-9045-674b4e939884.gif)
 
 
 Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” ,clique no ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
@@ -353,6 +356,7 @@ Então clique na lista suspensiva do “Visibility Rules” (do campo “Idade�
  e então aparecerá mais uma lista embaixo, clique e selecione “Idade”.
 (imagem na próxima página)
 ![image](https://user-images.githubusercontent.com/81401104/115290864-6deed880-a12a-11eb-9c10-250f6e028aa2.png)
+
 
 Agora execute a aplicação.
 
