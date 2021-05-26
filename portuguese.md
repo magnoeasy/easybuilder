@@ -32,8 +32,8 @@
     - [Email 📧](#id-Email)
     - [Password *️⃣](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
-- Form 📃
     - [Repeater 🔁](#id-Repeater)
+- [Form 📃](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
     - [Dev Properties (Form)](#id-Properties)
@@ -41,7 +41,7 @@
     - [Event type](#id-Event)
     - [Kanban 🎰](#id-Kanban)
     - [Software Replication](#id-Software)
-    - [List](#id-List)
+    - [List](#id-list)
     - [How to Add a User](#id-How)
     - [How to Give User Permission](#id-Permission)
 - [Tools 🔧](#id-Tools)
@@ -1517,9 +1517,9 @@ Então abrirá a seguinte aba:
 
 Em “Custom Scripts” copie e cole o seguinte script: 
 
-function alerta() {
-   alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
-}
+                                    function alerta() {
+            alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
+            }
 
 Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 para testar se o script é válido, se ele for, irá aparecer no topo direito uma mensagem dizendo:  “Confirmation Custom Script Valid”.
@@ -1729,7 +1729,7 @@ Perceba que os campos são exibidos automaticamente conforme o que foi definido 
 ## Video call Coming Soon 🚧
   Em breve
 
-<div id='id-Form'/>
+<div id='id-form'/>
 
 ## Tab (Form)
 ![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)
@@ -1994,6 +1994,8 @@ E esse é o Kanban em funcionamento. Para adicionar mais tasks, é só repetir o
 ## Replicação de Software
 
 Entrar em contato com o suporte da Easy Comtec.
+
+<div id='id-list'/>
 
 ## List
 Para visualizar o formulário em formato de lista, crie um novo formulário e adicione os componentes “Textfield” e “Integer” e nomeie-os de “Nome” e “Idade” respectivamente.
@@ -2725,7 +2727,7 @@ Role Manager (Gerente da função)
 
 Roles x Users Form (Formulário de usuário x funções) 
 
-<div id='2Menus'/>
+<div id='id-2Menus'/>
 
 #### 🧰 Menus
 ![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
@@ -2780,7 +2782,7 @@ Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de
 
 ![image](https://user-images.githubusercontent.com/81401104/117503496-67989300-af57-11eb-84ad-ed7d23e1504e.png)
 
-<div id='DataBaseManager'/>
+<div id='id-DataBaseManager'/>
 
 #### 🧰 DataBase Manager
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
