@@ -435,7 +435,7 @@ Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc
 
 Você pode continuar adicionando novos campos e alternando as ordens e as mensagens, mas lembre-se que só funciona da primeira vez, então para testar denovo é necessário criar um novo formulário.
 
-<div id='id-textArea'/>
+<div id='id-textarea'/>
 
 ## TextArea 📄
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
