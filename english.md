@@ -27,7 +27,7 @@
     - [MultiTag 🏷️](#id-MultiTag)
     - [Additional Data ➡️📃](#id-Additional)
     - [Button ⏸️](#id-Button)
-    - [HTML Field 🦰](#id-HTML)
+    - [HTML Field 🦰](#id-HTMLFIELD)
     - [Quiz 🧩](#id-Quiz)
     - [Email 📧](#id-Email)
     - [Password *️⃣](#id-Password)
@@ -617,9 +617,9 @@ Now click on the button ![image](https://user-images.githubusercontent.com/81401
 
 In this "Custom Scripts" field copy and paste the following:
 
-function sum() {
-    this.entity.Total = this.entity.Number1 + this.entity.Number2;
-}
+                                        function sum() {
+                        this.entity.Total = this.entity.Number1 + this.entity.Number2;
+                        }
 
 Now go back to the "Form Design" on the "Dev Properties" side, at the top of the page. 
 (Image below)
@@ -1466,9 +1466,9 @@ Then the following tab will open:
 
 Under "Custom Scripts" copy and paste the following script: 
 
-function alert() {
-   alert('Can be used in alerts, redirect to another page, execute a javascript function')
-}
+                                            function alert() {
+                                   alert('Can be used in alerts, redirect to another page, execute a javascript function')
+                                   }
 
 then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 
@@ -1504,7 +1504,7 @@ For example, copy and paste the following code:
 ![image](https://user-images.githubusercontent.com/81401104/116300074-d5350a00-a774-11eb-80be-e09fd664078b.png)
 
 Soon you will see the following:
-<p>The documents are <strong>mandatory&nbsp;</strong></p>
+                        <p>The documents are <strong>mandatory&nbsp;</strong></p>
 
 Notice that the word "mandatory" is in bold, due to the html code.
 
@@ -1514,6 +1514,8 @@ Run the application...
 And here you can see the message with text formatting inside your form.
 
 🔗Video: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
+
+<div id='id-HTMLFIELD'/>
 
 ### HTML Field 🦰 > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
