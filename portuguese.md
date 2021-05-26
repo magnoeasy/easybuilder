@@ -237,7 +237,7 @@ Outra situação recorrente é a referenciação dentro do tutorial de um compon
 
 É importante também que já tenha realizado os passos dos tutoriais  “Como Criar Seu Primeiro Projeto, Menu e Formulário” e “Como Executar a Aplicação”.
 
-<div id='id-Textfield'/>
+<div id='id-textfield'/>
  
 ## Textfield 📓
 
@@ -435,7 +435,7 @@ Essa visualização de destaque do campo com a mensagem ao lado (ou embaixo, etc
 
 Você pode continuar adicionando novos campos e alternando as ordens e as mensagens, mas lembre-se que só funciona da primeira vez, então para testar denovo é necessário criar um novo formulário.
 
-<div id='id-TextArea'/>
+<div id='id-textArea'/>
 
 ## TextArea 📄
 ![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
@@ -619,9 +619,9 @@ Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115
 
 Nesse campo do “Custom Scripts” copie e cole o seguinte:
 
-function soma() {
-    this.entity.Total = this.entity.Number1 + this.entity.Number2;
-}
+                                                    function soma() {
+                                    this.entity.Total = this.entity.Number1 + this.entity.Number2;
+                                    }
 
 Agora volte para o “Form Design”  do lado de “Dev Properties”, no topo da página. 
 (Imagem abaixo)
