@@ -83,7 +83,11 @@ A confirmation link will be sent to your registered email, so go to it, and open
 Finally click _Link Here_ to confirm the email.⤴️<br>
 <br>
 There now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️<br>
-<img src="https://user-images.githubusercontent.com/81401104/114770895-58506c00-9d42-11eb-91b8-d35e97afe7cf.png">
+
+![Screenshot_2](https://user-images.githubusercontent.com/81401104/119750852-7f857780-be70-11eb-8c77-54ea746fedb1.png)
+
+    
+
 
                                                 Done registering Congratulations!!🥇🎉
 <div id='id-hands'/>
