@@ -1,3 +1,3 @@
-# easybuilder WebSite
+# Easybuilder WebSite
 https://builder.easy.rocks
 
