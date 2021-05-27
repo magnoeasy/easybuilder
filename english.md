@@ -32,7 +32,7 @@
     - [Email 📧](#id-Email)
     - [Password *️⃣](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
-- [Form 📃](#id-tab)
+- [Form 📃](#id-Tab)
     - [Repeater 🔁](#id-Repeater)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
@@ -69,8 +69,9 @@
 ## First steps in Easy Builder 🦶
 <p>At first we need to create a login to <b>"Easy Builder"(our creation platform).<p>
 - Accessing the link https://builder.easy.rocks/
-<br>
-<br>
+
+    
+ 
 <img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png"><br>
  In this image we see a login screen, this is where you will sign up, there are several ways to sign up like Google, Microsoft Teams,Facebook or with your email, the recommended is to use Easy's email (....@easyteam.rocks) which you received by clicking <i>"Sign UP".<br>
   
@@ -141,7 +142,10 @@ When you get to the form screen, fill in the "Form Title"(the title of the form)
     
 <img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
 
-We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif"><br>You will go to the following screen
+We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
+    
+You will go to the following screen
+    
 <img src="https://user-images.githubusercontent.com/81401104/114936950-805bd000-9e13-11eb-8877-16341176b8e5.png">
 
 This is the screen of the records after they have been inserted and saved.⤴️
