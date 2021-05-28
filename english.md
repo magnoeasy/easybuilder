@@ -68,22 +68,23 @@
 
 ## First steps in Easy Builder 🦶
 <p>At first we need to create a login to <b>"Easy Builder"(our creation platform).<p>
-- Accessing the link https://builder.easy.rocks/
-
     
+- Accessing the link https://builder.easy.rocks/
+    
+<img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png">
  
-<img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png"><br>
- In this image we see a login screen, this is where you will sign up, there are several ways to sign up like Google, Microsoft Teams,Facebook or with your email, the recommended is to use Easy's email (....@easyteam.rocks) which you received by clicking <i>"Sign UP".<br>
+ In this image we see a login screen, this is where you will sign up, there are several ways to sign up like Google, Microsoft Teams,Facebook or with your email, the recommended is to use Easy's email (....@easyteam.rocks) which you received by clicking <i>"Sign UP".
+    
   
 ### Now we need to confirm your email 📧⚠️
 A confirmation link will be sent to your registered email, so go to it, and open the Easy Builder email that will be found in your Inbox or Junk Mail.
-<br>
-<img src="https://user-images.githubusercontent.com/81401104/114757978-d9a00280-9d32-11eb-9a5b-e0e30040c51c.png">
-<br>
-Finally click _Link Here_ to confirm the email.⤴️<br>
-<br>
-There now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️<br>
 
+<img src="https://user-images.githubusercontent.com/81401104/114757978-d9a00280-9d32-11eb-9a5b-e0e30040c51c.png">
+
+Finally click _Link Here_ to confirm the email.⤴️
+    
+There now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️
+    
 ![Screenshot_2](https://user-images.githubusercontent.com/81401104/119750852-7f857780-be70-11eb-8c77-54ea746fedb1.png)
 
     
@@ -94,8 +95,8 @@ There now you can already log in to <b>"Easy Builder"</b> without problems by cl
 
 ## It's time to get hands-on 🖐️
 
-Now we will learn how to make a basic project, menu and form, so you can already experience the features of Easy Builder.<br>
-<br>
+Now we will learn how to make a basic project, menu and form, so you can already experience the features of Easy Builder.
+    
 After logging into Builder you will be faced with the following content:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
@@ -112,34 +113,41 @@ Now you will be on your home page with the three main tabs, in this case automat
 Then, you will be back at the home screen with the two main tabs "Form" and "Report" (which means "Form" and "Report" respectively), now click on the "Form" tab:
 ![image](https://user-images.githubusercontent.com/81401104/116601837-502b2b80-a901-11eb-8e29-009d8ff21b96.png)
 And now click the _New_ button, it will automatically open a new tab in your browser.
-<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
+    
 On that new page, in the "Form Title" field write the title of your form (can be "FormTest").
 <img src="https://user-images.githubusercontent.com/81401104/114773828-e843e500-9d45-11eb-9f24-6412e65cd9dc.png">
+    
 Click the _"Save"_ button that is at the foot of the page.
+    
 <img src="https://user-images.githubusercontent.com/81401104/114774084-31943480-9d46-11eb-992d-d3c930421db8.png">
 
-Select the "Textfield" component (from the side tab Tools - Gallery Fields) and drag it to the gray field where it says "Drop new field here!"<br>
+Select the "Textfield" component (from the side tab Tools - Gallery Fields) and drag it to the gray field where it says "Drop new field here!"
 
 Now click on the component you dragged ("Textfield"), and soon a side tab will open on the right called "Properties of Field".⤵️
-<img src="https://user-images.githubusercontent.com/81401104/114777398-0875a300-9d4a-11eb-90be-640d428916b5.gif"><br>
+    
+<img src="https://user-images.githubusercontent.com/81401104/114777398-0875a300-9d4a-11eb-90be-640d428916b5.gif">
 
 There at the top of the "Properties of Field", under "General", In the "Name" field write ''Name'' and in the "Label" field also write "Name".
 Now click the _"Save"_ button and then click the _"Run"_ button, it will open the following page:
 <img src="https://user-images.githubusercontent.com/81401104/114778084-c8fb8680-9d4a-11eb-93e7-cdde13db4cca.png">
-Here the preview of the saved records will be available. ⤴️<br>
+Here the preview of the saved records will be available. ⤴️
+
 > Click on the _"New"_ button, you will be directed to the following screen:
 <img src="https://user-images.githubusercontent.com/81401104/114778942-dc5b2180-9d4b-11eb-9fd7-5e9e03c4ed8a.gif">
 Add the name "Lopes", and click the _"Save & Close"_ button !!! <img src="https://user-images.githubusercontent.com/81401104/114939285-9a4ae200-9e16-11eb-9884-5e9c3dbce5e5.gif">
+    
 <h3>⚠️Be careful not to confuse _"Save"_ instead of _"Save & Close"</h3>
-<img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png">
 
 Repeat the process by putting different name.
 
-You can download the list of records in excel list format by clicking on the _"Export Excel"_ button and then the link to download the excel list will be sent to your email.<br>
+You can download the list of records in excel list format by clicking on the _"Export Excel"_ button and then the link to download the excel list will be sent to your email.
+    
 A short gif to help you:
 
-<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif"><br>
-
+<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif">
+    
 ### How to Run the Application 💻
     
 When you get to the form screen, fill in the "Form Title"(the title of the form) and insert the "Textfield" and "Email" components:
@@ -233,15 +241,15 @@ There are 30 components that we will learn how to use, they are:
  </tr>
 </table>
 
-It is important to realize that in the "Properties of Field" section, there are several sections ("General", "Behavior", "Presentation", "Events", "Intro", etc) can have more or fewer sections, and with more or fewer items, depending on the component.<br>
+It is important to realize that in the "Properties of Field" section, there are several sections ("General", "Behavior", "Presentation", "Events", "Intro", etc) can have more or fewer sections, and with more or fewer items, depending on the component.
 
 The "Properties of Field" example in the image below is from the "Textfield" component.
 
 <img src="https://user-images.githubusercontent.com/81401104/115268685-e5b00980-a110-11eb-9b9e-1215c566626a.png">
 
-It is important to know this so that it makes the process of locating the sections, items, etc.<br>
+It is important to know this so that it makes the process of locating the sections, items, etc.
 
-Another recurring situation is referencing within the tutorial from one component to another tutorial within this document.<br>
+Another recurring situation is referencing within the tutorial from one component to another tutorial within this document.
 
 It is also important that you have already performed the steps in the tutorials "How to Create Your First Project, Menu and Form" and "How to Run the Application".
 
@@ -259,7 +267,7 @@ Select the "Textfield" component, then drag and drop it where it says "Drop new 
 
 ### Textfield 📓 > GENERAL 🎖️
 
-<img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png">
 
 In this "Properties of Field" tab, under "General", you have the "Name" field, this refers to the field identification for the coding, for possible programming later. Generally you will repeat what is written in "Label", which is the field identification for the user.
 
@@ -288,7 +296,7 @@ and then click the button <img src="https://user-images.githubusercontent.com/81
 
 
 You are now able to view your records:
-<img src="https://user-images.githubusercontent.com/81401104/115287588-d63bbb00-a126-11eb-9a81-29435627ddd9.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/115287588-d63bbb00-a126-11eb-9a81-29435627ddd9.png">
 
  and the process is the same as before for adding new records.
 
@@ -297,6 +305,7 @@ You are now able to view your records:
 Run the application.
 
 <img src="https://user-images.githubusercontent.com/81401104/115288674-1b142180-a128-11eb-82f0-3a930b0e05aa.png">
+
 Note that it is already filled in with (45)99887-6655, but you can change it.
 
 "Minimum Length" refers to the minimum number of characters to be used when filling the field. For example, select and drag one more "Textfield" component into the form and then edit just this "Minimum Length" setting to a value of 5.
@@ -341,6 +350,7 @@ Let's test this in practice. Select and drag the "Integer" component into the fo
 
 
 Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
+
 of the "Visibility Rules",
 
 will open the following window:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
