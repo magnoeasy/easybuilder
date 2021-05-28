@@ -70,7 +70,8 @@
 <p>Em primeiro plano precisamos criar um login no <b>"Easy Builder"(nossa plataforma de criação).<p>
 - Acessando o link https://builder.easy.rocks/
 
-<img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png">
+    
  Nesta imagem vemos uma tela de login, é nela que você ira se cadastrar, há varias formas de cadastro como Google, Microsoft Teams,Facebook ou com seu email,o recomendado é que utilize o email da Easy (....@easyteam.rocks) o qual você recebeu clicando em <i>"Sign UP".<br>
   
 ### Agora precisamos confirmar seu email 📧⚠️
@@ -91,8 +92,8 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
  
 ## É hora de por a mão na massa 🖐️
 
-Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.<br>
-<br>
+Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.
+
 Apos o login no Builder você irá se deparar com o seguinte contéudo:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
@@ -107,9 +108,12 @@ e clique no botão _Save & Close_
 Agora você estará na sua página inicial com as três abas principais, nesse caso automaticamente será a aba “Project”. 
 
 Então, voltará na tela inicial com as duas abas principais “Form” e “Report” (que significa “Formulário” e “Relatório” respectivamente), agora clique na aba “Form”:
+    
 ![image](https://user-images.githubusercontent.com/81401104/116601837-502b2b80-a901-11eb-8e29-009d8ff21b96.png)
+    
 E agora clique no botão _New_, automaticamente irá abrir uma nova aba no seu navegador.
-<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
+
 Nessa nova página, no campo do “Form Title” escreva o título do seu formulário (pode ser “FormulárioTeste”).
 <img src="https://user-images.githubusercontent.com/81401104/114773828-e843e500-9d45-11eb-9f24-6412e65cd9dc.png">
 Clique no botão _"Save"_ que se encontra no pé da página.
@@ -123,19 +127,22 @@ Agora clique no componente que você arrastou (“Textfield”), e logo irá abr
 Lá no topo do “Properties of Field”, abaixo de “General”, No campo “Name”  escreva ‘‘Nome’’ e no campo “Label” também escreva “Nome”.
 Agora clique no botão  _"Save"_ e depois clique no botão _"Run"_, irá abrir a seguinte página:
 <img src="https://user-images.githubusercontent.com/81401104/114778084-c8fb8680-9d4a-11eb-93e7-cdde13db4cca.png">
-Aqui estará disponível a visualização dos registros salvos. ⤴️<br>
+Aqui estará disponível a visualização dos registros salvos. ⤴️
+    
 > Clique no botão _"New"_, você será direcionado para a seguinte tela:
 <img src="https://user-images.githubusercontent.com/81401104/114778942-dc5b2180-9d4b-11eb-9fd7-5e9e03c4ed8a.gif">
 Adicione o nome “Lopes”, e clique no botão _"Save & Close"_ !! <img src="https://user-images.githubusercontent.com/81401104/114939285-9a4ae200-9e16-11eb-9884-5e9c3dbce5e5.gif">
 <h3>⚠️Atenção para não confundir _"Save"_ envez _"Save & Close"</h3>
-<img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png">
 
 Repita o processo colocando nome diferente.
 
-Você pode fazer o download da lista de registros em formato de  lista do excel clicando no botão _"Export Excel"_ e então será enviado no seu email o link para download da lista excel.<br>
+Você pode fazer o download da lista de registros em formato de  lista do excel clicando no botão _"Export Excel"_ 
+    
+e então será enviado no seu email o link para download da lista excel.
 Um gif curto para te ajudar:
 
-<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif"><br>
+<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif">
 
 ### Como Executar a Aplicação 💻
 
