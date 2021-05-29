@@ -101,10 +101,14 @@ After logging into Builder you will be faced with the following content:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
 In the "Main" tab and right under "Project title" type in the title of your project (can be "ProjectTest") 
+    
+![ProjectTest13](https://user-images.githubusercontent.com/81401104/120087176-30cc1d80-c0bc-11eb-99a3-9f1dba3ae763.gif)
+   
 
 and click on the _Save & Close_ button
 
-<img src="https://user-images.githubusercontent.com/81401104/114924580-872f1680-9e04-11eb-921e-9c819dd64965.gif">
+![Save$closeg](https://user-images.githubusercontent.com/81401104/120087205-5b1ddb00-c0bc-11eb-93fd-7c4d2d961a28.gif)
+
 
 (It will take a while here as the database for your project is being created)
 
@@ -116,7 +120,7 @@ And now click the _New_ button, it will automatically open a new tab in your bro
 <img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
     
 On that new page, in the "Form Title" field write the title of your form (can be "FormTest").
-<img src="https://user-images.githubusercontent.com/81401104/114773828-e843e500-9d45-11eb-9f24-6412e65cd9dc.png">
+![image](https://user-images.githubusercontent.com/81401104/120087290-f57e1e80-c0bc-11eb-96d1-919007483897.png)
     
 Click the _"Save"_ button that is at the foot of the page.
     
@@ -126,7 +130,7 @@ Select the "Textfield" component (from the side tab Tools - Gallery Fields) and 
 
 Now click on the component you dragged ("Textfield"), and soon a side tab will open on the right called "Properties of Field".⤵️
     
-<img src="https://user-images.githubusercontent.com/81401104/114777398-0875a300-9d4a-11eb-90be-640d428916b5.gif">
+![Animação](https://user-images.githubusercontent.com/81401104/120087612-c5844a80-c0bf-11eb-98df-d4e9f601fc26.gif)
 
 There at the top of the "Properties of Field", under "General", In the "Name" field write ''Name'' and in the "Label" field also write "Name".
 Now click the _"Save"_ button and then click the _"Run"_ button, it will open the following page:
