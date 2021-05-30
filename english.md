@@ -156,7 +156,8 @@ A short gif to help you:
     
 When you get to the form screen, fill in the "Form Title"(the title of the form) and insert the "Textfield" and "Email" components:
     
-<img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
+![textemail](https://user-images.githubusercontent.com/81401104/120090145-8c0b0980-c0d6-11eb-9d19-a338ebf9ae7d.gif)
+
 
 We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
     
