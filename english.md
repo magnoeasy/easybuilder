@@ -266,7 +266,9 @@ It is also important that you have already performed the steps in the tutorials 
 
 The "Textfield" component is for writing text, mainly names, but it can also be used to record phone numbers using the mask on the field properties, we will see how to do that soon.
 
-Select the "Textfield" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the component you just dropped).
+Select the "Textfield" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen
+
+(If it doesn't appear, just click on the component you just dropped).
 
 🔗Video:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
@@ -288,7 +290,8 @@ The "Placeholder" field serves as a guide for what to fill in, it is interesting
 
 In "Properties of Field", under "Values", there are 4 fields and a checkbox, which are respectively "Mask", "Default", "Minimum Length", "Maximum Length" and "Enable Barcode Scanner".
 
-Under "Mask" you can determine the specific fill pattern, i.e. specific number and type of characters. For example, if you want the field to accept phone numbers in a specific format, you can fill this field with (99)99999-9999, do this now for testing.
+Under "Mask" you can determine the specific fill pattern, i.e. specific number and type of characters. For example, 
+if you want the field to accept phone numbers in a specific format, you can fill this field with (99)99999-9999, do this now for testing.
 
 To make it harmonious, go to "Name" and "Label" and write "Phone Number". Leave the "Placeholder" field blank.
 
