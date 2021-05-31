@@ -182,7 +182,8 @@ After filling in the fields, click the _"Save & Close" button.
 <img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
 
 And you will be back at the records screen, with the form saved and available for viewing.
-*If you want to edit the saved form, click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
+    
+*If you want to edit the saved form,click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
 (Under the "Control" column)
 
 ## WARNINGS⚠️
@@ -354,7 +355,8 @@ Let's test this in practice. Select and drag the "Integer" component into the fo
 <img src="https://user-images.githubusercontent.com/81401104/115289821-64b13c00-a129-11eb-809d-d6fea45d85de.png">
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
-<img src="https://user-images.githubusercontent.com/81401104/115289993-7a266600-a129-11eb-95ed-0cc10fe0de8b.png">
+
+![image](https://user-images.githubusercontent.com/81401104/120144558-7ff77880-c1b8-11eb-90e6-e42a754666f6.png)
 
 
 Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
