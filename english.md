@@ -364,15 +364,18 @@ Go back to edit the properties of the "Phone Number" under "Behavior" ,click on 
 of the "Visibility Rules",
 
 will open the following window:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
+
 in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "Greater or Equal", in "Value" write "18".
 
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
 
 Now deselect the "Visible" checkbox.
+
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
 
 Then click on the "Visibility Rules" drop-down list (from the "Age" field) and select "Age Rule":
+
 ![image](https://user-images.githubusercontent.com/81401104/115290819-5d3e6280-a12a-11eb-8a12-5ce14ccc26c9.png)
 
  and then another list will appear below, click and select "Age".
