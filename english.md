@@ -131,15 +131,25 @@ Select the "Textfield" component (from the side tab Tools - Gallery Fields) and 
 Now click on the component you dragged ("Textfield"), and soon a side tab will open on the right called "Properties of Field".⤵️
     
 ![Animação](https://user-images.githubusercontent.com/81401104/120087612-c5844a80-c0bf-11eb-98df-d4e9f601fc26.gif)
+    
+
 
 There at the top of the "Properties of Field", under "General", In the "Name" field write ''Name'' and in the "Label" field also write "Name".
 Now click the _"Save"_ button and then click the _"Run"_ button, it will open the following page:
-<img src="https://user-images.githubusercontent.com/81401104/114778084-c8fb8680-9d4a-11eb-93e7-cdde13db4cca.png">
+    
+![textemaild2](https://user-images.githubusercontent.com/81401104/121060294-d7897b80-c798-11eb-8639-350840b5b68f.gif)
+
+    
 Here the preview of the saved records will be available. ⤴️
 
 > Click on the _"New"_ button, you will be directed to the following screen:
-<img src="https://user-images.githubusercontent.com/81401104/114778942-dc5b2180-9d4b-11eb-9fd7-5e9e03c4ed8a.gif">
-Add the name "Lopes", and click the _"Save & Close"_ button !!! <img src="https://user-images.githubusercontent.com/81401104/114939285-9a4ae200-9e16-11eb-9884-5e9c3dbce5e5.gif">
+
+![formtestnew](https://user-images.githubusercontent.com/81401104/121061502-4a472680-c79a-11eb-9e3c-0eb0807ac8ad.gif)
+
+Add the name "Lopes", and click the _"Save & Close"_ button !!!
+    
+![formtestnewnamelopes2](https://user-images.githubusercontent.com/81401104/121063430-aad76300-c79c-11eb-9304-515445ae9ca9.gif)
+
     
 <h3>⚠️Be careful not to confuse _"Save"_ instead of _"Save & Close"</h3>
 <img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png">
