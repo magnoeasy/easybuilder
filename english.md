@@ -172,24 +172,24 @@ When you get to the form screen, fill in the "Form Title"(the title of the form)
 We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
     
 You will go to the following screen
-    
-<img src="https://user-images.githubusercontent.com/81401104/114936950-805bd000-9e13-11eb-8877-16341176b8e5.png">
+
+![image](https://user-images.githubusercontent.com/81401104/121071158-fb9f8980-c7a5-11eb-8f1f-3017724cdcb9.png)
 
 This is the screen of the records after they have been inserted and saved.⤴️
 
 To insert new records, click the _"New"_ button at the top of this screen⬇️
-
-<img src="https://user-images.githubusercontent.com/81401104/114939985-8b186400-9e17-11eb-9738-a6de0dd97dc4.png">
+    
+![image](https://user-images.githubusercontent.com/81401104/121071360-373a5380-c7a6-11eb-8657-e45baf0201d6.png)
 
 Then the following screen will open:
 
-<img src="https://user-images.githubusercontent.com/81401104/115062670-fd914e80-9ec0-11eb-9c75-7956b6bcefce.png">
+![image](https://user-images.githubusercontent.com/81401104/121073357-ca748880-c7a8-11eb-9d34-7f61701326fe.png)
 
 This is the register screen, where you will enter the new information within the system.
 
 After filling in the fields, click the _"Save & Close" button.
 
-<img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
+![formtestnewnamelopesemail](https://user-images.githubusercontent.com/81401104/121073189-96996300-c7a8-11eb-8af4-374d46eaa43a.gif)
 
 And you will be back at the records screen, with the form saved and available for viewing.
     
@@ -307,10 +307,11 @@ if you want the field to accept phone numbers in a specific format, you can fill
 To make it harmonious, go to "Name" and "Label" and write "Phone Number". Leave the "Placeholder" field blank.
 
 Run the application.
-<img src="https://user-images.githubusercontent.com/81401104/115287508-bd330a00-a126-11eb-9835-673d0eb26469.png">
+
+![formtestnumber](https://user-images.githubusercontent.com/81401104/121075901-1ffe6480-c7ac-11eb-9c4c-efed9654570d.gif)
 
 
-Fill in the "Phone number" field with any number, it can be (45) 98765-4321 
+Fill in the "Phone number" field with any number, it can be (99)99999-9999
 and then click the button <img src="https://user-images.githubusercontent.com/81401104/115287040-2e25f200-a126-11eb-85d5-c49772347aa9.png">
 
 
