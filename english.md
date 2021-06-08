@@ -316,7 +316,7 @@ and then click the button <img src="https://user-images.githubusercontent.com/81
 
 
 You are now able to view your records:
-<img src="https://user-images.githubusercontent.com/81401104/115287588-d63bbb00-a126-11eb-9a81-29435627ddd9.png">
+![1](https://user-images.githubusercontent.com/81401104/121239691-f1e25880-c86f-11eb-8288-028d7c89dd6a.png)
 
  and the process is the same as before for adding new records.
 
@@ -363,7 +363,7 @@ Regarding the rules for visibility, mandatory and disabled, it is important to n
 
 Let's test this in practice. Select and drag the "Integer" component into the form.
 
-<img src="https://user-images.githubusercontent.com/81401104/115289821-64b13c00-a129-11eb-809d-d6fea45d85de.png">
+![2](https://user-images.githubusercontent.com/81401104/121240434-b431ff80-c870-11eb-9a0c-ddbaabe0000e.png)
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
 
