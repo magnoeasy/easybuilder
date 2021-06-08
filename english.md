@@ -363,21 +363,23 @@ Regarding the rules for visibility, mandatory and disabled, it is important to n
 
 Let's test this in practice. Select and drag the "Integer" component into the form.
 
-![2](https://user-images.githubusercontent.com/81401104/121240434-b431ff80-c870-11eb-9a0c-ddbaabe0000e.png)
+![3](https://user-images.githubusercontent.com/81401104/121243233-de38f100-c873-11eb-8f6c-abe83fe16841.gif)
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
 
-![image](https://user-images.githubusercontent.com/81401104/120144558-7ff77880-c1b8-11eb-90e6-e42a754666f6.png)
-
+![4 1](https://user-images.githubusercontent.com/81401104/121244680-8b603900-c875-11eb-8355-85aca08299c5.gif)
 
 Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
 
-of the "Visibility Rules",
+of the "Visibility Rules" ⤵️
+
+![5 1](https://user-images.githubusercontent.com/81401104/121245012-e8f48580-c875-11eb-8ec4-a5db31048de3.gif)
 
 will open the following window:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
 
-in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "Greater or Equal", in "Value" write "18".
+in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "Greater or Equal", in "Value" write "18".⤵️
 
+![6](https://user-images.githubusercontent.com/81401104/121246873-fca0eb80-c877-11eb-8738-726df64130c7.gif)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
 
@@ -387,17 +389,17 @@ Now deselect the "Visible" checkbox.
 
 Then click on the "Visibility Rules" drop-down list (from the "Age" field) and select "Age Rule":
 
-![image](https://user-images.githubusercontent.com/81401104/115290819-5d3e6280-a12a-11eb-8a12-5ce14ccc26c9.png)
+![image](https://user-images.githubusercontent.com/81401104/121247013-20fcc800-c878-11eb-9b72-00ab4a7722cf.png)
 
  and then another list will appear below, click and select "Age".
 (image on the next page)
-![image](https://user-images.githubusercontent.com/81401104/115290864-6deed880-a12a-11eb-9c10-250f6e028aa2.png)
+![image](https://user-images.githubusercontent.com/81401104/121248260-a03ecb80-c879-11eb-8dae-0318adc16220.png)
 
 Now run the application.
 
 Automatically a new page will open in your browser (records screen), click on the button ![image](https://user-images.githubusercontent.com/81401104/115290892-7810d700-a12a-11eb-8693-bb6fb8a2f6a0.png)
 
-![image](https://user-images.githubusercontent.com/81401104/115290923-8101a880-a12a-11eb-83b8-c57244d444a9.png)
+![7](https://user-images.githubusercontent.com/81401104/121250169-c9605b80-c87b-11eb-8f29-9c06afae1cb4.gif)
 
 Fill the field "Age" with "18" and notice that the field "Telephone Number" appears to be filled in.
 
