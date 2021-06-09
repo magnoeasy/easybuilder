@@ -426,13 +426,15 @@ Automatically a new page will open in your browser, and you will see registratio
 
 In this section you can edit how much space the field will occupy on the screens of desktops, tablets, horizontal mobiles and vertical mobiles respectively. The space occupied can vary from 8% to 100%.
 
-Click on the "Phone Number" field created earlier.
-![image](https://user-images.githubusercontent.com/81401104/115293785-1f433d80-a12e-11eb-8835-39fa7699f32a.png)
+Click on the "Number" field created earlier.⬇️
+
+![image](https://user-images.githubusercontent.com/81401104/121411393-f410e980-c939-11eb-8e55-983583d46e24.png)
 
 
 If you are using desktop, click on the first drop-down list and then choose the col-lg-12:100% option and observe how it looks in the form.
 
-![image](https://user-images.githubusercontent.com/81401104/115293817-2702e200-a12e-11eb-871a-709b8a766f4b.png)
+![9](https://user-images.githubusercontent.com/81401104/121412846-7f3eaf00-c93b-11eb-8f7f-f9ed34fa502a.gif)
+
 
 Run the application.
 
@@ -458,19 +460,22 @@ Let's test this now, select and drop two "Textfield" components into the form.
 
 In the first "Textfield", under "Position" select "Top", under "Order" type "1", under "Message" write "This is the first" (image on the next page).
 
-![image](https://user-images.githubusercontent.com/81401104/115294205-aee8ec00-a12e-11eb-928f-c37400f1bd77.png)
+![10](https://user-images.githubusercontent.com/81401104/121413506-202d6a00-c93c-11eb-94b7-dd5ff872cc6c.png)
 
 In the second "Textfield", in "Position" select "Right", in "Order" type "2", in "Message" write "This is the second one" .
-![image](https://user-images.githubusercontent.com/81401104/115294376-ea83b600-a12e-11eb-832d-d96e58ea37c2.png)
+
+![11](https://user-images.githubusercontent.com/81401104/121413692-54a12600-c93c-11eb-8624-ae422147da0c.png)
 
 Now run the application, and the following page will open:
-![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
+
+![image](https://user-images.githubusercontent.com/81401104/121414734-5e775900-c93d-11eb-9796-59e6901722a0.png)
 
 click on button ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png).
 
 Then the intro effect will appear on the following page:
-![image](https://user-images.githubusercontent.com/81401104/115294508-1010bf80-a12f-11eb-8f4e-54cf9a4d30a9.png)
-![image](https://user-images.githubusercontent.com/81401104/115908434-8c154b00-a440-11eb-8863-f01b4a55ac84.png)
+![12](https://user-images.githubusercontent.com/81401104/121414658-430c4e00-c93d-11eb-8a95-04c267751222.png)
+
+![13](https://user-images.githubusercontent.com/81401104/121414673-49022f00-c93d-11eb-84d0-5bf09bb441f1.png)
 
 This visualization of the highlighted field with the message beside (or below, etc.), is the effect of the settings in the "Intro" section.
 
