@@ -888,14 +888,15 @@ Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
 "Max Length" refers to the maximum amount of characters each option will have.
 
-![image](https://user-images.githubusercontent.com/81401104/115923727-09e35180-a455-11eb-9bd3-4ce96ea55475.png)
+![Enumeration 1](https://user-images.githubusercontent.com/81401104/121758247-03896180-caf7-11eb-8432-f7b59163a987.png)
 
 Still on the "Values" section, there is the "Default" item, clicking on it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
 
 Run the application.
 
 The component will look like this on the registration screen:
-![image](https://user-images.githubusercontent.com/81401104/115923754-19629a80-a455-11eb-9717-635682b4ac28.png)
+
+![RadioTutorial MaFe 1](https://user-images.githubusercontent.com/81401104/121758308-4a775700-caf7-11eb-8d0c-ce9ece02e82e.png)
 
 <div id='id-Dropdown'/>
 
