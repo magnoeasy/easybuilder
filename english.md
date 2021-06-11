@@ -498,11 +498,12 @@ Run the application
 
 And on the register screen, in the "Textarea" field you can add values of type letters and numbers, with 2 lines or more (you can add more lines in the "Presentation" section, under "Rows")
 
-![image](https://user-images.githubusercontent.com/81401104/115908849-12ca2800-a441-11eb-95d5-9ce556444aeb.png)
+![formTesttextarea1](https://user-images.githubusercontent.com/81401104/121755779-6aeee380-caee-11eb-9317-9ff02b5b49e9.png)
 
 After saving:
 
-![image](https://user-images.githubusercontent.com/81401104/115908877-1cec2680-a441-11eb-83b1-07f7ae1cf13a.png)
+![FormTesthellowworldbanc1](https://user-images.githubusercontent.com/81401104/121755816-8b1ea280-caee-11eb-844e-b11543000447.png)
+
 
 🔗Video: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 
