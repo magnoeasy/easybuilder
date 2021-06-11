@@ -798,18 +798,19 @@ Select the "Checkbox" component, then drag and drop it where it says "Drop new f
 ![image](https://user-images.githubusercontent.com/81401104/115920271-56785e00-a450-11eb-9d7a-63d4658aa8aa.png)
 
 Type "Required" in the "Name" and "Label" fields that are in the "General" section of the "Properties of Field" checkbox.
- ![image](https://user-images.githubusercontent.com/81401104/115920308-6728d400-a450-11eb-9652-555a054366a3.png)
- 
+
+ ![CheckBoxTutorial 1](https://user-images.githubusercontent.com/81401104/121757221-3c273c00-caf3-11eb-90c4-594cb9b61ff3.png)
+
  Now run the application.
 In the registration screen you can see the component:
 
-![image](https://user-images.githubusercontent.com/81401104/115920336-6f810f00-a450-11eb-9fcc-4d291d9eae89.png)
+![CheckBoxTutorial 2](https://user-images.githubusercontent.com/81401104/121757271-62e57280-caf3-11eb-9dc2-04c5a4e06c2f.png)
 
-![image](https://user-images.githubusercontent.com/81401104/115920355-760f8680-a450-11eb-994d-e7b640b590f3.png)
+![CheckBoxTutorial 3 true](https://user-images.githubusercontent.com/81401104/121757301-801a4100-caf3-11eb-8329-519ebb458ead.png)
 
 After saving them, they will be arranged as follows on the registration screen:
 
-![image](https://user-images.githubusercontent.com/81401104/115920463-9ccdbd00-a450-11eb-9245-f4f2b18463b1.png)
+![CheckBoxTutorial 4 bank](https://user-images.githubusercontent.com/81401104/121757336-9de7a600-caf3-11eb-833b-56285962e150.png)
 
 ### CheckBox ✅ > VALUES 1️⃣
 ![image](https://user-images.githubusercontent.com/81401104/115920485-a48d6180-a450-11eb-8410-2395926bef07.png)
