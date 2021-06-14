@@ -959,11 +959,13 @@ So let's start by creating one more form (as shown in the tutorial "How to Creat
 
 And on this new form we will add the "Textfield" component into it.
 
-![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
+![form color text](https://user-images.githubusercontent.com/81401104/121950606-3b2f1e00-cd30-11eb-8ad6-a123d6cd272f.png)
+
 
 In the "General" section,Name the "Name" and "Label" fields "Color".
   
-![GeneralDropDwonColor](https://user-images.githubusercontent.com/81401104/121947709-bd1d4800-cd2c-11eb-8d99-82dbeee48929.png)
+![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
+
 
 Now run the application.
 ![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
