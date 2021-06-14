@@ -958,13 +958,12 @@ In this "Source" section we will bring in the set of values entered into another
 So let's start by creating one more form (as shown in the tutorial "How to Create Your First Project, Menu and Form").
 
 And on this new form we will add the "Textfield" component into it.
-![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
 
 ![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
 
 In the "General" section,Name the "Name" and "Label" fields "Color".
   
-![image](https://user-images.githubusercontent.com/81401104/116136757-1d86f600-a6a9-11eb-9060-f0fbcd9a1897.png)
+![GeneralDropDwonColor](https://user-images.githubusercontent.com/81401104/121947709-bd1d4800-cd2c-11eb-8d99-82dbeee48929.png)
 
 Now run the application.
 ![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
