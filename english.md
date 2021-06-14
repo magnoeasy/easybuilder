@@ -876,7 +876,7 @@ Scroll down to the "Values" section of this tutorial to learn how to use this co
 
 Here you will add the values, for example, create lists with the options to select, remembering that only one option can be selected with this component.
 
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
 will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
@@ -917,7 +917,8 @@ In "Name" write vehicle, then click on the ![image](https://user-images.githubus
 ![image](https://user-images.githubusercontent.com/81401104/116136157-54104100-a6a8-11eb-81a1-be542bbc8014.png)
 
 Edit the "Option A" to "Car". Add two more options and change them to "Motorcycle" and "Truck". 
-![image](https://user-images.githubusercontent.com/81401104/116136211-64c0b700-a6a8-11eb-887f-189f0f8d0ab1.png)
+
+![enumeration 2](https://user-images.githubusercontent.com/81401104/121945021-b04b2500-cd29-11eb-9066-221d7c13495b.png)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116136235-6db18880-a6a8-11eb-883f-89dd8444852f.png)
  button, and after saving, you will automatically return to the form design screen. 
@@ -925,7 +926,9 @@ Now click on the button ![image](https://user-images.githubusercontent.com/81401
 Run the application.
 
 On the registration screen, the "Dropdown" will work as follows:
-![image](https://user-images.githubusercontent.com/81401104/116136274-7904b400-a6a8-11eb-84c7-db352e7116f0.png)
+
+![Dropdowntutorial](https://user-images.githubusercontent.com/81401104/121946196-0f5d6980-cd2b-11eb-85d1-f051ab3e4209.png)
+
 
 🔗Video: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
