@@ -963,15 +963,15 @@ And on this new form we will add the "Textfield" component into it.
 
 
 In the "General" section,Name the "Name" and "Label" fields "Color".
-  
-![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
 
+![GeneralColor1](https://user-images.githubusercontent.com/81401104/122145634-00121500-ce2c-11eb-8245-fed553b3a51d.png)
 
 Now run the application.
-![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
+
+![SaveAndRun](https://user-images.githubusercontent.com/81401104/122146655-d823b100-ce2d-11eb-970c-ec287ded561c.gif)
 
 The following page will open:
-![image](https://user-images.githubusercontent.com/81401104/116137641-2af0b000-a6aa-11eb-950b-d51d88b82d86.png)
+![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
 
 In the "Color" field write "Red", then click the button ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
 .. 
