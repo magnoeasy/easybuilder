@@ -971,11 +971,13 @@ Now run the application.
 ![SaveAndRun](https://user-images.githubusercontent.com/81401104/122146655-d823b100-ce2d-11eb-970c-ec287ded561c.gif)
 
 The following page will open:
+
 ![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
 
 In the "Color" field write "Red", then click the button ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
 .. 
-![image](https://user-images.githubusercontent.com/81401104/116137594-20ceb180-a6aa-11eb-999e-663fc3472c10.png)
+
+![formcolorall](https://user-images.githubusercontent.com/81401104/122147259-eaeab580-ce2e-11eb-979d-465079f9e0d2.gif)
 
 Repeat the process to add the colors "Green", "Yellow" and "Blue".
 ![image](https://user-images.githubusercontent.com/81401104/116137728-48257e80-a6aa-11eb-891a-1451d4d93bee.png)
