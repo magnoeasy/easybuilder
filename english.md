@@ -980,7 +980,8 @@ In the "Color" field write "Red", then click the button ![image](https://user-im
 ![formcolorall](https://user-images.githubusercontent.com/81401104/122147259-eaeab580-ce2e-11eb-979d-465079f9e0d2.gif)
 
 Repeat the process to add the colors "Green", "Yellow" and "Blue".
-![image](https://user-images.githubusercontent.com/81401104/116137728-48257e80-a6aa-11eb-891a-1451d4d93bee.png)
+
+![FormColorGreenYellow](https://user-images.githubusercontent.com/81401104/122149234-220e9600-ce32-11eb-958c-3fed00deebc6.png)
 
 Now let's go back to the other form with the "DropdownDB" component.
 ![image](https://user-images.githubusercontent.com/81401104/116137753-54a9d700-a6aa-11eb-9023-18de50099b10.png)
