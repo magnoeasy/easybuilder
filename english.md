@@ -292,7 +292,8 @@ In this "Properties of Field" tab, under "General", you have the "Name" field, t
 The "Column Title" field is used to identify the field when viewing the list (to view in list format, look at the top of the page, select "List").
 
 The "Placeholder" field serves as a guide for what to fill in, it is interesting that you visualize this, write in the "Testing" field, observe the effect on the field in the form.
-<img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
+
+![000testing](https://user-images.githubusercontent.com/81401104/122480578-7b4a0700-cfa3-11eb-80d1-e8a5aaba10d3.png)
 
 ### Textfield 📓 > VALUES 1️⃣
 
@@ -678,11 +679,11 @@ Now go back to the "Form Design" on the "Dev Properties" side, at the top of the
 Click on the "Number1" field, go to the "Events" section, under "Name" select the "onkeyup" option and under "On" write "sum()" 
 and then click on the ![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png) button.
 
-![image](https://user-images.githubusercontent.com/81401104/115918534-026c7a00-a44e-11eb-994a-7cba89f79b6d.png)
+![events add()](https://user-images.githubusercontent.com/81401104/122480810-edbae700-cfa3-11eb-8eec-2acb3783df61.png)
 
 After clicking on the button, it will look like this:
 
-![image](https://user-images.githubusercontent.com/81401104/115918646-25972980-a44e-11eb-92d4-722fc2ab5285.png)
+![Nomeonaction1](https://user-images.githubusercontent.com/81401104/122481353-eba55800-cfa4-11eb-8440-38f3b964c964.png)
 
 Do the same thing with the field "Number2".
 
@@ -1075,18 +1076,19 @@ Now click on the button ![image](https://user-images.githubusercontent.com/81401
  button to upload the document.
 
 For this tutorial I have created the following document:
-![image](https://user-images.githubusercontent.com/81401104/116139490-6f7d4b00-a6ac-11eb-9a93-cd86fed9bac8.png)
 
-Add the values in the two fields and then click the ![image] button (https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png)
-.
-![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
+![new text](https://user-images.githubusercontent.com/81401104/122481698-90279a00-cfa5-11eb-9939-efd779f28c95.png)
+
+Add the values in the two fields and then click the button ![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png)
 
 🔗Video: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
 ### Box 📦 > GENERAL 🎖️
+
 ![image](https://user-images.githubusercontent.com/81401104/116140548-dbac7e80-a6ad-11eb-9680-d9d5d23e0364.png)
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
+![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
 
 By selecting the box of the ![image](https://user-images.githubusercontent.com/81401104/116140566-e23af600-a6ad-11eb-8a0c-79dd83cab49f.png), you will create the border for the component, and you can also edit the "Label" field.
 
