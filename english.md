@@ -1353,17 +1353,19 @@ To run the tutorial for this component, scroll down to the "Source" section.
 To make use of the "MultiTag" component we will have to create 3 forms. The first to add the names, the second to connect the names to a "DropdownDB" component, and then connect the second to the third form that will be the "MultiTag" form.
 
 First step, create a new form with the "Textfield" component, also naming it "Team Member".
-![image](https://user-images.githubusercontent.com/81401104/116294485-66ed4900-a76e-11eb-8306-3449a5e14a23.png)
+![TeamMember](https://user-images.githubusercontent.com/81401104/122629734-9432e500-d095-11eb-941e-bed31ce41b26.png)
 
 and add the names "John", "Mary", "Charles" and "Luke".
-![image](https://user-images.githubusercontent.com/81401104/116294508-6d7bc080-a76e-11eb-9ccd-7600c3156bb7.png)
-![image](https://user-images.githubusercontent.com/81401104/116294542-78365580-a76e-11eb-8acf-cd7267ee2b3f.png)
+![TeamMember2](https://user-images.githubusercontent.com/81401104/122629747-ab71d280-d095-11eb-8e13-bb38873bb66d.png)
+
+![TeamMember3](https://user-images.githubusercontent.com/81401104/122629770-d0664580-d095-11eb-96f6-133d157138f9.png)
 
 Second step, create one more form using the "DropdownDB" component and name it "team meeting".
-![image](https://user-images.githubusercontent.com/81401104/116294676-9dc35f00-a76e-11eb-9d3f-9bf6f0716d02.png)
+![TeamMeeting](https://user-images.githubusercontent.com/81401104/122629793-04da0180-d096-11eb-9273-2578bb40404f.png)
 
 In the "Source" section of this component, under "Class" select the "Team Member" option and under "Description Field" also select "Team Member". 
-![image](https://user-images.githubusercontent.com/81401104/116294695-a4ea6d00-a76e-11eb-99c3-d933c3f4106c.png)
+
+![TeamMeetingSource](https://user-images.githubusercontent.com/81401104/122629850-597d7c80-d096-11eb-8928-cc284b1595b9.png)
 
 Click the ![image](https://user-images.githubusercontent.com/81401104/116294723-afa50200-a76e-11eb-9530-bd7de54c0609.png) button at the bottom of the page.
 
