@@ -985,7 +985,8 @@ Repeat the process to add the colors "Green", "Yellow" and "Blue".
 ![FormColorGreenYellow](https://user-images.githubusercontent.com/81401104/122149234-220e9600-ce32-11eb-958c-3fed00deebc6.png)
 
 Now let's go back to the other form with the "DropdownDB" component.
-![image](https://user-images.githubusercontent.com/81401104/116137753-54a9d700-a6aa-11eb-9023-18de50099b10.png)
+
+![Component DropdownDb1](https://user-images.githubusercontent.com/81401104/122851165-e289f300-d2e4-11eb-8a2d-5f1e732326e7.png)
 
 And then in "Properties of Field", go down to "Source" and in "Class" select the form that the "Color" field was created and in "Description Field" select the "Color" field.
 
@@ -1207,8 +1208,7 @@ The image appears in the form, but will not be saved in the database. It can ser
 
 In the "Image" section of the "Image" component you can give description ("Description") and a link, to which you will be directed when you click on the image. Lembre-se de clicar no ![image](https://user-images.githubusercontent.com/81401104/116143294-5a56eb00-a6b1-11eb-84a9-37a064bb07e3.png)
 to add the event that clicking on the image will take you to the link.
-![image](https://user-images.githubusercontent.com/81401104/116143334-6773da00-a6b1-11eb-8d29-8f974312f577.png)
-
+![ImageGreenButtonUrl1](https://user-images.githubusercontent.com/81401104/122851870-1c0f2e00-d2e6-11eb-93d5-8edd06f1018a.png)
 <div id='id-Upload'/>
 
 ## Upload Image 📸📩
@@ -1220,6 +1220,7 @@ Select the "ImageInput" component, then drag and drop it where it says "Drop new
 ![image](https://user-images.githubusercontent.com/81401104/116143496-98eca580-a6b1-11eb-9161-b2ff32ac8d54.png)
 
 Run the application::
+
 ![image](https://user-images.githubusercontent.com/81401104/116143528-a144e080-a6b1-11eb-83fd-3080eaec246b.png)
 
 Click on the "ImageInput" box where it says "Drag and drop or click to upload an image".
@@ -1432,15 +1433,17 @@ Sorted by: Will sort the DataSource by the chosen option.
 We will test this by creating two forms. On the first one we will name it "Source", on this one we will use two components: "Textfield" and "Dropdown".
 
 Drag the "Textfield" component into the form and name it "Name", do the same with the "Dropdown" component and name it "Status". 
-![image](https://user-images.githubusercontent.com/81401104/116296241-5c33b380-a770-11eb-98d3-9f11357effa5.png)
+
+![Origin](https://user-images.githubusercontent.com/81401104/122852967-d8b5bf00-d2e7-11eb-8f77-dc2333c0c2e6.png)
 
 (To learn more about the "Dropdown" component, go to its tutorial)
 
 In the "Status" field, under "Values" click the ![image](https://user-images.githubusercontent.com/81401104/116296368-884f3480-a770-11eb-8470-f88450cd50ff.png) button and add two values "Pending" and "Approved".
-![image](https://user-images.githubusercontent.com/81401104/116296416-9604ba00-a770-11eb-84e7-4d3f96649545.png)
+
+![EnumerationOrigin1](https://user-images.githubusercontent.com/81401104/122853050-000c8c00-d2e8-11eb-8998-a1ba71cff04b.png)
 
 Run the application:
-![image](https://user-images.githubusercontent.com/81401104/116296442-9f8e2200-a770-11eb-8750-5a1165958d44.png)
+![OriginRun](https://user-images.githubusercontent.com/81401104/122853113-1ca8c400-d2e8-11eb-936d-c95df23b27da.png)
 
 In the "Name" field write "João Carlos" and in the "Status" select the "Approved" option and then click on the button ![image](https://user-images.githubusercontent.com/81401104/116296486-addc3e00-a770-11eb-84d8-ddaad8354b06.png)
 
