@@ -313,7 +313,7 @@ Run the application.
 
 
 Fill in the "Phone number" field with any number, it can be (99)99999-9999
-and then click the button <img src="https://user-images.githubusercontent.com/81401104/115287040-2e25f200-a126-11eb-85d5-c49772347aa9.png">
+and then click the button ![Save Close](https://user-images.githubusercontent.com/81401104/123150638-fc3c4f00-d438-11eb-9895-674a5dc67a82.png)
 
 
 You are now able to view your records:
@@ -382,8 +382,7 @@ in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "G
 
 ![6](https://user-images.githubusercontent.com/81401104/121246873-fca0eb80-c877-11eb-8738-726df64130c7.gif)
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
-
+Now click on the button ![Save](https://user-images.githubusercontent.com/81401104/123150789-22fa8580-d439-11eb-81a7-83fdbd8d3bc3.png)
 Now deselect the "Visible" checkbox.
 
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
@@ -648,7 +647,9 @@ After adding and saving, it will look like this on the record screen:
 To learn more about how to use this functionality, go to the "Values" section of the "Integer" component.
 
 Scale: This refers to the number of digits after the period or comma, for example, add the value "5" in the "Scale" field. When you run the application, it will look like the following image:
+
 ![image](https://user-images.githubusercontent.com/81401104/115916779-a1dc3d80-a44b-11eb-8f38-110d8c4f9cf3.png)
+
 Note that there are five digits after the period.
 
 ### Decimal 💲 > EVENTS ⚙️
@@ -697,7 +698,7 @@ The following page will open:
 
 In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and automatically it will show the value "3.87" in the "Total" field. You can test with other values if you wish.
 
-After adding the values, click on the ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png) button.
+After adding the values, click on the ![Save Close](https://user-images.githubusercontent.com/81401104/123151025-694fe480-d439-11eb-99e8-eb9adf5fe805.png) button.
 
 <div id='id-Date'/>
 
@@ -882,7 +883,7 @@ will automatically open the modal window "Enumerations" (image on the next page)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
  and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
-and add "Female" and then click the ![image](https://user-images.githubusercontent.com/81401104/115923621-e15b5780-a454-11eb-84e6-aaa8d7679277.png) button
+and add "Female" and then click the ![Save](https://user-images.githubusercontent.com/81401104/123151110-81276880-d439-11eb-8d8d-51e68a8ffb59.png) button
  . (Image on the next page)
 
 Two important things to know about the "Enumerations" window:
@@ -1162,10 +1163,10 @@ Click on the yellow "Click to Sign" box, and the following window will appear:
 Then just draw the signature, for example: 
 ![image](https://user-images.githubusercontent.com/81401104/116142120-e6681300-a6af-11eb-851f-a26f4172ecae.png)
 
-And then click the ![image](https://user-images.githubusercontent.com/81401104/116142149-eec04e00-a6af-11eb-8865-51292d30aef4.png) button. It will automatically return to this page:
+And then click the ![Save](https://user-images.githubusercontent.com/81401104/123151532-ef6c2b00-d439-11eb-91f2-286325bffaf8.png) button. It will automatically return to this page:
 ![image](https://user-images.githubusercontent.com/81401104/116142184-fa137980-a6af-11eb-943e-663390d51543.png)
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116142206-00a1f100-a6b0-11eb-9eec-ac2d4a76f486.png).
+Now click on the button ![Save Close](https://user-images.githubusercontent.com/81401104/123151501-e7ac8680-d439-11eb-873a-7a62f669256d.png).
 
 You will be directed to the following page:
 ![image](https://user-images.githubusercontent.com/81401104/116142262-16171b00-a6b0-11eb-98dc-f67dfb2cce56.png)
@@ -1227,7 +1228,7 @@ Click on the "ImageInput" box where it says "Drag and drop or click to upload an
 
 Then browse and select a picture from your computer: ![image](https://user-images.githubusercontent.com/81401104/116143599-b7eb3780-a6b1-11eb-9a59-09fc5abc7fd1.png)
 
-and then click the ![image](https://user-images.githubusercontent.com/81401104/116143623-bf124580-a6b1-11eb-9b71-9e7c337b0e4b.png) button.
+and then click the ![Save Close](https://user-images.githubusercontent.com/81401104/123151686-1cb8d900-d43a-11eb-8add-f71a0754b767.png) button.
 ![image](https://user-images.githubusercontent.com/81401104/116143651-c9344400-a6b1-11eb-8193-31b85dc80c11.png)
 
 To view the photo you just added, click the ![image](https://user-images.githubusercontent.com/81401104/116143693-d3564280-a6b1-11eb-8522-78da4e1fef90.png) button (under "Control")
@@ -1245,13 +1246,15 @@ Select the "FileUpload" component, then drag and drop it where it says "Drop new
 ![image](https://user-images.githubusercontent.com/81401104/116143977-29c38100-a6b2-11eb-8932-1e33c6430892.png)
 
 Run the application.
+
 ![image](https://user-images.githubusercontent.com/81401104/116144037-39db6080-a6b2-11eb-9b89-18c4da8312af.png)
 
 To upload the desired file, click the ![image](https://user-images.githubusercontent.com/81401104/116144079-45c72280-a6b2-11eb-9bb9-265356f3afc3.png)
 button, then you will select the file from your computer, and the "File Upload" field will look like this:
+
 ![image](https://user-images.githubusercontent.com/81401104/116144260-8161ec80-a6b2-11eb-8b70-08aa6c644e41.png)
 
-And then click the ![image](https://user-images.githubusercontent.com/81401104/116144317-93dc2600-a6b2-11eb-8b79-12570ae46c80.png) button.
+And then click the ![Save Close](https://user-images.githubusercontent.com/81401104/123151839-41ad4c00-d43a-11eb-9819-d6db4dcf1354.png) button.
 
 You will go to the records screen:
 ![image](https://user-images.githubusercontent.com/81401104/116144349-9e96bb00-a6b2-11eb-9e8d-5fa5acc0f58b.png)
@@ -1310,7 +1313,7 @@ Go back to the One-To-Many screen and run the application.
 In the "Color" field, fill in "Orange", then click the button ![image](https://user-images.githubusercontent.com/81401104/116289846-3bb42b00-a769-11eb-9772-eaed741142d9.png).
 ![image](https://user-images.githubusercontent.com/81401104/116290130-86ce3e00-a769-11eb-8ae5-336dcc0f6b33.png)
 
-Então, Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116290167-8f267900-a769-11eb-8ba4-8d735c2edee4.png).
+Então, Now click on the button ![Save Close](https://user-images.githubusercontent.com/81401104/123152006-77523500-d43a-11eb-9677-a60fe86d4df6.png).
 
 The One-To-Many registration screen will look like this:
 
