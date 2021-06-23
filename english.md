@@ -1658,12 +1658,14 @@ Score Field: Will select the field that is inside the same form to show the quiz
 The "Email" component is for accepting email only.
 
 Select the "Email" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the component you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116301051-fba77500-a775-11eb-86ac-68f9e46c79f3.png)
+
+![EmailTutorial](https://user-images.githubusercontent.com/81401104/123155614-b6828500-d43e-11eb-949d-8923adea6186.png)
 
 After dropping the email component into the form, run the application.
 
 And notice that on the register screen you will only be allowed to save what you have entered in the "Email" field if the system considers it as email, for example:
-![image](https://user-images.githubusercontent.com/81401104/116301098-0cf08180-a776-11eb-9d70-cbcf97856503.png)
+
+![EmailTutorialRun](https://user-images.githubusercontent.com/81401104/123155848-fba6b700-d43e-11eb-8b99-9ca36c2c5d04.png)
 
 Notice that when it was written only "Jesse" it was not possible to save, but when "@gmail.com" was added to the end it became possible to save it.
 
@@ -2019,17 +2021,16 @@ Contact Easy Comtec support.
 ## List
 To view the form in list format, create a new form and add the components "Textfield" and "Integer" and name them "Name" and "Age" respectively.
 
-![image](https://user-images.githubusercontent.com/81401104/117356608-50d83a80-ae8a-11eb-8c5d-0cb586b107f7.png)
+![ListNameAge](https://user-images.githubusercontent.com/81401104/123157105-820fc880-d440-11eb-9f2f-2194fe51e394.png)
 
-
-Click the ![image13](https://user-images.githubusercontent.com/81401104/117356813-909f2200-ae8a-11eb-92bb-54bf1653130b.png) button at the bottom of the page.
+Click the ![Save](https://user-images.githubusercontent.com/81401104/123157128-889e4000-d440-11eb-83bc-e4024350d952.png) button at the bottom of the page.
 
 Now select the "List" option in the header. It will appear as follows:
-
 
 by clicking the button ![image](https://user-images.githubusercontent.com/81401104/117356874-a14f9800-ae8a-11eb-8fcf-ac2385cfd89b.png), 
 
 the following modal window will appear:
+
 ![image](https://user-images.githubusercontent.com/81401104/117356905-aa406980-ae8a-11eb-9446-cc7d74e01f11.png)
 
 Select fields to be displayed in list: Select fields to be displayed in list.
