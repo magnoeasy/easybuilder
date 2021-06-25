@@ -1305,8 +1305,9 @@ Select the "OneToMany" component, then drag and drop it where it says "Drop new 
 In the "OneToMany" properties, in the "Source" section, add the "Color" option (This "Color" form was created during the "DropdownDB" tutorial).
 
 It is important that you are logged into the "Color" form's registration screen to be able to see the result of the process. At the moment, the color registration screen looks like this:
-![image](https://user-images.githubusercontent.com/81401104/116289742-22ab7a00-a769-11eb-8656-a357837e9301.png)
-                            
+
+![FormColorOnetOmany](https://user-images.githubusercontent.com/81401104/123468726-8ff05580-d5c8-11eb-9f04-d4bfdd40f181.png)    
+
 Go back to the One-To-Many screen and run the application.
 ![image](https://user-images.githubusercontent.com/81401104/116289811-322ac300-a769-11eb-9028-279990166b68.png)
 
@@ -1360,6 +1361,7 @@ First step, create a new form with the "Textfield" component, also naming it "Te
 ![TeamMember](https://user-images.githubusercontent.com/81401104/122629734-9432e500-d095-11eb-941e-bed31ce41b26.png)
 
 and add the names "John", "Mary", "Charles" and "Luke".
+
 ![TeamMember2](https://user-images.githubusercontent.com/81401104/122629747-ab71d280-d095-11eb-8e13-bb38873bb66d.png)
 
 ![TeamMember3](https://user-images.githubusercontent.com/81401104/122629770-d0664580-d095-11eb-96f6-133d157138f9.png)
