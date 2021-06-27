@@ -2234,15 +2234,14 @@ Drag a "Textfield" component and a "Dropdown" into the form:
 
 ![image](https://user-images.githubusercontent.com/81401104/117498884-c8709d00-af50-11eb-8d47-c88c15d3374f.png)
 
-Rename the "Textfield" to "Full Name" and the "DropdownDB" to "Function", in both "Name" and "Label" in the "General" section of the "Properties of Field".
+Rename the "Textfield" to "Full Name" and the "Dropdown" to "Function", in both "Name" and "Label" in the "General" section of the "Properties of Field".
 
 ![image](https://user-images.githubusercontent.com/81401104/117498919-d4f4f580-af50-11eb-8be6-3433989b24cc.png)
 
 
 In the "Values" section of the "Role" field, add the options "Programmer", "Support" and "Designer":
 
-![image](https://user-images.githubusercontent.com/81401104/117498935-dde5c700-af50-11eb-9133-08d51e46eb3e.png)
-
+![Enumeration function](https://user-images.githubusercontent.com/81401104/123556476-d7f6b000-d761-11eb-8275-910d5c4b383b.png)
 
 Run the application:.
 
