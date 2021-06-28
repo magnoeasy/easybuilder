@@ -2381,9 +2381,10 @@ To perform this tutorial, you must have already performed the steps in the "Form
 On the home screen, when you log into the account, you will be faced with the following screen:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500168-a546ed00-af52-11eb-8f92-f53eb209c406.png)
+
 Click on "Tools" in the gray bar in the header and select "Chart".
 
-![image](https://user-images.githubusercontent.com/81401104/117500204-aed05500-af52-11eb-8835-8227434d6a60.png)
+![Tools Chart](https://user-images.githubusercontent.com/81401104/123692397-20c76b00-d82d-11eb-80b6-91f6573af638.png)
 
 One more tab will be added to this home screen.
  In this "Chart" tab, click the ![image15](https://user-images.githubusercontent.com/81401104/117500373-ed660f80-af52-11eb-925a-67afe16e1688.png) button. 
