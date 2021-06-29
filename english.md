@@ -2609,11 +2609,12 @@ Now you can add users and roles.
       <td>Email</td>
       <td>Password</td>
       <td>Email Confirmed</td>
-      <td>Password Change Required/td>
+      <td>Password Change Required</td>
       <td>Lockout Enabled </td>
       <td>Lockout End Date </td>
       <td>Access Failed Count </td>
  </tr>
+</table>
 
 User Push Notification Token
 
