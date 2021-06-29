@@ -992,17 +992,22 @@ Now let's go back to the other form with the "DropdownDB" component.
 And then in "Properties of Field", go down to "Source" and in "Class" select the form that the "Color" field was created and in "Description Field" select the "Color" field.
 
 Run the application.
-![image](https://user-images.githubusercontent.com/81401104/116137792-612e2f80-a6aa-11eb-9ecc-22a933eb639c.png)
+
+![ComponentDropDownDBRUN](https://user-images.githubusercontent.com/81401104/123847563-1a98c380-d8ed-11eb-88e5-862fa6b050c3.png)
 
 Click the ![image](https://user-images.githubusercontent.com/81401104/116137809-68553d80-a6aa-11eb-9117-ccec127c6faf.png) button and the following page will open:
-![image](https://user-images.githubusercontent.com/81401104/116137856-7c993a80-a6aa-11eb-82fd-d635d6053595.png)
+
+![ComponentDropDownDBRUN2](https://user-images.githubusercontent.com/81401104/123852564-d3adcc80-d8f2-11eb-83ab-fa0e938a1d18.png)
 
 Select the DropDownDB field:
-![image](https://user-images.githubusercontent.com/81401104/116137880-8327b200-a6aa-11eb-89ee-a957342df7e7.png)
 
-And you will see the values added in the "Color" field of the other form. Select an option and then click the ![image](https://user-images.githubusercontent.com/81401104/116137914-8cb11a00-a6aa-11eb-9c8e-be336ebe2ba2.png) button
-![image](https://user-images.githubusercontent.com/81401104/116137958-9a669f80-a6aa-11eb-904d-bd6d856b889f.png)
-:
+![ComponentDropDownDBRUN3](https://user-images.githubusercontent.com/81401104/123852620-e6280600-d8f2-11eb-92f8-0729c659abd5.png)
+
+And you will see the values added in the "Color" field of the other form. Select an option and then click the 
+![image63](https://user-images.githubusercontent.com/81401104/123853433-d4932e00-d8f3-11eb-983c-1598a467f5a9.png) button
+
+![ComponentDropDownDBRUN4red](https://user-images.githubusercontent.com/81401104/123853517-ec6ab200-d8f3-11eb-8553-5ad4e13eddc9.png)
+
  You can do the same process with both fields in the same form.
 Still in the "Source" section, under "Additional Data" you can add another set of values from a field as long as it is from the same form selected in "Class".
 
@@ -1028,7 +1033,8 @@ In the "Source" section, under "Class" of the "Autocomplete" select the "Color" 
 Now run the application.
 
 On the registration screen, you will notice that when you type the initial letters, the available options will appear:
-![image](https://user-images.githubusercontent.com/81401104/116138489-4314ff00-a6ab-11eb-86a2-03fd553ce2f5.png)
+
+![Component AutoCompleteRun](https://user-images.githubusercontent.com/81401104/123853840-4c615880-d8f4-11eb-8743-23839677fb10.png)
 
 And then just select the desired option and proceed.
 
@@ -1892,7 +1898,6 @@ The following modal will open:
 
 ![image](https://user-images.githubusercontent.com/81401104/117351893-a4478a00-ae84-11eb-9626-f05ff645b658.png)
 
-
 <div id='id-Event'/>
 
 ### Event type:
@@ -2123,12 +2128,12 @@ The ![image](https://user-images.githubusercontent.com/81401104/117495817-85142f
 
 <div id='id-How'/>
 
-## How to Add a User 
+## 👨👩 How to Add a User 
 
 To complete this tutorial, you must have gone through the steps in the 
 "End User Access" tutorial in the project settings section.
 
-After you have created your form, and clicked the ![image13](https://user-images.githubusercontent.com/81401104/117496019-cf95ac00-af4c-11eb-98d6-3422efb10385.png) button and then the ![image14](https://user-images.githubusercontent.com/81401104/117496042-d7555080-af4c-11eb-991d-9703a4f82bdb.png) button, the records screen will open:
+After you have created your form, and clicked the ![Save](https://user-images.githubusercontent.com/81401104/123856181-27bab000-d8f7-11eb-9815-183b0a31b253.png) button and then the ![Run](https://user-images.githubusercontent.com/81401104/123856266-4456e800-d8f7-11eb-9361-87183f002952.png) button, the records screen will open:
 
 ![image](https://user-images.githubusercontent.com/81401104/117496064-e0deb880-af4c-11eb-8b49-c002c05f6e9d.png)
 
