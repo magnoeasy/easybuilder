@@ -615,6 +615,7 @@ Run the application.
 Fill the field with "15" and then with "16" and notice that the maximum value allowed is "15" to be able to save the information entered in the field.
 
 Auto Increment: Will start with the value 1 and then continue with the sequence (2,3,4...) automatically. If you have an initial value defined, for example "34", it will continue from there (35,36,37...), like in the following example images:
+
 ![image](https://user-images.githubusercontent.com/81401104/115915247-73f5f980-a449-11eb-9de3-3542a5336c36.png)
 ![image](https://user-images.githubusercontent.com/81401104/115915296-86703300-a449-11eb-8bce-144d0ff7cab7.png)
 
@@ -665,6 +666,7 @@ We will perform the following function: when filling the value of the "Number1" 
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
  (is located in the "Events" section) of the "Total" field and will automatically open this tab:
+ 
 ![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
 
 In this "Custom Scripts" field copy and paste the following:
@@ -737,15 +739,19 @@ Current Date. By checking this box, the "Date" field will always be automaticall
 With this component you can add a current date and time, a pre-defined date and time, or any other date and time that you fill in
 
 Select the "DateTime" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
 ![image](https://user-images.githubusercontent.com/81401104/115919736-9f7be280-a44f-11eb-8b8a-d419b75b90d4.png)
 
-Run the application.<br>
+Run the application.
+
 ![image](https://user-images.githubusercontent.com/81401104/115919778-aacf0e00-a44f-11eb-9db4-d2b72adada8a.png)
 
 Notice that the date is in month/day/year format and the time is in AM/PM format.
+
 ![image](https://user-images.githubusercontent.com/81401104/115919857-c803dc80-a44f-11eb-854f-cea22d401e9a.png)
 
 After saving, it will be arranged as follows on the records screen:
+
 ![image](https://user-images.githubusercontent.com/81401104/115919887-d18d4480-a44f-11eb-9f07-a3ee4eae8c79.png)
 
 🔗Video: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
@@ -769,11 +775,13 @@ Current Date/Time: By checking this box, the "DateTime" field will always be aut
 With this component you can add a current time, a predefined time or any other time that you have filled in.
 
 Select the "Time" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
 ![image](https://user-images.githubusercontent.com/81401104/115920033-026d7980-a450-11eb-9758-c832bcd2d674.png)
 
 Run the application.
 
 The component will be arranged as follows on the registration screen:
+
 ![image](https://user-images.githubusercontent.com/81401104/115920056-0bf6e180-a450-11eb-82fc-eac0276ca393.png)
 
 Note that it is in the format "--:-- --", this means that the time is in AM/PM (AM for before noon and PM for after noon). 
@@ -797,6 +805,7 @@ Default: The field will be populated with a predetermined time, but you can chan
 The "Checkbox" component is a checkbox that allows the user to make a binary choice, i.e. a choice between two mutually exclusive options.
 
 Select the "Checkbox" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
 ![image](https://user-images.githubusercontent.com/81401104/115920271-56785e00-a450-11eb-9d7a-63d4658aa8aa.png)
 
 Type "Required" in the "Name" and "Label" fields that are in the "General" section of the "Properties of Field" checkbox.
@@ -867,6 +876,7 @@ So, it is necessary, that you have created that other form/database, and after u
 With the "Radio" component you can provide a list of options but select only one option as true.
 
 Select the "Radio" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
 ![image](https://user-images.githubusercontent.com/81401104/115922283-15357d80-a453-11eb-87fc-674c13781753.png)
 
 Scroll down to the "Values" section of this tutorial to learn how to use this component.
@@ -908,14 +918,17 @@ The component will look like this on the registration screen:
 The "Dropdown" component is for you to provide a list of options in a menu format.
 
 Select the "Dropdown" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
 ![image](https://user-images.githubusercontent.com/81401104/116135849-fc71d580-a6a7-11eb-924a-962830748a28.png)
 
 In the "Values" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png) button.
 the following modal window will appear:
+
 ![image](https://user-images.githubusercontent.com/81401104/116135980-24f9cf80-a6a8-11eb-8a04-ba06728e76e6.png)
 
 In "Name" write vehicle, then click on the ![image](https://user-images.githubusercontent.com/81401104/116136117-4a86d900-a6a8-11eb-994e-083b8e5dba93.png)
 . The following will appear under the button:
+
 ![image](https://user-images.githubusercontent.com/81401104/116136157-54104100-a6a8-11eb-81a1-be542bbc8014.png)
 
 Edit the "Option A" to "Car". Add two more options and change them to "Motorcycle" and "Truck". 
@@ -1379,22 +1392,24 @@ In the "Source" section of this component, under "Class" select the "Team Member
 
 ![TeamMeetingSource](https://user-images.githubusercontent.com/81401104/122629850-597d7c80-d096-11eb-8928-cc284b1595b9.png)
 
-Click the ![image](https://user-images.githubusercontent.com/81401104/116294723-afa50200-a76e-11eb-9530-bd7de54c0609.png) button at the bottom of the page.
+Click the ![Save](https://user-images.githubusercontent.com/81401104/123864231-e7602f80-d900-11eb-9cae-3494dac54b3d.png) button at the bottom of the page.
 
 Now let's create the third form, naming it "Participants".  Add the "Multitag" component into the form.
-![image](https://user-images.githubusercontent.com/81401104/116294771-bf244b00-a76e-11eb-885b-c27f6e54910a.png)
+
+![ParticipantsMultitag](https://user-images.githubusercontent.com/81401104/123865571-7457b880-d902-11eb-816a-8dd86fb83b1e.png)
 
 Now in the "Source" section of the MultiTag, under "Class" select "teammeeting", and under "DescriptionField" select "teammeetingId1" - (image below).
-![image](https://user-images.githubusercontent.com/81401104/116294811-c64b5900-a76e-11eb-8409-8649aa97d828.png)
+
+![TeamMeetingSource](https://user-images.githubusercontent.com/81401104/123865637-8b96a600-d902-11eb-94e9-c527340f4d57.png)
 
 Run the application.
-![image](https://user-images.githubusercontent.com/81401104/116294887-db27ec80-a76e-11eb-9170-d8bc8c8924c2.png)
+
+![ParticipantsMultitagRun](https://user-images.githubusercontent.com/81401104/123865879-cef11480-d902-11eb-9e0a-753a3c5e64ad.png)
 
 Start typing the first letters and soon the names will appear:
-![image](https://user-images.githubusercontent.com/81401104/116294901-e24efa80-a76e-11eb-8817-81eb9446c17e.png)
 
-![image](https://user-images.githubusercontent.com/81401104/116294942-eb3fcc00-a76e-11eb-8570-deb48375c6d3.png)
-
+![ParticipantsMultitagRun2](https://user-images.githubusercontent.com/81401104/123865999-f1832d80-d902-11eb-80dd-b6e07e2d9365.png)
+![ParticipantsMultitagRun3](https://user-images.githubusercontent.com/81401104/123866075-05c72a80-d903-11eb-8d4f-df903c6c5efe.png)
 
 And then click the ![image](https://user-images.githubusercontent.com/81401104/116294980-f561ca80-a76e-11eb-9602-277e3c8f8579.png) button.
 
@@ -1690,12 +1705,15 @@ Select the "Password" component, then drag and drop it where it says "Drop new f
 ![image](https://user-images.githubusercontent.com/81401104/116301341-50e38680-a776-11eb-8523-6521d135ed3f.png)
 
 Run the application
+
 ![image](https://user-images.githubusercontent.com/81401104/116301371-580a9480-a776-11eb-8d8e-9b8de2d2c2ae.png)
 
 When you enter the characters, notice that it will be hidden.
+
 ![image](https://user-images.githubusercontent.com/81401104/116301389-5d67df00-a776-11eb-9912-7887ff144d83.png)
 
 And after saving, you will go to the records screen:
+
 ![image](https://user-images.githubusercontent.com/81401104/116301438-6658b080-a776-11eb-8d57-5b9642f39791.png)
 
 And even if you access the form again by clicking on the ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png)
@@ -1933,6 +1951,7 @@ By selecting "User" or "Role" , a dropdown will appear with the list of added us
 By selecting the user and clicking the ![image](https://user-images.githubusercontent.com/81401104/117354764-1c637f00-ae88-11eb-912a-f800877ca922.png) button
 
 it will look like this:
+
 ![image](https://user-images.githubusercontent.com/81401104/117354934-52086800-ae88-11eb-92c9-5b71f09f2fcb.png)
 
 
@@ -2186,6 +2205,7 @@ Under "Name" type "User" and under "Manager" select the option created earlier. 
 Then click the button ![image](https://user-images.githubusercontent.com/81401104/117497338-c574ad00-af4e-11eb-9870-9864f5a8303c.png).
 
 Then you will go to the following page:
+
 ![image](https://user-images.githubusercontent.com/81401104/117497375-cefe1500-af4e-11eb-890e-4b3ac6877436.png)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117497416-d7eee680-af4e-11eb-8776-60c5dc96225f.png) 
@@ -2194,6 +2214,7 @@ button to go back to editing the same form:
 ![image](https://user-images.githubusercontent.com/81401104/117497463-e806c600-af4e-11eb-9dec-e86b8081a948.png)
 
 And now click on the "User Role" tab, at the top left of this page:
+
 ![image](https://user-images.githubusercontent.com/81401104/117497499-f359f180-af4e-11eb-9400-06e6202c1a8f.png)
 
 
@@ -2207,6 +2228,7 @@ Now click on the button ![image15](https://user-images.githubusercontent.com/814
 ![image](https://user-images.githubusercontent.com/81401104/117497586-11bfed00-af4f-11eb-940d-1cc03ead0bbc.png)
 
 Now click on the "User ID" field and select the user you created earlier:
+
 ![image](https://user-images.githubusercontent.com/81401104/117498058-a62a4f80-af4f-11eb-84dd-85f1add2c189.png)
 
 
