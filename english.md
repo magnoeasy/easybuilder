@@ -2600,27 +2600,20 @@ After doing so, go to the forms tab and then look for the titles "User", "Role" 
 
 Now you can add users and roles.
 
-User form
-
-First Name
-
-Last Name
-
-Username
-
-Email
-
-Password
-
-Email Confirmed
-
-Password Change Required
-
-Lockout Enabled 
-
-Lockout End Date
-
-Access Failed Count
+<table>
+  <tr>
+   <td>User form</td>
+   <td>First Name</td>
+   <td>Last Name</td>
+      <td>Username</td>
+      <td>Email</td>
+      <td>Password</td>
+      <td>Email Confirmed</td>
+      <td>Password Change Required/td>
+      <td>Lockout Enabled </td>
+      <td>Lockout End Date </td>
+      <td>Access Failed Count </td>
+ </tr>
 
 User Push Notification Token
 
