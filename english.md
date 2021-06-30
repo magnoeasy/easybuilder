@@ -1791,6 +1791,7 @@ You will get the following new tab:
 Class Name: Class Name (it is an autocomplete field, so start typing the first letters of the intended form or database class and then the option will appear to be selected).
 
 Tab Name: Name of the Tab.
+
 ![image](https://user-images.githubusercontent.com/81401104/117339638-57f54d80-ae76-11eb-9d43-d4fe1b82083a.png)
 
 Relationship: 
@@ -1801,6 +1802,7 @@ Relationship:
 
 On this tab, the following button is present: ![image](https://user-images.githubusercontent.com/81401104/117339826-90952700-ae76-11eb-84cc-17807a3e741a.png). 
 It is used to delete the tab, and by clicking on it, the following modal window will appear:
+
 ![image](https://user-images.githubusercontent.com/81401104/117351537-3e5b0280-ae84-11eb-8d36-1768dc42c2b2.png)
 
 (Translation: Are you sure you want to delete the tab? Yes, No)
@@ -1844,12 +1846,15 @@ In "Operation" select the "Count" option.
 And then click on the ![image](https://user-images.githubusercontent.com/81401104/117345056-7f4f1900-ae7c-11eb-8bf6-1750cfae6008.png) button.
 
 It will look like this:
+
 ![image](https://user-images.githubusercontent.com/81401104/117345227-ad345d80-ae7c-11eb-9f1c-e02d68264424.png)
 
 Save and run the tab application. 
+
 ![image](https://user-images.githubusercontent.com/81401104/117346298-f638e180-ae7d-11eb-8b7e-8627eb7f1706.png)
 
 Add the "Elephant" record.
+
 ![image](https://user-images.githubusercontent.com/81401104/117346326-fcc75900-ae7d-11eb-8058-d6011c340685.png)
 
 Now click the ![image](https://user-images.githubusercontent.com/81401104/117346687-75c6b080-ae7e-11eb-9fa4-2860043b383c.png) button (located in the "Control" column) 
@@ -1903,6 +1908,7 @@ Custom Scripts:
 </ul>
 
 e Form Rule - Clicking on it will open the following modal:
+
 ![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif).
 
 <div id='id-Notification'/>
@@ -1963,12 +1969,15 @@ Then just click the ![image](https://user-images.githubusercontent.com/81401104/
 
 ## Kanban 🎰
 To create a kanban, you need to create a new form, and then the header will appear as follows: 
+
 ![image](https://user-images.githubusercontent.com/81401104/117355489-03a79900-ae89-11eb-8310-c882e6007371.png)
 
 Select the option "Kanban":
+
 ![image](https://user-images.githubusercontent.com/81401104/117355507-0a361080-ae89-11eb-97fb-6360484e2868.png)
 
 Fill in the "Form Title" field, and then select the "Project" and "Menu Group".
+
 ![image](https://user-images.githubusercontent.com/81401104/117355514-0f935b00-ae89-11eb-82f6-ea3fa051b143.png)
 
 And then click the ![image](https://user-images.githubusercontent.com/81401104/117355559-1fab3a80-ae89-11eb-95a7-3ed3a17901b0.png) button at the bottom of the page.
@@ -1976,6 +1985,7 @@ And then click the ![image](https://user-images.githubusercontent.com/81401104/1
 To make it possible for Kanban to pull in the tasks, another form needs to be created to record these tasks.
 
 So now let's create a new form:
+
 ![image](https://user-images.githubusercontent.com/81401104/117355713-4d907f00-ae89-11eb-8ba7-58a3f9b709a2.png)
 
 Fill in the essential information: "Form Title" with "Task" and select the same project and Kanban menu.
@@ -2013,7 +2023,6 @@ And in the 'Column Field', 'Label' and 'Description' dropdowns, select the respe
 
 Now run the Kanban application.
 ![image](https://user-images.githubusercontent.com/81401104/117356213-e0311e00-ae89-11eb-9402-33f064527765.png)
-
 
 Here you can see the Kanban layout.
 
