@@ -2681,11 +2681,9 @@ And below you have "Roles Configurations":
         <td>Name</td>
         <td>Permission</td>
         <td>Role Manager</td>
+        <td>Roles x Users Form (Role Form)</td>
     </tr>
-
 </table>
-
-Roles x Users Form (Role Form) 
 
 <div id='id-2Menus'/>
 
@@ -2767,7 +2765,7 @@ Member Users can view and edit your system.
 
 They can only be added if they are already registered on the system.
 
-When the name/email of the person you want to add appears, select him/her and then click on the ![image](https://user-images.githubusercontent.com/81401104/117503708-b6462d00-af57-11eb-83a1-d290782c2d07.png) button:
+When the name/email of the person you want to add appears, select him/her and then click on the ![add](https://user-images.githubusercontent.com/81401104/124016656-4767dc00-d9bc-11eb-972b-6c9d79f509ee.png) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
