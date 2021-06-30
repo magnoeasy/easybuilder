@@ -2676,13 +2676,14 @@ And below you have "Roles Configurations":
 
 ![image](https://user-images.githubusercontent.com/81401104/117502930-9e21de00-af56-11eb-873a-6fd52398d5e8.png)
 
-Role Form.
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Permission</td>
+        <td>Role Manager</td>
+    </tr>
 
-Name
-
-Permission
-
-Role Manager
+</table>
 
 Roles x Users Form (Role Form) 
 
