@@ -68,6 +68,7 @@
 
 ## Primeiros passos no Easy Builder 🦶
 <p>Em primeiro plano precisamos criar um login no <b>"Easy Builder"(nossa plataforma de criação).<p>
+    
 - Acessando o link https://builder.easy.rocks/
 
 <img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png">
@@ -97,6 +98,7 @@ Agora iremos aprender a fazer um projeto, menu e formulário básico, para que v
 Apos o login no Builder você irá se deparar com o seguinte contéudo:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
+    
 Na aba “Main” e logo abaixo em “Project title” escreva o título do seu projeto (pode ser “ProjetoTeste”)
 
 e clique no botão _Save & Close_
