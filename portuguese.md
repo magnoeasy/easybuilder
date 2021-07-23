@@ -704,7 +704,8 @@ Com este componente você pode adicionar uma data e horário atual, data e horá
 Selecione o componente “DateTime”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 ![image](https://user-images.githubusercontent.com/81401104/115919736-9f7be280-a44f-11eb-8b8a-d419b75b90d4.png)
 
-Execute a aplicação.<br>
+Execute a aplicação.
+
 ![image](https://user-images.githubusercontent.com/81401104/115919778-aacf0e00-a44f-11eb-9db4-d2b72adada8a.png)
 
 Perceba que a data está no formato mês/dia/ano e o horário está no formato AM/PM.
