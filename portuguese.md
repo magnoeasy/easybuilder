@@ -2020,7 +2020,7 @@ Para visualizar o formulário em formato de lista, crie um novo formulário e ad
 ![image](https://user-images.githubusercontent.com/81401104/117356608-50d83a80-ae8a-11eb-8c5d-0cb586b107f7.png)
 
 
-Clique no botão ![image13](https://user-images.githubusercontent.com/81401104/117356813-909f2200-ae8a-11eb-92bb-54bf1653130b.png) no pé da página.
+Clique no botão ![image13](https://user-images.githubusercontent.com/81401104/126831008-669c7782-f252-4d38-8020-6ff676c6455a.png) no pé da página.
 
 Agora selecione a opção “List” no cabeçário. Irá aparecer da seguinte forma:
 
@@ -2123,7 +2123,7 @@ O botão ![image](https://user-images.githubusercontent.com/81401104/117495817-8
 Para realizar esse tutorial, é necessário que tenha feito antes os passos no tutorial do 
 “End User Access” na seção das configurações do projeto.
 
-Após você ter criado o seu formulário, e clicar no botão ![image13](https://user-images.githubusercontent.com/81401104/117496019-cf95ac00-af4c-11eb-98d6-3422efb10385.png) e depois no ![image14](https://user-images.githubusercontent.com/81401104/117496042-d7555080-af4c-11eb-991d-9703a4f82bdb.png), irá abrir a tela dos registros:
+Após você ter criado o seu formulário, e clicar no botão ![image13](https://user-images.githubusercontent.com/81401104/126830920-3670bf6e-459e-46ee-8ed4-04c061a1cc97.png) e depois no ![Run](https://user-images.githubusercontent.com/81401104/126830943-bcef2a61-ad8e-4b9f-9de0-71aa6373223d.png), irá abrir a tela dos registros:
 
 ![image](https://user-images.githubusercontent.com/81401104/117496064-e0deb880-af4c-11eb-8b49-c002c05f6e9d.png)
 
@@ -2141,7 +2141,7 @@ Preencha os campos com as informações correspondentes. Nesse caso eu criei um 
 
 ![image](https://user-images.githubusercontent.com/81401104/117496621-afb2b800-af4d-11eb-8c06-fca41baea985.png)
 
-Então, clique no botão ![image](https://user-images.githubusercontent.com/81401104/117496650-ba6d4d00-af4d-11eb-8f67-b658b1eedcaa.png).
+Então, clique no botão ![image63](https://user-images.githubusercontent.com/81401104/126830855-6bed3f71-fc44-4afb-9982-6550f9c7307d.png).
 
 E irá aparecer a tela de registro de usuário.
 
@@ -2409,7 +2409,7 @@ Então clique no botão ![image](https://user-images.githubusercontent.com/81401
 ![image](https://user-images.githubusercontent.com/81401104/117500491-18506380-af53-11eb-98b2-1db015861014.png)
 
 
-Agora clique no botão ![image63](https://user-images.githubusercontent.com/81401104/117500529-23a38f00-af53-11eb-8d9d-d0fdb81ecc4e.png).
+Agora clique no botão ![add](https://user-images.githubusercontent.com/81401104/126830643-f2451501-2481-41c5-9864-b4b1450064ea.png)
 
 ![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
 
