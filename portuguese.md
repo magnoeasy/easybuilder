@@ -288,7 +288,7 @@ Execute a aplicação.
 
 
 Preencha o campo “Número de telefone” com qualquer número, pode ser (45) 98765-4321 
-e  então clique no botão <img src="https://user-images.githubusercontent.com/81401104/115287040-2e25f200-a126-11eb-85d5-c49772347aa9.png">
+e  então clique no botão ![image63](https://user-images.githubusercontent.com/81401104/126811136-c8402d22-6277-4071-835d-1afcd6c25227.png)
 
 
 Agora você consegue visualizar seus registros:
@@ -314,7 +314,7 @@ Execute a aplicação. Ao preencher o campo você perceberá que será necessár
 Execute a aplicação. Ao preencher o campo você perceberá que será permitido no máximo 10 caracteres para que seja possível salvar o registro.
 
 “Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
-clique no <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
+clique no <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png"> e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
 ### Textfield 📓 > BEHAVIOR 🎬
 
@@ -353,10 +353,10 @@ do “Visibility Rules”,
 irá abrir a seguinte janela:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
 
-
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115290676-354eff00-a12a-11eb-85ed-b3102d4347b0.png).
+Agora clique no botão ![image13](https://user-images.githubusercontent.com/81401104/126811619-a920a2e3-db11-44b0-8eaf-e2fd930e58e1.png)
 
 Agora desmarque a caixa de seleção “Visible”.
+
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
 
 Então clique na lista suspensiva do “Visibility Rules” (do campo “Idade”) e selecione “Regra da Idade”:
@@ -626,7 +626,8 @@ Nomeie o primeiro de “Number1”, o segundo de “Number2” e o terceiro de �
 
 Iremos realizar a seguinte função: ao preencher o valor do “Number1” e do “Number2” automaticamente será dado o resultado da soma desses dois campos no “Total” 
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
+Clique no botão ![add your script here](https://user-images.githubusercontent.com/81401104/126811989-e7e0e200-8ea7-4f5e-b805-9fff8e28790b.png)
+
  (se localiza na seção “Events”) do campo “Total”  e automaticamente abrirá essa aba:
 ![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
 
@@ -844,7 +845,7 @@ Agora clique no botão ![image](https://user-images.githubusercontent.com/814011
 
 Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
  e adicione “Masculino”, denovo clique ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
-e adicione a opção  “Feminino” e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923621-e15b5780-a454-11eb-84e6-aaa8d7679277.png)
+e adicione a opção  “Feminino” e então clique no botão ![image13](https://user-images.githubusercontent.com/81401104/126812104-48efecf4-105b-42d9-8682-ae7d8d2d7fdc.png)
  . (Imagem na próxima página)
 
 Duas coisas importantes de saber sobre a janela “Enumerations”:
@@ -887,6 +888,7 @@ Clique no botão![image](https://user-images.githubusercontent.com/81401104/1161
 Execute a aplicação.
 
 Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
+
 ![image](https://user-images.githubusercontent.com/81401104/116136274-7904b400-a6a8-11eb-84c7-db352e7116f0.png)
 
 🔗Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
@@ -924,9 +926,11 @@ Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”
 ![image](https://user-images.githubusercontent.com/81401104/116136757-1d86f600-a6a9-11eb-9060-f0fbcd9a1897.png)
 
 Agora execute a aplicação.
+
 ![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
 
 Irá abrir a seguinte página:
+
 ![image](https://user-images.githubusercontent.com/81401104/116137641-2af0b000-a6aa-11eb-950b-d51d88b82d86.png)
 
 No campo “Cor” escreva “Vermelho”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
