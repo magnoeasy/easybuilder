@@ -63,6 +63,12 @@
     - [🧰 Editors](#id-Editors)
     - [🧰 Email](#id-2Email)
     - [🧰 Images](#id-2Images)
+ - [Builder Apis ☁️](#id-apis)
+  - [☁️ Authentication](#id-authentication) 
+  - [☁️ Paginate](#id-paginate)
+  - [☁️ Get](#id-get)
+  - [☁️ Save](#id-save)
+  - [☁️ Delete](#id-delete)
 
 <div id='id-frist'/>
 
@@ -2866,3 +2872,101 @@ Na seção “Background”  é possível realizar o upload da imagem de fundo, 
 
 Para fazer o upload de qualquer uma imagem, apenas clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png)
 
+<div id="id-apis"/>
+
+## Builder Apis ☁️
+
+Abaixo você vai conhecer algumas apis que você pode usar de forma externa. Note que para usa-las você deve obter autenticação.
+
+<div id="id-authentication">
+    
+### Api para autenticação
+    
+Endereço:
+    https://builder.easy.rocks/Api/Account/Login
+    
+![image](https://user-images.githubusercontent.com/13450436/153057611-4cca89d9-cb54-42e8-9e8f-5e70a5c10b88.png)
+   
+Headers:
+<div id="projectHash">   
+ProjectHash é o código do projeto você pode pegar ele pela url, nas requisições você deve incluir 'projectHash' como header: 
+    
+![image](https://user-images.githubusercontent.com/13450436/153057247-e3295600-336c-4de6-815a-28166809e010.png)
+    
+![image](https://user-images.githubusercontent.com/13450436/153057640-2f75ca94-6aa4-478c-b077-1a020c5bd430.png)
+    
+Payload:
+    
+{"username":"email ou username","password":"senha","grant_type":"password"}
+    
+![image](https://user-images.githubusercontent.com/13450436/153057860-4c06657f-2506-4bfd-99b8-1f219f77ced6.png)
+    
+Reponse: 
+    
+{"userFirstName":"User","userLastName":"Test","passwordChangeRequired":false,"accessToken":"esse token é necessário para que você chame as demais apis"}
+    
+    
+<div id="id-paginate">
+
+### Paginação
+    
+    
+Para requisitar dados de paginação de um formulário você deve utilizar a seguinte api:
+    
+Endereço: https://builder.easy.rocks/api/datasource/RunGridQuery/{IdDoDataSource}
+    
+Você pode obter o Id do DataSource inspecionando a barra network do seu navegador e clica em refresh no formulário:
+    
+![image](https://user-images.githubusercontent.com/13450436/153059323-58696431-e7ca-4baf-a139-8455d5a77977.png)
+
+Headers:
+
+[projectHash](#projectHash)
+    
+authorization: com o código do Bearer + o token obtido com a api de autenticação
+    
+![image](https://user-images.githubusercontent.com/13450436/153059688-bc3a00a8-7ade-4796-966c-f2afa40a8b14.png)
+
+    
+PayLoad:
+    
+- skip: Quantos registros você quer Pular
+- take: Quantos registros você quer Pegar
+- orderBy: Nome do campo pelo qual deseja ordenar
+- filters: Lista de Filtros, é possível filtrar por termos ou montar filtros complexos
+- field: Nome do Campo que vai ser utilizado pelo filtro
+- condition: Condição AND ou OR caso tenha mais de um Filtro na lista
+- operator: Tipo de operação 
+  - 0 StartWith
+  - 1 Contains
+  - 2 EndWith
+  - 3 Equals
+  - 4 Greater
+  - 5 GreaterOrEquals
+  - 6 Less
+  - 7 LessOrEquals
+  - 8 Different
+  - 9 Myself
+  - 10 UnderMyRole
+  - 11 SameRole
+  - 12 UserHasRole
+  - 13 In
+  - 14 NotIn
+     - value: Valor do Filtro
+     - classPropertyId: Valor do ClassPropertyId do Campo : Opcional
+     - fieldTypeId: Tipo do Campo Opcional
+        
+
+Você pode utilizar a ferramenta de filtro do Builder pra facilitar a geração do objeto e pegar o valor inspecionando:
+![image](https://user-images.githubusercontent.com/13450436/153061046-860a90d7-8f05-4151-971a-ac48b42fadcd.png)
+
+{"filters":[{"field":"Name","condition":"AND","operator":8,"value":null,"childs":[],"classPropertyId":381541,"fieldTypeId":25}],"skip":0,"take":100,"orderBy":""}
+![image](https://user-images.githubusercontent.com/13450436/153061068-7423903d-291a-4d0b-b17b-9f5da2c49c48.png)
+
+    
+   
+
+    
+    
+    
+    
