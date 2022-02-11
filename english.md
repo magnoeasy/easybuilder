@@ -71,8 +71,8 @@
     
 - Accessing the link https://builder.easy.rocks/
     
-<img src="https://user-images.githubusercontent.com/81401104/114607455-f248e380-9c72-11eb-9f83-63854f376b2c.png">
- 
+<img src="./BuilderImages/login.png">
+
  In this image we see a login screen, this is where you will sign up, there are several ways to sign up like Google, Microsoft Teams,Facebook or with your email, the recommended is to use Easy's email (....@easyteam.rocks) which you received by clicking <i>"Sign UP".
     
   
@@ -85,8 +85,7 @@ Finally click _Link Here_ to confirm the email.⤴️
     
 There now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️
     
-![Screenshot_2](https://user-images.githubusercontent.com/81401104/119750852-7f857780-be70-11eb-8c77-54ea746fedb1.png)
-
+<img src="./BuilderImages/login2.png">
     
 
 
@@ -95,7 +94,7 @@ There now you can already log in to <b>"Easy Builder"</b> without problems by cl
 
 ## It's time to get hands-on 🖐️
 
-Now we will learn how to make a basic project, menu and form, so you can already experience the features of Easy Builder.
+Now we will learn how to make a basic project, menu and form, so that you can try out the features of Easy Builder.
     
 After logging into Builder you will be faced with the following content:
 
@@ -112,14 +111,17 @@ and click on the _Save & Close_ button
 
 (It will take a while here as the database for your project is being created)
 
-Now you will be on your home page with the three main tabs, in this case automatically it will be the "Project" tab. 
+Now you will be on your home page with the three main tabs, in this case automatically the "Project" tab. 
 
-Then, you will be back at the home screen with the two main tabs "Form" and "Report" (which means "Form" and "Report" respectively), now click on the "Form" tab:
-![image](https://user-images.githubusercontent.com/81401104/116601837-502b2b80-a901-11eb-8e29-009d8ff21b96.png)
-And now click the _New_ button, it will automatically open a new tab in your browser.
+Then, you will be back at the home screen with the two main tabs "Form" and "Report" (which means "Form" and "Report" respectively), now click on the "Form" tab which is marked in green:
+
+![image](./BuilderImages/form.png)
+
+And now click on the _Form_ button, which is marked in red in the image above, will automatically open a new tab in your browser.
+    
 <img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
     
-On that new page, in the "Form Title" field write the title of your form (can be "FormTest").
+On this new page, in the "Form Title" field write the title of your form (it can be "FormTest").    
 ![image](https://user-images.githubusercontent.com/81401104/120087290-f57e1e80-c0bc-11eb-96d1-919007483897.png)
     
 Click the _"Save"_ button that is at the foot of the page.
@@ -151,7 +153,8 @@ Add the name "Lopes", and click the _"Save & Close"_ button !!!
 ![formtestnewnamelopes2](https://user-images.githubusercontent.com/81401104/121063430-aad76300-c79c-11eb-9304-515445ae9ca9.gif)
 
     
-<h3>⚠️Be careful not to confuse _"Save"_ instead of _"Save & Close"</h3>
+<h3>⚠️Be careful not to confuse "Save" instead of "Save & Close"</h3>
+
 <img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png">
 
 Repeat the process by putting different name.
@@ -169,7 +172,9 @@ When you get to the form screen, fill in the "Form Title"(the title of the form)
 ![textemail](https://user-images.githubusercontent.com/81401104/120090145-8c0b0980-c0d6-11eb-9d19-a338ebf9ae7d.gif)
 
 
-We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button <img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
+We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button 
+
+<img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
     
 You will go to the following screen
 
@@ -191,8 +196,7 @@ After filling in the fields, click the _"Save & Close" button.
 
 ![formtestnewnamelopesemail](https://user-images.githubusercontent.com/81401104/121073189-96996300-c7a8-11eb-8af4-374d46eaa43a.gif)
 
-And you will be back at the records screen, with the form saved and available for viewing.
-    
+And you will be back at the records screen, with the form saved and available for viewing. 
 *If you want to edit the saved form,click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
 (Under the "Control" column)
 
@@ -281,6 +285,8 @@ Select the "Textfield" component, then drag and drop it where it says "Drop new 
 
 (If it doesn't appear, just click on the component you just dropped).
 
+![image](./BuilderImages/textfieldgif.gif)
+
 🔗Video:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
 ### Textfield 📓 > GENERAL 🎖️
@@ -364,7 +370,7 @@ Regarding the rules for visibility, mandatory and disabled, it is important to n
 
 Let's test this in practice. Select and drag the "Integer" component into the form.
 
-![3](https://user-images.githubusercontent.com/81401104/121243233-de38f100-c873-11eb-8f6c-abe83fe16841.gif)
+![2 1](./BuilderImages/intege.gif)
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
 
@@ -492,7 +498,7 @@ Select the "Textarea" component, then drag and drop it where it says "Drop new f
 
 "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115908778-fa5a0d80-a440-11eb-9b57-b6066c60094c.png)
+![image](./BuilderImages/textarea.gif)
 
 Run the application
 
@@ -524,7 +530,7 @@ This is a component that allows the user to insert text with the desired formatt
 
 Select the "Editor" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115909949-933d5880-a442-11eb-9b38-d7781805f113.png)
+![image](./BuilderImages/editor.gif)
 
 Run the application:
 ![image](https://user-images.githubusercontent.com/81401104/115909971-9c2e2a00-a442-11eb-9d79-740daa7fcc39.png)
@@ -563,6 +569,7 @@ Under Type you can select one of 5 possible options:
  <li>Decimal (for decimal numbers)</li>
  <li>DateTime (for date and time)</li>
  <li>Boolean (for true or false)</li>
+ <li>Guid ( it is a unique code)</li>
 </ol>
 <br>
 
@@ -576,7 +583,7 @@ Default Value: Default value (the value will be filled in automatically, but can
 This is a component used for when you need to enter integer numbers for an application.
 
 Select the "Integer" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/115914627-93d8ed80-a448-11eb-88da-c2e494da605e.png)
+![image](./BuilderImages/intege.gif)
 
 Run the application.
 ![image](https://user-images.githubusercontent.com/81401104/115914683-a6ebbd80-a448-11eb-8d68-2b03746f00f7.png)
@@ -628,7 +635,7 @@ This is a component used to enter decimal numbers for an application.
 
 Select the "Decimal" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115915538-d5b66380-a449-11eb-8316-c8407cf6c482.png)
+![image](./BuilderImages/decimal.gif)
 
 Run the application.
 
@@ -654,7 +661,8 @@ Scale: This refers to the number of digits after the period or comma, for exampl
 Note that there are five digits after the period.
 
 ### Decimal 💲 > EVENTS ⚙️
-![image](https://user-images.githubusercontent.com/81401104/115916822-b3254a00-a44b-11eb-8feb-bd68d1342eaf.png)
+
+![image](./BuilderImages/eventsdecimal.png)
 
 To test the "Events" section we will delete the fields created previously with the "Decimal" component and leave the form empty.
 
@@ -710,7 +718,8 @@ After adding the values, click on the ![Save Close](https://user-images.githubus
 With the "Date" component you can add a date, current date, a pre-defined date or any other date that you fill in.
 
 Select the "Date" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/115919171-db627800-a44e-11eb-8784-6df95f45ec2f.png)
+
+![image](./BuilderImages/dategif.gif)
 
 Run the application
 
@@ -740,7 +749,7 @@ With this component you can add a current date and time, a pre-defined date and 
 
 Select the "DateTime" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115919736-9f7be280-a44f-11eb-8b8a-d419b75b90d4.png)
+![image](./BuilderImages/datetime.gif)
 
 Run the application.
 
@@ -776,7 +785,7 @@ With this component you can add a current time, a predefined time or any other t
 
 Select the "Time" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115920033-026d7980-a450-11eb-9758-c832bcd2d674.png)
+![image](./BuilderImages/Time.gif)
 
 Run the application.
 
@@ -806,7 +815,7 @@ The "Checkbox" component is a checkbox that allows the user to make a binary cho
 
 Select the "Checkbox" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115920271-56785e00-a450-11eb-9d7a-63d4658aa8aa.png)
+![image](./BuilderImages/checkbox.gif)
 
 Type "Required" in the "Name" and "Label" fields that are in the "General" section of the "Properties of Field" checkbox.
 
@@ -839,6 +848,8 @@ This component creates a checklist that will be connected to a DataSource. The r
 
 Select the "ChecklistDB" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the field you just dropped).
 
+![image](./BuilderImages/checkboxDB.gif)
+
 To see how this component is used, scroll down to the "Source" section of this tutorial.
 
 *** Contact easy comtec support to use this component ****
@@ -854,7 +865,8 @@ To learn more about how to use this feature, go to the "Presentation" section of
 Under "Style" you have three options that you can select: "Fixed", "Fluid" or "Vertical". Select each option and notice the difference in the visual arrangement of the items.
 
 ### ChecklistDB 📁 > SOURCE 🔌
-![image](https://user-images.githubusercontent.com/81401104/115920758-01891780-a451-11eb-8678-248b79757f77.png)
+
+![image](./BuilderImages/Source.png)
 
 To make the "ChecklistDB" component work, you need to pull data from another form/datasource. 
 
@@ -877,7 +889,7 @@ With the "Radio" component you can provide a list of options but select only one
 
 Select the "Radio" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/115922283-15357d80-a453-11eb-87fc-674c13781753.png)
+![image](./BuilderImages/Radio.gif)
 
 Scroll down to the "Values" section of this tutorial to learn how to use this component.
 
@@ -900,7 +912,7 @@ Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
 "Max Length" refers to the maximum amount of characters each option will have.
 
-![Enumeration 1](https://user-images.githubusercontent.com/81401104/121758247-03896180-caf7-11eb-8432-f7b59163a987.png)
+![image](./BuilderImages/Enumerations.png)
 
 Still on the "Values" section, there is the "Default" item, clicking on it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
 
@@ -919,7 +931,7 @@ The "Dropdown" component is for you to provide a list of options in a menu forma
 
 Select the "Dropdown" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/116135849-fc71d580-a6a7-11eb-924a-962830748a28.png)
+![image](./BuilderImages/Dropdown.gif)
 
 In the "Values" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png) button.
 the following modal window will appear:
@@ -963,14 +975,17 @@ The "DropdownDB" component is for you to provide a list of options in menu forma
 
 Select the "DropdownDB" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the field you just dropped).
 
+![image](./BuilderImages/DropdownDB.gif)
+
 To learn how to use this component, scroll down to the "Source" section of this tutorial.
 
 ### DropdownDB 📥 > SOURCE 🔌
-![image](https://user-images.githubusercontent.com/81401104/116136661-f8928300-a6a8-11eb-9b64-3fa9774a8237.png)
 
-In this "Source" section we will bring in the set of values entered into another field, which can be from another or the same form, as long as it is under the same project.
+![image](./BuilderImages/sourcedropDB.png)
 
-So let's start by creating one more form (as shown in the tutorial "How to Create Your First Project, Menu and Form").
+In this "Source" section will be brought the set of values entered into another field, which can be from another or the same form, as long as it is under the same project.
+
+So, let's start by creating one more form (as shown in the tutorial "How to Create Your First Project, Menu and Form").
 
 And on this new form we will add the "Textfield" component into it.
 
@@ -979,7 +994,7 @@ And on this new form we will add the "Textfield" component into it.
 
 In the "General" section,Name the "Name" and "Label" fields "Color".
 
-![GeneralColor1](https://user-images.githubusercontent.com/81401104/122145634-00121500-ce2c-11eb-8245-fed553b3a51d.png)
+![image](./BuilderImages/generalcor.png)
 
 Now run the application.
 
@@ -1037,7 +1052,7 @@ That is, if you know how to use "DropdownDB" you will also know how to use the "
 
 Select the "Dropdown" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](https://user-images.githubusercontent.com/81401104/116138456-37c1d380-a6ab-11eb-9925-e7cb8e33dc66.png)
+![image](./BuilderImages/AutoCompletr.gif)
 
 In the "Source" section, under "Class" of the "Autocomplete" select the "Color" option, and under "Description Field" also select "Color". 
 
@@ -1061,10 +1076,11 @@ Filter Name: Filter name.
 Filter Value: Filter value.
 
 ### AutoComplete 🗄️🧲 > SOURCE 🗂️
-![image](https://user-images.githubusercontent.com/81401104/116138589-62139100-a6ab-11eb-84fd-155de24154fb.png)
+
+![image](./BuilderImages/sourceautocomplete.png)
 
 Class (class, form name or datasource)
-Description Field
+Description Field 
 
 Allow add and edit
 
@@ -1084,7 +1100,8 @@ To
 With this component you can display values of type letters and numbers, these values will not be saved in the database.
 
 Select the "Label" component, then drag and drop it where it says "Drop new field here!
-![image](https://user-images.githubusercontent.com/81401104/116139264-3644db00-a6ac-11eb-8e9a-09614b63beec.png)
+
+![image](./BuilderImages/labelgif.gif)
 
  In the "Label" field of the "General" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png) button
  to import a text document from your computer.
@@ -1100,9 +1117,41 @@ For this tutorial I have created the following document:
 
 ![new text](https://user-images.githubusercontent.com/81401104/122481698-90279a00-cfa5-11eb-9939-efd779f28c95.png)
 
+
 Add the values in the two fields and then click the button ![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png)
 
 🔗Video: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
+
+## Box 📦
+![image](https://user-images.githubusercontent.com/81401104/116139702-afdcc900-a6ac-11eb-8314-3a977ca34b4e.png)
+
+With this component you can create sections within the form, to organize the components that will be within it and perform joint functionality (of visibility rules, for example).
+
+This will save you time when editing the "Properties of Field" sections, for example, by creating view rules for the entire set of components inside the groupbox.
+
+Select the "Box" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
+![image](./BuilderImages/Boxgif.gif)
+
+Now drag a "Textfield" and an "Integer" component into the "Groupbox" in the field where it says "Drop new field here!" and name the textfield "Letter", and the "Integer" from "Number":
+
+![image](./BuilderImages/Boxgif2.gif)
+
+And now, by selecting the box you can set the Behavior, Presentation and Intro of all components within it at once. 
+
+To learn more about how to edit and view these "Properties of Field" settings, go to the "General", "Behavior", "Presentation" and "Intro" sections of the "Textfield" component.
+
+Note: You can also edit these properties for each component individually within GroupBox.
+
+Run the application
+
+![image](https://user-images.githubusercontent.com/81401104/116139918-f5999180-a6ac-11eb-901b-18c68eb5108c.png)
+
+Add the values in the two fields and then click the![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png).
+
+![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
+
+🔗Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
 ### Box 📦 > GENERAL 🎖️
 
@@ -1121,6 +1170,8 @@ By selecting the box of the ![image](https://user-images.githubusercontent.com/8
 With this component you can add a user signature to your form.
 
 Select the "Signature" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+
+![image](./BuilderImages/Signaturegif.gif)
 
 To fully visualize the process of using the "Signature" component it will be necessary to follow the steps of the tutorials "How to Add a User" and "How to Give Permission to a User".
 ![image](https://user-images.githubusercontent.com/81401104/116140718-1b736600-a6ae-11eb-897c-7476531eaf87.png)
@@ -1211,12 +1262,15 @@ With this component you can add an image that will always be shown on the form a
 On top of the images you can add events like opening other forms or hyperlink to other websites. 
 
 Select the "Image" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116142976-e9173800-a6b0-11eb-8773-32c09bd26fee.png)
 
-Click the ![image](https://user-images.githubusercontent.com/81401104/116142992-f0d6dc80-a6b0-11eb-8369-0b59b9806e0b.png) button, then select the image. 
-![image](https://user-images.githubusercontent.com/81401104/116143196-385d6880-a6b1-11eb-8403-3a432aaaef6d.png)
+![image](./BuilderImages/StaticImagegif.gif)
+
+Now follow the GIF below to add your image: 
+
+![image](./BuilderImages/StaticImagegif2.gif)
 
 Now run the application.
+
 ![image](https://user-images.githubusercontent.com/81401104/116143236-43b09400-a6b1-11eb-9a9c-5fec3787631a.png)
 
 The image appears in the form, but will not be saved in the database. It can serve as an instructional reference, logo or hyperlink, among others.
@@ -1229,6 +1283,7 @@ The image appears in the form, but will not be saved in the database. It can ser
 In the "Image" section of the "Image" component you can give description ("Description") and a link, to which you will be directed when you click on the image. Lembre-se de clicar no ![image](https://user-images.githubusercontent.com/81401104/116143294-5a56eb00-a6b1-11eb-84a9-37a064bb07e3.png)
 to add the event that clicking on the image will take you to the link.
 ![ImageGreenButtonUrl1](https://user-images.githubusercontent.com/81401104/122851870-1c0f2e00-d2e6-11eb-93d5-8edd06f1018a.png)
+
 <div id='id-Upload'/>
 
 ## Upload Image 📸📩
@@ -1237,18 +1292,14 @@ to add the event that clicking on the image will take you to the link.
 This component allows you to add an image with the desired format that will be visible in the registry
 
 Select the "ImageInput" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116143496-98eca580-a6b1-11eb-9161-b2ff32ac8d54.png)
 
-Run the application::
+![image](./BuilderImages/UploadImagegif.gif)
 
-![image](https://user-images.githubusercontent.com/81401104/116143528-a144e080-a6b1-11eb-83fd-3080eaec246b.png)
+Run the application by clicking on the ![image](./BuilderImages/RunButton.png):
 
-Click on the "ImageInput" box where it says "Drag and drop or click to upload an image".
+Now Follow the GIF below to Upload the Image:
 
-Then browse and select a picture from your computer: ![image](https://user-images.githubusercontent.com/81401104/116143599-b7eb3780-a6b1-11eb-9a59-09fc5abc7fd1.png)
-
-and then click the ![Save Close](https://user-images.githubusercontent.com/81401104/123151686-1cb8d900-d43a-11eb-8add-f71a0754b767.png) button.
-![image](https://user-images.githubusercontent.com/81401104/116143651-c9344400-a6b1-11eb-8193-31b85dc80c11.png)
+![image](./BuilderImages/UploadImagegif2.gif)
 
 To view the photo you just added, click the ![image](https://user-images.githubusercontent.com/81401104/116143693-d3564280-a6b1-11eb-8522-78da4e1fef90.png) button (under "Control")
 
@@ -1262,29 +1313,27 @@ To view the photo you just added, click the ![image](https://user-images.githubu
 This is a component that allows you to attach files to a registration.
 
 Select the "FileUpload" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116143977-29c38100-a6b2-11eb-8932-1e33c6430892.png)
 
-Run the application.
+![image](./BuilderImages/FileUploadgif.gif)
 
-![image](https://user-images.githubusercontent.com/81401104/116144037-39db6080-a6b2-11eb-9b89-18c4da8312af.png)
+Save by pressing the button ![image](./BuilderImages/saveButton.png) and Then Run the application by clicking on the ![image](./BuilderImages/RunButton.png).
 
-To upload the desired file, click the ![image](https://user-images.githubusercontent.com/81401104/116144079-45c72280-a6b2-11eb-9bb9-265356f3afc3.png)
-button, then you will select the file from your computer, and the "File Upload" field will look like this:
+Now follow the GIF below to upload the desired file:
 
-![image](https://user-images.githubusercontent.com/81401104/116144260-8161ec80-a6b2-11eb-8b70-08aa6c644e41.png)
+![image](./BuilderImages/FileUploadgif2.gif)
 
-And then click the ![Save Close](https://user-images.githubusercontent.com/81401104/123151839-41ad4c00-d43a-11eb-9819-d6db4dcf1354.png) button.
+After the above step you will go to the records screen below:
 
-You will go to the records screen:
 ![image](https://user-images.githubusercontent.com/81401104/116144349-9e96bb00-a6b2-11eb-9e8d-5fa5acc0f58b.png)
 
-If you want to view the "FileUpload" record, click the ![image](https://user-images.githubusercontent.com/81401104/116144386-a8b8b980-a6b2-11eb-9872-e7b158064521.png)(Control) button.
+If you want to view the "FileUpload" log, click on![image](https://user-images.githubusercontent.com/81401104/116144386-a8b8b980-a6b2-11eb-9872-e7b158064521.png)(Control).
 
 Then you will go to the following screen (next page):
 ![image](https://user-images.githubusercontent.com/81401104/116144593-c25a0100-a6b2-11eb-9a55-7f29f846d8a1.png)
 
-And to download the file, just click the ![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png) button.
+And to download the file, just click the button
 
+![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png).
 
 🔗Video: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
@@ -1316,10 +1365,11 @@ Selecting the checkbox "Allow to delete file from storage" will allow deleting f
 ## One-To-Many 📃➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
 
-With this component you can perform a one-to-many relationship, for example: Classroom - who are the students, company - who are the employees.
+With this component you can make a one-to-many relationship, for example: Classroom - who are the students, company - who are the employees.
 
 Select the "OneToMany" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116289651-0c9db980-a769-11eb-9df0-988ae6d2e400.png)
+
+![image](./BuilderImages/OneToManygif.gif)
 
 In the "OneToMany" properties, in the "Source" section, add the "Color" option (This "Color" form was created during the "DropdownDB" tutorial).
 
@@ -1372,7 +1422,8 @@ To run the tutorial for this component, scroll down to the "Source" section.
 
 
 ### MultiTag 🏷️ > SOURCE 🔌
-![image](https://user-images.githubusercontent.com/81401104/116294214-18d84580-a76e-11eb-8bae-155664fc2f1d.png)
+
+![image](./BuilderImages/Sourcemulttag.png)
 
 To make use of the "MultiTag" component we will have to create 3 forms. The first to add the names, the second to connect the names to a "DropdownDB" component, and then connect the second to the third form that will be the "MultiTag" form.
 
@@ -1428,6 +1479,8 @@ This component allows you to present extra data through a DataSource.
 
 Select the "AdditionalData" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
+![image](./BuilderImages/AdditionalDategif.gif)
+
 To see how this component is used, scroll down to the "Additional Data" section of this tutorial
 
 ### Additional Data➡️📃 > GENERAL 🎖️
@@ -1435,10 +1488,12 @@ To see how this component is used, scroll down to the "Additional Data" section 
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
 
-By selecting the checkbox ![image](https://user-images.githubusercontent.com/81401104/116295860-ed565a80-a76f-11eb-84d2-b3f4a8b40d18.png), you will create the border for the component, and you can also edit the "Label" field.
+By selecting the ![image](./BuilderImages/BorderCheck.png) checkbox, the border for the component will be created, and you can also edit the "Label" field.
 
-### Additional Data➡️📃 > ADDITIONAL DATA 
-![image](https://user-images.githubusercontent.com/81401104/116296018-1a0a7200-a770-11eb-8f89-adac9ff3dd8a.png)
+By selecting the ![image](./BuilderImages/Collapsible.png) checkbox, a collapse will be created in the component, and it will also be possible to edit the "Label" field.
+
+### Additional Data➡️📃 > SOURCE
+![image](./BuilderImages/sourceaditionaldate.png)
 
 Under "DataSource" you will select the DataSource created earlier. Beside, ![image](https://user-images.githubusercontent.com/81401104/116296065-27276100-a770-11eb-87e6-82d451cce125.png) is for updating the list, and the ![image](https://user-images.githubusercontent.com/81401104/116296149-3f977b80-a770-11eb-8771-9dfb8c91937a.png) is for adding a DataSource. 
 
@@ -1477,7 +1532,7 @@ Repeat the process adding the name "Maria Aparecida" with the Status of "Pending
 
 Now let's create another form, and name it "Destination".
 
-And drag the "DropdownDB" component into it and name it "Source". 
+And let's drag the "DropdownDB" component into it and name it "Origin". 
 ![image](https://user-images.githubusercontent.com/81401104/116296558-c0ef0e00-a770-11eb-99ab-1fddef838c4c.png)
 
 In the "Source" section of it, under "Class" select the "Source" option. In the "Description Field" select "Name".
@@ -1485,39 +1540,34 @@ In the "Source" section of it, under "Class" select the "Source" option. In the 
 Now select the "Additional Data" component and drag it next to the "Source" field.
 ![image](https://user-images.githubusercontent.com/81401104/116296848-11666b80-a771-11eb-959c-d36516fff50a.png)
 
-Now in the "Additional Data" section of the "Additional Data" component, on the "DataSource" line click on the ![image](https://user-images.githubusercontent.com/81401104/116296897-1f1bf100-a771-11eb-9d41-7de58f56e049.png) and the following window will open:
-![image](https://user-images.githubusercontent.com/81401104/116296950-3064fd80-a771-11eb-8b26-0dc26464b164.png)
+Now in the "Source" section of the "Additional Data" component, on the "DataSource" line, click on the ![image](https://user-images.githubusercontent.com/81401104/116296897-1f1bf100-a771-11eb-9d41-7de58f56e049.png) and the following window will open:
+![image](./BuilderImages/datasource.png)
 
-In "Title" type "Origin", in "Project" select the project in which you created the forms earlier, and in "Class'' select "Origin". It will appear as follows:
-![image](https://user-images.githubusercontent.com/81401104/116297001-3ce95600-a771-11eb-883d-e40445da76ef.png)
+In "Title" type "Source", in "Class" select the project in which you created the forms earlier, it will appear as follows:
+![image](./BuilderImages/datasourcenew.png)
 
-Double click on the "Name" and "Status" fields on the right side, and then the screen will look like this:
-![image](https://user-images.githubusercontent.com/81401104/116297054-47a3eb00-a771-11eb-8996-eeb1c198a7ff.png)
+Double click on the "Name" and "Status" fields that are marked on the right side, and then the screen will look like this:
+![image](./BuilderImages/datasourceedit.png)
 
-Notice that the "Name" and "Status" fields have been added to the DataSource.
+Notice that the fields "Name" and "Status" have been added to the DataSource.
 
-Now click the ![image](https://user-images.githubusercontent.com/81401104/116297093-5094bc80-a771-11eb-85b0-db2b35a0cb66.png) button. And you will automatically return to the form editing screen:
-![image](https://user-images.githubusercontent.com/81401104/116297143-5c807e80-a771-11eb-9dda-3d4be6e3870d.png)
+Now click the ![image](./BuilderImages/saveButton.png) . button and you will automatically return to the form editing screen:
+![image](./BuilderImages/telaediçaoadditionaldate.png)
 
-Now in the "Additional Data" section, under "DataSource", select the "Source" option, under "DataSource Filter" select the "SourceID" option, under "Source Field" select the "SourceID" option, under "Show" select "Last", under "Sorted By" select the "Name" option.
-![image](https://user-images.githubusercontent.com/81401104/116297187-64d8b980-a771-11eb-89e3-f970860b5a1d.png)
+now in the "Source" section, under "DataSource" select the "Source" option, under "DataSource Filter" select the "AdditionalDateid" option, under "Source Field" select the "AdditionalDateid" option, under "Show" select "Last", under "Sorted By" select the "Name" option.<br>
+⚠️Note: In the fields where it says "AdditionalDateid", you will select the name of your form that you selected in the Class earlier.<br>
+![image](./BuilderImages/sourceaditionaldatecompleta.png)
 
-Now select and drag the "Label" component on top of the "Additional Data":
-![image](https://user-images.githubusercontent.com/81401104/116297222-6c985e00-a771-11eb-99e7-321425182cc7.png)
+now select and drag the "Label" component on top of the "Additional Data" and name it "Status" like in the GIF below:
+![image](./BuilderImages/AdditionalDateLabel.gif)
 
-Name it "Status":
-![image](https://user-images.githubusercontent.com/81401104/116297244-7326d580-a771-11eb-90fa-ad5f44c59814.png)
+now in the "Source" section, under "DataLink" select the "Status" option:
+![image](./BuilderImages/sourcedatalink.png)
 
-And in the "Additional Data" section, in the "DataLink" list, select the "Status" option:
-![image](https://user-images.githubusercontent.com/81401104/116297291-8043c480-a771-11eb-87e2-0ef88e601a8d.png)
-
-And in the "Others" section, from the "Text Align" list, select the "Center" option
-![image](https://user-images.githubusercontent.com/81401104/116297327-89cd2c80-a771-11eb-906a-c17fb8dc2d13.png)
-
-Run the application:
+run the application:
 ![image](https://user-images.githubusercontent.com/81401104/116297363-93569480-a771-11eb-8c70-2e70c8236691.png)
 
-Select the name "João Carlos" and observe the message beside:
+select the name "João Carlos" and look at the message beside:
 ![image](https://user-images.githubusercontent.com/81401104/116297403-9c476600-a771-11eb-879d-bff518d372dd.png)
 
 Select the name "Maria Aparecida" and notice the message beside:
@@ -1532,26 +1582,30 @@ With this component you can insert custom JavaScript functions.
 
 Select the "Button" component, then drag and drop it where it says "Drop new field here!"
 
+![image](./BuilderImages/Buttongif.gif)
+
 To learn more about how to use this component, scroll down to the "Events" section of this tutorial.
 
 🔗Video: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
 ### Button ⏸️ > GENERAL 🎖️
-![image](https://user-images.githubusercontent.com/81401104/116297653-de70a780-a771-11eb-8ec2-ddf7bcc2823f.png)
+
+![image](./BuilderImages/GeneralButton.png)
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
 
 "Text" is the text identifying the button to the user.
 
 ### Button ⏸️ > EVENTS ⚙️ 
-![image](https://user-images.githubusercontent.com/81401104/116297753-fd6f3980-a771-11eb-9b3a-ce10856d2c26.png)
+
+![image](./BuilderImages/EventsButton.png)
 
 Let's test the "Events" section by first dragging a new "Button" component into the form. 
 
 In this test we will make sure that clicking the button will display a message.
 
 Now in the "Events" section of this new button we will click on the button.  
-![image](https://user-images.githubusercontent.com/81401104/116297841-17108100-a772-11eb-9445-eec11a9ed85c.png)
+![image](./BuilderImages/addScriptButton.png)
 
 Then the following tab will open: 
 ![image](https://user-images.githubusercontent.com/81401104/116297876-22fc4300-a772-11eb-85d9-5ce36a4c9f75.png)
@@ -1561,8 +1615,6 @@ Under "Custom Scripts" copy and paste the following script:
                                             function alert() {
                                    alert('Can be used in alerts, redirect to another page, execute a javascript function')
                                    }
-
-then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 
 then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
 button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
@@ -1588,7 +1640,8 @@ Now click on the ![image](https://user-images.githubusercontent.com/81401104/116
  This is a component that allows you to insert a html text into the form.
 
 Select the "HTMLField" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116299220-c8fc7d00-a773-11eb-978e-6a32ae5ef2b3.png)
+
+![image](./BuilderImages/HTMLFieldgif.gif)
 
 In the "HTML" field under "General" (where the arrow is pointing), you will paste your HTML code.
 
@@ -1604,6 +1657,8 @@ Run the application...
 ![image](https://user-images.githubusercontent.com/81401104/116300162-f4339c00-a774-11eb-8a26-5e41adbadded.png)
 
 And here you can see the message with text formatting inside your form.
+
+![image](./BuilderImages/HTMLFieldprint.png)
 
 🔗Video: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
@@ -1623,7 +1678,10 @@ HTML: This is where you will paste your HTML code.
 
 This component creates a quiz where the user adds true and false alternatives, placing the score of the true answers in the Score.
 
-Select the "Quiz" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+Select the "Decimal" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" after that click on the Save button.(If it doesn't appear, just click on the field you just dropped).
+![image](./BuilderImages/decimal1.png)
+
+Now select the "Quiz" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 ![image](https://user-images.githubusercontent.com/81401104/116300290-1d542c80-a775-11eb-8615-ed2d342a04e8.png)
 
 
@@ -1647,11 +1705,8 @@ And add two answers: "4" and checking the checkbox![image](https://user-images.g
 and "5" without checking the checkbox.
 ![image](https://user-images.githubusercontent.com/81401104/116300663-876cd180-a775-11eb-9b35-436c9dc1824d.png)
 
-Now, to be able to show the quiz result, add an "Integer" component to the form and name it "Percent Hit
-![image](https://user-images.githubusercontent.com/81401104/116300738-9eabbf00-a775-11eb-9b79-12cc42fa1809.png)
-
-Now click back on the Quiz, go to the "Others" section, under "Score Field" select the "Percent Hit" option.
-![image](https://user-images.githubusercontent.com/81401104/116300760-a4a1a000-a775-11eb-9943-ce331e32e35b.png)
+Now, in order to be able to show the quiz result, we will use the "Decimal" component that we created in the beginning and we will name it "PercentageDeAcerto", now click back on the Quiz, go to the "Others" section, in "Score Field" select the "PercentageDeAcerto" option.
+![image](./BuilderImages/others.png)
 
 Run the application. This page will open:
 ![image](https://user-images.githubusercontent.com/81401104/116300780-acf9db00-a775-11eb-91b7-13e680c9f867.png)
@@ -1667,7 +1722,7 @@ basta clicar no botão ![image](https://user-images.githubusercontent.com/814011
 🔗Video: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
 ### Quiz 🧩 > OTHERS 
-![image](https://user-images.githubusercontent.com/81401104/116300887-ca2ea980-a775-11eb-9f65-89f4d781a590.png)
+![image](./BuilderImages/others2.png)
 
 To learn more about how to use this feature, go to the "Others" section of the "Textfield" component.
 
@@ -1682,15 +1737,14 @@ The "Email" component is for accepting email only.
 
 Select the "Email" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the component you just dropped).
 
-![EmailTutorial](https://user-images.githubusercontent.com/81401104/123155614-b6828500-d43e-11eb-949d-8923adea6186.png)
+![image](./BuilderImages/Emailgif.gif)
 
-After dropping the email component into the form, run the application.
+After dropping the email component into the form, run the application by clicking the ![image](./BuilderImages/RunButton.png) button.
 
-And notice that on the register screen you will only be allowed to save what you have entered in the "Email" field if the system considers it as email, for example:
+And notice that on the register screen you will only be allowed to save what you have entered in the "Email" field if the system considers that as email, for example:
+![image](./BuilderImages/EmailvalidationGif.gif)
 
-![EmailTutorialRun](https://user-images.githubusercontent.com/81401104/123155848-fba6b700-d43e-11eb-8b99-9ca36c2c5d04.png)
-
-Notice that when it was written only "Jesse" it was not possible to save, but when "@gmail.com" was added to the end it became possible to save it.
+Notice that when it was only written "Easy" it was not possible to save, but when "@team" was added to the end it became possible to save it.
 
 🔗Video: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
 
@@ -1702,22 +1756,18 @@ Notice that when it was written only "Jesse" it was not possible to save, but wh
 The "Password" component comes with its field submask set up for password (****), i.e. to make it unobtrusive to fill in sensitive information, for example CPF.
 
 Select the "Password" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the component you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116301341-50e38680-a776-11eb-8523-6521d135ed3f.png)
 
-Run the application
+![image](./BuilderImages/Passwordgif.gif)
 
-![image](https://user-images.githubusercontent.com/81401104/116301371-580a9480-a776-11eb-8d8e-9b8de2d2c2ae.png)
-
-When you enter the characters, notice that it will be hidden.
-
-![image](https://user-images.githubusercontent.com/81401104/116301389-5d67df00-a776-11eb-9912-7887ff144d83.png)
+Run the application by clicking on the ![image](./BuilderImages/RunButton.png)<br>
+When entering the characters, notice that it will be hidden.
+![image](./BuilderImages/Passwordjpg.png)
 
 And after saving, you will go to the records screen:
-
 ![image](https://user-images.githubusercontent.com/81401104/116301438-6658b080-a776-11eb-8d57-5b9642f39791.png)
 
-And even if you access the form again by clicking on the ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png)
-(below "Control"), you still won't be able to view the entered information:
+And even if you access the form again, by clicking on the ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png)
+(under "Control"), you will still not be able to see the information you entered:
 
 🔗Video: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
 
@@ -1729,9 +1779,9 @@ And even if you access the form again by clicking on the ![image](https://user-i
 "Horizontal Line" does line breaks, with the main purpose of organizing the arrangement of components.
 
 Select the "Horizontal Line" component, then drag and drop it where it says "Drop new field here! 
-![image](https://user-images.githubusercontent.com/81401104/116301545-89836000-a776-11eb-939f-27e7d0fbb75a.png)
+![image](./BuilderImages/HorizontalLinegif.gif)
 
-When you place the "Horizontal Line" inside the form, you will notice that it is just a line, with the only function of organizing the disposition of the components inside the screen.
+When you place the "Horizontal Line" inside the form, you will notice that it is just a line, with the only function of organizing the arrangement of the components inside the screen.
 
 Let's add two "Textfield" components inside the form, one to the left and one to the right of the "Horizontal Line".
 ![image](https://user-images.githubusercontent.com/81401104/116301693-b172c380-a776-11eb-86cb-10f56540a199.png)
@@ -1739,9 +1789,9 @@ Let's add two "Textfield" components inside the form, one to the left and one to
 Now, go to the "Horizontal Line" properties, in the "Presentation" section, in the first list (desktop), select the "Col-lg-12-100%" option. The visual layout will look like this:
 ![image](https://user-images.githubusercontent.com/81401104/116301717-b899d180-a776-11eb-9c8e-c57364ab9365.png)
 
-Now run the application.
+Now run the application by clicking on the ![image](./BuilderImages/RunButton.png) button.
 
-You will notice that on the register screen it will be arranged in the same way:
+You will notice that the registration screen is organized in the same way:
 ![image](https://user-images.githubusercontent.com/81401104/116301747-c0597600-a776-11eb-851c-d2cb1b5df620.png)
 
 This is what the "Horizontal Line" does, it breaks lines to organize the layout of the components.
@@ -1756,7 +1806,7 @@ This is what the "Horizontal Line" does, it breaks lines to organize the layout 
 The repeater is the component used for data presentation within a page, with it you can reproduce the content of a form in the page environment
 
 Select the component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the component you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116301801-d23b1900-a776-11eb-8804-a91c7c2885f6.png)
+![image](./BuilderImages/RepeaterGif.gif)
 
 Note that when you insert the Repeater you cannot save the page until you have selected a Datasource in the properties tab.  
 ![image](https://user-images.githubusercontent.com/81401104/116301842-dd8e4480-a776-11eb-947a-2b584c4d1a07.png)
@@ -1773,8 +1823,106 @@ Notice that the fields are automatically displayed as defined in the Datasource
 
 <div id='id-Video'/>
 
-## Video call Coming Soon 🚧
-  Coming Soon
+## Video call 🎥
+![image](./BuilderImages/videocallicon.png)
+
+The "Video Call" component is for you to make Video calls and Meetings within your application. 
+
+Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the component you just dropped).
+![image](./BuilderImages/Videocallgif.gif)
+
+to use this component we will need two more components a "DateTime" and a "TextField" drag them to the side of the "video call" and name the "DateTime" as "Agenda" and the "TextField" as "Host" like in the image below:
+![image](./BuilderImages/Videocall1.png)
+Now click on the "Video call" and on the right side a tab will open called "Properties of Field" in this tab go to "Others" and in "Room Field" select "Host" in "Date Field" select "Agenda" and in "Participant Field" select "Host" as in the image below:<br>
+![image](./BuilderImages/OthersVidecall.png)
+
+now run the application by clicking the ![image](./BuilderImages/RunButton.png) button.<br>
+to Create a new video call click on new insert the date and time in the "Agenda" field and the a name in the "Host" field then click Save&Close as gif below:
+![image](./BuilderImages/Videocallnew.gif)
+
+now to access the video call click on edit ![image](./BuilderImages/editar.png) under the control the following screen will appear:
+![image](./BuilderImages/videocalltela.png)
+
+To Invite people to video call click on the icon ![image](./BuilderImages/videocallurl.png) it will copy the link of the video call now you just have to share the link with those who will participate in the video call.<br>
+
+
+to start the video call click on ![image](./BuilderImages/videocallbutton.png) you will be redirected to another tab where your camera will open and you can start the video call.<br>
+⚠️WARNING: Make sure your browser is blocking pop-up, if it is disabled to work the video call.⚠️
+
+## Chat 💬
+![image](./BuilderImages/chaticon1.png)
+
+the "Chat" component creates a chat inside your application.
+
+Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the component you just dropped).
+![image](./BuilderImages/ChatGif.gif)
+
+name the form "FormChat", Now in the "Properties of Field" tab go to "Behavior" and leave selected the options "Visible" and "Admin" as in the image below:<br>
+![image](./BuilderImages/BehaviorChat.png)
+
+after doing this click on the ![image](./BuilderImages/saveButton.png) button.
+
+
+Now create a new form and name it "PageChat" and drag the Repeater Component into it like in the Gif below:
+![image](./BuilderImages/PageChatgif.gif)
+
+done, click on the "Repeater" will open a window called "Properties of Field" in it go to "Source" on the "DataSource" line and click on the button ![image](./BuilderImages/addbutton.png) will open the following Modal window:
+
+
+![image](./BuilderImages/modaldatasourcechat.png)
+
+name the "Title" field "DatasourceChat" in the Class field select the previously created "ChatForm" as in the image below:
+![image](./BuilderImages/datasourcechat.png)
+
+now double click on "chat" which is marked in red and the window will look like this:
+
+
+![image](./BuilderImages/datasourcechat2.png)
+
+now click the ![image](./BuilderImages/saveButton.png) button and then the ![image](./BuilderImages/saveclosebutton.png) button.<br>
+still in "Source" under "DataSource" select the datasource we just created "DatasourceChat" and under "Sorted By" select "Chat" as in the image below:
+
+
+![image](./BuilderImages/sourcechatc.png)
+
+now click on the ![image](./BuilderImages/filterButton.png) button and the following modal window will open:
+
+
+![image](./BuilderImages/modalfilter.png)
+
+in the modal window under "Filter name" type "GetAll" click the ![image](./BuilderImages/buttonaddfilter.png) button under "Field" select "Chat" and under "Operation" select "DIFFERENT" as in the Gif below:
+
+
+![image](./BuilderImages/Filtergif.gif)
+
+now drag the "Chat" component into the "Repeater" as in the gif below:
+
+![image](./BuilderImages/chatrepeatergif.gif)
+
+in "Properties of Field" go to "source" under "DataLink" select "Chat" as in the image below:
+
+![image](./BuilderImages/sourcechat2.png)
+
+Now click on the ![image](./BuilderImages/saveButton.png) button and then run the application by clicking on the ![image](./BuilderImages/RunButton.png) button and you will see the following page:
+
+![image](./BuilderImages/pagechatjpg.png)
+
+Go back to the "FormChat" and run the application by clicking on the ![image](./BuilderImages/RunButton.png) button, you will be redirected to another tab, there you will click on ![image](./BuilderImages/newbutton.png) and make the chat request like in the Gif below:
+
+![image](./BuilderImages/formechatgifrun.gif)
+
+After the request is made on the screen a box will open as in the image below, in it you can add the Chat topic and the number of participants.
+
+image](./BuilderImages/chatsetings.png)
+
+Now go back to the PageChat screen and click on the ![image](./BuilderImages/newbutton.png) button like in the gif below:
+
+![image](./BuilderImages/pagechatgif2.gif)
+
+
+this is how your chat will look like in the image below:
+
+![image](./BuilderImages/chatpage.png)
 
 <div id='id-Tab'/>
 
@@ -1904,7 +2052,6 @@ Custom Scripts:
  <li>Update.</li>
  <li>Create.</li>
  <li>Delete.</li>
- <li>Create (Create).</li>
 </ul>
 
 e Form Rule - Clicking on it will open the following modal:
@@ -2066,9 +2213,15 @@ by clicking the button ![image](https://user-images.githubusercontent.com/814011
 
 the following modal window will appear:
 
-![image](https://user-images.githubusercontent.com/81401104/117356905-aa406980-ae8a-11eb-9446-cc7d74e01f11.png)
+![image](./BuilderImages/modalList.png)
 
 Select fields to be displayed in list: Select fields to be displayed in list.
+
+Order: Order, in the order of the items in the column.
+
+Ascend: To ascend.
+
+Descend: To descend.
 
 Select All: Select all.
 
@@ -2187,7 +2340,7 @@ And the user registration screen will appear.
 
 <div id='id-Permission'/>
 
-## How to Give User Permission 
+## 👨👩 How to Give User Permission 
 
 To follow this tutorial, you must have gone through the steps in the "How to Add a User" tutorial. 
 "Adding a User" tutorial.
@@ -2325,19 +2478,18 @@ Then click the ![image15](https://user-images.githubusercontent.com/81401104/117
 
 After clicking the button, the following modal window will open:
 
-![image](https://user-images.githubusercontent.com/81401104/117499428-9a3f8d00-af51-11eb-8343-01e4a365726b.png)
+![image](./BuilderImages/datasourceTools.png)
 
-In "Title" write the title of your datasource, it can be "DataSource X", in "Project" select the project under which you created the "Form X" (Tutorial - "Form X"), and in Class it will be "formulariox".
-
-![image](https://user-images.githubusercontent.com/81401104/117499461-a62b4f00-af51-11eb-96c0-b7a12606c05f.png)
+In "Title" write the title of your datasource, it can be "DataSource X", in "Class" select the Form that you created earlier "Formulario X" (Tutorial - "Form X").
+![image](./BuilderImages/datasourcetools2.png)
 
 
 Double click on the items that appear on the right side of the screen: "Funcao" and "Nome_Completo".
 
-![image](https://user-images.githubusercontent.com/81401104/117499488-b17e7a80-af51-11eb-88bf-42e58cc815e5.png)
+![image](./BuilderImages/datasourcetools3new.png)
 
 
-Notice that it has been added into the datasource.now click on button ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png).
+Notice that it has been added into the datasource. Now click the ![image](./BuilderImages/saveButton.png) button and then the ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png) button.
 
 Your datasource is created:
 
@@ -2349,9 +2501,13 @@ Your datasource is created:
 
 ### 🔧 Process
 
+To make use of the "Template", contact Easy Comtec support.
+
 <div id='id-Job'/>
 
 ### 🔧 Process Job
+
+To make use of the "Template", contact Easy Comtec support.
 
 <div id='id-Report'/>
 
@@ -2359,29 +2515,29 @@ Your datasource is created:
 
 To perform this tutorial, you must have already performed the steps in the "Form X" and "How to Create a DataSource" tutorial.
 
-On the start screen, when you log into your account, you will encounter the following screen:
+On the home screen, when you log into the account, you will be faced with the following screen:
 
-![image](https://user-images.githubusercontent.com/81401104/117499648-e68acd00-af51-11eb-9ede-a7bbe83a7c04.png)
+![image](./BuilderImages/Reportaba.png)
 
 
-Select the "Report" tab and click the ![image15](https://user-images.githubusercontent.com/81401104/117499659-eb4f8100-af51-11eb-8075-0631c0c7d796.png) button.
+Select the "Report" tab and click the ![image](./BuilderImages/newbutton.png).
 
 The following modal window will open:
 
-![image](https://user-images.githubusercontent.com/81401104/117499711-fbfff700-af51-11eb-93cc-c85776bd4528.png)
+![image](./BuilderImages/reportmodal.png)
 
 
-In the "Title", type the title of your report (it can be "Report X"), in "Project" and "Menu" select the same as for "DataSource X":
+In the "Title", type the title of your report (it can be "Report X"), in "DataSource" select the datasource created in the previous tutorial the "DataSource X":
 
-![image](https://user-images.githubusercontent.com/81401104/117499743-04f0c880-af52-11eb-9f58-6172f7120b14.png)
-
-
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/117499759-0a4e1300-af52-11eb-8351-f8822d611d15.png). 
-
-![image](https://user-images.githubusercontent.com/81401104/117499788-13d77b00-af52-11eb-8a9c-c52cfbb2732e.png)
+![image](./BuilderImages/reportname.png)
 
 
-Notice that now the fields "Full Name" and "Role" have been imported into the report.
+click the button ![image](https://user-images.githubusercontent.com/81401104/117499759-0a4e1300-af52-11eb-8351-f8822d611d15.png). 
+
+![image](./BuilderImages/reportimport.png)
+
+
+Notice that the fields "Full Name" and "Role" have now been imported into the report.
 
 click the button ![image63](https://user-images.githubusercontent.com/81401104/117499928-51d49f00-af52-11eb-860e-39138a8212f2.png).
 
@@ -2396,7 +2552,7 @@ will open the following page:
 ![image](https://user-images.githubusercontent.com/81401104/117500066-7d578980-af52-11eb-8b9e-78a8bd29e404.png)
 
 
-Click on the "Menu" that you created earlier, it will show a list of forms, reports, etc. Select the "X Report".
+Click on the "Menu" that you created earlier, it will show you a list of forms, reports, etc. Select the "X Report".
 
 ![image](https://user-images.githubusercontent.com/81401104/117500104-8c3e3c00-af52-11eb-9b1d-b2139dfa011b.png)
 
@@ -2427,26 +2583,20 @@ One more tab will be added to this home screen.
  
  The following modal window will open:
 
-![image](https://user-images.githubusercontent.com/81401104/117500403-f951d180-af52-11eb-8902-ebdb411f7c52.png)
-
-Under "Project" select the same project that you used for the "Form X" and "How to Create a Data Source" tutorial.
+![image](./BuilderImages/chartmodal.png)
 
 In "Chart" select the "Pie" option, in "Style" the "Default" option. In "Title" write "Percentage by Function". In "Position" write "1".
 
 In the "Internal/External" selection box select the "Internal" option. 
 
 In "DataSource" select the option "DataSource X" (Created during the tutorial "How to Create a DataSource").
-In "Group by" select the option "Function", in "Value" the option "Full_Name". In "Operation" select "Count". (It will look like the image on the next page)
 
-![image](https://user-images.githubusercontent.com/81401104/117500450-0a9ade00-af53-11eb-943e-8ff5ac8de953.png)
+In "Group by" select the "Function" option, in "Value" the "Full_Name" option. In "Operation" select "Count". (It will look like the image below)
 
-
-Now click the button ![image](https://user-images.githubusercontent.com/81401104/117500474-11295580-af53-11eb-84f2-aede22facfd8.png):
-
-![image](https://user-images.githubusercontent.com/81401104/117500491-18506380-af53-11eb-98b2-1db015861014.png)
+[image](./BuilderImages/chartcomplet.png)
 
 
-Now click the button ![image63](https://user-images.githubusercontent.com/81401104/117500529-23a38f00-af53-11eb-8d9d-d0fdb81ecc4e.png).
+Now click the button ![image](https://user-images.githubusercontent.com/81401104/126830643-f2451501-2481-41c5-9864-b4b1450064ea.png) and then the ![image](./BuilderImages/saveclosebutton.png)
 
 ![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
 
@@ -2456,12 +2606,12 @@ Now click on the "Project" tab and run the project under which you created your 
 ![image](https://user-images.githubusercontent.com/81401104/117500573-31f1ab00-af53-11eb-884e-9df70220a071.png)
 
 
-Click the green ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project) button:
+Click on the green ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500632-4635a800-af53-11eb-853d-cf459742db3e.png)
 
 
-And here you can see the percentage of employees per role in a pie chart format. 
+And here you can see the percentage of employees per function in a pie chart format. 
 
 🔗Video: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
 
@@ -2567,15 +2717,7 @@ Project name: This field is for identifying the name of the software.
 
 Original Project: Indicates which project will be used as the source for copying form and data.
 
-Namespace: Used for rendering the template.
-
-Data Class: Name of the class that implements the ORM.
-
-Data Class Namespace: (Name of the data class) Used for rendering the template.
-
-Service Reference: (Service Reference) Used for rendering the template.
-
-MvC Project Name:  (MvC Project Name) Used for rendering the template.
+Home Page: Home page of the project.
 
 <div id='id-DatabaseConfigurations'/>
 
@@ -2591,73 +2733,158 @@ Database login: Login to access the SQL server.
 
 Database password: Password to access the SQL server.
 
-Blob Container Connection String: Blob Container Connection String should be copied from the Azure Portal.
+Blob Container Connection String: Blob Container Connection String must be copied from the Azure Portal.
 
-The item "End-user access type" appears - which means "end-user access type" - with a dropdown with 3 options:
+Blob Container Name: Container where the files will be stored.
+
+Test Database Connection" button: Clicking it will test the database connection.
+
+<div id='id-DatabaseConfigurations'/>
+
+#### 🧰Email Server Configuration
+
+![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
+
+
+SMTP Configurations: SMTP (Simple Mail Transfer Protocol) settings. 
+
+Server name: Specification of the SMTP server. You can find it by browsing your ISP's web page.
+
+Port: 25 or 587. 
+
+Email: Email account that the application will use to send email.
+
+User name: Username the application will use to send email.
+
+Password: Password to access the chosen email account.
+
+Use SSL: SMTP email transfer does not provide encryption. So if you want a more secure connection, it is a good choice to use an SSL/TLS or STARTTLS extension, which use a separate port for encrypted communication.
+
+Test SMTP Email Configuration: Will test and validate SMTP email settings
+
+POP Configurations: POP (Post Office Protocol) settings. POP is a standard protocol for Internet applications used by email clients to retrieve email from a mail server.
+
+The "Display Name", "Server Name", "Port", "Email", "User name", "Password" and "Use SSL" fields of the POP Configurations are given the same instructions as the same fields of the SMTP Configurations, explained above.
+
+#### 🧰 Other configurations
+
+![image](https://user-images.githubusercontent.com/81401104/117502437-e42a7200-af55-11eb-8f7c-2563c6c8d25c.png)
+
+Azure search key: Enables a builder search bar that searches by form as well as by records. 
+
+Azure is a cloud computing service created by Microsoft to build, test, and manage applications and services through Microsoft's data processing centers.
+
+Azure search name: Enables a builder search bar that searches by form as well as by records
+
+Google Analytics ID: Is a string of type "UA-000000-2
+
+Video Chat Twilio Settings Twilio Account Sid: Twilio video chat settings
+Twilio Account Sid.
+
+Twilio Api Key: API Key.
+
+Chat Settings: Chat settings.
+
+Azure Communication Key: Azure communication key.
+
+🔳Custom Css: Here you can edit the CSS, by selecting the box, the following field will appear for you to paste your css code: 
+
+![image](https://user-images.githubusercontent.com/81401104/117502480-f5737e80-af55-11eb-8be1-17afe142f315.png)
+
+
+ Enable user to give feedback: By checking the box, enables your application to get feedback from your users and send it to the email account set up in the application.
+
+Field Format Settings: Field format settings
+
+Date:<br>
+MM/dd/yyyy = (month/ day/ year)<br> 
+dd/MM/yyyy = (day/ month/ year)<br>
+DateTime: <br>
+MM/dd/yyyy hh:mm:ss a = [Month/ day/ year hour (0 to 12 AM/PM) :minute :second]<br>
+MM/dd/yyyy HH:mm:ss = [Month/ day/ year hour (0 to 23) :minute :second]<br>
+dd/MM/yyyy hh:mm:ss a = [day/month/year hour (0 to 12 AM/PM) :minute :second]<br>
+dd/MM/yyyy HH:mm:ss = [day/ month/ year hour (0 a 23)  :minutes :seconds]<br>
+
+##### Time:<br> 
+HH:mm:ss = [hours (0 to 23) :minutes :seconds]<br>
+hh:mm :ss = [Hours (0 to 12) :minutes :seconds]<br>
+
+##### Decimal:<br>
+. (period)<br>
+. (comma)<br>
+
+#### 🧰 End-User Access
+
+When you select the "End-User Access" tab, the following screen will appear:
+
+![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
+
+the "End-user access type" item - which means "end-user access type" - appears, with a dropdown with 2 options:
 
 <ol>
  <li>Deny</li>
- <li>Anonymous</li>
- <li>Authenticated</li>
+ <li>Authenticated </li>
 </ol>
 
-By selecting the first option ("Deny"), you are denying access to the project by the end user.
+by selecting the first option (“Deny”), you will be denying access to the project by the end user.
 
-By selecting the second option ("Anonymous"), the following fields will appear:
+URL Access
 
-![image](https://user-images.githubusercontent.com/81401104/117502636-2a7fd100-af56-11eb-8e9c-a14169e485f9.png)
+Host
 
-URL Access: URL Access
+when selecting the 2nd option ("Authenticated"), the following sets of fields will appear:
 
-Host: Hosting
+![image](./BuilderImages/modalauthenticade.png)
 
-When selecting the 3rd option ("Authenticated"), the following sets of fields will appear:
-
-![image](https://user-images.githubusercontent.com/81401104/117502732-4f744400-af56-11eb-9909-ae4c6263b23a.png)
 
 URL Access: URL Access
 
 Host: Host
  
-🔳Create default user form: To make it possible to add users and administrators, simply select this checkbox 
+🔳Create default user form (Criar formulário padrão de usuário): Para tornar possível adicionar usuários e administradores, basta selecionar esse checkbox 
 
-and then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
+then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
 
 
-After doing so, go to the forms tab and then look for the titles "User", "Role" and "UserRole".
+After that, go to the forms tab and then look for the titles "User", "Role" and "UserRole".
 
 ![image](https://user-images.githubusercontent.com/81401104/117502850-80547900-af56-11eb-8b86-fdb985867b86.png)
 
 
 Now you can add users and roles.
 
-<table>
-  <tr>
-   <td>User form</td>
-   <td>First Name</td>
-   <td>Last Name</td>
-      <td>Username</td>
-      <td>Email</td>
-      <td>Password</td>
-      <td>Email Confirmed</td>
-      <td>Password Change Required</td>
-      <td>Lockout Enabled </td>
-      <td>Lockout End Date </td>
-      <td>Access Failed Count </td>
- </tr>
-</table>
+User form (User Form)
 
-User Push Notification Token
+First Name (First Name)
 
- 🔳Use Sign-up 
+Last Name (Last Name)
 
- 🔳Send Email To New Users: Send email to new users
+Username (Name user)
 
-Scrolling down the screen view, you see the "Lockout Settings" section:
+Email   (email)
+
+Password (Password)
+
+Email Confirmed (Email confirmation)
+
+Password Change Required (Need to change password)
+
+Lockout Enabled (Block actived) 
+
+Lockout End Date (Block end date)
+
+Access Failed Count (Access failure count)
+
+User Push Notification Token (Token para ‘push notification’)
+
+🔳Use Sign-up 
+
+🔳Send Email To New Users: Send email to new users
+
+When you scroll down on the screen, you see the "Lockout Settings" section:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502886-906c5880-af56-11eb-9a78-8eecb36f2c12.png)
 
-Max attempts before lockout
 
 Max attempts before lockout
 
@@ -2685,16 +2912,15 @@ And below you have "Roles Configurations":
 
 ![image](https://user-images.githubusercontent.com/81401104/117502930-9e21de00-af56-11eb-873a-6fd52398d5e8.png)
 
-<table>
-    <tr>
-        <td>Name</td>
-        <td>Permission</td>
-        <td>Role Manager</td>
-        <td>Roles x Users Form (Role Form)</td>
-    </tr>
-</table>
+Role Form.
 
-<div id='id-2Menus'/>
+Name
+
+Permission
+
+Role Manager
+
+Roles x Users Form (Role Form x functions) 
 
 #### 🧰 Menus
 ![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
@@ -2811,3 +3037,6 @@ In the "Background" section you can upload the background image, which will be d
 ![image](https://user-images.githubusercontent.com/81401104/117503835-ebeb1600-af57-11eb-9b59-f2e9f3353ffe.png)
 
 To upload any image, just click the ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png) button
+
+
+Documentation in Development.
