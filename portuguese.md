@@ -3085,27 +3085,4 @@ Todos parâmetros são query string:
  O status 200 quer dizer que a entidade foi apagada com sucesso. 
  
  
-    
- 
- 
-    
-    
-    
-    
-    
-
-
-    
-   
-
- 
- 
-
-
-    
-   
-
-    
-    
-    
-    
+  

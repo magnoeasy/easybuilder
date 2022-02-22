@@ -2519,7 +2519,7 @@ There, your notification has been created.
 
 <div id='id-ProjectSettings'/>
 
-## Project Settings 🧰
+## 🔧 Project Settings 
 
 To access the project settings you need to perform the following steps:
 
@@ -2544,7 +2544,7 @@ Both paths will lead to the same modal window:
 
 <div id='id-Main'/>
 
-### 🧰 Main
+### 🔧 Main
 ![image](https://user-images.githubusercontent.com/81401104/117502018-4afb5b80-af55-11eb-95b3-b0fcbcc8628c.png)
 
 In this "Main" tab we will change the main settings of the project.
@@ -2579,7 +2579,7 @@ MvC Project Name:  (MvC Project Name) Used for rendering the template.
 
 <div id='id-DatabaseConfigurations'/>
 
-#### 🧰 Database Configurations
+#### 🔧 Database Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
 
 
@@ -2593,17 +2593,94 @@ Database password: Password to access the SQL server.
 
 Blob Container Connection String: Blob Container Connection String should be copied from the Azure Portal.
 
-The item "End-user access type" appears - which means "end-user access type" - with a dropdown with 3 options:
+Blob Container Name: Container where the files will be stored.
+
+Test Database Connection" button: Clicking it will test the database connection.
+
+<div id='id-DatabaseConfigurations'/>
+
+#### 🔧 Email Server Configuration
+![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
+
+SMTP Configurations: SMTP (Simple Mail Transfer Protocol) settings. 
+
+Display name: Use an informal name that will help you identify the server (it is best to use a mail provider such as Gmail or Yahoo).
+
+Server name: Specification of the SMTP server. You can find it by browsing your provider's web page.
+
+Port: 25 or 587. 
+
+Email: Email account that the application will use to send email.
+
+User name: Username the application will use to send email.
+
+Password: Password to access the chosen email account.
+
+🔳Use SSL: SMTP email transfer does not provide encryption. So if you want a more secure connection, it is a good choice to use an SSL/TLS or STARTTLS extension, which use a separate port for encrypted communication.
+
+Test SMTP Email Configuration: Will test and validate SMTP email settings
+
+POP Configurations: POP (Post Office Protocol) settings. POP is a standard protocol for Internet applications used by email clients to retrieve email from a mail server.
+
+The "Display Name", "Server Name", "Port", "Email", "User name", "Password" and "Use SSL" fields of the POP Configurations are given the same instructions as the same fields of the SMTP Configurations, explained above.
+
+Translated with www.DeepL.com/Translator (free version)
+
+#### 🔧 Other configurations
+![image](https://user-images.githubusercontent.com/81401104/117502437-e42a7200-af55-11eb-8f7c-2563c6c8d25c.png)
+
+Azure search key: Enables a builder search bar that searches by form as well as by records. 
+
+Azure is a cloud computing service created by Microsoft to build, test, and manage applications and services through Microsoft's data processing centers.
+
+Azure search name: Enables a builder search bar that searches by form as well as by records
+
+Google Analytics ID: Is a string of type "UA-000000-2
+
+🔳Custom Css: Here you can edit the CSS, by selecting the box, the following field will appear for you to paste your css code: 
+
+![image](https://user-images.githubusercontent.com/81401104/117502480-f5737e80-af55-11eb-8be1-17afe142f315.png)
+
+🔳Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
+
+Field Format Settings: Configurações de formato dos campo
+
+##### 📅Date:
+MM/dd/yyyy = ( month/day/year)<br> 
+dd/MM/yyyy = ( day/month/year )
+
+##### 📅⏰ DateTime: 
+MM/dd/yyyy hh:mm:ss a = [Month/ day/ year hours (0 a 12 AM/PM) :minute :second]<br> 
+MM/dd/yyyy HH:mm:ss = [Month/ day/ year hora (0 a 23) :minute: seconde]<br> 
+dd/MM/yyyy hh:mm:ss a = [day/ month/ year hora (0 a 12 AM/PM) :minute :second]<br> 
+dd/MM/yyyy HH:mm:ss = [day/ month/ year hora (0 a 23) :minute :second]
+
+##### ⏰ Time:  
+HH:mm:ss = [Hours (0 to 23) :minutes :seconds]<br> 
+hh:mm :ss = [Hours (0 to 12) :minutes :seconds]
+
+##### 🔢 Decimal:
+. ( period)<br> 
+, ( comma)
+
+
+#### 🙎‍♂️ End-User Access
+
+When selecting the “End-User Access” tab, the following screen will appear:
+
+![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
+
+ The item “End-user access type” will appear - which means “end-user access type” - with a dropdown with 3 options:
 
 <ol>
  <li>Deny</li>
  <li>Anonymous</li>
- <li>Authenticated</li>
+ <li>Authenticated </li>
 </ol>
 
-By selecting the first option ("Deny"), you are denying access to the project by the end user.
+By selecting the first option (“Deny”), you will be denying access to the project by the end user.
 
-By selecting the second option ("Anonymous"), the following fields will appear:
+When selecting the second option (“Anonymous”), the following fields will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502636-2a7fd100-af56-11eb-8e9c-a14169e485f9.png)
 
@@ -2611,53 +2688,59 @@ URL Access: URL Access
 
 Host: Hosting
 
-When selecting the 3rd option ("Authenticated"), the following sets of fields will appear:
+When selecting the 3rd option (“Authenticated”), the following sets of fields will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502732-4f744400-af56-11eb-9909-ae4c6263b23a.png)
 
+
 URL Access: URL Access
 
-Host: Host
+Host: Hosting
  
-🔳Create default user form: To make it possible to add users and administrators, simply select this checkbox 
+🔳Create default user form: To make it possible to add users and administrators, just select this checkbox
 
-and then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
+and then click the ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png) button.
 
 
-After doing so, go to the forms tab and then look for the titles "User", "Role" and "UserRole".
+After doing this, go to the forms tab and then look for the titles “User”, “Role” and “UserRole”
 
 ![image](https://user-images.githubusercontent.com/81401104/117502850-80547900-af56-11eb-8b86-fdb985867b86.png)
 
 
-Now you can add users and roles.
+It is now possible to add users and roles.
 
-<table>
-  <tr>
-   <td>User form</td>
-   <td>First Name</td>
-   <td>Last Name</td>
-      <td>Username</td>
-      <td>Email</td>
-      <td>Password</td>
-      <td>Email Confirmed</td>
-      <td>Password Change Required</td>
-      <td>Lockout Enabled </td>
-      <td>Lockout End Date </td>
-      <td>Access Failed Count </td>
- </tr>
-</table>
+User form (User form)
 
-User Push Notification Token
+First Name
 
- 🔳Use Sign-up 
+Last Name
+
+Username (Username)
+
+Email
+
+Password
+
+Email Confirmed
+
+Password Change Required (Password change required)
+
+Lockout Enabled
+
+Lockout End Date
+
+Access Failed Count
+
+User Push Notification Token (Token for 'push notification')
+
+ 🔳Use Sign-up
 
  🔳Send Email To New Users: Send email to new users
 
-Scrolling down the screen view, you see the "Lockout Settings" section:
+ When you scroll down on the screen, you see the "Lockout Settings" section:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502886-906c5880-af56-11eb-9a78-8eecb36f2c12.png)
 
-Max attempts before lockout
 
 Max attempts before lockout
 
@@ -2685,14 +2768,16 @@ And below you have "Roles Configurations":
 
 ![image](https://user-images.githubusercontent.com/81401104/117502930-9e21de00-af56-11eb-873a-6fd52398d5e8.png)
 
-<table>
-    <tr>
-        <td>Name</td>
-        <td>Permission</td>
-        <td>Role Manager</td>
-        <td>Roles x Users Form (Role Form)</td>
-    </tr>
-</table>
+Role Form.
+
+Name
+
+Permission
+
+Role Manager
+
+Roles x Users Form 
+
 
 <div id='id-2Menus'/>
 
@@ -2701,7 +2786,7 @@ And below you have "Roles Configurations":
 
 Name: Name of the menu that the end user will see on the site.
 
-Position: Position that the menu will appear inside your group.
+Position: Position that the menu will appear within your group.
 
 For example, I currently have these two menus:
 
@@ -2712,7 +2797,7 @@ Let's add a menu named "Menu Off", at position "2":
 ![image](https://user-images.githubusercontent.com/81401104/117503038-ca3d5f00-af56-11eb-8793-a8f941a80af7.png)
 
 
-click the button ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
+Click on the button ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
 
 ![image](https://user-images.githubusercontent.com/81401104/117503085-d9bca800-af56-11eb-8598-f5c64ef87c59.png)
 
@@ -2734,55 +2819,58 @@ Edit the 2nd menu ("ParentTest") or the one you have already created:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503437-551e5980-af57-11eb-8e29-11005b3b594b.png)
 
+
 Add and save the "Menu Storage" as "Parent":
 
 ![image](https://user-images.githubusercontent.com/81401104/117503446-5a7ba400-af57-11eb-9231-7c04ca84174f.png)
 
 
-Now let's preview what it will look like inside the project application:
+Now let's see how it will look like inside the project application:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503478-623b4880-af57-11eb-9906-681d3ebf4c39.png)
 
 
-Menu Hierarchy: Where you will see the order and hierarchy relation between the menus
+Menu Hierarchy: Where you will see the order and hierarchy relationship between the menus
 
 ![image](https://user-images.githubusercontent.com/81401104/117503496-67989300-af57-11eb-84ad-ed7d23e1504e.png)
 
 <div id='id-DataBaseManager'/>
 
-#### 🧰 DataBase Manager
+#### 🖥️ DataBase Manager
+
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
 
 
-By clicking on the ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png)(Under "Tables"), you can see the ID and fields of each form:
+By clicking on ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png) (under "Tables"), you can see the ID and the fields of each form:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503633-96166e00-af57-11eb-8b30-ac3af4c008e7.png)
 
 
 ![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): Excluir tables selecionadas.
 
-
 ![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png) : Clear the data from the selected tables.
-
 
 <div id='id-Editors'/>
 
-#### 🧰 Editors
+#### 📝 Editors
+
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
+
 
 Member Users can view and edit your system.
 
 They can only be added if they are already registered on the system.
 
-When the name/email of the person you want to add appears, select him/her and then click on the ![add](https://user-images.githubusercontent.com/81401104/124016656-4767dc00-d9bc-11eb-972b-6c9d79f509ee.png) button:
+When the name/email of the person you want to add appears, select him/her and then click on the ![image](https://user-images.githubusercontent.com/81401104/117503708-b6462d00-af57-11eb-83a1-d290782c2d07.png) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
-Then click the button ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
+
+Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
 
 <div id='id-2Email'/>
 
-#### 🧰 Email
+#### 📧 Email
 ![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
 
  🔳Create default email form: Create default email form
@@ -2799,15 +2887,228 @@ Body: Body
 
 <div id='id-2Images'/>
 
-#### 🧰 Images
+#### 🖼️ Images
+
 ![image](https://user-images.githubusercontent.com/81401104/117503797-db3aa000-af57-11eb-988b-3cfb2da12c11.png)
 
 In the "Icons" section it is possible to upload the icon images, which can be of the proportions "144x144", "76x76", "32x32" and "16x16".
 
 Example: ![image](https://user-images.githubusercontent.com/81401104/117503818-e4c40800-af57-11eb-946c-acd10e8e1d6b.png)
 
+
 In the "Background" section you can upload the background image, which will be displayed on the project login screen. For example:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503835-ebeb1600-af57-11eb-9b59-f2e9f3353ffe.png)
 
+
 To upload any image, just click the ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png) button
+
+<div id="id-apis"/>
+
+## Builder Apis ☁️
+
+Below you will learn about some apis that you can use externally.<br> 
+Note that to use them you must obtain authentication.
+
+<div id="id-authentication">
+    
+### Api for authentication
+    
+Address:
+    https://builder.easy.rocks/Api/Account/Login
+    
+![image](https://user-images.githubusercontent.com/13450436/153057611-4cca89d9-cb54-42e8-9e8f-5e70a5c10b88.png)
+   
+Headers:
+<div id="projectHash">   
+ProjectHash is the project code you can get it from the url, in requests you must include 'projectHash' as header: 
+    
+![image](https://user-images.githubusercontent.com/13450436/153057247-e3295600-336c-4de6-815a-28166809e010.png)
+    
+![image](https://user-images.githubusercontent.com/13450436/153057640-2f75ca94-6aa4-478c-b077-1a020c5bd430.png)
+    
+Payload:
+    
+{"username": "email or username", "password": "password", "grant_type": "password"}
+    
+![image](https://user-images.githubusercontent.com/13450436/153057860-4c06657f-2506-4bfd-99b8-1f219f77ced6.png)
+    
+Reponse: 
+    
+{"userFirstName": "User", "userLastName": "Test", "passwordChangeRequired":false, "accessToken": "this token is required for you to call the other apis"}
+    
+    
+<div id="id-paginate">
+
+### 📃 Pagination
+    
+    
+To request pagination data from a form you must use the following api:
+    
+Address: https://builder.easy.rocks/api/datasource/RunGridQuery/{IdDoDataSource}
+    
+You can get the Id of the DataSource by inspecting your browser's network bar and clicking refresh on the form:
+    
+![image](https://user-images.githubusercontent.com/13450436/153059323-58696431-e7ca-4baf-a139-8455d5a77977.png)
+
+Headers:
+
+[projectHash](#projectHash)
+    
+authorization: with the Bearer code + the token from the authentication api
+    
+![image](https://user-images.githubusercontent.com/13450436/153059688-bc3a00a8-7ade-4796-966c-f2afa40a8b14.png)
+
+PayLoad:
+    
+- skip: How many records you want to Skip
+- take: How many records you want to take
+- orderBy: Name of the field by which you want to order
+- filters: Filter list, you can filter by terms or build complex filters
+- field: Name of the field that will be used by the filter
+- condition: AND or OR condition in case there is more than one Filter in the list
+- operator: Type of operation. 
+  - 0 StartWith.
+  - 1 Contains.
+  - 2 EndWith.
+  - 3 Equals.
+  - 4 Greater.
+  - 5 GreaterOrEquals.
+  - 6 Less.
+  - 7 LessOrEquals.
+  - 8 Different.
+  - 9 Myself.
+  - 10 UnderMyRole.
+  - 11 SameRole.
+  - 12 UserHasRole.
+  - 13 In.
+  - 14 NotIn.
+     - value: Value of the Filter.
+     - classPropertyId: Value of the ClassPropertyId of the Field: Optional.
+     - fieldTypeId: Type of the Optional field.
+        
+
+You can use the Builder's filter tool to easily generate the object and get the value by inspecting:
+    
+![image](https://user-images.githubusercontent.com/13450436/153061046-860a90d7-8f05-4151-971a-ac48b42fadcd.png)
+
+{"filters":[{"field":"Name","condition":"AND","operator":8,"value":null,"childs":[],"classPropertyId":381541,"fieldTypeId":25}],"skip":0,"take":100,"orderBy":""}
+    
+![image](https://user-images.githubusercontent.com/13450436/153061068-7423903d-291a-4d0b-b17b-9f5da2c49c48.png)
+    
+ Api's result should look like this:
+    
+ ![image](https://user-images.githubusercontent.com/13450436/155110500-48fcef6c-82c6-4f45-b82a-36fe66622980.png)
+
+ Response:
+ - Total: Total Records in the Query.
+ - List: List of objects with values.
+ - Formats: Format of the fields. Ex:Date, String, Number.
+
+ ### ⚫ Get
+The api Get is used to get an entity from a form, passing a specific id
+The api address is below: 
+    
+https://builder.easy.rocks/api/FormBuilderSave/{IdDaEntity}
+    
+The request must also include the authentication header, and the id of the project it is being made from:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111165-72bec197-c775-4c64-ad6c-af7c1505abbc.png)
+
+In addition it must include the following payload:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111280-5ac3f884-283f-42db-a9c4-a8f1d7af95b1.png)
+
+- projectId: The project id (can be obtained by the network when editing some grid item)
+- formId: The form id is also in the url
+    
+![image](https://user-images.githubusercontent.com/13450436/155111434-145daedd-3d0f-4d3f-9431-b50cd337bdd6.png)
+    
+The api returns an object with the values of the entity:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
+
+### ⚫ Post
+The Post api is for both creating a new entity and updating an entity, it has the following address:
+    
+https://builder.easy.rocks/api/FormBuilderSave
+    
+It also needs the authentication header, needs the project id and the projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
+The Payload consists of the following object:
+    
+{"ProjectId":2072, "FormId":50839, "TableName": "SimpleForm_Person", "PrimaryKeyName": "SimpleForm_PersonId", "PrimaryKeyType": "Guid", "Values": [{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false},{"FieldName":"Birth","Value":"1956-01-01T00:00:00. 000", "SystemTypeName": "Date", "IsAutoIncrement":false}]}
+
+- ProjectId - Project Id.
+- PrimaryKeyName - Name of the primary key.
+- PrimaryKeyType - Type of the primary key.
+- PrimaryKeyValue - When the intention is to update a record.
+- TableName: Name of the table.
+- Values - A list with the fields to be updated:
+    - FieldName: Name of the field.
+    - IsAutoIncrement: A flag that defines if the value is autoincremented or not.
+    - SystemTypeName: Type of the field.
+    - Value: Value of the field.
+    
+![image](https://user-images.githubusercontent.com/13450436/155114685-40520b69-b2ce-4f04-98bc-b8d1b45c9e22.png)
+
+When the update of the primary key value (PrimaryKeyValue) should be included 
+![image](https://user-images.githubusercontent.com/13450436/155115991-2de7a0d9-832a-4587-b195-b810d72c98aa.png)
+    
+
+The api response consists of the object below:
+    
+{"updateMainForm":false, "item":{"ProjectId":2072, "FormId":50839, "RootFormId":null, "TableName": "SimpleForm_Person", "PrimaryKeyName": "SimpleForm_PersonId", "PrimaryKeyValue": "22600a54-c329-46c8-9b74-ebb02332ec7f", "PrimaryKeyType": "Guid", "WorkflowId":null, "WorkflowStepId":null, "WorkflowActionId":null, "EntityFormKey":null, "WorkflowFormKey":null, "Values":[{"FieldName": "Name", "Value": "John Doe", "SystemTypeName": "String", "IsAutoIncrement":false, "OneToManyRows":null},{"FieldName": "Birth", "Value": "1956-01-01T00:00:00Z", "SystemTypeName": "Date", "IsAutoIncrement": false, "OneToManyRows":null}], "IsNew":true, "ProjectHash": "163a7de6b6a2", "FieldValuesChanged":null, "oneToManyData":null, "UserId":null, "IsBuilderUser":true, "Facilities":[]}}
+
+- updateMainForm: Flag is used by the system in case the form is a child so that the main form is also updated.
+- item: Data of the entity that was updated.
+  - ProjectId: Id of the Project.
+  - FormId: Id of the Form.
+  - RootFormId: Id of the main form.
+  - TableName: Name of the table.
+  - PrimaryKeyName: Name of the primary key.
+  - PrimaryKeyValue: Value of the primary key.
+  - PrimaryKeyType: Type of the primary key.
+  - WorkflowId: Id of the Workflow.
+  - WorkflowStepId: Id of the Step.
+  - EntityFormKey: Id of the Entity (Used in the Workflow history).
+  - Values: Values after the entity is updated similar to the list that was sent.
+  - IsNew: Flag that defines if the record is new or not. 
+  - ProjectHash - Project hash.
+  - FieldValueChanged - Flag that defines if a value was changed.
+  - oneToManyData - Rows from one to many.
+  - UserId - Id of the user who made the null update if the user is a builder user.
+  - IsBuilderUser - Flag that defines if the user was from the Builder.
+  - Facilities - List of the user's facilities if the project uses facilities.
+    
+ ### ❌ Delete
+ 
+ The api that is used to delete an entity consists of the following address, the request must be made in delete mode:
+    
+ https://builder.easy.rocks/?projectId={projectId}&formId={formId}&rootFormId={rootFormId}&tableName={tableName}&primaryKeyName={primaryKeyName}&primaryKeyType={primaryKeyType}&primaryKeyValue={primaryKeyValue}
+
+All parameters are query string:
+    
+![image](https://user-images.githubusercontent.com/13450436/155117527-1d87e181-1bbe-4c90-b51d-06e94617716e.png)
+
+    
+ - projectId: Id of the Project.
+ - formId: Id of the Form.
+ - rootFormId: If it is a Child Form, Id of the main form.
+ - tableName: Name of the table.
+ - primaryKeyName: Name of the primary key.
+ - primaryKeyType: Type of the primary key.
+ - primaryKeyValue: Value of the primary key of the entity to be deleted.
+    
+ The api also needs the authentication header, the project id and the projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
+ The api response consists of the following object:
+ {"updateMainForm":false}
+    
+ - updateMainForm: whether the main form should be updated or not. 
+    
+ The status 200 means that the entity was successfully deleted. 
