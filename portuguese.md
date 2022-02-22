@@ -2976,7 +2976,6 @@ Você pode utilizar a ferramenta de filtro do Builder pra facilitar a geração 
     
     
 ### Get
-    
 A api Get serve para pegar uma entidade de um form, passando um id em específico
 O endereço da api esse logo abaixo: 
     
@@ -3000,6 +2999,99 @@ A api retorna um objeto com os valores da entidade ex:
 ![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
 
 ### Post
+A api de Post serve tanto para criar uma nova entidade como também atualizar uma entidade, ela possui o seguinte endereço:
+    
+https://builder.easy.rocks/api/FormBuilderSave
+    
+Também precisa do header de autenticação, precisa do id do projeto e do projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
+O Payload consiste no seguinte objeto:
+    
+{"ProjectId":2072,"FormId":50839,"TableName":"SimpleForm_Person","PrimaryKeyName":"SimpleForm_PersonId","PrimaryKeyType":"Guid","Values":[{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false},{"FieldName":"Birth","Value":"1956-01-01T00:00:00.000","SystemTypeName":"Date","IsAutoIncrement":false}]}
+
+- ProjectId - Id do Projeto
+- PrimaryKeyName - Nome da chave primária
+- PrimaryKeyType - Tipo da chave primária
+- PrimaryKeyValue - Quando a intenção for atualizar um registro
+- TableName: Nome da tabela
+- Values - Uma lista com os campos a serem atualizados:
+    - FieldName: Nome do campo
+    - IsAutoIncrement: Uma flag que define se o valor é autoincremento ou não
+    - SystemTypeName: Tipo do campo
+    - Valor: Valor do Campo 
+    
+![image](https://user-images.githubusercontent.com/13450436/155114685-40520b69-b2ce-4f04-98bc-b8d1b45c9e22.png)
+
+Quando update o valor da chave primária (PrimaryKeyValue) deve ser incluido 
+![image](https://user-images.githubusercontent.com/13450436/155115991-2de7a0d9-832a-4587-b195-b810d72c98aa.png)
+    
+
+A reposta da api consiste no objeto abaixo:
+    
+{"updateMainForm":false,"item":{"ProjectId":2072,"FormId":50839,"RootFormId":null,"TableName":"SimpleForm_Person","PrimaryKeyName":"SimpleForm_PersonId","PrimaryKeyValue":"22600a54-c329-46c8-9b74-ebb02332ec7f","PrimaryKeyType":"Guid","WorkflowId":null,"WorkflowStepId":null,"WorkflowActionId":null,"EntityFormKey":null,"WorkflowFormKey":null,"Values":[{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false,"OneToManyRows":null},{"FieldName":"Birth","Value":"1956-01-01T00:00:00Z","SystemTypeName":"Date","IsAutoIncrement":false,"OneToManyRows":null}],"IsNew":true,"ProjectHash":"163a7de6b6a2","FieldValuesChanged":null,"oneToManyData":null,"UserId":null,"IsBuilderUser":true,"Facilities":[]}}
+    
+- updateMainForm: Flag é utilizada pelo sistema caso o form seja um children para que o form principal também seja atualizado
+- item: Dados da entidade que foi atualizada
+  - ProjectId: Id do Projeto
+  - FormId: Id do Form
+  - RootFormId: Id do Form Principal
+  - TableName: Nome da tabela
+  - PrimaryKeyName: Nome da chave primária
+  - PrimaryKeyValue: Valor da chave primária
+  - PrimaryKeyType: Tipo da chave primária
+  - WorkflowId: Id do Workflow
+  - WorkflowStepId: Id do Step
+  - EntityFormKey: Id da Entidade (Usado no histórico do Workflow)
+  - Values: Valores após a entidade ser atualizada semelhante a lista que foi enviada
+  - IsNew: Flag que define se o registro é novo ou não 
+  - ProjectHash - hash do projeto
+  - FieldValueChanged - flag que define se algum valor foi alterado
+  - oneToManyData - Rows de um one to many
+  - UserId - Id do usuário que fez o update null se o usuário for do builder
+  - IsBuilderUser - Flag que define se o usuário foi do Builder
+  - Facilities - Lista de Facilities do usuário caso o projecto utilize facilities
+    
+ ### Delete
+ 
+ A api que serve para apagar uma entidade consiste no seguinte endereço, a requisição deve ser feito em modo delete:
+    
+ https://builder.easy.rocks/?projectId={projectId}&formId={formId}&rootFormId={rootFormId}&tableName={tableName}&primaryKeyName={primaryKeyName}&primaryKeyType={primaryKeyType}&primaryKeyValue={primaryKeyValue}
+
+Todos parâmetros são query string:
+    
+![image](https://user-images.githubusercontent.com/13450436/155117527-1d87e181-1bbe-4c90-b51d-06e94617716e.png)
+
+    
+ - projectId: Id do Projecto
+ - formId: Id do Form
+ - rootFormId: Caso seja um Child Form, Id do form principal
+ - tableName: Nome da tabela
+ - primaryKeyName: Nome da chave primária
+ - primaryKeyType: Tipo da chave primária
+ - primaryKeyValue: Valor da chave primaria da entidade a ser apagada 
+    
+ A response da api consiste no seguinte objeto:
+ {"updateMainForm":false}
+    
+ - updateMainForm: se o form principal deve ser atualizado ou não 
+    
+ O status 200 quer dizer que a entidade foi apagada com sucesso. 
+ 
+ 
+    
+ 
+ 
+    
+    
+    
+    
+    
+
+
+    
+   
 
  
  
