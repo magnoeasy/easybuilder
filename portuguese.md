@@ -2958,10 +2958,52 @@ PayLoad:
         
 
 Você pode utilizar a ferramenta de filtro do Builder pra facilitar a geração do objeto e pegar o valor inspecionando:
+    
 ![image](https://user-images.githubusercontent.com/13450436/153061046-860a90d7-8f05-4151-971a-ac48b42fadcd.png)
 
 {"filters":[{"field":"Name","condition":"AND","operator":8,"value":null,"childs":[],"classPropertyId":381541,"fieldTypeId":25}],"skip":0,"take":100,"orderBy":""}
+    
 ![image](https://user-images.githubusercontent.com/13450436/153061068-7423903d-291a-4d0b-b17b-9f5da2c49c48.png)
+    
+ O resultado da Api é deve ser parecido com esse:
+    
+ ![image](https://user-images.githubusercontent.com/13450436/155110500-48fcef6c-82c6-4f45-b82a-36fe66622980.png)
+
+ Response:
+ - Total: Total de Registros na Query
+ - List: Lista de objetos com os valores
+ - Formats: Formato dos campos Ex:Date, String, Number
+    
+    
+### Get
+    
+A api Get serve para pegar uma entidade de um form, passando um id em específico
+O endereço da api esse logo abaixo: 
+    
+https://builder.easy.rocks/api/FormBuilderSave/{IdDaEntitdade}
+    
+A requisição também deve incluir o header de autenticação, e o id do projeto em que está sendo feita:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111165-72bec197-c775-4c64-ad6c-af7c1505abbc.png)
+
+Além disso deve incluir o seguinte payload:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111280-5ac3f884-283f-42db-a9c4-a8f1d7af95b1.png)
+
+- projectId: O id do projeto (pode ser obtido pelo network ao editar algum item da grid)
+- formId: O id do formulário se encontra também na url
+    
+![image](https://user-images.githubusercontent.com/13450436/155111434-145daedd-3d0f-4d3f-9431-b50cd337bdd6.png)
+    
+A api retorna um objeto com os valores da entidade ex:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
+
+### Post
+
+ 
+ 
+
 
     
    
