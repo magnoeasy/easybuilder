@@ -3072,6 +3072,10 @@ Todos parâmetros são query string:
  - primaryKeyType: Tipo da chave primária
  - primaryKeyValue: Valor da chave primaria da entidade a ser apagada 
     
+ A api também precisa do header de autenticação, precisa do id do projeto e do projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
  A response da api consiste no seguinte objeto:
  {"updateMainForm":false}
     
