@@ -63,6 +63,12 @@
     - [🧰 Editors](#id-Editors)
     - [🧰 Email](#id-2Email)
     - [🧰 Images](#id-2Images)
+ - [Builder Apis ☁️](#id-apis)
+  - [☁️ Authentication](#id-authentication) 
+  - [☁️ Paginate](#id-paginate)
+  - [☁️ Get](#id-get)
+  - [☁️ Save](#id-save)
+  - [☁️ Delete](#id-delete)
 
 <div id='id-frist'/>
 
@@ -1109,7 +1115,6 @@ Obs: também é possível editar essas propriedades para cada componente individ
 Execute a aplicação.
 ![image](https://user-images.githubusercontent.com/81401104/116139918-f5999180-a6ac-11eb-901b-18c68eb5108c.png)
 
-
 Adicione os valores nos dois campos e depois clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png)
 .
 ![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
@@ -1384,7 +1389,6 @@ Selecione o componente “MultiTag”, então arraste-o e solte-o onde está esc
 ![image](./BuilderImages/Multitaggif.gif)
 
 Para realizar o tutorial desse componente, desça até a seção “Source”.
-
 
 ### MultiTag 🏷️ > SOURCE 🔌
 
@@ -2608,14 +2612,13 @@ Pronto, sua notificação foi criada.
 
 <div id='id-ProjectSettings'/>
 
-## 🧰 Configurações do Projeto
+## 🔧 Configurações do Projeto
 
 Para acessar as configurações do projeto é necessário realizar os seguintes passos:
 
 Ao logar na sua conta, irá se deparar com as três abas iniciais (Form, Project, Report). Selecione a aba do “Project.
 
 ![image](https://user-images.githubusercontent.com/81401104/117501401-6023ba80-af54-11eb-95f5-28b6cc5bc149.png)
-
 
 A partir daqui é possível editar as configurações do projeto por meio de dois caminhos:
 
@@ -2633,7 +2636,7 @@ Ambos caminhos levarão para a mesma janela modal:
 
 <div id='id-Main'/>
 
-### 🧰 Main
+### 🔧 Main
 ![image](https://user-images.githubusercontent.com/81401104/117502018-4afb5b80-af55-11eb-95b3-b0fcbcc8628c.png)
 
 Nessa aba do “Main” iremos alterar as principais configurações do projeto.
@@ -2649,7 +2652,7 @@ Other configurations (outras configurações)
 
 <div id='id-ProjectConfigurations'/>
 
-#### 🧰 Project Configurations
+#### 🔧 Project Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502040-551d5a00-af55-11eb-8235-f2be3fa455ba.png)
 
 Project name: (Nome do projeto) Este campo é para identificar o nome do software.
@@ -2660,9 +2663,8 @@ Home Page: Pagina inicial do projeto.
 
 <div id='id-DatabaseConfigurations'/>
 
-#### 🧰 Database Configurations
+#### 🔧 Database Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
-
 
 Database server: Instância do servidor de banco de dados do SQL Server.
 
@@ -2680,9 +2682,8 @@ Botão “Test Database Connection”: Ao clicar nele, irá testar a conexão do
 
 <div id='id-DatabaseConfigurations'/>
 
-#### 🧰Email Server Configuration
+#### 🔧 Email Server Configuration
 ![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
-
 
 SMTP Configurations: Configurações do SMTP (Simple Mail Transfer Protocol). 
 
@@ -2704,13 +2705,12 @@ POP Configurations: Configurações do POP (Post Office Protocol). O POP é um p
 
 Os campos de “Display Name”, “Server Name”, “Port”, “Email”, “User name”, “Password” e “Use SSL” do POP Configurations recebem as mesmas instruções dos mesmos campos do SMTP Configurations, explicados acima.
 
-
-#### 🧰 Other configurations
+#### 🔧 Other configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502437-e42a7200-af55-11eb-8f7c-2563c6c8d25c.png)
 
 Azure search key: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros. 
 
-Azure é um serviço de computação na nuvem criado pela Microsoft,  para construir, testar e gerenciar aplicações e serviços através dos centros de processamentos de dados da Microsoft.
+Azure é um serviço de computação na nuvem criado pela Microsoft,  para construir, testar, gerenciar aplicações e serviços através dos centros de processamentos de dados da Microsoft.
 
 Azure search name: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros
 
@@ -2729,10 +2729,27 @@ Azure Communication Key: Chave de comunicação azure.
 
 ![image](https://user-images.githubusercontent.com/81401104/117502480-f5737e80-af55-11eb-8be1-17afe142f315.png)
 
-
  🔳Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
 
 Field Format Settings: Configurações de formato dos campo
+
+##### 📅Date:
+MM/dd/yyyy = (mês/ dia/ ano)<br> 
+dd/MM/yyyy = (dia/ mês/ ano)
+
+##### 📅⏰ DateTime: 
+MM/dd/yyyy hh:mm:ss a = [Mês/ dia/ ano  hora (0 a 12 AM/PM) :minuto :segundo]<br> 
+MM/dd/yyyy HH:mm:ss = [Mês/ dia/ ano  hora (0 a 23) :minuto: segundo]<br> 
+dd/MM/yyyy hh:mm:ss a = [dia/ mês/ ano  hora (0 a 12 AM/PM) :minuto :segundo]<br> 
+dd/MM/yyyy HH:mm:ss = [dia/ mês/ ano  hora (0 a 23) :minuto :segundo]
+
+##### ⏰ Time:  
+HH:mm:ss = [Horas (0 a 23) :minutos :segundos]<br> 
+hh:mm :ss = [Horas (0 a 12) :minutos :segundos]
+
+##### 🔢 Decimal:
+. (ponto)<br> 
+, (vírgula)
 
 Date:
 MM/dd/yyyy = (mês/ dia/ ano)<br> 
@@ -2752,11 +2769,13 @@ hh:mm :ss = [Horas (0 a 12) :minutos :segundos]<br>
 . (ponto)<br>
 , (vírgula)<br>
 
-#### 🧰 End-User Access
+#### 🙎‍♂️ End-User Access
 
 Ao selecionar a aba do “End-User Access”, a seguinte tela irá aparecer:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
+
+ Aparecerá o item “End-user access type” - que significa “tipo de acesso ao usuário final” - com um dropdown com 3 opções:
 
 Aparece o item “End-user access type” - que significa “tipo de acesso ao usuário final” - com um dropdown com 2 opções:
 
@@ -2775,7 +2794,6 @@ Ao selecionar a 2ª opção (“Authenticated”), os seguintes conjuntos de cam
 
 ![image](./BuilderImages/modalauthenticade.png)
 
-
 URL Access: Acesso da URL
 
 Host: Hospedagem
@@ -2784,11 +2802,9 @@ Host: Hospedagem
 
 e então clicar no botão ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
 
-
 Após fazer isso, vá na aba dos forms e então procure pelos títulos “User”, “Role” e “UserRole”
 
 ![image](https://user-images.githubusercontent.com/81401104/117502850-80547900-af56-11eb-8b86-fdb985867b86.png)
-
 
 Agora é possível adicionar usuários e funções.
 
@@ -2820,11 +2836,9 @@ User Push Notification Token (Token para ‘push notification’)
 
  🔳Send Email To New Users:  Enviar email para novos usuários
 
-
 Ao descer a visão na tela, visualiza-se a seção do “Lockout Settings” (Configurações de bloqueio):
 
 ![image](https://user-images.githubusercontent.com/81401104/117502886-906c5880-af56-11eb-9a78-8eecb36f2c12.png)
-
 
 Max attempts before lockout (Quantidade máxima de tentativas antes de bloquear)
 
@@ -2832,11 +2846,9 @@ Default lockout time frame (in minutes) [Tempo padrão (em minutos) de bloqueio]
 
 🔳 User lockout enabled by default (Bloqueio de usuário habilitado por padrão)
 
-
 E logo abaixo tem a seção “Password requirements” (requisitos de senha):
 
 ![image](https://user-images.githubusercontent.com/81401104/117502897-96623980-af56-11eb-8d7d-ff54f88df364.png)
-
 
 Length (Comprimento): quantidade de caracteres.
 
@@ -2879,7 +2891,6 @@ Vamos adicionar um menu de nome “Menu Off”, na posição “2”:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503038-ca3d5f00-af56-11eb-8793-a8f941a80af7.png)
 
-
 Clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
 
 ![image](https://user-images.githubusercontent.com/81401104/117503085-d9bca800-af56-11eb-8598-f5c64ef87c59.png)
@@ -2888,7 +2899,7 @@ Para editar o nome, posição e/ou relação de pai dos menus, é só clicar no 
 
 Para deletar um menu, é só clicar no ![image](https://user-images.githubusercontent.com/81401104/117503281-1c7e8000-af57-11eb-8576-a0f3a8a72d50.png).
 
-Para visualizar os menus criados, é necessário ir até a tela do “Project” e execute a aplicação:
+Para visualizar os menus criados, é necessário ir até a tela do “Project” e executar a aplicação:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503363-39b34e80-af57-11eb-9e9c-86ad21797cc1.png)
 
@@ -2902,16 +2913,13 @@ Edite o 2º menu (“ParentTest”) ou o qual você já tenha criado:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503437-551e5980-af57-11eb-8e29-11005b3b594b.png)
 
-
 Adicione e salve o “Menu Storage” como “Parent”:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503446-5a7ba400-af57-11eb-9231-7c04ca84174f.png)
 
-
 Agora vamos visualizar dentro da aplicação do projeto como ficará:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503478-623b4880-af57-11eb-9906-681d3ebf4c39.png)
-
 
 Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de hierarquia entre os menus
 
@@ -2919,14 +2927,12 @@ Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de
 
 <div id='id-DataBaseManager'/>
 
-#### 🧰 DataBase Manager
+#### 🖥️ DataBase Manager
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
-
 
 Ao clicar no  ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png)(Embaixo de “Tables”), você poderá ver o ID e os campos de cada formulário:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503633-96166e00-af57-11eb-8b30-ac3af4c008e7.png)
-
 
 ![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): Excluir tables selecionadas.
 
@@ -2934,9 +2940,8 @@ Ao clicar no  ![image](https://user-images.githubusercontent.com/81401104/117503
 
 <div id='id-Editors'/>
 
-#### 🧰 Editors
+#### 📝 Editors
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
-
 
 Member Users (usuários membros) podem visualizar e editar o seu sistema.
 
@@ -2946,12 +2951,11 @@ Ao aparecer o nome/email de quem você quer adicionar, selecione-o e depois cliq
 
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
-
 Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
 
 <div id='id-2Email'/>
 
-#### 🧰 Email
+#### 📧 Email
 ![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
 
  🔳Create default email form: Criar formulário de email padrão
@@ -2968,13 +2972,12 @@ Body: Corpo
 
 <div id='id-2Images'/>
 
-#### 🧰 Images
+#### 🖼️ Images
 ![image](https://user-images.githubusercontent.com/81401104/117503797-db3aa000-af57-11eb-988b-3cfb2da12c11.png)
 
 Na seção “Icons” é possível realizar o upload das imagens dos ícones, que podem ser das proporções “144x144”, “76x76”, “32x32” e “16x16”.
 
 Exemplo: ![image](https://user-images.githubusercontent.com/81401104/117503818-e4c40800-af57-11eb-946c-acd10e8e1d6b.png)
-
 
 Na seção “Background”  é possível realizar o upload da imagem de fundo, que será visualizada na tela de login do projeto. Por exemplo:
 
@@ -2982,6 +2985,211 @@ Na seção “Background”  é possível realizar o upload da imagem de fundo, 
 
 Para fazer o upload de qualquer uma imagem, apenas clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png)
 
+<div id="id-apis"/>
+
+## Builder Apis ☁️
+
+Abaixo você vai conhecer algumas apis que você pode usar de forma externa.<br> 
+Note que para usa-las você deve obter autenticação.
+
+<div id="id-authentication">
+    
+### Api para autenticação
+    
+Endereço:
+    https://builder.easy.rocks/Api/Account/Login
+    
+![image](https://user-images.githubusercontent.com/13450436/153057611-4cca89d9-cb54-42e8-9e8f-5e70a5c10b88.png)
+   
+Headers:
+<div id="projectHash">   
+ProjectHash é o código do projeto que você pode obtê-lo pela url, nas requisições você deve incluir 'projectHash' como header: 
+    
+![image](https://user-images.githubusercontent.com/13450436/153057247-e3295600-336c-4de6-815a-28166809e010.png)
+    
+![image](https://user-images.githubusercontent.com/13450436/153057640-2f75ca94-6aa4-478c-b077-1a020c5bd430.png)
+    
+Payload:
+    
+{"username":"email ou username","password":"senha","grant_type":"password"}
+    
+![image](https://user-images.githubusercontent.com/13450436/153057860-4c06657f-2506-4bfd-99b8-1f219f77ced6.png)
+    
+Reponse: 
+    
+{"userFirstName":"User","userLastName":"Test","passwordChangeRequired":false,"accessToken":"esse token é necessário para que você chame as demais apis"}
+    
+<div id="id-paginate">
+
+### 📃 Paginação
+        
+Para requisitar dados de paginação de um formulário você deve utilizar a seguinte api:
+    
+Endereço: https://builder.easy.rocks/api/datasource/RunGridQuery/{IdDoDataSource}
+    
+Você pode obter o Id do DataSource inspecionando a barra network do seu navegador e clicar em refresh no formulário:
+    
+![image](https://user-images.githubusercontent.com/13450436/153059323-58696431-e7ca-4baf-a139-8455d5a77977.png)
+
+Headers:
+
+[projectHash](#projectHash)
+    
+authorization: com o código do Bearer + o token obtido com a api de autenticação
+    
+![image](https://user-images.githubusercontent.com/13450436/153059688-bc3a00a8-7ade-4796-966c-f2afa40a8b14.png)
+
+PayLoad:
+    
+- skip: Quantos registros você quer Pular
+- take: Quantos registros você quer Pegar
+- orderBy: Nome do campo pelo qual deseja ordenar
+- filters: Lista de Filtros, é possível filtrar por termos ou montar filtros complexos
+- field: Nome do Campo que vai ser utilizado pelo filtro
+- condition: Condição AND ou OR caso tenha mais de um Filtro na lista
+- operator: Tipo de operação. 
+  - 0 StartWith.
+  - 1 Contains.
+  - 2 EndWith.
+  - 3 Equals.
+  - 4 Greater.
+  - 5 GreaterOrEquals.
+  - 6 Less.
+  - 7 LessOrEquals.
+  - 8 Different.
+  - 9 Myself.
+  - 10 UnderMyRole.
+  - 11 SameRole.
+  - 12 UserHasRole.
+  - 13 In.
+  - 14 NotIn.
+     - value: Valor do Filtro.
+     - classPropertyId: Valor do ClassPropertyId do Campo : Opcional.
+     - fieldTypeId: Tipo do Campo Opcional.
+        
+Você pode utilizar a ferramenta de filtro do Builder pra facilitar a geração do objeto e pegar o valor inspecionando:
+    
+![image](https://user-images.githubusercontent.com/13450436/153061046-860a90d7-8f05-4151-971a-ac48b42fadcd.png)
+
+{"filters":[{"field":"Name","condition":"AND","operator":8,"value":null,"childs":[],"classPropertyId":381541,"fieldTypeId":25}],"skip":0,"take":100,"orderBy":""}
+    
+![image](https://user-images.githubusercontent.com/13450436/153061068-7423903d-291a-4d0b-b17b-9f5da2c49c48.png)
+    
+ O resultado da Api deve ser parecido com esse:
+    
+ ![image](https://user-images.githubusercontent.com/13450436/155110500-48fcef6c-82c6-4f45-b82a-36fe66622980.png)
+
+ Response:
+ - Total: Total de Registros na Query.
+ - List: Lista de objetos com os valores.
+ - Formats: Formato dos campos Ex:Date, String, Number.
+    
+### ⚫ Get
+A api Get serve para pegar uma entidade de um form, passando um id em específico
+O endereço da api é esse logo abaixo: 
+    
+https://builder.easy.rocks/api/FormBuilderSave/{IdDaEntitdade}
+    
+A requisição também deve incluir o header de autenticação, e o id do projeto em que está sendo feita:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111165-72bec197-c775-4c64-ad6c-af7c1505abbc.png)
+
+Além disso deve incluir o seguinte payload:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111280-5ac3f884-283f-42db-a9c4-a8f1d7af95b1.png)
+
+- projectId: O id do projeto (pode ser obtido pelo network ao editar algum item da grid)
+- formId: O id do formulário se encontra também na url
+    
+![image](https://user-images.githubusercontent.com/13450436/155111434-145daedd-3d0f-4d3f-9431-b50cd337bdd6.png)
+    
+A api retorna um objeto com os valores da entidade ex:
+    
+![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
+
+### ⚫ Post
+A api de Post serve tanto para criar uma nova entidade como também atualizar uma entidade, ela possui o seguinte endereço:
+    
+https://builder.easy.rocks/api/FormBuilderSave
+    
+Também precisa do header de autenticação, precisa do id do projeto e do projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
+O Payload consiste no seguinte objeto:
+    
+{"ProjectId":2072,"FormId":50839,"TableName":"SimpleForm_Person","PrimaryKeyName":"SimpleForm_PersonId","PrimaryKeyType":"Guid","Values":[{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false},{"FieldName":"Birth","Value":"1956-01-01T00:00:00.000","SystemTypeName":"Date","IsAutoIncrement":false}]}
+
+- ProjectId - Id do Projeto.
+- PrimaryKeyName - Nome da chave primária.
+- PrimaryKeyType - Tipo da chave primária.
+- PrimaryKeyValue - Quando a intenção for atualizar um registro.
+- TableName: Nome da tabela.
+- Values - Uma lista com os campos a serem atualizados:
+    - FieldName: Nome do campo.
+    - IsAutoIncrement: Uma flag que define se o valor é autoincremento ou não.
+    - SystemTypeName: Tipo do campo.
+    - Valor: Valor do Campo.
+    
+![image](https://user-images.githubusercontent.com/13450436/155114685-40520b69-b2ce-4f04-98bc-b8d1b45c9e22.png)
+
+Quando o update do valor da chave primária (PrimaryKeyValue) deve ser incluido 
+![image](https://user-images.githubusercontent.com/13450436/155115991-2de7a0d9-832a-4587-b195-b810d72c98aa.png)
+    
+
+A reposta da api consiste no objeto abaixo:
+    
+{"updateMainForm":false,"item":{"ProjectId":2072,"FormId":50839,"RootFormId":null,"TableName":"SimpleForm_Person","PrimaryKeyName":"SimpleForm_PersonId","PrimaryKeyValue":"22600a54-c329-46c8-9b74-ebb02332ec7f","PrimaryKeyType":"Guid","WorkflowId":null,"WorkflowStepId":null,"WorkflowActionId":null,"EntityFormKey":null,"WorkflowFormKey":null,"Values":[{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false,"OneToManyRows":null},{"FieldName":"Birth","Value":"1956-01-01T00:00:00Z","SystemTypeName":"Date","IsAutoIncrement":false,"OneToManyRows":null}],"IsNew":true,"ProjectHash":"163a7de6b6a2","FieldValuesChanged":null,"oneToManyData":null,"UserId":null,"IsBuilderUser":true,"Facilities":[]}}
+    
+- updateMainForm: Flag é utilizada pelo sistema caso o form seja um children para que o form principal também seja atualizado.
+- item: Dados da entidade que foi atualizada.
+  - ProjectId: Id do Projeto.
+  - FormId: Id do Form.
+  - RootFormId: Id do Form Principal.
+  - TableName: Nome da tabela.
+  - PrimaryKeyName: Nome da chave primária.
+  - PrimaryKeyValue: Valor da chave primária.
+  - PrimaryKeyType: Tipo da chave primária.
+  - WorkflowId: Id do Workflow.
+  - WorkflowStepId: Id do Step.
+  - EntityFormKey: Id da Entidade (Usado no histórico do Workflow).
+  - Values: Valores após a entidade ser atualizada semelhante a lista que foi enviada.
+  - IsNew: Flag que define se o registro é novo ou não. 
+  - ProjectHash - hash do projeto.
+  - FieldValueChanged - flag que define se algum valor foi alterado.
+  - oneToManyData - Rows de um one to many.
+  - UserId - Id do usuário que fez o update null se o usuário for do builder.
+  - IsBuilderUser - Flag que define se o usuário foi do Builder.
+  - Facilities - Lista de Facilities do usuário caso o projeto utilize facilities.
+    
+ ### ❌ Delete
+ 
+ A api que serve para apagar uma entidade consiste no seguinte endereço, a requisição deve ser feita em modo delete:
+    
+ https://builder.easy.rocks/?projectId={projectId}&formId={formId}&rootFormId={rootFormId}&tableName={tableName}&primaryKeyName={primaryKeyName}&primaryKeyType={primaryKeyType}&primaryKeyValue={primaryKeyValue}
+
+Todos parâmetros são query string:
+    
+![image](https://user-images.githubusercontent.com/13450436/155117527-1d87e181-1bbe-4c90-b51d-06e94617716e.png)
+
+    
+ - projectId: Id do Projecto.
+ - formId: Id do Form.
+ - rootFormId: Caso seja um Child Form, Id do form principal.
+ - tableName: Nome da tabela.
+ - primaryKeyName: Nome da chave primária.
+ - primaryKeyType: Tipo da chave primária.
+ - primaryKeyValue: Valor da chave primaria da entidade a ser apagada.
+    
+ A api também precisa do header de autenticação, do id do projeto e do projectHash:
+    
+![image](https://user-images.githubusercontent.com/13450436/155114029-cd8a07fe-6e70-4247-8554-705a5d9fc9fe.png)
+    
+ A response da api consiste no seguinte objeto:
+ {"updateMainForm":false}
+    
+ - updateMainForm: se o form principal deve ser atualizado ou não. 
+    
+ O status 200 quer dizer que a entidade foi apagada com sucesso. 
 
 Documentação em Desenvolvimento.
-
