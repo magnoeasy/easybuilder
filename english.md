@@ -44,6 +44,7 @@
     - [List](#id-List)
     - [How to Add a User](#id-How)
     - [How to Give User Permission](#id-Permission)
+    - [Form Events](#id-Form-Events)
 - [Tools 🔧](#id-Tools)
     - [🔧 DataSource](#id-DataSource)
     - [🔧 Process](#id-Process)
@@ -90,7 +91,7 @@ There now you can already log in to <b>"Easy Builder"</b> without problems by cl
 
 
                                                 Done registering Congratulations!!🥇🎉
-<div id='id-hands'/>
+<div id='id-Tools'/>
 
 ## It's time to get hands-on 🖐️
 
@@ -2400,6 +2401,39 @@ Then click the button ![image](https://user-images.githubusercontent.com/8140110
 
 
 And now you can see the users that are inserted in the "Role".
+
+
+<div id="id-Form-Events" />
+
+## Form Events ⚡
+
+<p>Forms events run scripts on specific events that happen while using forms.</p>
+
+####Events Types:
+<ul>
+<li><b>OnLoadForm</b>  - Called whenever a Page is loaded.</li>
+<li><b>OnNewForm</b> - Called whenever the user clicks to insert new records</li>
+<li><b>OnEditForm</b> - Called whenever you edit a record</li>
+</ul>
+
+#####Examples of use:
+To use it just declare a function in the "Custom scripts" with the name of the event, in this case the "onNewForm" was used.
+
+<img src="./BuilderImages/FormEvents/OnNewFormDesign.gif">
+
+At runtime, the constructor will look for the function with the keyword "onNewForm" in your "Custom Scripts" and execute it if it exists
+
+<img src="./BuilderImages/FormEvents/OnNewFormRuntime.gif">
+
+With "OnLoadForm" and "OnEditForm" the usage is the same.
+
+Edit Form:
+<img src="./BuilderImages/FormEvents/OnEditForm.gif">
+
+Page:
+<img src="./BuilderImages/FormEvents/OnLoadForm.gif">
+
+Note: "OnLoadForm" is only effective in Pages.
 
 <div id='id-Tools'/>
 
