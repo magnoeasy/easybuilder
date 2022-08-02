@@ -65,11 +65,13 @@
     - [🧰 Email](#id-2Email)
     - [🧰 Images](#id-2Images)
  - [Builder Apis ☁️](#id-apis)
-  - [☁️ Authentication](#id-authentication) 
-  - [☁️ Paginate](#id-paginate)
-  - [☁️ Get](#id-get)
-  - [☁️ Save](#id-save)
-  - [☁️ Delete](#id-delete)
+   - [☁️ Authentication](#id-authentication) 
+   - [☁️ Paginate](#id-paginate)
+   - [☁️ Get](#id-get)
+   - [☁️ Save](#id-save)
+   - [☁️ Delete](#id-delete)
+- [Page Tutorials 📄](#id-PageTutorials)
+   - [Criar gride em uma page](#id-gridInPage)
 
 <div id='id-frist'/>
 
@@ -3225,5 +3227,103 @@ Todos parâmetros são query string:
  - updateMainForm: se o form principal deve ser atualizado ou não. 
     
  O status 200 quer dizer que a entidade foi apagada com sucesso. 
+
+<div id="id-PageTutorials"/>
+
+## Page Tutorials 📄
+
+<div id="id-gridInPage"/>
+
+### Criar gride em uma page
+⚠️ Importante:
+- Para este procedimento será necessário utilizar uma variável de sessão.
+- Certifique-se de Salvar após cada alteração.
+
+Após criar o formulário com todas as entradas de dados que precisa, crie um datasource do mesmo e adicione os campos que irá precisar listar em sua page:
+<img src="./BuilderImages/GridInPage/img/0001.png">
+<img src="./BuilderImages/GridInPage/img/0002.png">
+
+Deverá ser criado 2 pages, uma para listar os dados e outra para editar/excluir os dados.
+
+Page 1 – Listar os dados:
+Crie a page e em page class adicione a classe do formulário criado anteriormente.
+<img src="./BuilderImages/GridInPage/gifs/0001.gif">
+
+Passo 01 – Montando a grid
+Usando Label faremos o cabeçalho de nossa grid.
+<img src="./BuilderImages/GridInPage/gifs/0002.gif">
+
+Para listar os dados usaremos a ferramenta repeater, em sua propriedade > Source > DataSource será escolhido o Datasouce criado.
+<img src="./BuilderImages/GridInPage/img/0003.png">
+
+Com a ferramenta Label será feito o Datalink com os dados vindo do datasource “Datasource for grid”.
+<img src="./BuilderImages/GridInPage/gifs/0003.gif">
+
+⚠️ O passo será repetido para as demais entradas com seus respectivos datalinks.
+
+Adicione uma outra label e adicione em seu datalink o Id do formulário e desmarque a opção visible.
+<img src="./BuilderImages/GridInPage/gifs/0004.gif">
+
+Page 02 – Editar os dados
+Crie a page e em page class adicione a classe do formulário como foi feito na page anterior.
+<img src="./BuilderImages/GridInPage/img/0004.png">
+
+Adicione um Hidden e nas propriedades General > Session Value selecione a variável de sessão criada.
+<img src="./BuilderImages/GridInPage/gifs/0005.gif">
+
+Adicione um repeater um em suas propriedades Source > DataSource e Source > Show, selecione  “Datasource for grid” e “First or Defalt ” respectivamente. (O First or Defalt irá mostrar o dado a ser editado, caso ele não exista será criado)
+<img src="./BuilderImages/GridInPage/img/0005.png">
+
+Adicione os campos que iram receber os dados a serem editados ou criarão novos dados. Os campos devem corresponder aos campos criados no formulário no começo deste tutorial.
+<img src="./BuilderImages/GridInPage/img/0006.png">
+
+Os campos adicionados também devem conter os respectivos datalinks além de Page Class e Class Property em propriedades > Others.
+<img src="./BuilderImages/GridInPage/gifs/0006.gif">
+
+Adicione um HIdden para receber o datalink do formulário.
+<img src="./BuilderImages/GridInPage/gifs/0007.gif">
+
+Adicione um botão e configure-o para que seja responsável por salvar as informações.
+<img src="./BuilderImages/GridInPage/gifs/0008.gif">
+
+De volta a Page 1 vamos adicionar os botões para editar e deletar os campos.
+Será necessário um pequeno script que passará o Id para a Variável de sessão e redirecionará à page 2, onde os dados poderão ser editados ou criados.
+Adicione o botão e o configure como abaixo (Botão Edit):
+<img src="./BuilderImages/GridInPage/gifs/0009.gif">
+
+Em Dev Properties adicione o script do evento que foi adicionado ao botão.
+Script:
+function redirect() {
+    this.session.variavel_de_sessao = this.entity.Id
+    window.open("URL do form a qual deseja redirecionar", "_self");
+}
+<img src="./BuilderImages/GridInPage/img/0007.png">
+
+Adicione o segundo botão e o configure como abaixo (Botão Delete):
+<img src="./BuilderImages/GridInPage/gifs/0010.gif">
+
+Obs.: Como esse botão apenas irá excluir uma entrada do registro não será necessário script para ele.
+Para que seja possível Editar o campo que foi clicado na nossa Page 1, será necessário configurar um filtro no repeater da Page 2.
+Clique no Reapeater da Page 2 e em Propriedades > Souce > Filter e adicione um novo filtro e Configure-o como abaixo:
+<img src="./BuilderImages/GridInPage/gifs/0011.gif">
+
+Ainda na Page 2 adicione um botão para que volte a Page 1 onde é listado os dados.
+<img src="./BuilderImages/GridInPage/gifs/0012.gif">
+
+Por fim na Page 1 vamos adicionar o botão para criar uma nova entrada.
+<img src="./BuilderImages/GridInPage/gifs/0013.gif">
+
+Na aba dev properties adicione o função adicionada ao botão.
+Script:
+function addNew() {
+    this.session.variavel_de_sessao = null
+    window.open("URL do form a qual deseja redirecionar", "_self");
+}
+<img src="./BuilderImages/GridInPage/img/0009.png">
+
+⚠️ É muito importante que os botões estejam dentro dos repeater para que funcionem corretamente.
+
+## Resultado:
+<img src="./BuilderImages/GridInPage/gifs/0014.gif">
 
 Documentação em Desenvolvimento.
