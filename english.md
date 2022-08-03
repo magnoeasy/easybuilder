@@ -64,6 +64,8 @@
     - [🧰 Editors](#id-Editors)
     - [🧰 Email](#id-2Email)
     - [🧰 Images](#id-2Images)
+- [Page Tutorials 📄](#id-PageTutorials)
+   - [ Create a grid on a page ](#id-gridInPage)
 
 <div id='id-frist'/>
 
@@ -3411,5 +3413,105 @@ All parameters are query string:
  - updateMainForm: whether the main form should be updated or not. 
     
  The status 200 means that the entity was successfully deleted. 
+
+ <div id="id-PageTutorials"/>
+
+## Page Tutorials 📄
+
+<div id="id-gridInPage"/>
+
+### Create a grid on a page
+⚠️ Important:
+  - For this procedure it will be necessary to use a session’s variable.
+  - Remember to Save after each change.
+
+After creating the form with all the data inputs you need, create its data source and add the fields you will need to list on your page:
+<img src="./BuilderImages/GridInPage/img/0001.png">
+<img src="./BuilderImages/GridInPage/img/0002.png">
+
+2 pages should be created, one for listing data and the other for editing/ deleting data.
+
+Page 1 - Listing data:
+Create the page and in page class add the form’s class previously created.
+<img src="./BuilderImages/GridInPage/gifs/0001.gif">
+
+Step 01 - Building the grid:
+Using Label we will make the header of our grid.
+<img src="./BuilderImages/GridInPage/gifs/0002.gif">
+
+To list the data we’ll use the repeater tool, in its property > Source > DataSource will be picked and the Datasource created.
+<img src="./BuilderImages/GridInPage/img/0003.png">
+
+With the Label tool the Datalink with the data source's data “Datasource for grid” will be done
+<img src="./BuilderImages/GridInPage/gifs/0003.gif">
+
+⚠️ The step will be repeated for the other entries with their respective datalinks.
+
+Add another label and add on your datalink the form Id and uncheck the visible option.
+<img src="./BuilderImages/GridInPage/gifs/0004.gif">
+
+Page 02 - Edit the data:
+Create the page in Page Class, then add the form’s class in the same way done on the page before.
+<img src="./BuilderImages/GridInPage/img/0004.png">
+
+Add a Hidden and in the properties General > Session Value select the sessions variable created.
+<img src="./BuilderImages/GridInPage/gifs/0005.gif">
+
+Add a repeater in your properties Source > DataSource and Source >Show, respectively select “Datasource for grid” and “First of Defalt”. (The “First of Default” will show the data to be edit, in case it doesn’t exist, will be automatically created).
+<img src="./BuilderImages/GridInPage/img/0005.png">
+
+Add the fields that will receive the to-be edited data or will create new ones. The fields should match with the fields created at the beginning of this tutorial.
+<img src="./BuilderImages/GridInPage/img/0006.png">
+
+The added fields should also contain the respective datalinks in addition to Page Class and Class Property in properties > Others.
+<img src="./BuilderImages/GridInPage/gifs/0006.gif">
+
+Add a Hidden to receive the form’s datalink.
+<img src="./BuilderImages/GridInPage/gifs/0007.gif">
+
+Add a button and set it up to be responsible for saving the information.
+<img src="./BuilderImages/GridInPage/gifs/0008.gif">
+
+Back to Page 1 we will add the buttons for editing and deleting the fields.
+It will be needed a small script that will pass the Id to the Variable of the session and redirect to page 2, where the data can be edited or created.
+
+Add the button and set it up as shown below (Edit Button):
+<img src="./BuilderImages/GridInPage/gifs/0009.gif">
+
+In Dev Properties add the event’s script added to the button.
+Script:
+function redirect() {
+    this.session.session_variable = this.entity.Id
+    window.open("URL of the form you want to redirect to", "_self");
+}
+<img src="./BuilderImages/GridInPage/img/0007.png">
+
+Add the second button and set it up as shown below (Delete Button):
+<img src="./BuilderImages/GridInPage/gifs/0010.gif">
+
+⚠️ As this button will only delete one registry entry it won't be necessary a script for it.
+
+To the clicked field on our page 1 can be edited, it will be necessary to set up a filter on the repeater of Page 2.
+Click on Repeater of Page 2 and in Properties > Source > Filter and add a new filter, setting it up as done below:
+<img src="./BuilderImages/GridInPage/gifs/0011.gif">
+
+Still on Page 2 add a button to go back to Page 1 where all the data is listed.
+<img src="./BuilderImages/GridInPage/gifs/0012.gif">
+
+Finally, on Page 1 we will add a button to create a new entry.
+<img src="./BuilderImages/GridInPage/gifs/0013.gif">
+
+On the Dev Properties tab add the added function to the button.
+Script:
+function addNew() {
+    this.session.session_variable = null
+    window.open("URL of the form you want to redirect to", "_self");
+}
+<img src="./BuilderImages/GridInPage/img/0009.png">
+
+⚠️ It is really important that the buttons are in the repeaters so it can work properly.
+
+## Results:
+<img src="./BuilderImages/GridInPage/gifs/0014.gif">
 
 Documentation in Development.
