@@ -84,7 +84,7 @@ A confirmation link will be sent to your registered email, open the Easy Builder
 
 <img src="https://user-images.githubusercontent.com/81401104/114757978-d9a00280-9d32-11eb-9a5b-e0e30040c51c.png">
 
-Finally click _Link Here_ to confirm the email.⤴️
+Click "_Link Here_" to confirm the email.⤴️
     
 Now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️
     
@@ -102,15 +102,14 @@ Now we will learn how to make a basic project, menu and form, so you can try out
 After logging in to Builder you will find the following content:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
+
 In the "Main" tab and right under "Project title" type in your project's title (can be "ProjectTest") 
     
 ![ProjectTest13](https://user-images.githubusercontent.com/81401104/120087176-30cc1d80-c0bc-11eb-99a3-9f1dba3ae763.gif)
    
-
-and click on the _Save & Close_ button
+and click on the "_Save & Close_" button
 
 ![Save$closeg](https://user-images.githubusercontent.com/81401104/120087205-5b1ddb00-c0bc-11eb-93fd-7c4d2d961a28.gif)
-
 
 (As the database for your project is being created, this step might take a while)
 
@@ -137,14 +136,11 @@ Now click on the component you dragged ("Textfield"), and soon a side tab called
     
 ![Animação](https://user-images.githubusercontent.com/81401104/120087612-c5844a80-c0bf-11eb-98df-d4e9f601fc26.gif)
     
-
-
 There at the top of the "Properties of Field", under "General", on the "Name" field write ''Name'' and in the "Label" field also write "Name".
 Now click the _"Save"_ button and then click the _"Run"_ button, it will open the following page:
     
 ![textemaild2](https://user-images.githubusercontent.com/81401104/121060294-d7897b80-c798-11eb-8639-350840b5b68f.gif)
 
-    
 The preview of the saved records will be available here. ⤴️
 
 > Click on the _"New"_ button, you'll be directed to the following screen:
@@ -154,7 +150,6 @@ The preview of the saved records will be available here. ⤴️
 Add the name "Lopes", and click the _"Save & Close"_ button !!!
     
 ![formtestnewnamelopes2](https://user-images.githubusercontent.com/81401104/121063430-aad76300-c79c-11eb-9304-515445ae9ca9.gif)
-
     
 <h3>⚠️Be careful to not confuse "Save" instead of "Save & Close"</h3>
 
@@ -173,7 +168,6 @@ A short gif to help you:
 When you get to the form screen, fill in the "Form Title"(the title of the form) and insert the "Textfield" and "Email" components:
     
 ![textemail](https://user-images.githubusercontent.com/81401104/120090145-8c0b0980-c0d6-11eb-9d19-a338ebf9ae7d.gif)
-
 
 We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button 
 
@@ -200,8 +194,7 @@ After filling in the fields, click the _"Save & Close" button.
 ![formtestnewnamelopesemail](https://user-images.githubusercontent.com/81401104/121073189-96996300-c7a8-11eb-8af4-374d46eaa43a.gif)
 
 And you will be back at the records screen, with the form saved and available for viewing. 
-*If you want to edit the saved form,click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
-(Under the "Control" column)
+*If you want to edit the saved form,click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png"> (Under the "Control" column)
 
 ## WARNINGS⚠️
 
@@ -308,7 +301,6 @@ The "Placeholder" field serves as a guide for what to fill in, it is interesting
 
 <img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
 
-
 In "Properties of Field", under "Values", there are 4 fields and a checkbox, which are respectively "Mask", "Default", "Minimum Length", "Maximum Length" and "Enable Barcode Scanner".
 
 Under "Mask" you can determine the specific fill pattern, i.e. specific number and type of characters. For example, 
@@ -347,7 +339,7 @@ Run the application. When you fill the field you will notice that you need at le
 Run the application. When you fill in the field you will notice that a maximum of 10 characters will be allowed in order to be able to save the record.
 
 "Enable Barcode Scanner" refers to enabling barcode scanning. You can test this setting by selecting the check box and then run the application. On the registration screen, 
-click on <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png">and then it will trigger the device's camera, and scan the barcode.
+click on <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png"> and then it will trigger the device's camera, and scan the barcode.
 
 ### Textfield 📓 > BEHAVIOR 🎬
 
@@ -379,9 +371,7 @@ Let's test this in practice. Select and drag the "Integer" component into the fo
 
 ![4 1](https://user-images.githubusercontent.com/81401104/121244680-8b603900-c875-11eb-8355-85aca08299c5.gif)
 
-Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
-
-of the "Visibility Rules" ⤵️
+Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png) of the "Visibility Rules" ⤵️
 
 ![5 1](https://user-images.githubusercontent.com/81401104/121245012-e8f48580-c875-11eb-8ec4-a5db31048de3.gif)
 
@@ -391,8 +381,7 @@ in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "G
 
 ![6](https://user-images.githubusercontent.com/81401104/121246873-fca0eb80-c877-11eb-8738-726df64130c7.gif)
 
-Now click on the button ![Save](https://user-images.githubusercontent.com/81401104/123150789-22fa8580-d439-11eb-81a7-83fdbd8d3bc3.png)
-Now deselect the "Visible" checkbox.
+Now click on the button ![Save](https://user-images.githubusercontent.com/81401104/123150789-22fa8580-d439-11eb-81a7-83fdbd8d3bc3.png) and deselect the "Visible" checkbox.
 
 ![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
 
@@ -432,18 +421,15 @@ Automatically a new page will open in your browser, and you will see the registr
 ### Textfield 📓 > PRESENTATION 📊
 ![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
 
-
 In this section you can edit how much space the field will occupy on the screens of desktops, tablets, horizontal mobiles and vertical mobiles respectively. The space occupied can vary from 8% to 100%.
 
 Click on the "Number" field created earlier.⬇️
 
 ![image](https://user-images.githubusercontent.com/81401104/121411393-f410e980-c939-11eb-8e55-983583d46e24.png)
 
-
 If you are using desktop, click on the first drop-down list and then choose the "col-lg-12:100%" option and observe how it looks on the form.
 
 ![9](https://user-images.githubusercontent.com/81401104/121412846-7f3eaf00-c93b-11eb-8f7f-f9ed34fa502a.gif)
-
 
 Run the application.
 
@@ -497,9 +483,7 @@ You can keep adding new fields and switching the order and messages, but remembe
 
 With the "Textarea" component you can add values of the type letters and numbers, with an area larger than a line.
 
-Select the "Textarea" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called
-
-"Properties of Field" (If it doesn't appear, just click on the field you just dropped).
+Select the "Textarea" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
 
 ![image](./BuilderImages/textarea.gif)
 
@@ -512,7 +496,6 @@ And on the register screen, in the "Textarea" field you can add values of type l
 After saving:
 
 ![FormTesthellowworldbanc1](https://user-images.githubusercontent.com/81401104/121755816-8b1ea280-caee-11eb-844e-b11543000447.png)
-
 
 🔗Video: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 
@@ -540,14 +523,11 @@ Run the application:
 
 And here you can edit the text with any formatting you want (underline, bold, and so on), you can add links, emojis, and others.
 
-After adding the information you want, click on the button ![image](https://user-images.githubusercontent.com/81401104/115909993-a8b28280-a442-11eb-90a0-60ada9302880.png).
-
-And it will show as this:
+After adding the information you want, click on the button ![image](https://user-images.githubusercontent.com/81401104/115909993-a8b28280-a442-11eb-90a0-60ada9302880.png), and it will show as this:
 
 ![image](https://user-images.githubusercontent.com/81401104/115910982-e532ae00-a443-11eb-8384-8290a56f32fe.png)
 
-To edit the added record, click the ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png) button
- (under "Control").
+To edit the added record, click the ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png) button (under "Control").
  
 🔗Video: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
@@ -570,6 +550,7 @@ To learn how to use the "Hidden" component, go to the "Signature" component tuto
 ![image](https://user-images.githubusercontent.com/81401104/115913172-a3573700-a446-11eb-9742-4f8601e03fb9.png)
 
 Under Type you can select one of these 5 possible options:
+
 <ol>
  <li>String (for text fields)</li>
  <li>Integer (for integers)</li>
@@ -679,8 +660,7 @@ Name the first as "Number1", the second as "Number2" and the third as "Total" (L
 
 We will perform the following function: when filling the value of the "Number1" and of the "Number2", the result of the sum of these two fields will automatically be given in the "Total". 
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png)
- (is located in the "Events" section) of the "Total" field and will automatically open this tab:
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png) (is located in the "Events" section) of the "Total" field and will automatically open this tab:
  
 ![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
 
@@ -708,9 +688,7 @@ Do the same thing with the field "Number2".
 Run the application.
 ![image](https://user-images.githubusercontent.com/81401104/115918669-2d56ce00-a44e-11eb-8062-aa61ad0cdb77.png)
 
-then click on button ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png).
-
-And this page will open:
+then click on button ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png) and this page will open:
 ![image](https://user-images.githubusercontent.com/81401104/115919016-a524f880-a44e-11eb-8654-73047c48392f.png)
 
 In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and automatically it will show the value "3.87" in the "Total" field. You can test it with other values if you want to.
@@ -814,7 +792,6 @@ Default: The field will be filled with a predetermined time, but you can change 
 
 <div id='id-CheckBox'/>
 
-
 ## CheckBox ✅
 ![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
 
@@ -860,6 +837,7 @@ Select the "ChecklistDB" component, then drag and drop it where it says "Drop ne
 To see how this component is used, scroll down to the "Source" section of this tutorial.
 
 *** Contact easy comtec support to use this component ****
+<img src="./BuilderImages/Changes/MenuAJUDA.jpg" width="400" height="15">
 
 ### ChecklistDB 📁 > PRESENTATION 📊
 
@@ -890,7 +868,6 @@ So, it is necessary, that you have created that other form/database, and after u
 
 ## Radio 🔘
 ![image](https://user-images.githubusercontent.com/81401104/115922262-0d75d900-a453-11eb-9b6b-ddc37d5b072d.png)
-
 
 With the "Radio" component you can provide a list of options but select only one of them as true.
 
@@ -1705,11 +1682,9 @@ Click on the arrow to add the answers.
 ![image](https://user-images.githubusercontent.com/81401104/116300466-4ffe2500-a775-11eb-92f2-eaa272a9bb42.png)
 
 
-In the "Enter Your Answer" field write "2" 
-and select the checkbox ![image](https://user-images.githubusercontent.com/81401104/116300583-6e642080-a775-11eb-8475-4a253709993f.png) to set up teh right anwer, then click on this ![image](https://user-images.githubusercontent.com/81401104/116300507-58eef680-a775-11eb-8077-ac3545e3c6ab.png) button
-.
+In the "Enter Your Answer" field write "2" and select the checkbox ![image](https://user-images.githubusercontent.com/81401104/116300583-6e642080-a775-11eb-8475-4a253709993f.png) to set up teh right anwer, then click on this ![image](https://user-images.githubusercontent.com/81401104/116300507-58eef680-a775-11eb-8077-ac3545e3c6ab.png) button.
 
-Repeat this last step by adding the answer "3" but this time WITHOUT checking the checkbox
+Repeat this last step by adding the answer "3" but this time WITHOUT checking the checkbox.
 
 Now let's add one more question, "How much is 2 + 2 ?"
 
@@ -1838,7 +1813,7 @@ Notice that the fields are automatically displayed as defined in the Datasource
 
 The "Video Call" component is for you to make Video calls and Meetings within your application. 
 
-Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the component you just dropped).
+Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the component you just dropped).
 ![image](./BuilderImages/Videocallgif.gif)
 
 to use this component we will need two more components: a "DateTime" and a "TextField" component. Drag them to the side of the "video call" and name the "DateTime" as "Agenda" and the "TextField" as "Host" like in the image below:
@@ -1931,8 +1906,7 @@ this is how your chat will look like in the image below:
 ## Tab (Form)
 ![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)
 
-When you are in the design screen of your form, 
-at the top you will see this green button ![image](https://user-images.githubusercontent.com/81401104/117339417-1795cf80-ae76-11eb-8072-6d4fc65a7563.png), click on it.
+When you are in the design screen of your form,  at the top you will see this green button ![image](https://user-images.githubusercontent.com/81401104/117339417-1795cf80-ae76-11eb-8072-6d4fc65a7563.png), click on it.
 
 You will get this new tab:
 
