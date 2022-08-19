@@ -558,7 +558,7 @@ To edit the added record, click the ![image](https://user-images.githubuserconte
 
 With this component you can calculate values that are hidden to the end user, and send it to save in the database and consult it later in reports.
 
-Select the "Hidden" component, then drag and drop it where it says "Drop new field here! When you drop it, the tab "Properties of Field" will appear on the right side of the screen (If not, just click on the field you just dropped).
+Select the "Hidden" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
 To learn how to use the "Hidden" component, go to the "Signature" component tutorial.
 
@@ -907,13 +907,9 @@ Scroll down to the "Values" section of this tutorial to learn how to use this co
 
 Here you will add the values, for example, create lists with the options to select, remembering that only one option can be selected with this component.
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
-will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png), it will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
- and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
-and add "Female" and then click the ![Save](https://user-images.githubusercontent.com/81401104/123151110-81276880-d439-11eb-8d8d-51e68a8ffb59.png) button
- . (Image on the next page)
+Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png) and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png) and add "Female" and then click the ![Save](https://user-images.githubusercontent.com/81401104/123151110-81276880-d439-11eb-8d8d-51e68a8ffb59.png) button. (Image on the next page)
 
 Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
@@ -921,7 +917,7 @@ Under "Type" you have two options you can select: "String" or "Integer". "String
 
 ![image](./BuilderImages/Enumerations.png)
 
-Still on the "Values" section, there is the "Default" item, clicking on it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
+Still on the "Values" section, there is the "Default" item, clicking on it, it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
 
 Run the application.
 
@@ -940,13 +936,11 @@ Select the "Dropdown" component, then drag and drop it where it says "Drop new f
 
 ![image](./BuilderImages/Dropdown.gif)
 
-In the "Values" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png) button.
-the following modal window will appear:
+In the "Values" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png) button, the following modal window will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/116135980-24f9cf80-a6a8-11eb-8a04-ba06728e76e6.png)
 
-In "Name" write vehicle, then click on the ![image](https://user-images.githubusercontent.com/81401104/116136117-4a86d900-a6a8-11eb-994e-083b8e5dba93.png)
-. The following will appear under the button:
+In "Name" write vehicle, then click on the ![image](https://user-images.githubusercontent.com/81401104/116136117-4a86d900-a6a8-11eb-994e-083b8e5dba93.png) button, then the following will appear under the button:
 
 ![image](https://user-images.githubusercontent.com/81401104/116136157-54104100-a6a8-11eb-81a1-be542bbc8014.png)
 
@@ -962,7 +956,6 @@ Run the application.
 On the registration screen, the "Dropdown" will work as follows:
 
 ![Dropdowntutorial](https://user-images.githubusercontent.com/81401104/121946196-0f5d6980-cd2b-11eb-85d1-f051ab3e4209.png)
-
 
 🔗Video: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
@@ -980,7 +973,7 @@ The "DropdownDB" component is for you to provide a list of options in menu forma
 
  (Note: The only difference between "AutoComplete" and "DropdownDB" is that "AutoComplete" appears when it is searched and "DropdownDB" appears in a list)
 
-Select the "DropdownDB" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If not, just click on the field you just dropped).
+Select the "DropdownDB" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
 ![image](./BuilderImages/DropdownDB.gif)
 
@@ -993,6 +986,10 @@ To learn how to use this component, scroll down to the "Source" section of this 
 In this "Source" section, it will be brought the set of values entered into another field, which can be from another or the same form, as long as it is under the same project.
 
 So, let's start by creating one more form (as shown in the tutorial "How to Create Your First Project, Menu and Form").
+
+<ul>
+  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-frist">How to Create Your First Project, Menu and Form</a></li>
+</ul>
 
 And on this new form we will add the "Textfield" component into it.
 
@@ -1012,7 +1009,6 @@ The next page will open:
 ![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
 
 In the "Color" field write "Red", then click the button ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
-.. 
 
 ![formcolorall](https://user-images.githubusercontent.com/81401104/122147259-eaeab580-ce2e-11eb-979d-465079f9e0d2.gif)
 
@@ -1038,8 +1034,7 @@ Select the DropDownDB field:
 
 ![ComponentDropDownDBRUN3](https://user-images.githubusercontent.com/81401104/123852620-e6280600-d8f2-11eb-92f8-0729c659abd5.png)
 
-And you will see the values added in the "Color" field of the other form. Select an option and then click the 
-![image63](https://user-images.githubusercontent.com/81401104/123853433-d4932e00-d8f3-11eb-983c-1598a467f5a9.png) button
+And you will see the values added in the "Color" field of the other form. Select an option and then click the ![image63](https://user-images.githubusercontent.com/81401104/123853433-d4932e00-d8f3-11eb-983c-1598a467f5a9.png) button
 
 ![ComponentDropDownDBRUN4red](https://user-images.githubusercontent.com/81401104/123853517-ec6ab200-d8f3-11eb-8553-5ad4e13eddc9.png)
 
@@ -1098,7 +1093,7 @@ DataLink: Where the configurated data is being pulled out from;
 
 Additional Data: 
 
-Source From: it's about where the data is coming from;
+Source From: where the data is coming from;
 
 To: where it is going.
 
@@ -2487,7 +2482,6 @@ Now add the following set of names and functions:
 After saving this set, it will be arranged like this on the records screen:
 ![image](https://user-images.githubusercontent.com/81401104/117499097-1dacae80-af51-11eb-877c-8564f794eb49.png)
 
-
 🔗 Video: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
 
 <div id='id-DataSource'/>
@@ -2499,11 +2493,9 @@ To create a DataSource, you need to have a source form (it can be the "Form X" c
 When you log into your Builder account, you will be faced with the following screen:
 ![image](https://user-images.githubusercontent.com/81401104/117499229-4f257a00-af51-11eb-87bc-beb33ee83f53.png)
 
-
 Now click on Tools, which is located in the gray bar, and select the DataSource option:
 
 ![image](https://user-images.githubusercontent.com/81401104/117499296-69f7ee80-af51-11eb-8a0c-aac6b3cd0319.png)
-
 
 After clicking it, you will see the following screen:
 
@@ -2520,11 +2512,9 @@ After clicking the button, this modal window will open next:
 In "Title" write the title of your datasource, it can be "DataSource X", in "Class" select the Form that you created earlier "Formulario X" (Tutorial - "Form X").
 ![image](./BuilderImages/datasourcetools2.png)
 
-
 Double click on the items that appear on the right side of the screen: "Funcao" and "Nome_Completo".
 
 ![image](./BuilderImages/datasourcetools3new.png)
-
 
 Notice that it has been added into the datasource. Now click the ![image](./BuilderImages/saveButton.png) button and then the ![image](https://user-images.githubusercontent.com/81401104/117499529-b9d6b580-af51-11eb-8bd0-4d90679a2564.png) button.
 
@@ -2556,7 +2546,6 @@ On the home screen, when you log into the account, you will be faced with the fo
 
 ![image](./BuilderImages/Reportaba.png)
 
-
 Select the "Report" tab and click the ![image](./BuilderImages/newbutton.png) button.
 
 The following modal window will open:
@@ -2578,22 +2567,17 @@ click the button ![image63](https://user-images.githubusercontent.com/81401104/1
 Now go to the "Project" tab.
 ![image](https://user-images.githubusercontent.com/81401104/117499953-5d27ca80-af52-11eb-859f-0537b2d324e5.png)
 
-In the row of your project, which you created the "X Report", click the ![image](https://user-images.githubusercontent.com/81401104/117499977-644ed880-af52-11eb-8c2d-f860cacd36af.png) button,
-
-will open the following page:
+In the row of your project, which you created the "X Report", click the ![image](https://user-images.githubusercontent.com/81401104/117499977-644ed880-af52-11eb-8c2d-f860cacd36af.png) button, and it will open the following page:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500066-7d578980-af52-11eb-8b9e-78a8bd29e404.png)
-
 
 Click on the "Menu" that you created earlier, it will show you a list of forms, reports, etc. Select the "X Report".
 
 ![image](https://user-images.githubusercontent.com/81401104/117500104-8c3e3c00-af52-11eb-9b1d-b2139dfa011b.png)
 
-
 And it will result in this:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500134-95c7a400-af52-11eb-87be-3f2715215787.png)
-
 
 🔗Video: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
 
@@ -2624,6 +2608,10 @@ In the "Internal/External" selection box select the "Internal" option.
 
 In "DataSource" select the option "DataSource X" (Created during the tutorial "How to Create a DataSource").
 
+<ul>
+  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-DataSource">How to Create a DataSource</a></li>
+</ul>
+
 In "Group by" select the "Function" option, in "Value" the "Full_Name" option. In "Operation" select "Count". (It will look like the image below)
 
 [image](./BuilderImages/chartcomplet.png)
@@ -2633,16 +2621,13 @@ Now click the button ![image](https://user-images.githubusercontent.com/81401104
 
 ![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
 
-
 Now click on the "Project" tab and run the project under which you created your "Chart".
 
 ![image](https://user-images.githubusercontent.com/81401104/117500573-31f1ab00-af53-11eb-884e-9df70220a071.png)
 
-
 Click on the green ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500632-4635a800-af53-11eb-853d-cf459742db3e.png)
-
 
 And here you can see the percentage of employees per function in a pie chart format. 
 
@@ -2674,16 +2659,13 @@ To use this feature, go to the "Tools" menu (located on the home screen when you
 
 ![image](https://user-images.githubusercontent.com/81401104/117500707-5f3e5900-af53-11eb-8530-58021dfa3e4e.png)
 
-
 Selecting this will open the following tab:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500735-682f2a80-af53-11eb-93c2-68b2c3000b0b.png)
 
-
 click the button ![image15](https://user-images.githubusercontent.com/81401104/117500751-711ffc00-af53-11eb-9613-d2057dfa745f.png) button:
 
 ![image](https://user-images.githubusercontent.com/81401104/117500779-79783700-af53-11eb-9bf6-9afec7900475.png)
-
 
 Under "Project" select the project.
 
@@ -2710,11 +2692,10 @@ When you log into your account, you will encounter the three initial tabs (Form,
 
 ![image](https://user-images.githubusercontent.com/81401104/117501401-6023ba80-af54-11eb-95f5-28b6cc5bc149.png)
 
-
 From here you can edit the project settings in two ways:
 
-Creating a new project
-Editing an existing project
+1- Creating a new project
+2- Editing an existing project
 
 For the first option, simply click the ![image15](https://user-images.githubusercontent.com/81401104/117501571-9cefb180-af54-11eb-8c4f-f70cbc95056a.png)
 (it is located in the top left).
@@ -2736,10 +2717,10 @@ In the "Project title" field write the title of your project (type the name of t
 
 When you click "Advanced Settings", new settings will appear:
 
-Project configurations (project settings)
-DataBase configurations
-Email Server Configuration
-Other configurations
+- Project configurations (project settings)
+- DataBase configurations
+- Email Server Configuration
+- Other configurations
 
 <div id='id-ProjectConfigurations'/>
 
@@ -2756,7 +2737,6 @@ Home Page: Home page of the project.
 
 #### 🔧 Database Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
-
 
 Database server: Instance of the SQL Server database server.
 
@@ -2778,7 +2758,6 @@ Test Database Connection" button: Clicking it will test the database connection.
 
 ![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
 
-
 SMTP Configurations: SMTP (Simple Mail Transfer Protocol) settings. 
 
 Server name: Specification of the SMTP server. You can find it by browsing your ISP's web page.
@@ -2798,7 +2777,7 @@ Test SMTP Email Configuration: Will test and validate SMTP email settings
 
 Blob Container Name: Container where the files will be stored.
 
-Test Database Connection" button: Clicking it will test the database connection.
+"Test Database Connection" button: Clicking it will test the database connection.
 
 <div id='id-DatabaseConfigurations'/>
 
@@ -2825,10 +2804,7 @@ Test SMTP Email Configuration: Will test and validate SMTP email settings
 
 POP Configurations: POP (Post Office Protocol) settings. POP is a standard protocol for Internet applications used by email clients to retrieve email from a mail server.
 
-The "Display Name", "Server Name", "Port", "Email", "User name", "Password" and "Use SSL" fields of the POP Configurations are given the same instructions as the same fields of the SMTP Configurations, explained above.
-
-
-Translated with www.DeepL.com/Translator (free version)
+The "Display Name", "Server Name", "Port", "Email", "User name", "Password" and "Use SSL", these fields of the POP Configurations are given the same instructions as the same fields of the SMTP Configurations, explained above.
 
 #### 🔧 Other configurations
 
@@ -2844,7 +2820,6 @@ Azure search name: Enables a builder search bar that searches by form as well as
 
 Google Analytics ID: Is a string of type "UA-000000-2
 
-
 Video Chat Twilio Settings Twilio Account Sid: Twilio video chat settings
 Twilio Account Sid.
 
@@ -2854,25 +2829,23 @@ Chat Settings: Chat settings.
 
 Azure Communication Key: Azure communication key.
 
-
-🔳Custom Css: Here you can edit the CSS, by selecting the box, the following field will appear for you to paste your css code: 
+🔳 Custom Css: Here you can edit the CSS, by selecting the box, the following field will appear for you to paste your css code: 
 
 ![image](https://user-images.githubusercontent.com/81401104/117502480-f5737e80-af55-11eb-8be1-17afe142f315.png)
 
+🔳Enable user to give feedback: When the checkbox is selected, it makes your application able to get feedback from your users and send it to the configurated e-mail account.
 
-🔳Enable user to give feedback: Ao selecionar a caixa, habilita sua aplicação para pegar feedback dos seus usuários e enviar para a conta de email configurada na aplicação.
-
-Field Format Settings: Configurações de formato dos campo
+Field Format Settings: you set the configurations of the field format.
 
 ##### 📅Date:
 MM/dd/yyyy = ( month/day/year)<br> 
 dd/MM/yyyy = ( day/month/year )
 
 ##### 📅⏰ DateTime: 
-MM/dd/yyyy hh:mm:ss a = [Month/ day/ year hours (0 a 12 AM/PM) :minute :second]<br> 
-MM/dd/yyyy HH:mm:ss = [Month/ day/ year hora (0 a 23) :minute: seconde]<br> 
-dd/MM/yyyy hh:mm:ss a = [day/ month/ year hora (0 a 12 AM/PM) :minute :second]<br> 
-dd/MM/yyyy HH:mm:ss = [day/ month/ year hora (0 a 23) :minute :second]
+MM/dd/yyyy hh:mm:ss a = [Month/ day/ year hours (0 to 12 AM/PM) :minute :second]<br> 
+MM/dd/yyyy HH:mm:ss = [Month/ day/ year hour (0 to 23) :minute: seconde]<br> 
+dd/MM/yyyy hh:mm:ss a = [day/ month/ year hour (0 to 12 AM/PM) :minute :second]<br> 
+dd/MM/yyyy HH:mm:ss = [day/ month/ year hour (0 to 23) :minute :second]
 
 ##### ⏰ Time:  
 HH:mm:ss = [Hours (0 to 23) :minutes :seconds]<br> 
@@ -2882,14 +2855,13 @@ hh:mm :ss = [Hours (0 to 12) :minutes :seconds]
 . ( period)<br> 
 , ( comma)
 
-
 #### 🙎‍♂️ End-User Access
 
 When selecting the “End-User Access” tab, the following screen will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
 
- The item “End-user access type” will appear - which means “end-user access type” - with a dropdown with 3 options:
+ The item “End-user access type” will appear - with a dropdown with 3 options:
 
 <ol>
  <li>Deny</li>
@@ -2901,27 +2873,9 @@ By selecting the first option (“Deny”), you will be denying access to the pr
 
 When selecting the second option (“Anonymous”), the following fields will appear:
 
-
  Enable user to give feedback: By checking the box, enables your application to get feedback from your users and send it to the email account set up in the application.
 
 Field Format Settings: Field format settings
-
-Date:<br>
-MM/dd/yyyy = (month/ day/ year)<br> 
-dd/MM/yyyy = (day/ month/ year)<br>
-DateTime: <br>
-MM/dd/yyyy hh:mm:ss a = [Month/ day/ year hour (0 to 12 AM/PM) :minute :second]<br>
-MM/dd/yyyy HH:mm:ss = [Month/ day/ year hour (0 to 23) :minute :second]<br>
-dd/MM/yyyy hh:mm:ss a = [day/month/year hour (0 to 12 AM/PM) :minute :second]<br>
-dd/MM/yyyy HH:mm:ss = [day/ month/ year hour (0 a 23)  :minutes :seconds]<br>
-
-##### Time:<br> 
-HH:mm:ss = [hours (0 to 23) :minutes :seconds]<br>
-hh:mm :ss = [Hours (0 to 12) :minutes :seconds]<br>
-
-##### Decimal:<br>
-. (period)<br>
-. (comma)<br>
 
 #### 🧰 End-User Access
 
@@ -2929,14 +2883,14 @@ When you select the "End-User Access" tab, the following screen will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502591-1e940f00-af56-11eb-9a92-f67c1c4e7558.png)
 
-the "End-user access type" item - which means "end-user access type" - appears, with a dropdown with 2 options:
+The "End-user access type" item - which means "end-user access type" - appears, with a dropdown with 2 options:
 
 <ol>
  <li>Deny</li>
  <li>Authenticated </li>
 </ol>
 
-by selecting the first option (“Deny”), you will be denying access to the project by the end user.
+By selecting the first option (“Deny”), you will be denying access to the project by the end user.
 
 URL Access
 
@@ -2946,7 +2900,6 @@ when selecting the 2nd option ("Authenticated"), the following sets of fields wi
 
 ![image](./BuilderImages/modalauthenticade.png)
 
-
 When selecting the 3rd option (“Authenticated”), the following sets of fields will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502732-4f744400-af56-11eb-9909-ae4c6263b23a.png)
@@ -2954,47 +2907,32 @@ When selecting the 3rd option (“Authenticated”), the following sets of field
 URL Access: URL Access
 
 Host: Hosting
- 
-🔳Create default user form: To make it possible to add users and administrators, just select this checkbox
 
-and then click the ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png) button.
-
+🔳Create default user form: To make it possible to add users and administrators, just select the checkbox and then click the ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png) button.
 
 After doing this, go to the forms tab and then look for the titles “User”, “Role” and “UserRole”
 
-🔳Create default user form (Criar formulário padrão de usuário): Para tornar possível adicionar usuários e administradores, basta selecionar esse checkbox 
+🔳Create default user form: To make it possible to add users and admins is just to check this checkbox.
 
-then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
-
+Then click the button ![image63](https://user-images.githubusercontent.com/81401104/117502769-5e5af680-af56-11eb-8b5e-5066bfe76c6a.png).
 
 After that, go to the forms tab and then look for the titles "User", "Role" and "UserRole".
 
-
 ![image](https://user-images.githubusercontent.com/81401104/117502850-80547900-af56-11eb-8b86-fdb985867b86.png)
-
 
 It is now possible to add users and roles.
 
 User form (User form)
-
 First Name
-
 Last Name
-
 Username (Username)
-
 Email
-
 Password
-
 Email Confirmed
-
 Password Change Required (Password change required)
 
 Lockout Enabled
-
 Lockout End Date
-
 Access Failed Count
 
 User Push Notification Token (Token for 'push notification')
@@ -3002,19 +2940,12 @@ User Push Notification Token (Token for 'push notification')
  🔳Use Sign-up
  
 User form (User Form)
-
 First Name (First Name)
-
 Last Name (Last Name)
-
 Username (Name user)
-
 Email   (email)
-
 Password (Password)
-
 Email Confirmed (Email confirmation)
-
 Password Change Required (Need to change password)
 
 Lockout Enabled (Block actived) 
@@ -3035,18 +2966,15 @@ When you scroll down on the screen, you see the "Lockout Settings" section:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502886-906c5880-af56-11eb-9a78-8eecb36f2c12.png)
 
-
 Max attempts before lockout
 
 Default lockout time frame (in minutes)
 
 User lockout enabled by default
 
-
 And right below it is the "Password requirements" section:
 
 ![image](https://user-images.githubusercontent.com/81401104/117502897-96623980-af56-11eb-8d7d-ff54f88df364.png)
-
 
 Length: number of characters.
 
@@ -3084,7 +3012,6 @@ Roles x Users Form (Role Form x functions)
 ![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
 
 Name: Name of the menu that the end user will see on the site.
-
 Position: Position that the menu will appear within your group.
 
 For example, I currently have these two menus:
@@ -3095,13 +3022,11 @@ Let's add a menu named "Menu Off", at position "2":
 
 ![image](https://user-images.githubusercontent.com/81401104/117503038-ca3d5f00-af56-11eb-8793-a8f941a80af7.png)
 
-
 Click on the button ![image](https://user-images.githubusercontent.com/81401104/117503057-cf9aa980-af56-11eb-8c63-5b124cf5fc39.png):
 
 ![image](https://user-images.githubusercontent.com/81401104/117503085-d9bca800-af56-11eb-8598-f5c64ef87c59.png)
 
 To edit the name, position and/or parent relationship of the menus, just click the ![image](https://user-images.githubusercontent.com/81401104/117503213-0670bf80-af57-11eb-80fe-c06ff430d3ca.png) button next to the menu name in the "Menu Hierarchy" section.
-
 To delete a menu, click on the ![image](https://user-images.githubusercontent.com/81401104/117503281-1c7e8000-af57-11eb-8576-a0f3a8a72d50.png) button.
 
 To view the menus you have created, you need to go to the "Project" screen and run the application:
@@ -3118,16 +3043,13 @@ Edit the 2nd menu ("ParentTest") or the one you have already created:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503437-551e5980-af57-11eb-8e29-11005b3b594b.png)
 
-
 Add and save the "Menu Storage" as "Parent":
 
 ![image](https://user-images.githubusercontent.com/81401104/117503446-5a7ba400-af57-11eb-9231-7c04ca84174f.png)
 
-
 Now let's see how it will look like inside the project application:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503478-623b4880-af57-11eb-9906-681d3ebf4c39.png)
-
 
 Menu Hierarchy: Where you will see the order and hierarchy relationship between the menus
 
@@ -3139,22 +3061,19 @@ Menu Hierarchy: Where you will see the order and hierarchy relationship between 
 
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
 
-
 By clicking on ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png) (under "Tables"), you can see the ID and the fields of each form:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503633-96166e00-af57-11eb-8b30-ac3af4c008e7.png)
 
+![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): delete selected tables.
 
-![image](https://user-images.githubusercontent.com/81401104/117503648-9e6ea900-af57-11eb-8f4c-c4e0e1f0be9b.png): Excluir tables selecionadas.
-
-![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png) : Clear the data from the selected tables.
+![image](https://user-images.githubusercontent.com/81401104/117503670-a595b700-af57-11eb-8267-141fb712b572.png): Clear the data from the selected tables.
 
 <div id='id-Editors'/>
 
 #### 📝 Editors
 
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
-
 
 Member Users can view and edit your system.
 
@@ -3164,8 +3083,7 @@ When the name/email of the person you want to add appears, select him/her and th
 
 ![image](https://user-images.githubusercontent.com/81401104/117503722-bc3c0e00-af57-11eb-8ce9-7c9398472951.png)
 
-
-Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png).
+So click on the ![image](https://user-images.githubusercontent.com/81401104/117503745-c4944900-af57-11eb-98f9-d3ec7ef42cc0.png) button.
 
 <div id='id-2Email'/>
 
@@ -3175,13 +3093,9 @@ Então clique no botão ![image](https://user-images.githubusercontent.com/81401
  🔳Create default email form: Create default email form
 
 Email form: Email form
-
 Sent by: Sent by
-
 Subject: Subject
-
 CC: Carbon Copy
-
 Body: Body
 
 <div id='id-2Images'/>
@@ -3194,14 +3108,11 @@ In the "Icons" section it is possible to upload the icon images, which can be of
 
 Example: ![image](https://user-images.githubusercontent.com/81401104/117503818-e4c40800-af57-11eb-946c-acd10e8e1d6b.png)
 
-
 In the "Background" section you can upload the background image, which will be displayed on the project login screen. For example:
 
 ![image](https://user-images.githubusercontent.com/81401104/117503835-ebeb1600-af57-11eb-9b59-f2e9f3353ffe.png)
 
-
 To upload any image, just click the ![image](https://user-images.githubusercontent.com/81401104/117503852-f3aaba80-af57-11eb-9cb1-2ab1b9237a0f.png) button
-
 
 <div id="id-apis"/>
 
@@ -3228,22 +3139,18 @@ ProjectHash is the project code you can get it from the url, in requests you mus
 ![image](https://user-images.githubusercontent.com/13450436/153057640-2f75ca94-6aa4-478c-b077-1a020c5bd430.png)
     
 Payload:
-    
 {"username": "email or username", "password": "password", "grant_type": "password"}
-    
 ![image](https://user-images.githubusercontent.com/13450436/153057860-4c06657f-2506-4bfd-99b8-1f219f77ced6.png)
     
 Reponse: 
     
 {"userFirstName": "User", "userLastName": "Test", "passwordChangeRequired":false, "accessToken": "this token is required for you to call the other apis"}
     
-    
 <div id="id-paginate">
 
 ### 📃 Pagination
-    
-    
-To request pagination data from a form you must use the following api:
+
+To request pagination data from a form you must use the following API:
     
 Address: https://builder.easy.rocks/api/datasource/RunGridQuery/{IdDoDataSource}
     
@@ -3286,9 +3193,8 @@ PayLoad:
      - value: Value of the Filter.
      - classPropertyId: Value of the ClassPropertyId of the Field: Optional.
      - fieldTypeId: Type of the Optional field.
-        
 
-You can use the Builder's filter tool to easily generate the object and get the value by inspecting:
+You can use the Builder's filter tool to easily generate the object and get the value by inspecting it:
     
 ![image](https://user-images.githubusercontent.com/13450436/153061046-860a90d7-8f05-4151-971a-ac48b42fadcd.png)
 
@@ -3329,7 +3235,7 @@ The api returns an object with the values of the entity:
 ![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
 
 ### ⚫ Post
-The Post api is for both creating a new entity and updating an entity, it has the following address:
+The Post api is for both creating a new entity and updating it, it has the following address:
     
 https://builder.easy.rocks/api/FormBuilderSave
     
@@ -3426,7 +3332,7 @@ After creating the form with all the data inputs you need, create its data sourc
 <img src="./BuilderImages/GridInPage/img/0001.png">
 <img src="./BuilderImages/GridInPage/img/0002.png">
 
-2 pages should be created, one for listing data and the other for editing/ deleting data.
+2 pages should be created, one for listing data and the other for editing and deleting data.
 
 Page 1 - Listing data:
 Create the page and in page class add the form’s class previously created.
@@ -3475,12 +3381,13 @@ It will be needed a small script that will pass the Id to the Variable of the se
 Add the button and set it up as shown below (Edit Button):
 <img src="./BuilderImages/GridInPage/gifs/0009.gif">
 
-In Dev Properties add the event’s script added to the button.
-Script:
-function redirect() {
+Under "Custom Scripts" copy and paste this script: 
+
+           function redirect() {
     this.session.session_variable = this.entity.Id
     window.open("URL of the form you want to redirect to", "_self");
-}
+    }
+
 <img src="./BuilderImages/GridInPage/img/0007.png">
 
 Add the second button and set it up as shown below (Delete Button):
@@ -3500,10 +3407,13 @@ Finally, on Page 1 we will add a button to create a new entry.
 
 On the Dev Properties tab add the added function to the button.
 Script:
-function addNew() {
+
+           function addNew() {
     this.session.session_variable = null
     window.open("URL of the form you want to redirect to", "_self");
-}
+    }
+
+
 <img src="./BuilderImages/GridInPage/img/0009.png">
 
 ⚠️ It is really important that the buttons are in the repeaters so it can work properly.
