@@ -836,8 +836,10 @@ Select the "ChecklistDB" component, then drag and drop it where it says "Drop ne
 
 To see how this component is used, scroll down to the "Source" section of this tutorial.
 
-*** Contact easy comtec support to use this component ****
-<img src="./BuilderImages/Changes/MenuAJUDA.jpg" width="400" height="15">
+Contact easy comtec support to use this component
+
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
 
 ### ChecklistDB 📁 > PRESENTATION 📊
 
@@ -892,7 +894,7 @@ Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
 "Max Length" refers to the maximum amount of characters each option will have.
 
-![image](./BuilderImages/Enumerations.png)
+<img src="./BuilderImages/Changes/enumerations.jpg">
 
 Still on the "Values" section, there is the "Default" item, clicking on it, it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
 
@@ -1197,7 +1199,7 @@ And then open it in an anonymous window:
 
 Log in with your username. 
 
-To continue from here, you need to have done the steps in the tutorials "How to Create Your User" and "How to Give Your User Permission"]
+To continue from here, you need to have done the steps in the tutorials "How to Create Your User" and "How to Give Your User Permission"
 
 <ul>
   <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-How">How to Add a User</a></li>
@@ -1412,14 +1414,12 @@ To run the tutorial for this component, scroll down to the "Source" section.
 
 To make use of the "MultiTag" component we will have to create 3 forms. The first to add the names, the second to connect the names to a "DropdownDB" component, and then connect the second to the third form that will be the "MultiTag" form.
 
-First step, create a new form with the "Textfield" component, also naming it "Team Member".
+First step, create a new form with the "Textfield" component, also naming it "Team Member". 
 ![TeamMember](https://user-images.githubusercontent.com/81401104/122629734-9432e500-d095-11eb-941e-bed31ce41b26.png)
 
-and add the names "John", "Mary", "Charles" and "Luke".
+Run the application, on the "Run screen" click on "New" and add the names "John", "Mary", "Charles" and "Luke" (for each name you'll have to save, save & close and then repeat the process of adding the name)
 
-![TeamMember2](https://user-images.githubusercontent.com/81401104/122629747-ab71d280-d095-11eb-8e13-bb38873bb66d.png)
-
-![TeamMember3](https://user-images.githubusercontent.com/81401104/122629770-d0664580-d095-11eb-96f6-133d157138f9.png)
+<img src="./BuilderImages/Changes/teammember.jpg">
 
 Second step, create one more form using the "DropdownDB" component and name it "team meeting".
 ![TeamMeeting](https://user-images.githubusercontent.com/81401104/122629793-04da0180-d096-11eb-9273-2578bb40404f.png)
@@ -1528,7 +1528,7 @@ Now select the "Additional Data" component and drag it next to the "Source" fiel
 Now in the "Source" section of the "Additional Data" component, on the "DataSource" line, click on the ![image](https://user-images.githubusercontent.com/81401104/116296897-1f1bf100-a771-11eb-9d41-7de58f56e049.png) and the following window will open:
 ![image](./BuilderImages/datasource.png)
 
-In "Title" type "Source", in "Class" select the project in which you created the forms earlier, it will appear as follows:
+In "Title" type "Source", in "Class" select the project which you created the forms earlier, it will appear as it follows:
 ![image](./BuilderImages/datasourcenew.png)
 
 Double click on the "Name" and "Status" fields that are marked on the right side, and then the screen will look like this:
@@ -1572,6 +1572,10 @@ Select the "Button" component, then drag and drop it where it says "Drop new fie
 
 To learn more about how to use this component, scroll down to the "Events" section of this tutorial.
 
+<ul>
+  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-Event">Events</a></li>
+</ul>
+
 🔗Video: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
 ### Button ⏸️ > GENERAL 🎖️
@@ -1579,6 +1583,10 @@ To learn more about how to use this component, scroll down to the "Events" secti
 ![image](./BuilderImages/GeneralButton.png)
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
+
+<ul>
+  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-textfield">Textfield</a></li>
+</ul>
 
 "Text" is the text identifying the button to the user.
 
@@ -1602,11 +1610,9 @@ Under "Custom Scripts" copy and paste this script:
                                    alert('Can be used in alerts, redirect to another page, execute a javascript function')
                                    }
 
-then click on button ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
-button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
+then click on ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png) button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
 
-Now go back to the "Events" section, under "Name" select the "OnClick" option, and under "On" write "alert()".
-and then click on the ![image](https://user-images.githubusercontent.com/81401104/116298711-27752b80-a773-11eb-9b58-b0e031acccb3.png) button . 
+Now go back to the "Events" section, under "Name" select the "OnClick" option, and under "On" write "alert()", then click on the ![image](https://user-images.githubusercontent.com/81401104/116298711-27752b80-a773-11eb-9b58-b0e031acccb3.png) button . 
 
 Then it will look like this:
 ![image](https://user-images.githubusercontent.com/81401104/116298756-38be3800-a773-11eb-80b5-377dcd0ca9b9.png)
@@ -1618,8 +1624,7 @@ Click on the blue ![image](https://user-images.githubusercontent.com/81401104/11
 ![image](https://user-images.githubusercontent.com/81401104/116298880-63a88c00-a773-11eb-9473-d1eb9946b026.png)
 
 Click on this ![image](https://user-images.githubusercontent.com/81401104/116298917-702ce480-a773-11eb-88bd-3830605f5c17.png) and you will see the following message on the top of the screen:
-![image](https://user-images.githubusercontent.com/81401104/116298965-7d49d380-a773-11eb-91d1-c0fc8c7437b5.png) than is just click on the "Ok" button.
-
+![image](https://user-images.githubusercontent.com/81401104/116298965-7d49d380-a773-11eb-91d1-c0fc8c7437b5.png) then just click on the "Ok" button.
 
 ## HTML Field 🦰
 ![image](https://user-images.githubusercontent.com/81401104/116299196-c26e0580-a773-11eb-9812-83ce2acc8d91.png)
@@ -1688,9 +1693,9 @@ Repeat this last step by adding the answer "3" but this time WITHOUT checking th
 
 Now let's add one more question, "How much is 2 + 2 ?"
 
-And add two answers: "4" checking the checkbox![image](https://user-images.githubusercontent.com/81401104/116300627-7c19a600-a775-11eb-8218-4497a05bc066.png)
-and "5" without checking the checkbox.
-![image](https://user-images.githubusercontent.com/81401104/116300663-876cd180-a775-11eb-9b35-436c9dc1824d.png)
+And add two answers: "4" checking the checkbox ![image](https://user-images.githubusercontent.com/81401104/116300627-7c19a600-a775-11eb-8218-4497a05bc066.png) and "5" without checking the checkbox.
+
+<img src="./BuilderImages/Changes/quiz.jpg"
 
 Now, in order to be able to show the quiz result, we will use the "Decimal" component that we created in the beginning and we will name it "PercentagemDeAcerto", now click back on the Quiz, go to the "Others" section, in "Score Field" select the "PercentagemDeAcerto" option.
 ![image](./BuilderImages/others.png)
@@ -1935,13 +1940,13 @@ For this tutorial on how to use the 'Tab', we will use two forms.
 
 We will create the first form, name it "Animals", and then add a textfield component and name it "Large Animals".
 
-![image](https://user-images.githubusercontent.com/81401104/117339961-bde1d500-ae76-11eb-83c6-17278f81b1f2.png)
+<img src="./BuilderImages/Changes/ANIMALS 2.jpg">
 
 Save and run the application.
 
 Now let's create the second form, name it "Extra Animal Info", and add the "Textfield" component and name it "Animal Habitat".
 
-![image](https://user-images.githubusercontent.com/81401104/117339995-c76b3d00-ae76-11eb-9dea-9bbd595ae36a.png)
+<img src="./BuilderImages/Changes/animals3.jpg">
 
 Save and run the application.
 
@@ -1953,6 +1958,7 @@ The following tab will appear:
 ![image](https://user-images.githubusercontent.com/81401104/117344752-1f587280-ae7c-11eb-8c39-1e758bec3a9f.png)
 
 Under "Class Name" search for "extraanimalinfo" and select it.
+
 ![image](https://user-images.githubusercontent.com/81401104/117344869-4b73f380-ae7c-11eb-8a82-9fac413210e7.png)
 
 In "Tab Name" type "Tab da Info Extra". In "Relationship" select the option "1:N".
@@ -2064,9 +2070,7 @@ Subscribers Type:
 
 ![image](https://user-images.githubusercontent.com/81401104/117352586-89294a00-ae85-11eb-96f3-372a8ce8743e.png)
 
-User: User
-
-Role: Role
+User: User/ Role: Role
 
 By selecting "User" or "Role" , a dropdown will appear with the list of added users or roles.
 
@@ -2170,6 +2174,8 @@ And this is the Kanban in action. To add more tasks, just repeat the process:
 ## Software Replication
 
 Contact Easy Comtec support.
+
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
 
 You can do it through the conversation icon on the right of the top menu. [image]
 
@@ -2331,7 +2337,6 @@ At the top of this page, click on "Admin", select the "Role" option
 
 And then the following screen will open:
 ![image](https://user-images.githubusercontent.com/81401104/117497117-66169d00-af4e-11eb-84ef-ca3a5bc8123f.png)
-
 
 Click on the button ![image15](https://user-images.githubusercontent.com/81401104/117497267-aa09a200-af4e-11eb-97e1-8b37ea971925.png) and then the following page will open:
 
@@ -2504,11 +2509,17 @@ Your datasource is created:
 
 To make use of the "Template", contact Easy Comtec support.
 
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
+
 <div id='id-Job'/>
 
 ### 🔧 Process Job
 
 To make use of the "Template", contact Easy Comtec support.
+
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
 
 <div id='id-Report'/>
 
@@ -2613,17 +2624,27 @@ And here you can see the percentage of employees per function in a pie chart for
 
 To make use of the API, please contact Easy Comtec support.
 
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
+
 <div id='id-Template'/>
 
 ### 🔧 Template
 
 To make use of the "Template", contact Easy Comtec support.
 
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
+
 <div id='id-Scheduler'/>
 
 ### 🔧 Scheduler
 
 To make use of the Scheduler, contact Easy Comtec support.
+
+You can do that by clicking the communication icon on the top right menu and writing about the component you want to use.
+<img src="./BuilderImages/Changes/feedbackicon.jpg" width="125" height="48">
+
 
 <div id='id-2Notification'/>
          
@@ -3237,12 +3258,13 @@ The Payload consists of the following object:
 When the update of the primary key value (PrimaryKeyValue) should be included 
 ![image](https://user-images.githubusercontent.com/13450436/155115991-2de7a0d9-832a-4587-b195-b810d72c98aa.png)
     
-The api response consists of the object below:
-    
-{"updateMainForm":false, "item":{"ProjectId":2072, "FormId":50839, "RootFormId":null, "TableName": "SimpleForm_Person", "PrimaryKeyName": "SimpleForm_PersonId", "PrimaryKeyValue": "22600a54-c329-46c8-9b74-ebb02332ec7f", "PrimaryKeyType": "Guid", "WorkflowId":null, "WorkflowStepId":null, "WorkflowActionId":null, "EntityFormKey":null, "WorkflowFormKey":null, "Values":[{"FieldName": "Name", "Value": "John Doe", "SystemTypeName": "String", "IsAutoIncrement":false, "OneToManyRows":null},{"FieldName": "Birth", "Value": "1956-01-01T00:00:00Z", "SystemTypeName": "Date", "IsAutoIncrement": false, "OneToManyRows":null}], "IsNew":true, "ProjectHash": "163a7de6b6a2", "FieldValuesChanged":null, "oneToManyData":null, "UserId":null, "IsBuilderUser":true, "Facilities":[]}}
+The api response consists of the object below (if you want to copy it, just select and drag it to the write):
 
-- updateMainForm: Flag is used by the system in case the form is a child so that the main form is also updated.
-- item: Data of the entity that was updated.
+           {"updateMainForm":false, "item":{"ProjectId":2072, "FormId":50839, "RootFormId":null, "TableName": "SimpleForm_Person", "PrimaryKeyName": "SimpleForm_PersonId", "PrimaryKeyValue": "22600a54-c329-46c8-9b74-ebb02332ec7f", "PrimaryKeyType": "Guid", "WorkflowId":null, "WorkflowStepId":null, "WorkflowActionId":null, "EntityFormKey":null, "WorkflowFormKey":null, "Values":[{"FieldName": "Name", "Value": "John Doe", "SystemTypeName": "String", "IsAutoIncrement":false, "OneToManyRows":null},{"FieldName": "Birth", "Value": "1956-01-01T00:00:00Z", "SystemTypeName": "Date", "IsAutoIncrement": false, "OneToManyRows":null}], "IsNew":true, "ProjectHash": "163a7de6b6a2", "FieldValuesChanged":null, "oneToManyData":null, "UserId":null, "IsBuilderUser":true, "Facilities":[]}}
+
+
+- UpdateMainForm: Flag is used by the system in case the form is a child so that the main form is also updated.
+- Item: Data of the entity that was updated.
   - ProjectId: Id of the Project.
   - FormId: Id of the Form.
   - RootFormId: Id of the main form.
@@ -3298,7 +3320,7 @@ All parameters are query string:
 <div id="id-gridInPage"/>
 
 ### Create a grid on a page
-⚠️ Important:
+####⚠️ Important:
   - For this procedure it will be necessary to use a session’s variable.
   - Remember to Save after each change.
 
