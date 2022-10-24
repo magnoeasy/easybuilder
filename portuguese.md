@@ -104,7 +104,7 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
 
 Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.
 
-Apos o login no Builder você irá se deparar com o seguinte contéudo:
+Após o login no Builder você irá se deparar com o seguinte contéudo:
 
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
     
