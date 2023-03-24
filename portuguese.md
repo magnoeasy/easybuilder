@@ -1,6 +1,8 @@
 <h1>Easy Builder Tutorial em português</h1>
 <img src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png">
 
+<br>
+
 # Table Content
 - [First steps in Easy Builder 🦶](#id-frist)
 - [It's time to get hands-on 🖐️](#id-hands)
@@ -75,7 +77,9 @@
 
 <div id='id-frist'/>
 
-## Primeiros passos no Easy Builder 🦶
+<br>
+
+# Primeiros passos no Easy Builder 🦶
 <p>Em primeiro plano precisamos criar um login no <b>"Easy Builder"(nossa plataforma de criação).<p>
     
 - Acessando o link https://builder.easy.rocks/
@@ -84,7 +88,9 @@
     
  Nesta imagem vemos uma tela de login, é nela que você ira se cadastrar, há varias formas de cadastro como Google, Microsoft Teams,Facebook ou com seu email,o recomendado é que utilize o email da Easy (....@easyteam.rocks) o qual você recebeu clicando em <i>"Sign UP".<br>
   
-### Agora precisamos confirmar seu email 📧⚠️
+  <br>
+
+# Agora precisamos confirmar seu email 📧⚠️
 Será enviado um link de confirmação para o seu email cadastrado, então acesse-o, e abra o email da Easy Builder que será encontrado na Caixa de Entrada ou no Lixo Eletrônico.
 
  
@@ -99,13 +105,19 @@ Pronto agora você ja pode logar no <b>"Easy Builder"</b> sem problemas clicando
                                                 Feito o cadastro Parabens!!🥇🎉
 
 <div id='id-hands'/>
- 
-## É hora de por a mão na massa 🖐️
 
-Agora iremos aprender a fazer um projeto, menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.
+ <br>
 
-Apos o login no Builder você irá se deparar com o seguinte contéudo:
+# Iniciando ⚡
 
+Agora iremos aprender a selecionar um projeto, fazer um projeto, e fazer um menu e formulário básico, para que você já possa experimentar as funcionalidades do Easy Builder.
+
+Apos o login no Builder você irá se deparar com o seguinte contéudo: <br>
+Aqui voce pode selecionar algum projeto:
+<img src="https://user-images.githubusercontent.com/95534704/226352246-2257d9f2-e3ce-4dae-a933-053a2856c060.png">
+
+
+Aqui voce pode criar um novo projeto:
 <img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
     
 Na aba “Main” e logo abaixo em “Project title” escreva o título do seu projeto (pode ser “ProjetoTeste”)
@@ -119,39 +131,40 @@ e clique no botão _Save & Close_
 Agora você estará na sua página inicial com as três abas principais, nesse caso automaticamente será a aba “Project”. 
 
 Então, voltará na tela inicial com as duas abas principais “Form” e “Report” (que significa “Formulário” e “Relatório” respectivamente), agora clique na aba “Form” que esta marcada em verde:
+
     
 ![image](./BuilderImages/form.png)
     
 E agora clique no botão _Form_, que está marcado em vermelho na imagem acima, automaticamente irá abrir uma nova aba no seu navegador.
-<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
+<img src="https://user-images.githubusercontent.com/95534704/226375413-d9301fa0-5a75-4556-b6f9-4ba95da112aa.png">
 
 Nessa nova página, no campo do “Form Title” escreva o título do seu formulário (pode ser “FormulárioTeste”).
 
-<img src="https://user-images.githubusercontent.com/81401104/114773828-e843e500-9d45-11eb-9f24-6412e65cd9dc.png">
+<img src="https://user-images.githubusercontent.com/95534704/226376622-2b23c142-77bf-40ef-ad3f-b0591859f567.png">
 
-Clique no botão _"Save"_ que se encontra no pé da página.
+Clique no botão _"Save"_ que se encontra ao lado superior direito da página.
 
-<img src="https://user-images.githubusercontent.com/81401104/114774084-31943480-9d46-11eb-992d-d3c930421db8.png">
+<img src="https://user-images.githubusercontent.com/95534704/226376951-23fd6a04-0425-423d-bde0-1c20e3e578d4.png">
 
 Selecione o componente “Textfield” (da aba lateral Tools - Gallery Fields) e arraste para o campo cinza onde está escrito “Drop new field here!”.
 
 Agora clique no componente que você arrastou (“Textfield”), e logo irá abrir uma aba lateral na direita chamada “Properties of Field”.⤵️
-<img src="https://user-images.githubusercontent.com/81401104/114777398-0875a300-9d4a-11eb-90be-640d428916b5.gif">
+<img src="https://user-images.githubusercontent.com/95534704/226382771-e6e435c1-3e04-4ea2-90b0-e589cd8fdd28.gif">
 
 Lá no topo do “Properties of Field”, abaixo de “General”, No campo “Name”  escreva ‘‘Nome’’ e no campo “Label” também escreva “Nome”.
 Agora clique no botão  _"Save"_ e depois clique no botão _"Run"_, irá abrir a seguinte página:
 
-<img src="https://user-images.githubusercontent.com/81401104/114778084-c8fb8680-9d4a-11eb-93e7-cdde13db4cca.png">
+<img src="https://user-images.githubusercontent.com/95534704/226383535-a4815ac8-de5f-4c41-85c5-7e9f6959e4d1.png">
 
 Aqui estará disponível a visualização dos registros salvos. ⤴️
     
 > Clique no botão _"New"_, você será direcionado para a seguinte tela:
 
-<img src="https://user-images.githubusercontent.com/81401104/114778942-dc5b2180-9d4b-11eb-9fd7-5e9e03c4ed8a.gif">
+<img src="https://user-images.githubusercontent.com/95534704/226385053-e0d20433-8ab7-47c4-b0a3-d1afd8edd2e1.gif">
 
 Adicione o nome “Lopes”, e clique no botão _"Save & Close"_ !!
 
- <img src="https://user-images.githubusercontent.com/81401104/114939285-9a4ae200-9e16-11eb-9884-5e9c3dbce5e5.gif">
+ <img src="https://user-images.githubusercontent.com/95534704/226385806-2d4bd4a2-815b-422a-873d-ccb6cba9a1cc.gif">
 
 <h3>⚠️Atenção para não confundir "Save" em vez de "Save & Close"</h3>
 
@@ -164,17 +177,19 @@ Você pode fazer o download da lista de registros em formato de  lista do excel 
 e então será enviado no seu email o link para download da lista excel.
 Um gif curto para te ajudar:
 
-<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif">
+<img src="https://user-images.githubusercontent.com/95534704/226387030-206e4965-8f43-4fe9-9b9c-09060f16e693.gif">
 
-### Como Executar a Aplicação 💻
+<br>
+
+# Como Executar a Aplicação 💻
 
 Ao chegar na tela do formulário, preencha o “Form Title”(o titulo do formulário) e insira os componentes “Textfield” e “Email”:
 
-<img src="https://user-images.githubusercontent.com/81401104/114933398-ff023e80-9e0e-11eb-86ad-8811ba803155.gif">
+<img src="https://user-images.githubusercontent.com/95534704/226416520-171ba6e3-69fa-468a-91a2-1b1890ad755a.gif">
 
 Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé da página e depois clique no botão _"Run"_
 
-<img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif"><br>Irá para a seguinte tela
+<img src="https://user-images.githubusercontent.com/95534704/226418034-a912ebfc-62a7-4182-98a3-6aae3c9f137d.gif"><br>Irá para a seguinte tela
 
 <img src="https://user-images.githubusercontent.com/81401104/114936950-805bd000-9e13-11eb-8877-16341176b8e5.png">
 
@@ -195,8 +210,10 @@ Após preencher os campos, clique no botão _"Save & Close".
 <img src="https://user-images.githubusercontent.com/81401104/115065052-0c2d3500-9ec4-11eb-8b6b-25e0628429fb.gif">
 
 E você estará de volta na tela dos registros, com o formulário salvo e disponível para visualização.
-*Caso queira editar o formulário salvo, clique no <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png">
+*Caso queira editar o formulário salvo, clique no <br><img src="https://user-images.githubusercontent.com/95534704/226418690-a28838dd-8b2b-40eb-875c-cd479350170e.png"><br>
 (Embaixo da coluna do “Control”)
+
+<br>
 
 ## AVISOS⚠️
 
@@ -216,6 +233,8 @@ Se tiver qualquer dúvida, entre em contato com o suporte da Easy Comtec.
 
 <div id='id-component'/>
  
+ <br>
+
 ## COMPONENTES 🧱
 São 30 componentes que iremos aprender a utilizar, são eles:
 <table>
@@ -259,12 +278,20 @@ São 30 componentes que iremos aprender a utilizar, são eles:
  </tr>
 </table>
 
+<br>
+
+
 É importante perceber que na seção “Properties of Field”, existem várias seções (“General”, “Behavior”, “Presentation”, “Events”, “Intro”, etc) podendo ter mais ou menos seções, e com mais ou menos itens, dependendo do componente.<br>
 
 O exemplo de “Properties of Field” da imagem abaixo é do componente “Textfield”.
 
-![sq](https://user-images.githubusercontent.com/81401104/119602180-fd8a4580-bdc0-11eb-9dab-3af21b272167.gif)
+<br>
 
+
+![image](https://user-images.githubusercontent.com/95534704/226425315-03605c04-0348-4a65-87e3-9c30b397e687.png)
+![image](https://user-images.githubusercontent.com/95534704/226425535-002ee3f3-2ce5-4c5e-9de9-d66c8acd0021.png)
+![image](https://user-images.githubusercontent.com/95534704/226425563-f70c882f-5fee-46cd-9d5c-c993446cbe0c.png)
+![image](https://user-images.githubusercontent.com/95534704/226425571-d3ee303c-ca18-44bf-89e0-48a58268f9d8.png)
 
 É importante saber disso para que facilite o processo de localizar as seções, itens, etc.<br>
 
@@ -276,7 +303,7 @@ Outra situação recorrente é a referenciação dentro do tutorial de um compon
  
 ## Textfield 📓
 
-![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
+![image](https://user-images.githubusercontent.com/95534704/226428211-4668ae62-b8fc-4beb-a808-cdff6c30bbe4.png)
 
 O componente “Textfield” serve para escrever textos, principalmente nomes, mas também pode ser utilizado para gravar números de telefone usando a máscara nas propriedades do campo, veremos como fazer isso em breve.
 
@@ -285,11 +312,14 @@ Selecione o componente “Textfield”, então arraste-o e solte-o onde está es
 
 🔗Vídeo:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
-### Textfield 📓 > GENERAL 🎖️
+<br>
 
-<img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png"><br>
+# Textfield 📓 > GENERAL 🎖️
 
-Nessa aba “Properties of Field”, abaixo de “General”, tem o campo “Name”, este se refere a identificação do campo para a codificação, para possíveis programações posteriores. Geralmente nele você irá repetir o que estará escrito em “Label” que é a identificação do campo para o usuário.
+<img src="https://user-images.githubusercontent.com/95534704/226491946-999845fb-c267-43b0-acec-7350a7076854.png"><br>
+
+Nessa aba “Properties of Field”, abaixo de “General”, 
+tem o campo “Name”, este se refere a identificação do campo para a codificação, para possíveis programações posteriores. Geralmente nele você irá repetir o que estará escrito em “Label” que é a identificação do campo para o usuário.
 
 O campo “Column Title” serve para identificar quando for visualizar a lista (para visualizar em formato lista observe o topo da página, selecione “List” ).
 
@@ -297,15 +327,23 @@ O campo “Placeholder” serve como um guia para o que preencher, é interessan
 
 <img src="https://user-images.githubusercontent.com/81401104/115271003-46404600-a113-11eb-860f-ca5edf37ad4b.png">
 
+<br>
 
-### Textfield 📓 > VALUES 1️⃣
+# Textfield 📓 > VALUES 1️⃣
 
-<img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
+![image](https://user-images.githubusercontent.com/95534704/226491946-999845fb-c267-43b0-acec-7350a7076854.png)
 
 
-Em “Properties of Field”, abaixo de “Values”, há 4 campos e uma caixa de seleção, que são respectivamente: “Mask”, “Default”, “Minimum Length”, “Maximum Length” e “Enable Barcode Scanner”.
 
-Em “Mask” você pode determinar o padrão específico de preenchimento, ou seja, quantidade e tipo específica de caracteres. Por exemplo, se você quer que o campo aceite números de telefone em um formato específico, você pode preencher esse campo com (99)99999-9999, faça isso agora para testarmos.
+Há 4 campos e uma caixa de seleção
+
+- “Mask”
+- “Default”
+- “Minimum Length”
+- “Maximum Length”
+- “Enable Barcode Scanner”.
+
+Em “Mask” você pode determinar o padrão específico de preenchimento, ou seja, quantidade e tipo específica de caracteres. <br> Por exemplo, se você quer que o campo aceite números de telefone em um formato específico, você pode preencher esse campo com (99)99999-9999, faça isso agora para testarmos.
 
 Para que fique harmônico, vá em “Name” e “Label” e escreva “Número de Telefone”. Deixe o campo do “Placeholder” em branco.
 
@@ -331,32 +369,34 @@ Execute a aplicação.
 
 Observe que já está preenchido com (45)99887-6655, mas é possível alterá-lo.
 
-“Minimum Length” se refere ao número mínimo de caracteres a ser usado no preenchimento do campo. Por exemplo, selecione e arraste mais um componente “Textfield” para dentro do formulário e então edite apenas essa configuração do “Minimum Length” para o valor de 5.
+- “Minimum Length” se refere ao número mínimo de caracteres a ser usado no preenchimento do campo. Por exemplo, selecione e arraste mais um componente “Textfield” para dentro do formulário e então edite apenas essa configuração do “Minimum Length” para o valor de 5.
 
 Execute a aplicação. Ao preencher o campo você perceberá que será necessário no mínimo 5 caracteres para que seja possível salvar o registro
 
-“Maximum Length” se refere ao número máximo de caracteres permitido no preenchimento do campo. Por exemplo, você pode selecionar e arrastar mais um “Textfield” para dentro do formulário e então editar apenas essa configuração do “Maximum Length” para o valor de 10.
+- “Maximum Length” se refere ao número máximo de caracteres permitido no preenchimento do campo. Por exemplo, você pode selecionar e arrastar mais um “Textfield” para dentro do formulário e então editar apenas essa configuração do “Maximum Length” para o valor de 10.
 
 Execute a aplicação. Ao preencher o campo você perceberá que será permitido no máximo 10 caracteres para que seja possível salvar o registro.
 
-“Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
+- “Enable Barcode Scanner” se refere a permitir scanner de código de barras. Você pode testar essa configuração ao selecionar a caixa de seleção e então execute a aplicação. Na tela de registro, 
 clique no <img src="https://user-images.githubusercontent.com/81401104/115289090-9a095a00-a128-11eb-82ee-a03ac0411da2.png"> e então irá acionar a câmera do dispositivo, e fará a leitura do código de barras.
 
-### Textfield 📓 > BEHAVIOR 🎬
+<br>
 
-<img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
+# Textfield 📓 > BEHAVIOR 🎬
+
+![image](https://user-images.githubusercontent.com/95534704/226492716-388e4e72-84c5-45e2-a5fb-dfb3f35cb002.png)
 
 Aqui você encontrará 3 caixas de seleção (Required, Disabled e Visible) e 3 listas suspensas (Visibility Rules, Required Rules e Disabled Rules).
 
-Traduções: 
+### Traduções: 
 
-Required = Obrigatório
-Disabled = Desativado
-Visible = Visível
+- Required = Obrigatório <br>
+- Disabled = Desativado <br>
+- Visible = Visível
 
-Visibility Rules = Regras de Visibilidade 
-Required Rules = Regras de Obrigatoriedade 
-Disabled Rules = Regras de Desativação
+- Visibility Rules = Regras de Visibilidade <br>
+- Required Rules = Regras de Obrigatoriedade <br>
+- Disabled Rules = Regras de Desativação
 
 Por padrão, as caixas de seleção “Required” e “Visible” estarão marcadas e a caixa “Disabled” estará desmarcado.
 
@@ -370,14 +410,17 @@ Vamos testar isso na prática. Selecione e arraste o componente “Integer” pa
 
  no “Properties of Field”, abaixo de “General”, em “Name” e “Label” preencha o campo com “Idade”. 
  
-![idade2](https://user-images.githubusercontent.com/81401104/119603354-64a8f980-bdc3-11eb-9045-674b4e939884.gif)
+![idade2](https://user-images.githubusercontent.com/95534704/226494186-82ebda7b-cf86-49da-a522-2243e30e014b.png)
 
 
 Volte a editar as propriedades do  “Número de Telefone” abaixo de “Behavior” ,clique no ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png)
-do “Visibility Rules”,
+do “Visibility Rules”.
 
-irá abrir a seguinte janela:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
+![image](https://user-images.githubusercontent.com/95534704/226494440-98ef96a8-ec2a-497b-b185-35dd0196faad.png)
+
+irá abrir a janela:<br>
 no “Name” escreva “Regra da Idade”, em “Type” selecione “Integer”, em “Operation” selecione “Greater or Equal”, em “Value” escreva “18”.
+![image](https://user-images.githubusercontent.com/95534704/226494615-811b1250-e449-4e95-849a-d18534ed1c81.png)
 
 Agora clique no botão ![image13](https://user-images.githubusercontent.com/81401104/126811619-a920a2e3-db11-44b0-8eaf-e2fd930e58e1.png)
 
@@ -405,8 +448,12 @@ e se preencher o campo “Idade” com “17”, o campo “Número de Telefone�
 
 Você pode aplicar essas regras da mesma forma para a obrigatoriedade e desativação.
 
-### Textfield 📓 > OTHERS 📝
-![image](https://user-images.githubusercontent.com/81401104/115293506-cb385900-a12d-11eb-95ab-031c63694490.png)
+<br>
+
+# Textfield 📓 > OTHERS 📝
+
+![image](https://user-images.githubusercontent.com/95534704/226495537-54db0d97-6be8-4bbf-a4e6-eb30eebffbb1.png)
+
 
 Aqui na seção “Others” você encontrará essa lista do “Feed Data”, que serve para preencher o campo com dados fictícios para validá-lo.
 
@@ -417,10 +464,11 @@ Agora execute a aplicação.
 Automaticamente se abrirá uma nova página no seu navegador, e você verá registro de números de telefones/nomes fictícios na tela (próxima página), que verificará o campo como válido.
 ![image](https://user-images.githubusercontent.com/81401104/115293603-ec00ae80-a12d-11eb-9cd5-6b381b83ff9c.png)
 
+<br>
 
-### Textfield 📓 > PRESENTATION 📊
-![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
+# Textfield 📓 > PRESENTATION 📊
 
+![image](https://user-images.githubusercontent.com/95534704/226495488-ce4db793-8677-41b2-b10a-cc8cac44fa86.png)
 
 Nessa seção você consegue editar quanto de espaço o campo irá ocupar nas telas de desktops, tablets, mobiles horizontais e mobiles verticais respectivamente. O espaço ocupado pode variar de 8% até 100%.
 
@@ -438,14 +486,15 @@ Você pode voltar na tela de edição do formulário e testar com as outras medi
 
 No item “CSS Class”  você pode informar a classe de css customizada para o componente.
 
-### Textfield 📓 > EVENTS 🎞️
-![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
+# Textfield 📓 > EVENTS 🎞️
+![image](https://user-images.githubusercontent.com/95534704/226495636-662837c3-76c9-4ccd-9daf-e6e59bd3b5b2.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Events” dos componente “Decimal” e “Button”.
 
-### Textfield 📓 > INTRO ℹ️ 
+# Textfield 📓 > INTRO ℹ️ 
 
-![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
+![image](https://user-images.githubusercontent.com/95534704/226495672-19b54644-abf8-4171-831c-94b81df7b69b.png)
+
 
 A seção “Intro” serve como uma introdução instrutiva, para explicar sobre o preenchimento dos campos ou o que você achar importante.
 
@@ -456,10 +505,12 @@ Vamos testar isso agora, selecione e solte dois componentes “Textfield” dent
 
 No primeiro “Textfield”, em “Position” selecione “Top”, em “Order” digite “1”, em “Message” escreva “Esse é o primeiro” (imagem na próxima página).
 
-![image](https://user-images.githubusercontent.com/81401104/115294205-aee8ec00-a12e-11eb-928f-c37400f1bd77.png)
+![image](https://user-images.githubusercontent.com/95534704/226495835-65c2fbf4-992c-4f81-916c-9cad0be3ba14.png)
 
-No segundo “Textfield”, em “Position” selecione “Right”, em “Order” digite “2”, em “Message” escreva “Esse é o segundo” .
-![image](https://user-images.githubusercontent.com/81401104/115294376-ea83b600-a12e-11eb-832d-d96e58ea37c2.png)
+
+No segundo “Textfield”, em “Position” selecione “Right”, em “Order” digite “2”, em “Message” escreva “Esse é o segundo”.<br>
+![image](https://user-images.githubusercontent.com/95534704/226495865-4762553e-296c-43fa-aa07-e2ba9051c8e8.png)
+
 
 Agora execute a aplicação.Irá abrir a seguinte página:
 ![image](https://user-images.githubusercontent.com/81401104/115294454-ff604980-a12e-11eb-9466-6a769bb2cde3.png)
@@ -477,7 +528,7 @@ Você pode continuar adicionando novos campos e alternando as ordens e as mensag
 <div id='id-textarea'/>
 
 ## TextArea 📄
-![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
+![image](https://user-images.githubusercontent.com/95534704/226496001-ab581a88-f97c-4b71-aa0d-c098ec43c363.png)
 
 Com o componente  “Textarea” você consegue adicionar valores do tipo letras e números, com uma área maior que uma linha.
 
@@ -485,7 +536,8 @@ Selecione o componente “Textarea”, então arraste-o e solte-o onde está esc
 
 “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
-![image](./BuilderImages/textarea.gif)
+![Animaçãonew2](https://user-images.githubusercontent.com/95534704/226597790-350f08f2-bf7a-4ca2-86c0-92068eb45124.gif)
+
 
 Execute a aplicação
 
@@ -499,9 +551,9 @@ Após salvar:
 
 🔗Vídeo: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 
-### TextArea 📄 > PRESENTATION 📊
+# TextArea 📄 > PRESENTATION 📊
 
-![image](https://user-images.githubusercontent.com/81401104/115909214-97b54180-a441-11eb-9ca8-45c8cfff9f75.png)
+![image](https://user-images.githubusercontent.com/95534704/226495328-623c639a-edeb-4d73-bfaf-2c0e09ce21f1.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Presentation” do componente “Textfield”.
 
@@ -510,34 +562,46 @@ O item “Rows” se refere a quantas linhas você quer para o seu componente �
 <div id='id-Editor'/>
 
 ## Editor 🎬
-![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
+![image](https://user-images.githubusercontent.com/95534704/226496148-e8cf4fe8-8dce-4d69-af36-4d7a0f31048a.png)
+
 
 É um componente que permite o usuário inserir texto com a formatação desejada.
 
 Selecione o componente “Editor”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
-![image](./BuilderImages/editor.gif)
+![Animaçãonew3](https://user-images.githubusercontent.com/95534704/226598184-f0fe7d78-94ec-43c6-bd42-e1e85cde731a.gif)
+
 
 Execute a aplicação:
-![image](https://user-images.githubusercontent.com/81401104/115909971-9c2e2a00-a442-11eb-9d79-740daa7fcc39.png)
+![image](https://user-images.githubusercontent.com/95534704/226598808-aca0b495-dcbd-4d3e-b663-5f5cad34ae28.png)
+
 
 E aqui você pode editar o texto com a formatação que quiser (sublinhado, negrito, entre outros), pode adicionar links, emojis e várias outras coisas.
 
-Após adicionar as informações que quiser, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115909993-a8b28280-a442-11eb-90a0-60ada9302880.png).
+Após adicionar as informações que quiser, clique no botão <br> 
+![image](https://user-images.githubusercontent.com/95534704/226599475-8b3c85aa-91a3-48ff-879c-bf3aecd69b15.png)
+
 
 E irá aparecer da seguinte forma:
 
-![image](https://user-images.githubusercontent.com/81401104/115910982-e532ae00-a443-11eb-8384-8290a56f32fe.png)
+![image](https://user-images.githubusercontent.com/95534704/226600025-e7858dae-bc3f-449c-8971-e5e4cf350398.png)
 
-Para editar o registro adicionado, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png)
+
+Para editar o registro adicionado, clique no botão <br> 
+![image](https://user-images.githubusercontent.com/95534704/226600173-178fd6c0-aca6-431a-a521-8bd2f47a09ff.png)
+
+<br>
  (embaixo de “Control”).
  
 🔗Vídeo: https://www.youtube.com/watch?v=k33nAZRQVLQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=13
 
 <div id='id-Hidden'/>
 
-## Hidden 🙈
-![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
+<br>
+
+# Hidden 🙈
+![image](https://user-images.githubusercontent.com/95534704/226603268-f55ece8f-cd02-4a6a-8296-ba7cd42635f4.png)
+
 
 Com este componente você pode calcular valores que são ocultos ao usuário final, e enviar para salvar no banco de dados e consultar posteriormente em relatórios.
 
@@ -545,8 +609,10 @@ Selecione o componente “Hidden”, então arraste-o e solte-o onde está escri
 
 Para aprender como usar o componente “Hidden”, acesse o tutorial do componente “Signature”.
 
-### Hidden 🙈 > DATA TYPE 🗃️
-![image](https://user-images.githubusercontent.com/81401104/115913172-a3573700-a446-11eb-9742-4f8601e03fb9.png)
+<br>
+
+# Hidden 🙈 > DATA TYPE 🗃️
+![image](https://user-images.githubusercontent.com/95534704/226604621-a6c7e13b-82e4-4ce0-8a87-e6cba2b7311d.png)
 
 Em Type você pode selecionar uma das 5 opções possíveis:
 <ol>
@@ -562,13 +628,18 @@ Default Value: Valor padrão (o valor será preenchido automaticamente, mas send
 
 <div id='id-Integer'/>
 
-## Integer 🔢
-![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
 <br>
+
+# Integer 🔢
+![image](https://user-images.githubusercontent.com/95534704/226605406-3cf8afe9-ff8f-4997-9de6-d610e6841054.png)
+
+<br>
+
 É um componente utilizado para quando se necessita digitar números inteiros para uma aplicação.
 
 Selecione o componente “Integer”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
-![image](./BuilderImages/intege.gif)
+![AnimaçãoInteger](https://user-images.githubusercontent.com/95534704/226605779-48bf4898-ede7-4671-9c08-aa7c27078d63.gif)
+
 
 Execute a aplicação.
 ![image](https://user-images.githubusercontent.com/81401104/115914683-a6ebbd80-a448-11eb-8d68-2b03746f00f7.png)
@@ -580,8 +651,10 @@ Após salvar, estará disposto da seguinte forma na tela dos registros:
 
 🔗Vídeo: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 
-### Integer 🔢 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
+<br>
+
+# Integer 🔢 > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227082851-e1313baa-513c-4882-ab6d-365204ec97c8.png)
 
 Em  “Values”, existem 3 campos e uma caixa de seleção, que são respectivamente: Default, Minimum Value, Maximum Value e Auto Increment.
 
@@ -612,8 +685,11 @@ Auto Increment: Irá iniciar com o valor 1 e depois continuar com a sequência (
 
 <div id='id-Decimal'/>
 
-## Decimal 💲
-![image](https://user-images.githubusercontent.com/81401104/115915315-8d974100-a449-11eb-8ba7-dd634492ea2e.png)
+<br>
+
+# Decimal 💲
+![image](https://user-images.githubusercontent.com/95534704/227172676-16be852b-3ddb-4181-a1ab-d9aa6943efdf.png)
+
 
 É um componente usado para digitar números decimais para uma aplicação.
 
@@ -633,8 +709,8 @@ Após adicionado e salvo, estará disposto da seguinte forma na tela dos registr
 
 🔗Vídeo: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
 
-### Decimal 💲 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115916759-9be65c80-a44b-11eb-944a-788bd6dcbe1d.png)
+# Decimal 💲 > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227173088-371a11be-6f02-4bfc-b55f-4dd321d03cee.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Integer”.
 
@@ -644,9 +720,11 @@ Scale: Se refere a quantidade de algarismos após o ponto ou vírgula, por exemp
 
 Perceba que há cinco algarismos após o ponto.
 
-### Decimal 💲 > EVENTS ⚙️
+<br>
 
-![image](./BuilderImages/eventsdecimal.png)
+# Decimal 💲 > EVENTS ⚙️
+
+![image](https://user-images.githubusercontent.com/95534704/227173982-6f18fe32-f4f7-4341-a525-fd37ede98998.png)
 
 Para testar a seção “Events” vamos apagar os campos criados anteriormente com o componente “Decimal” e deixar vazio o formulário.
 
@@ -656,28 +734,32 @@ Nomeie o primeiro de “Number1”, o segundo de “Number2” e o terceiro de �
 
 Iremos realizar a seguinte função: ao preencher o valor do “Number1” e do “Number2” automaticamente será dado o resultado da soma desses dois campos no “Total” 
 
-Clique no botão ![add your script here](https://user-images.githubusercontent.com/81401104/126811989-e7e0e200-8ea7-4f5e-b805-9fff8e28790b.png)(se localiza na seção “Events”) do campo “Total”  e automaticamente abrirá essa aba:
+Clique no botão <br>
+![image](https://user-images.githubusercontent.com/95534704/227175806-7234809e-7752-4a41-b58e-bb94ee5b8eb8.png)
+<br>
 
-![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
+(se localiza na seção “Events”) do campo “Total”  e automaticamente abrirá essa aba:
+
+![image](https://user-images.githubusercontent.com/95534704/227176596-dae5fbbf-2a20-4776-b54b-36d7c7beafbe.png)
 
 Nesse campo do “Custom Scripts” copie e cole o seguinte:
 
-                                                    function soma() {
-                                    this.entity.Total = this.entity.Number1 + this.entity.Number2;
-                                    }
+           function soma() {
+          this.entity.Total = this.entity.Nuentity.Number2;
+          }
 
-Agora volte para o “Form Design”  do lado de “Dev Properties”, no topo da página. 
-(Imagem abaixo)
-![image](https://user-images.githubusercontent.com/81401104/115918444-e7016f00-a44d-11eb-98df-a46551bd1200.png)
+Agora volte para o “Form Design” no topo da página.
+(Imagem abaixo) 
+![image](https://user-images.githubusercontent.com/95534704/227176853-1cafd9e2-b667-421a-b6c9-171be92e724b.png)
 
-Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” e então clique no botão 
-![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png).
+Clique no campo “Number1”, vá na seção “Events”, em “Name” selecione a opção “onkeyup” e em “On” escreva “soma()” e então clique no botão <br>
+![image](https://user-images.githubusercontent.com/95534704/227175070-378e4a75-eeb3-49f6-b3f6-4d101b309b72.png)
 
-![image](https://user-images.githubusercontent.com/81401104/115918534-026c7a00-a44e-11eb-994a-7cba89f79b6d.png)
+![image](https://user-images.githubusercontent.com/95534704/227175202-333b8218-b10a-46e5-9569-96f3c89ab785.png)
 
 Após clicar no botão, ficará assim:
 
-![image](https://user-images.githubusercontent.com/81401104/115918646-25972980-a44e-11eb-92d4-722fc2ab5285.png)
+![image](https://user-images.githubusercontent.com/95534704/227177077-6f16a24d-827f-456b-9492-440ca78893ba.png)
 
 Faça a mesma coisa com o campo “Number2”.
 
@@ -697,7 +779,7 @@ Após adicionar os valores, clique no botão ![image](https://user-images.github
 <div id='id-Date'/>
 
 ## Date 📆 
-![image](https://user-images.githubusercontent.com/81401104/115919138-d0a7e300-a44e-11eb-9376-8aeb6e83f45c.png)
+![image](https://user-images.githubusercontent.com/95534704/227177262-a0c8fb5c-8717-4024-8783-1c5707683d1b.png)
 
 Com o componente “Date” é possível adicionar uma data, data atual, uma data pré-definida ou uma outra data qualquer preenchida pelo usuário.
 
@@ -714,19 +796,21 @@ Perceba que o formato é de mês/dia/ano. Então é só selecionar a data e depo
 
 🔗Vídeo: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
 
-### Date 📆 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115919565-60e62800-a44f-11eb-913a-b0a2256a3b8d.png)
+# Date 📆 > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227177695-195d155e-2f13-4e6a-87be-44943d5c79bb.png)
 
-Default (Padrão): O campo será preenchido com uma data pré-determinada, mas é possível alterar, se necessário.
+- Default (Padrão): O campo será preenchido com uma data pré-determinada, mas é possível alterar, se necessário.
 
 Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”. 
 
-Current Date (Data atual). Ao selecionar essa caixa, o campo “Date” sempre estará preenchendo automaticamente com a data atual.
+- Current Date (Data atual). Ao selecionar essa caixa, o campo “Date” sempre estará preenchendo automaticamente com a data atual.
 
 <div id='id-DateTime'/>
 
-## DateTime 📆⏲️ 
-![image](https://user-images.githubusercontent.com/81401104/116605437-cb8edc00-a905-11eb-9d85-da4e8267a93c.png)
+<br>
+
+# DateTime 📆⏲️ 
+![image](https://user-images.githubusercontent.com/95534704/227177801-17fb7cfe-a92b-408f-91bf-7e7d2c57377a.png)
 
 Com este componente você pode adicionar uma data e horário atual, data e horário pré definido ou uma outra data e horário qualquer preenchida pelo usuário
 
@@ -745,10 +829,12 @@ Após salvar, estará disposto da seguinte forma na tela dos registros:
 
 🔗Vídeo: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
 
-### DateTime 📆⏲️ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115919926-de119d00-a44f-11eb-84e3-f7d7e912f67c.png)
+# DateTime 📆⏲️ > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227178224-2936de07-9776-43f8-9d48-555190bd3bcd.png)
 
-Default (Padrão): O campo será preenchido com uma data e horário pré-determinado, mas é possível alterar, se necessário.
+Current Date/Time (Data e horário atual): Ao selecionar essa caixa, o campo “DateTime” sempre estará preenchendo automaticamente com a data e horário atual.
+
+- Default (Padrão): O campo será preenchido com uma data e horário pré-determinado, mas é possível alterar, se necessário.
 
 Por padrão o formato está “mm/dd/yyyy” que significa “mês/dia/ano”. 
 
@@ -758,8 +844,10 @@ Current Date/Time (Data e horário atual): Ao selecionar essa caixa, o campo “
 
 <div id='id-Time'/>
 
-## Time ⌛ 
-![image](https://user-images.githubusercontent.com/81401104/115920003-faadd500-a44f-11eb-9908-55c0199797e6.png)
+<br>
+
+# Time ⌛ 
+![image](https://user-images.githubusercontent.com/95534704/227178887-8016216f-0b52-4279-afde-590cdb853b6c.png)
 
 Com este componente você pode adicionar um horário atual, horário pré definido ou um outro horário qualquer preenchida pelo usuário.
 
@@ -779,15 +867,19 @@ Após salvar o horário, a tela dos registros estará disposta da seguinte manei
 
 Vídeo: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=18
 
-### Time ⌛ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115920106-1c0ec100-a450-11eb-8461-27ea86d57921.png)
+<br>
 
-Default (Padrão): O campo será preenchido com uma horário pré-determinado, mas é possível alterar, se necessário.
+# Time ⌛ > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227178224-2936de07-9776-43f8-9d48-555190bd3bcd.png)
+
+- Default (Padrão): O campo será preenchido com uma horário pré-determinado, mas é possível alterar, se necessário.
+
+- Current Date/Time (Data e horário atual): Ao selecionar essa caixa, o campo “DateTime” sempre estará preenchendo automaticamente com a data e horário atual.
 
 <div id='id-CheckBox'/>
 
 ## CheckBox ✅
-![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
+![image](https://user-images.githubusercontent.com/95534704/227179319-bc7c9285-9ad0-4cc3-bb6d-76d8795cb078.png)
 
 O componente  “Checkbox” é uma caixa de seleção que permite o usuário a fazer uma escolha binária, ou seja, uma escolha entre duas opções mutuamente exclusivas..
 
@@ -796,21 +888,24 @@ Selecione o componente “Checkbox”, então arraste-o e solte-o onde está esc
 ![image](./BuilderImages/checkbox.gif)
 
 Escreva “Obrigatório” nos campos “Name” e “Label” que se encontram na seção “General” do ”Properties of Field” do checkbox.
- ![image](https://user-images.githubusercontent.com/81401104/115920308-6728d400-a450-11eb-9652-555a054366a3.png)
+
+![image](https://user-images.githubusercontent.com/95534704/227179717-b80215a6-f215-4e58-a9b4-d6411473ade3.png)
 
 Agora execute a aplicação.
 Na tela de registrar você consegue visualizar o componente:
 
-![image](https://user-images.githubusercontent.com/81401104/115920336-6f810f00-a450-11eb-9fcc-4d291d9eae89.png)
+![image](https://user-images.githubusercontent.com/95534704/227180261-336d1f61-494c-403e-8f94-35645e71cd49.png)
 
-![image](https://user-images.githubusercontent.com/81401104/115920355-760f8680-a450-11eb-994d-e7b640b590f3.png)
+![image](https://user-images.githubusercontent.com/95534704/227180517-b276779f-699a-4088-9cb5-c6c17a30f38f.png)
 
 Após salvá-los, estará dispostos da seguinte forma na tela de registros:
 
-![image](https://user-images.githubusercontent.com/81401104/115920463-9ccdbd00-a450-11eb-9245-f4f2b18463b1.png)
+![image](https://user-images.githubusercontent.com/95534704/227180861-7618446d-5b31-4df8-8347-f5a49f0cbc14.png)
 
-### CheckBox ✅ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115920485-a48d6180-a450-11eb-8410-2395926bef07.png)
+<br>
+
+# CheckBox ✅ > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227181037-a77f778c-1aad-4aa2-9216-f347ea7d2c95.png)
 
 A caixa de seleção “Default Value” se refere ao campo já estar marcado ou não na hora de realizar os registros.
 
@@ -818,22 +913,27 @@ A caixa de seleção “Default Value” se refere ao campo já estar marcado ou
 
 <div id='id-ChecklistDB'/>
 
-## ChecklistDB 📁
-![image](https://user-images.githubusercontent.com/81401104/115920530-b2db7d80-a450-11eb-80a9-2f7f035b7451.png)
+<br>
+
+# ChecklistDB 📁
+![image](https://user-images.githubusercontent.com/95534704/227181258-f896a911-349d-4499-a737-abcf8fe44052.png)
 
 Este componente cria uma lista de controle que será conectada a um DataSource. Os registros podem ser inseridos pelo usuário final.
 
 Selecione o componente “ChecklistDB”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
 
-![image](./BuilderImages/checkboxDB.gif)
+![tutorial](https://user-images.githubusercontent.com/95534704/227181847-8d8e986c-ef90-4504-935d-ee2ca144fd1d.gif)
 
 Para visualizar a utilização desse componente, desça até a seção “Source” deste tutorial.
 
 *** Entre em contato com o suporte da easy comtec para utilizar esse componente ****
 
-### ChecklistDB 📁 > PRESENTATION 📊
+<br>
 
-![image](https://user-images.githubusercontent.com/81401104/115920727-f635ec00-a450-11eb-9b9e-5ce77c810e4c.png)
+# ChecklistDB 📁 > PRESENTATION 📊
+
+
+![image](https://user-images.githubusercontent.com/95534704/227182427-209baf31-f8ab-4019-84bb-7d93d355438c.png)
 
 Para poder visualizar as diferenças de apresentação, é obrigatório que já tenha adicionado valores na seção “Values”.
 
@@ -841,9 +941,23 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Prese
 
 Em “Style” você tem três opções que pode selecionar: “Fixed”, “Fluid” ou “Vertical”. Selecione cada opção e perceba a diferença na disposição visual dos itens.
 
-### ChecklistDB 📁 > SOURCE 🔌
+![image](https://user-images.githubusercontent.com/95534704/227182965-3f452b7d-533f-4dd2-86b5-f1c9d29be382.png)
 
-![image](./BuilderImages/Source.png)
+- Fixed <br>
+
+![image](https://user-images.githubusercontent.com/95534704/227184599-7faa7358-a06a-46d9-959a-32fff6cec554.png)
+- Fluid <br>
+
+![image](https://user-images.githubusercontent.com/95534704/227184599-7faa7358-a06a-46d9-959a-32fff6cec554.png)
+- Vertical <br>
+
+![image](https://user-images.githubusercontent.com/95534704/227183996-498813f0-47fd-4e09-a7a9-60acbda414cb.png)
+
+<br>
+
+# ChecklistDB 📁 > SOURCE 🔌
+
+![image](https://user-images.githubusercontent.com/95534704/227185141-1cc1ee5a-2a3c-4186-845d-5b974afe02e6.png)
 
 Para fazer funcionar o componente “ChecklistDB” é necessário puxar os dados de outro formulário/datasource. 
 
@@ -856,10 +970,14 @@ Logo, é necessário, que tenha criado esse outro formulário/banco de dados, e 
  </tr>
 </table>
 
+![image](https://user-images.githubusercontent.com/95534704/227185521-e48d34ff-efa8-4068-ba71-2f9e5d2350ac.png)
+
 <div id='id-Radio'/>
 
-## Radio 🔘
-![image](https://user-images.githubusercontent.com/81401104/115922262-0d75d900-a453-11eb-9b6b-ddc37d5b072d.png)
+<br>
+
+# Radio 🔘
+![image](https://user-images.githubusercontent.com/95534704/227185673-4cdab5ea-1b6f-48a3-a185-beb33f862ad1.png)
 
 Com o componente “Radio” você pode fornecer uma lista de opções mas selecionar apenas uma opção como verdadeira.
 
@@ -871,17 +989,23 @@ Desça até a seção “Values” desse tutorial para aprender como usar esse c
 
 Vídeo: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
 
-### Radio 🔘 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115922505-5cbc0980-a453-11eb-816d-9ec435070fba.png)
+<br>
+
+# Radio 🔘 > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227188136-3031e72f-8f25-4cfa-914a-af755206aede.png)
 
 Aqui você irá adicionar os valores, por exemplo, criar listas com as opções para selecionar, lembrando que apenas uma opção poderá ser selecionada com esse componente.
 
-Agora clique no botão ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)
+Agora clique no botão <br>
+![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png)<br>
 , automaticamente abrirá a janela modal “Enumerations” (imagem na próxima página), em “Name” escreva “Gênero”, em“Type” mantenha a opção “String”.
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)
- e adicione “Masculino”, denovo clique ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)
-e adicione a opção  “Feminino” e então clique no botão ![image13](https://user-images.githubusercontent.com/81401104/126812104-48efecf4-105b-42d9-8682-ae7d8d2d7fdc.png)
+Clique no botão <br>
+![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png)<br>
+ e adicione “Masculino”, denovo clique<br>
+  ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png)<br>
+e adicione a opção  “Feminino” e então clique no botão <br>
+![image13](https://user-images.githubusercontent.com/81401104/126812104-48efecf4-105b-42d9-8682-ae7d8d2d7fdc.png)<br>
  . (Imagem na próxima página)
 
 Duas coisas importantes de saber sobre a janela “Enumerations”:
@@ -895,12 +1019,14 @@ Ainda na seção “Values”,  tem o item “Default”, clicando nele irá apa
 Execute a aplicação.
 
 O componente será visto da seguinte maneira na tela de registrar:
-![image](https://user-images.githubusercontent.com/81401104/115923754-19629a80-a455-11eb-9717-635682b4ac28.png)
+![image](https://user-images.githubusercontent.com/95534704/227189029-86c0012e-dd56-48e2-9d2d-416eb33716fc.png)
 
 <div id='id-Dropdown'/>
 
-## Dropdown 🗄️
-![image](https://user-images.githubusercontent.com/81401104/115923839-4020d100-a455-11eb-9f00-1e9c4c39a47d.png)
+<br>
+
+# Dropdown 🗄️
+![image](https://user-images.githubusercontent.com/95534704/227188850-ab4a1e5f-9adb-4e19-ab51-483cd684db70.png)
 
 O componente “Dropdown” serve para você fornecer uma lista de opções em formato de menu.
 
@@ -932,15 +1058,17 @@ Na tela de registrar, o “Dropdown” funcionará da seguinte forma:
 
 🔗Vídeo: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
-### Dropdown 🗄️ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/116136301-8457df80-a6a8-11eb-9989-de387c22fe47.png)
+# Dropdown 🗄️ > VALUES 1️⃣
+![image](https://user-images.githubusercontent.com/95534704/227191228-d4bf8d94-6a59-4a90-bfbd-84a04efb19a1.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Values” do componente “Radio”.
 
 <div id='id-DropdownDB'/>
 
-## DropdownDB 📥
-![image](https://user-images.githubusercontent.com/81401104/116136414-a6e9f880-a6a8-11eb-8374-e4210d16ff89.png)
+<br>
+
+# DropdownDB 📥
+![image](https://user-images.githubusercontent.com/95534704/227191062-6d27ae95-f9f4-4b11-aa91-7e6a6923a59f.png)
 
 O componente “DropdownDB” serve para você fornecer uma lista de opções em formato de menu a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
 
@@ -952,9 +1080,11 @@ Selecione o componente “DropdownDB”, então arraste-o e solte-o onde está e
 
 Para aprender como usar esse componente, desça até a seção “Source” deste tutorial.
 
-### DropdownDB 📥 > SOURCE 🔌
+<br>
 
-![image](./BuilderImages/sourcedropDB.png)
+# DropdownDB 📥 > SOURCE 🔌
+
+![image](https://user-images.githubusercontent.com/95534704/227191595-b9410227-e56a-4094-aaca-9d5debda961d.png)
 
 Nessa seção “Source” serão trazidos o conjunto de valores inseridos em outro campo, que pode ser de outro ou do mesmo formulário, desde que seja sob o mesmo projeto.
 
@@ -962,51 +1092,56 @@ Então, vamos começar criando mais um formulário (igual demonstrado no tutoria
 
 E nesse novo formulário vamos adicionar o componente “Textfield” para dentro dele.
 
-![image](https://user-images.githubusercontent.com/81401104/116136725-0ea04380-a6a9-11eb-9545-9a94612e11af.png)
+![image](https://user-images.githubusercontent.com/95534704/227192831-92a5b4d8-36e5-4c72-827e-5b5c3fe3f13a.png)
 
 Na seção “General”,Nomeie os campos “Name” e “Label”, de “Cor”.
   
-![image](./BuilderImages/generalcor.png)
+![image](https://user-images.githubusercontent.com/95534704/227192933-72de6e98-21b9-4bd4-aecc-1d9ce25c1039.png)
 
-Agora execute a aplicação.
+Agora execute a aplicação. E clique no botão "novo"
 
-![image](https://user-images.githubusercontent.com/81401104/116137524-0a285a80-a6aa-11eb-88bd-15d2f0ae06ac.png)
+![image](https://user-images.githubusercontent.com/95534704/227193202-a09f9d05-d080-421a-adc4-b7aad4363584.png)
 
 Irá abrir a seguinte página:
 
-![image](https://user-images.githubusercontent.com/81401104/116137641-2af0b000-a6aa-11eb-950b-d51d88b82d86.png)
+![image](https://user-images.githubusercontent.com/95534704/227193354-a3f689a2-4c4e-44a0-a323-ac4f6ec06e9c.png)
 
-No campo “Cor” escreva “Vermelho”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
-.. 
-![image](https://user-images.githubusercontent.com/81401104/116137594-20ceb180-a6aa-11eb-999e-663fc3472c10.png)
+No campo “Cor” escreva “Vermelho”, clique no botão <br>
+![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
+
+![image](https://user-images.githubusercontent.com/95534704/227193587-df9d83e2-41a3-41e1-b549-5e06dfbb2f97.png)
 
 Repita o processo para adicionar as cores “Verde”, “Amarelo” e “Azul.
-![image](https://user-images.githubusercontent.com/81401104/116137728-48257e80-a6aa-11eb-891a-1451d4d93bee.png)
+![image](https://user-images.githubusercontent.com/95534704/227193886-ac728adc-e47e-4a07-b7e2-1ac6e5849b17.png)
 
 Agora vamos voltar para o outro formulário com o componente “DropdownDB”.
-![image](https://user-images.githubusercontent.com/81401104/116137753-54a9d700-a6aa-11eb-9023-18de50099b10.png)
+![image](https://user-images.githubusercontent.com/95534704/227194119-984ea7b0-39e5-45b1-b54d-a7ee3117eb1a.png)
 
-E então em “Properties of Field”, desça até “Source” e em “Class” selecione o formulário que foi criado o campo “Cor” e em “Description Field” selecione o campo “Cor”.
+E então em “Properties of Field”, desça até “Source” e em “Class” selecione o formulário que foi criado o campo “Cor” e em “Description Field” selecione o campo “Cor”. <br>
 
-Execute a aplicação.
-![image](https://user-images.githubusercontent.com/81401104/116137792-612e2f80-a6aa-11eb-9ecc-22a933eb639c.png)
+![image](https://user-images.githubusercontent.com/95534704/227194418-789cf34e-ede1-4080-b683-abdc3f883ddb.png)
 
-Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137809-68553d80-a6aa-11eb-9117-ccec127c6faf.png) e irá abrir a seguinte página:
-![image](https://user-images.githubusercontent.com/81401104/116137856-7c993a80-a6aa-11eb-82fd-d635d6053595.png)
+Execute a aplicação. <br>
+![image](https://user-images.githubusercontent.com/95534704/227194599-d5abc92a-c858-4a87-a153-247e977ef7e6.png)
 
-Selecione o campo do DropDownDB:
-![image](https://user-images.githubusercontent.com/81401104/116137880-8327b200-a6aa-11eb-89ee-a957342df7e7.png)
+Clique no botão "Novo" e irá abrir a seguinte página: <br>
+![image](https://user-images.githubusercontent.com/95534704/227194949-c33e1119-3e66-4817-911d-2232bbbf50fc.png)
 
-E você irá visualizar os valores adicionados no campo “Cor” do outro formulário. Selecione uma opção e então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116137914-8cb11a00-a6aa-11eb-9c8e-be336ebe2ba2.png)
-![image](https://user-images.githubusercontent.com/81401104/116137958-9a669f80-a6aa-11eb-904d-bd6d856b889f.png)
+
+Selecione o campo do DropDownDB: <br>
+![image](https://user-images.githubusercontent.com/95534704/227194842-905fc971-2649-4f6d-9cfa-7e1eb600964f.png)
+
+E você irá visualizar os valores adicionados no campo “Cor” do outro formulário. Selecione uma opção e então clique no botão <br>
+![image](https://user-images.githubusercontent.com/81401104/116137914-8cb11a00-a6aa-11eb-9c8e-be336ebe2ba2.png)
+![image](https://user-images.githubusercontent.com/95534704/227195159-d81cc0c4-7bb2-4a65-b56e-e39921ae4c3c.png)
 :
  Você pode realizar o mesmo processo com ambos os campos no mesmo formulário.
 Ainda na seção “Source”, em “Additional Data” você pode adicionar outro conjunto de valores de um campo desde que seja do mesmo formulário selecionado no “Class”.
 
 <div id='id-AutoComplete'/>
 
-## AutoComplete 🗄️🧲
-![image](https://user-images.githubusercontent.com/81401104/116138049-b8340480-a6aa-11eb-93d7-6b47352f7108.png)
+# AutoComplete 🗄️🧲
+![image](https://user-images.githubusercontent.com/95534704/227195356-47fd85c3-cc43-41d9-a0e6-39f188da6be8.png)
 
 O componente “AutoComplete” serve para fornecer auto-completar a inserção do item a partir de um DataSource. O usuário final consegue inserir dados nessa lista.
 
@@ -1031,16 +1166,19 @@ E então é só selecionar a opção desejada e prosseguir.
 
 🔗Vídeo: https://www.youtube.com/watch?v=l0tQAqhDfVk&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=24
 
-### AutoComplete 🗄️🧲 > FILTER 📮
-![image](https://user-images.githubusercontent.com/81401104/116138542-532cde80-a6ab-11eb-8703-6a7f19e6288a.png)
+<br>
+
+# AutoComplete 🗄️🧲 > FILTER 📮
+![image](https://user-images.githubusercontent.com/95534704/227283653-ae2d7a91-a0ef-496d-b563-2faf16592812.png)
+
 
 Filter Name: Filtrar nome.
 
 Filter Value: Filtrar valor.
 
-### AutoComplete 🗄️🧲 >  SOURCE 🗂️
+# AutoComplete 🗄️🧲 >  SOURCE 🗂️
 
-![image](./BuilderImages/sourceautocomplete.png)
+![image](https://user-images.githubusercontent.com/95534704/227509824-4a97ae75-a5c8-477c-936d-744af1bb6050.png)
 
 Class (classe, nome do formulário ou datasource)
 Description Field (Campo de descrição)
@@ -1057,8 +1195,10 @@ To (Para)
 
 <div id='id-Label'/>
 
+<br>
+
 ## Label 🔤
-![image](https://user-images.githubusercontent.com/81401104/116139186-1f9e8400-a6ac-11eb-82d0-6d9d36c4f6f4.png)
+![image](https://user-images.githubusercontent.com/95534704/227509971-a8165bc2-41cb-4c17-8aa4-64cd2249747a.png)
 
 Com este componente você pode apresentar valores do tipo letras e números, estes valores não serão gravados no banco de dados.
 
@@ -1066,36 +1206,38 @@ Selecione o componente “Label”, então arraste-o e solte-o onde está escrit
 
 ![image](./BuilderImages/labelgif.gif)
 
- No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png)
+ No campo do “Label”, da seção “General” do “Properties of Field”, clique no botão <br> ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png)<br>
  para fazer a importação de um documento de texto do seu computador.
  
-![image](https://user-images.githubusercontent.com/81401104/116139356-51afe600-a6ac-11eb-86d4-71bd0fea7901.png)
+![image](https://user-images.githubusercontent.com/95534704/227510344-7a7d497c-2d56-4c42-a246-ebdf4daf314a.png)
 
 * O documento de texto tem que ser formato “.txt”.
 
 Clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139413-5e343e80-a6ac-11eb-9ba4-4cd4a1a80ee2.png)
  para fazer o upload do documento.
 
-Para esse tutorial eu criei o seguinte documento:
-![image](https://user-images.githubusercontent.com/81401104/116139490-6f7d4b00-a6ac-11eb-9a93-cd86fed9bac8.png)
+Para esse tutorial eu criei o seguinte documento: <br>
+![image](https://user-images.githubusercontent.com/95534704/227510768-d6e17bf7-9a90-4f6e-a36e-3c0d65c01b92.png)
 
 Perceba que cada item está em uma linha, isso tornará possível criar as opções.
-![image](https://user-images.githubusercontent.com/81401104/116139529-7c9a3a00-a6ac-11eb-8b4b-5c178f2b33dd.png)
+![image](https://user-images.githubusercontent.com/95534704/227510935-6fc8d543-2973-421d-8725-088f1afd12a2.png)
 
 Selecione a primeira opção, e clique no botão ![image](https://user-images.githubusercontent.com/81401104/116139572-8ae85600-a6ac-11eb-80b8-18d902d1c193.png)
 
-Execute a aplicação.
-![image](https://user-images.githubusercontent.com/81401104/116139603-92a7fa80-a6ac-11eb-9271-71a8c276398e.png)
+Execute a aplicação.<br>
+![image](https://user-images.githubusercontent.com/95534704/227512260-79eba151-b9db-450c-9d8f-d15211230463.png)
 
 E após salvar, não será salvo no banco de dados, pois esse texto é apenas para orientação dentro do formulário.
-![image](https://user-images.githubusercontent.com/81401104/116139634-9cc9f900-a6ac-11eb-987a-c5d85e09a6d1.png)
+![image](https://user-images.githubusercontent.com/95534704/227512370-624b042a-2501-4398-b635-6db9a4f0b7d4.png)
 
 🔗Vídeo: https://www.youtube.com/watch?v=SM_LHGXmJm0&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=25
 
 <div id='id-Box'/>
 
-## Box 📦
-![image](https://user-images.githubusercontent.com/81401104/116139702-afdcc900-a6ac-11eb-8314-3a977ca34b4e.png)
+<br>
+
+# Box 📦
+![image](https://user-images.githubusercontent.com/95534704/227512469-04405ef2-ea1c-4c2f-b9b9-ba642f585d29.png)
 
 Com este componente você pode criar seções dentro do formulário, para organizar os componentes que estarão dentro dele e realizar funcionalidades conjuntas (das regras de visibilidade, por exemplo).
 
@@ -1124,57 +1266,58 @@ Adicione os valores nos dois campos e depois clique no botão ![image](https://u
 
 🔗Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
-### Box 📦 > GENERAL 🎖️
-![image](https://user-images.githubusercontent.com/81401104/116140548-dbac7e80-a6ad-11eb-9680-d9d5d23e0364.png)
+# Box 📦 > GENERAL 🎖️
+![image](https://user-images.githubusercontent.com/95534704/227512712-ef84f079-94c8-4f17-9f37-d997c1bd5b00.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
 
-Ao selecionar caixa do ![image](https://user-images.githubusercontent.com/81401104/116140566-e23af600-a6ad-11eb-8a0c-79dd83cab49f.png), será criado a borda para o componente, e também será possível editar o campo “Label”.
+- Ao selecionar caixa do <br> 
+![image](https://user-images.githubusercontent.com/95534704/227513532-3a42ced9-afd0-4c29-981e-f2dc8d6f748f.png) 
+<br> será criado a borda para o componente, e também será possível editar o campo “Label”.
+
+- Ao selecionar a caixa <br> 
+![image](https://user-images.githubusercontent.com/95534704/227512986-f1b582af-94f1-48f8-bc8c-233be123744d.png)
+<br>É possivel deixar o box colapsável
+
+- Ao selecionar "Collapsible" a caixa de Collapsed ficará disponível <br>
+![image](https://user-images.githubusercontent.com/95534704/227513822-be5be7fc-deec-4d69-bcda-894cb8828269.png)
+<br>Ela define se o box vai estar colapsado por padrão ou aberto.
+
+<br>
 
 <div id='id-Signature'/>
 
 ## Signature ✒️
-![image](https://user-images.githubusercontent.com/81401104/116140680-0c8cb380-a6ae-11eb-9d6b-4cbce5e464a6.png)
+![image](https://user-images.githubusercontent.com/95534704/227514144-f9c7d375-21f4-4db7-8127-2bb4cd2c803f.png)
 
 Com este componente você pode adicionar uma assinatura do usuário no seu formulário.
 
-Selecione o componente “Signature”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+Selecione o componente “Signature”, então arraste-o e solte-o onde está escrito “Drop new field here!”. Para fazer funcionar o componente é necessário arrastar os campos "date" ou "date time", e hidden.
 
-![image](./BuilderImages/Signaturegif.gif)
+![tutorialSign](https://user-images.githubusercontent.com/95534704/227514716-690748a6-cb60-4cfc-a7cf-f0872de9bd28.gif)
 
-Para total visualização do processo da utilização do componente “Signature” será necessário realizar as etapas dos tutoriais “Como Adicionar Um Usuário” e “Como Dar Permissão Ao Usuário”.
-![image](https://user-images.githubusercontent.com/81401104/116140718-1b736600-a6ae-11eb-897c-7476531eaf87.png)
+Para total visualização do processo da utilização do componente “Signature” será necessário realizar as etapas dos tutoriais “Como Adicionar Um Usuário” e “Como Dar Permissão Ao Usuário”. <br>
+![image](https://user-images.githubusercontent.com/95534704/227515277-a0e6938e-0860-4f37-8611-24761eba03b7.png)
+
+Primeiro, vamos adicionar o componente “DateTime” e nomeá-lo de “Data e Hora”, e vamos nomear o componente “Signature” de “Assinatura”. <br>
+![image](https://user-images.githubusercontent.com/95534704/227515523-264050ea-913f-4fc8-a97c-e34f0961867d.png)
+
+- Arraste e solte o componente "hidden"
+- Selecione a caixa de seleção “Current DateTime” da seção “Values” do componente “DateTime”(Data e Hora) para sempre estar pegando a data e horário atual.
 
 
-Para fazer funcionar o componente “Signature” será preciso ter mais um componente “DateTime” ou “Date” e dois componentes “Hidden”.
+![image](https://user-images.githubusercontent.com/95534704/227516626-9abe98ee-1c67-4b6e-b75a-84c27405794f.png)
 
-Então, primeiro, vamos adicionar o componente “DateTime” e nomeá-lo de “Data e Hora”, e vamos nomear o componente “Signature” de “Assinatura”.
-![image](https://user-images.githubusercontent.com/81401104/116140745-23330a80-a6ae-11eb-96ae-78a7e38011a2.png)
+ - selecione o  “Hidden” e o nomeie de “Hidden da Assinatura”.
 
+- Agora vá até a seção “Signature” do componente “Signature”. No item “Date field” selecione a opção “Data e Hora” e no “Info field” selecione a opção  “Hidden Assinatura”.
 
-Selecione a caixa de seleção “Current DateTime” da seção “Values” do componente “DateTime”(Data e Hora) para sempre estar pegando a data e horário atual.
-
-Agora selecione e solte os 2 componentes “Hidden” em cima do “Assinatura” e do “Data e Hora”
-![image](https://user-images.githubusercontent.com/81401104/116140789-2fb76300-a6ae-11eb-998a-0b9da9737820.png)
-
-Selecione o primeiro “Hidden” que está acima do “Assinatura” e o nomeie de “Hidden da Assinatura”. 
-E na seção “Data Type”, em “Type” selecione a opção “String”. (imagem abaixo)
-
-![image](https://user-images.githubusercontent.com/81401104/116140861-4fe72200-a6ae-11eb-85b4-ba85a0922eeb.png)
-
-E no “Hidden” que está acima acima do “DateTime” o nomeie de “Hidden do DateTime”. 
-E na seção “Data Type”, no item “Type” selecione a opção “DateTime”. (imagem abaixo)
-
-![image](https://user-images.githubusercontent.com/81401104/116140915-642b1f00-a6ae-11eb-8baf-4c522e0ddbc1.png)
-
-Agora vá até a seção “Signature” do componente “Signature”. No item “Date field” selecione a opção “Data e Hora” e no “Info field” selecione a opção  “Hidden Assinatura”.
-
-![image](https://user-images.githubusercontent.com/81401104/116140947-6ee5b400-a6ae-11eb-8de9-748a987a4ed5.png)
+![image](https://user-images.githubusercontent.com/95534704/227517872-60b80015-f000-47ca-b6aa-6c1d71d093c6.png)
 
 Execute a aplicação.
 
 Então irá abrir a seguinte tela:
-![image](https://user-images.githubusercontent.com/81401104/116140966-75742b80-a6ae-11eb-9cd3-0ed8ad6a32e6.png)
+![image](https://user-images.githubusercontent.com/95534704/227518095-82d03ab8-2622-4f36-ad4a-25075bd37cca.png)
 
 Agora copie a URL (Link) desse formulário:
 
@@ -1182,7 +1325,7 @@ Agora copie a URL (Link) desse formulário:
 
 E então abra em uma janela anônima:
 
-![image](https://user-images.githubusercontent.com/81401104/116141051-8cb31900-a6ae-11eb-90f5-2a87e50ba625.png)
+![image](https://user-images.githubusercontent.com/95534704/227518443-0f766c1e-7eec-49cf-8972-207e8f9ab71e.png)
 
 Entre com seu usuário. 
 
@@ -1213,8 +1356,10 @@ E aqui você consegue visualizar os registros.
 
 Para visualizar o formulário preenchido com a assinatura, é só clicar no ![image](https://user-images.githubusercontent.com/81401104/116142292-1fa08300-a6b0-11eb-859f-e8a3af060214.png) (abaixo de “Control”).
 
-### Signature ✒️ > SIGNATURE ✒️🗄️
-![image](https://user-images.githubusercontent.com/81401104/116142331-2929eb00-a6b0-11eb-9114-227e4a7a6f04.png)
+<br>
+
+# Signature ✒️ > SIGNATURE ✒️🗄️
+![image](https://user-images.githubusercontent.com/95534704/227518866-b881931b-f2e5-462b-a278-5933ff018e29.png)
 
 Date field: Selecionar o campo que contém o componente “Date” ou “DateTime”.
 
@@ -1222,8 +1367,10 @@ Info field: Selecionar o campo que contém o componente “Hidden” atrelado à
 
 <div id='id-Static'/>
 
+<br>
+
 ## Static Image 🖼️
-![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
+![image](https://user-images.githubusercontent.com/95534704/227518986-35742811-a2b9-4f41-a58a-905f331d76ed.png)
 
 Com este componente você pode adicionar uma imagem que sempre estará sendo mostrada no formulário e não será salva dentro do banco de dados. 
 
@@ -1244,7 +1391,7 @@ A imagem aparece no formulário, mas não será salva no banco de dados. Ela pod
 
 🔗Vídeo: https://www.youtube.com/watch?v=-B3EjQvR_UM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=27
 
-### Static Image 🖼️ > IMAGE 🚞
+# Static Image 🖼️ > IMAGE 🚞
 ![image](https://user-images.githubusercontent.com/81401104/116143264-4dd29280-a6b1-11eb-8a11-e98399a84373.png)
 
 Na seção “Image” do componente “Image” você pode dar descrição (“Description”) e um link, para qual será direcionado quando clicar na imagem. Lembre-se de clicar no ![image](https://user-images.githubusercontent.com/81401104/116143294-5a56eb00-a6b1-11eb-84a9-37a064bb07e3.png)
@@ -1253,7 +1400,9 @@ para adicionar o evento de ao clicar na imagem ser direcionado para o link.
 
 <div id='id-Upload'/>
 
-## Upload Image 📸📩
+<br>
+
+# Upload Image 📸📩
 ![image](https://user-images.githubusercontent.com/81401104/116143456-8d997a00-a6b1-11eb-9ff1-0436b57b9ad6.png)
 
 Este componente permite você adicionar uma imagem com o formato desejado que ficará visível no registro
@@ -1274,7 +1423,9 @@ Para visualizar a foto que você acabou de adicionar, clique no botão ![image](
 
 <div id='id-File'/>
 
-## File Upload 📂📩
+<br>
+
+# File Upload 📂📩
 ![image](https://user-images.githubusercontent.com/81401104/116143924-1adcce80-a6b2-11eb-8c4d-62e5bd5a86ec.png)
 
 É um componente que permite anexar arquivos em um cadastro.
@@ -1303,7 +1454,9 @@ E para fazer o download do arquivo é só clicar no botão ![image](https://user
 
 🔗Vídeo: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
-### File Upload 📂📩 > UPLOAD 🗂️
+<br>
+
+# File Upload 📂📩 > UPLOAD 🗂️
 ![image](https://user-images.githubusercontent.com/81401104/116145890-3f39aa80-a6b4-11eb-8e30-daab08873130.png)
 
 É possível fazer upload de arquivos dos seguintes formatos:
@@ -1321,14 +1474,18 @@ E para fazer o download do arquivo é só clicar no botão ![image](https://user
  
 Se deixar todas as caixas de seleção desmarcadas, será possível fazer o upload de qualquer um dos formatos. Se selecionar apenas um deles, será possível fazer upload de arquivo apenas daquele formato.
 
-### File Upload 📂📩 > OTHERS 🖥️
+<br>
+
+# File Upload 📂📩 > OTHERS 🖥️
 ![image](https://user-images.githubusercontent.com/81401104/116146427-de5ea200-a6b4-11eb-887d-e113a9397c09.png)
 
 Ao selecionar a caixa de seleção “Allow to delete file from storage” será permitido deletar arquivos do storage (onde ficam armazenados os arquivos) .
 
 <div id='id-One-To-Many'/>
 
-## One-To-Many 📃➡️📃
+<br>
+
+# One-To-Many 📃➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
 
 Com este componente você consegue realizar uma relação de um para vários, por exemplo: Sala de aula - quem são os alunos, empresa - quem são os colaboradores.
@@ -1367,7 +1524,9 @@ Source (Fonte): É da onde os dados serão buscados.
 
 Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recentemente mas a lista não ter sido atualizada, para isso serve o botão.
 
-### One-To-Many 📃➡️📃 > Aggregation Data
+<br>
+
+# One-To-Many 📃➡️📃 > Aggregation Data
 ![image](https://user-images.githubusercontent.com/81401104/116293240-0ad5f500-a76d-11eb-8e8d-57a1da964cdb.png)
 
 <table>
@@ -1382,7 +1541,9 @@ Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recent
 
 <div id='id-MultiTag'/>
 
-## MultiTag 🏷️
+<br>
+
+# MultiTag 🏷️
 
 ![image](https://user-images.githubusercontent.com/81401104/116293660-820b8900-a76d-11eb-989d-784ab96c9c0a.png)
 
@@ -1393,7 +1554,9 @@ Selecione o componente “MultiTag”, então arraste-o e solte-o onde está esc
 
 Para realizar o tutorial desse componente, desça até a seção “Source”.
 
-### MultiTag 🏷️ > SOURCE 🔌
+<br>
+
+# MultiTag 🏷️ > SOURCE 🔌
 
 ![image](./BuilderImages/Sourcemulttag.png)
 
@@ -1442,6 +1605,8 @@ Para visualizar  e editar esse formulário adicionado, clique no botão ![image]
 
 <div id='id-Additional'/>
 
+<br>
+
 ## Additional Data ➡️📃
 ![image](https://user-images.githubusercontent.com/81401104/116295496-89cc2d00-a76f-11eb-908d-21fef404e665.png)
 
@@ -1452,7 +1617,9 @@ Selecione o componente “AdditionalData”, então arraste-o e solte-o onde est
 
 Para visualizar a utilização desse componente, desça até a seção “Additional Data” deste tutorial
 
-### Additional Data➡️📃 > GENERAL 🎖️
+<br>
+
+# Additional Data➡️📃 > GENERAL 🎖️
 ![image](./BuilderImages/Generaladitionaldate.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
@@ -1461,7 +1628,9 @@ Ao selecionar a caixa de seleção ![image](./BuilderImages/BorderCheck.png), se
 
 Ao selecionar a caixa de seleção ![image](./BuilderImages/Collapsible.png), será criado um colapso no componente, e também será possível editar o campo “Label”.
 
-### Additional Data➡️📃 > SOURCE
+<br>
+
+# Additional Data➡️📃 > SOURCE
 ![image](./BuilderImages/sourceaditionaldate.png)
 
 Em “DataSource” você irá selecionar o DataSource criado antes. Ao lado,![image](https://user-images.githubusercontent.com/81401104/116296065-27276100-a770-11eb-87e6-82d451cce125.png) serve para atualizar a lista, e o ![image](https://user-images.githubusercontent.com/81401104/116296149-3f977b80-a770-11eb-8771-9dfb8c91937a.png) serve para adicionar um DataSource. 
@@ -1542,8 +1711,9 @@ Selecione o nome “Maria Aparecida” e observe a mensagem ao lado:
 ![image](https://user-images.githubusercontent.com/81401104/116297452-a79a9180-a771-11eb-9f3d-f5c93261eccc.png)
 
 <div id='id-Button'/>
+ <br>
 
-## Button ⏸️
+# Button ⏸️
 ![image](https://user-images.githubusercontent.com/81401104/116297504-b4b78080-a771-11eb-8a78-7491dd87ff6b.png)
 
 Com este componente é possível inserir funções personalizadas de JavaScript.
@@ -1555,7 +1725,9 @@ Para saber mais sobre como usar esse componente, desça até a seção “Events
 
 🔗Vídeo: https://www.youtube.com/watch?v=IGGbMFxysPE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=31
 
-### Button ⏸️ > GENERAL 🎖️
+<br>
+
+# Button ⏸️ > GENERAL 🎖️
 
 ![image](./BuilderImages/GeneralButton.png)
 
@@ -1563,7 +1735,9 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Gener
 
 “Text” é o texto de identificação do botão para o usuário.
 
-### Button ⏸️ > EVENTS ⚙️ 
+<br>
+
+# Button ⏸️ > EVENTS ⚙️ 
 
 ![image](./BuilderImages/EventsButton.png)
 
@@ -1579,8 +1753,9 @@ Então abrirá a seguinte aba:
 
 Em “Custom Scripts” copie e cole o seguinte script: 
 
-                                    function alerta() {
-            alert('Pode ser usado em alertas, redirecionar para outra página executar uma função javascript');
+           function alerta() {
+            alert('Pode ser usado em alertas, redirecionar para outra 
+            página executar uma função javascript');
             }
 
 Então clique no botão ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png)
@@ -1603,7 +1778,9 @@ Agora clique no ![image](https://user-images.githubusercontent.com/81401104/1162
 
 <div id='id-HTML'/>
 
-## HTML Field 🦰
+<br>
+
+# HTML Field 🦰
 ![image](https://user-images.githubusercontent.com/81401104/116299196-c26e0580-a773-11eb-9812-83ce2acc8d91.png)
 
  É um componente que permite inserir um texto em html no formulário.
@@ -1623,7 +1800,9 @@ Perceba que a palavra “obrigatórios” está em negrito, devido ao código ht
 
 🔗Vídeo: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
-### HTML Field 🦰 > GENERAL 🎖️
+<br>
+
+# HTML Field 🦰 > GENERAL 🎖️
 ![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “General” do componente “Textfield”.
@@ -1631,6 +1810,8 @@ Para saber mais sobre como usar essa funcionalidade, vá até a seção “Gener
 HTML: É onde você irá colar o seu código HTML. 
 
 <div id='id-Quiz'/>
+
+<br>
 
 ## Quiz 🧩
 ![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
@@ -1681,7 +1862,9 @@ basta clicar no botão ![image](https://user-images.githubusercontent.com/814011
 
 🔗Vídeo: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
-### Quiz 🧩 > OTHERS 
+<br>
+
+# Quiz 🧩 > OTHERS 
 ![image](./BuilderImages/others2.png)
 
 Para saber mais sobre como usar essa funcionalidade, vá até a seção “Others” do componente “Textfield”.
@@ -1690,7 +1873,9 @@ Score Field: Irá selecionar o campo que está dentro do mesmo formulário para 
 
 <div id='id-Email'/>
 
-## Email 📧
+<br>
+
+# Email 📧
 ![image](https://user-images.githubusercontent.com/81401104/116300945-df0b3d00-a775-11eb-94f1-020c4570ff92.png)
 
 O componente “Email” serve para aceitar somente preenchimento de email.
@@ -1708,6 +1893,8 @@ Perceba que quando estava escrito apenas “Easy” não era possível salvar, m
 🔗Vídeo: https://www.youtube.com/watch?v=kPtjDcOXSGw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=34
 
 <div id='id-Password'/>
+
+<br>
 
 ## Password *️⃣
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
@@ -1731,6 +1918,8 @@ E mesmo que acesse o formulário novamente, clicando no ![image](https://user-im
 🔗Vídeo: https://www.youtube.com/watch?v=GLaBaRqX7V4&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=35
 
 <div id='id-Horizontal'/>
+
+<br>
 
 ## Horizontal Line 📏🪓
 ![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
@@ -1758,6 +1947,7 @@ Perceberá que na tela de registrar estará organizado da mesma forma:
 🔗Vídeo: https://www.youtube.com/watch?v=mdgoTSvefjc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=36
 
 <div id='id-Repeater'/>
+ <br>
 
 ## Repeater 🔁
 ![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
@@ -1781,6 +1971,8 @@ Essa ligação de dados foi definida no Datasource que criamos no passo anterior
 Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
 
 <div id='id-Video'/>
+
+<br>
 
 ## Video call 🎥
 ![image](./BuilderImages/videocallicon.png)
@@ -1808,7 +2000,9 @@ Para Convidar pessoas para video call clique no icone ![image](./BuilderImages/v
 Para iniciar a video call clique em ![image](./BuilderImages/videocallbutton.png) voce vai ser redirecionado pra outra aba aonde ira abrir sua câmera e voce poderá iniciar a video call.<br>
 ⚠️ATENÇÃO: Verifique se o seu navegador esta bloqueando pop-up , se estiver desative para funcionar a video call.⚠️
 
-## Chat 💬
+<br>
+
+# Chat 💬
 ![image](./BuilderImages/chaticon1.png)
 
 O componente "Chat" cria um chat dentro da sua aplicação.
@@ -1878,6 +2072,7 @@ Agora volte para a tela do "PageChat" clique no botão ![image](./BuilderImages/
 ![image](./BuilderImages/chatpage.png)
 
 <div id='id-form'/>
+<br>
 
 ## Tab (Form)
 ![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)
@@ -1968,6 +2163,7 @@ Você pode adicionar mais registros referente ao mesmo animal.
 E também é possível salvar mais campos na tab referente ao mesmo animal, basta adicionar mais um campo no formulário ‘Extra Info do Animal’ e então adicionar o campo extra no “Aggregation Fields” durante a edição da tab. E então é só salvar e executar a aplicação.
 
 <div id='id-Properties'/>
+<br>
 
 ## Dev Properties (Form)
 ![formtesev](https://user-images.githubusercontent.com/81401104/117347868-f2a65a00-ae7f-11eb-92df-85b8c9cea828.gif)
@@ -2006,6 +2202,7 @@ e Form Rule (Regra do formulário) - Ao clicar nele, irá abrir o seguinte modal
 ![rule2](https://user-images.githubusercontent.com/81401104/117351260-e2907980-ae83-11eb-8218-1aab56a49e29.gif).
 
 <div id='id-Notification'/>
+<br>
 
 ## Notification (Form)
 ![image](https://user-images.githubusercontent.com/81401104/117351815-8a0dac00-ae84-11eb-97ac-106552f4e3bb.png)
@@ -2017,8 +2214,9 @@ Irá abrir o seguinte modal:
 ![image](https://user-images.githubusercontent.com/81401104/117351893-a4478a00-ae84-11eb-9626-f05ff645b658.png)
 
 <div id='id-Event'/>
+<br>
 
-### Event type (tipo de evento):
+# Event type (tipo de evento):
 
 ![image](https://user-images.githubusercontent.com/81401104/117352103-eec90680-ae84-11eb-87f9-7cc47b144288.png)
 
@@ -2059,6 +2257,7 @@ Então, é só clicar no botão ![image](https://user-images.githubusercontent.c
 ![image](https://user-images.githubusercontent.com/81401104/117355449-f68aaa00-ae88-11eb-9e6f-17232328d2e1.png)
 
 <div id='id-Kanban'/>
+<br>
 
 ## Kanban 🎰
 
@@ -2137,12 +2336,14 @@ E esse é o Kanban em funcionamento. Para adicionar mais tasks, é só repetir o
 ![image](https://user-images.githubusercontent.com/81401104/117356524-356d2f80-ae8a-11eb-8555-4c4420a34297.png)
 
 <div id='id-Software'/>
+<br>
 
 ## Replicação de Software
 
 Entrar em contato com o suporte da Easy Comtec.
 
 <div id='id-list'/>
+<br>
 
 ## List
 Para visualizar o formulário em formato de lista, crie um novo formulário e adicione os componentes “Textfield” e “Integer” e nomeie-os de “Nome” e “Idade” respectivamente.
@@ -2253,6 +2454,7 @@ E perceba que agora não é mais mostrado o “João Carlos” que tem idade de 
 O botão ![image](https://user-images.githubusercontent.com/81401104/117495817-85142f80-af4c-11eb-913e-74647933fe0a.png) apaga o que estiver escrito dentro do campo do filtro.
 
 <div id='id-How'/>
+<br>
 
 ## 👨👩 Como Adicionar Um Usuário 
 
@@ -2284,6 +2486,7 @@ E irá aparecer a tela de registro de usuário.
 ![image](https://user-images.githubusercontent.com/81401104/117496853-fa343480-af4d-11eb-8370-35318b17e664.png)
 
 <div id='id-Permission'/>
+<br>
 
 ## 👨👩 Como Dar Permissão Ao Usuário 
 
@@ -2344,19 +2547,21 @@ E agora você consegue visualizar os usuários que estão inseridos no “Role�
 
 
 <div id="id-Form-Events" />
+<br>
 
 ## Form Events ⚡
 
 <p>Forms events run scripts on specific events that happen while using forms.</p>
 
-####Events Types:
+##Events Types:
 <ul>
 <li><b>OnLoadForm</b>  - Called whenever a Page is loaded.</li>
 <li><b>OnNewForm</b> - Called whenever the user clicks to insert new records</li>
 <li><b>OnEditForm</b> - Called whenever you edit a record</li>
 </ul>
+<br>
 
-#####Examples of use:
+# Examples of use:
 To use it just declare a function in the "Custom scripts" with the name of the event, in this case the "onNewForm" was used.
 
 <img src="./BuilderImages/FormEvents/OnNewFormDesign.gif">
@@ -2376,11 +2581,13 @@ Page:
 Note: "OnLoadForm" is only effective in Pages.
 
 <div id='id-Tools'/>
+<br>
 
 ## Tools 🔧 
 
+<br>
 
-### 🔧 Formulário X
+# 🔧 Formulário X
 
 A criação deste formulário servirá para realizar os tutoriais das seções do “Tools”:
 
@@ -2430,8 +2637,9 @@ Após salvo esse conjunto, estará disposto da seguinte forma na tela de registr
 🔗 Vídeo: https://www.youtube.com/watch?v=_fAdsVponmA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=37
 
 <div id='id-DataSource'/>
+<br>
 
-### 🔧 DataSource
+# 🔧 DataSource
 
 Para criar um DataSource, é necessário ter um form origem (pode ser o “Formulário X” criado durante o tutorial do mesmo).
 
@@ -2474,20 +2682,23 @@ Seu datasource foi criado:
 🔗Vídeo: https://www.youtube.com/watch?v=MS_UWKBwO80&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=38
 
 <div id='id-Process'/>
+<br>
 
-### 🔧 Process
+# 🔧 Process
 
 Para utilizar o "Template", contate o suporte da Easy Comtec.
 
 <div id='id-Job'/>
+<br>
 
-### 🔧 Process Job
+# 🔧 Process Job
 
 Para utilizar o "Template", contate o suporte da Easy Comtec.
 
 <div id='id-Report'/>
+<br>
 
-### 🔧 Report
+# 🔧 Report
 
 Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “Como Criar Um DataSource”.
 
@@ -2542,7 +2753,9 @@ E resultará nisso:
 
 <div id='id-Chart'/>
 
-### 🔧 Chart
+<br>
+
+# 🔧 Chart
 
 Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “DataSource”.
 
@@ -2594,26 +2807,31 @@ E aqui você consegue visualizar a porcentagem de funcionários por função em 
 
 <div id='id-API'/>
 
+<br>
 
-### 🔧 API
+# 🔧 API
 
 Para fazer uso da API, entre em contato com o suporte da Easy Comtec.
 
 <div id='id-Template'/>
+<br>
 
-### 🔧 Template
+# 🔧 Template
 
 Para fazer uso do “Template”, entre em contato com o suporte da Easy Comtec.
 
 <div id='id-Scheduler'/>
+<br>
 
-### 🔧 Scheduler
+# 🔧 Scheduler
 
 Para fazer uso do Scheduler, entrar em contato com o suporte da Easy Comtec.
 
 <div id='id-2Notification'/>
 
-### 🔧 Notification
+<br>
+
+# 🔧 Notification
 
 Para utilizar essa funcionalidade, vá até o menu do “Tools” (se localiza na tela inicial quando se loga na conta) e selecione “Notification”:
 
@@ -2647,8 +2865,10 @@ Após ter editado os campos, clique no botão ![image](https://user-images.githu
 Pronto, sua notificação foi criada.
 
 <div id='id-ProjectSettings'/>
+<br>
 
-## 🔧 Configurações do Projeto
+
+# 🔧 Configurações do Projeto
 
 Para acessar as configurações do projeto é necessário realizar os seguintes passos:
 
@@ -2672,7 +2892,7 @@ Ambos caminhos levarão para a mesma janela modal:
 
 <div id='id-Main'/>
 
-### 🔧 Main
+# 🔧 Main
 ![image](https://user-images.githubusercontent.com/81401104/117502018-4afb5b80-af55-11eb-95b3-b0fcbcc8628c.png)
 
 Nessa aba do “Main” iremos alterar as principais configurações do projeto.
@@ -2688,7 +2908,7 @@ Other configurations (outras configurações)
 
 <div id='id-ProjectConfigurations'/>
 
-#### 🔧 Project Configurations
+## 🔧 Project Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502040-551d5a00-af55-11eb-8235-f2be3fa455ba.png)
 
 Project name: (Nome do projeto) Este campo é para identificar o nome do software.
@@ -2699,7 +2919,7 @@ Home Page: Pagina inicial do projeto.
 
 <div id='id-DatabaseConfigurations'/>
 
-#### 🔧 Database Configurations
+# 🔧 Database Configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502098-69f9ed80-af55-11eb-9851-b95da28cee2e.png)
 
 Database server: Instância do servidor de banco de dados do SQL Server.
@@ -2718,7 +2938,9 @@ Botão “Test Database Connection”: Ao clicar nele, irá testar a conexão do
 
 <div id='id-DatabaseConfigurations'/>
 
-#### 🔧 Email Server Configuration
+<br>
+
+# 🔧 Email Server Configuration
 ![image](https://user-images.githubusercontent.com/81401104/117502177-83029e80-af55-11eb-9048-d06a32f263e4.png)
 
 SMTP Configurations: Configurações do SMTP (Simple Mail Transfer Protocol). 
@@ -2741,7 +2963,9 @@ POP Configurations: Configurações do POP (Post Office Protocol). O POP é um p
 
 Os campos de “Display Name”, “Server Name”, “Port”, “Email”, “User name”, “Password” e “Use SSL” do POP Configurations recebem as mesmas instruções dos mesmos campos do SMTP Configurations, explicados acima.
 
-#### 🔧 Other configurations
+<br>
+
+# 🔧 Other configurations
 ![image](https://user-images.githubusercontent.com/81401104/117502437-e42a7200-af55-11eb-8f7c-2563c6c8d25c.png)
 
 Azure search key: Habilita uma barra de pesquisa do builder que pesquisa por formulário como também por registros. 
@@ -2769,21 +2993,29 @@ Azure Communication Key: Chave de comunicação azure.
 
 Field Format Settings: Configurações de formato dos campo
 
-##### 📅Date:
+<br>
+
+# 📅Date:
 MM/dd/yyyy = (mês/ dia/ ano)<br> 
 dd/MM/yyyy = (dia/ mês/ ano)
 
-##### 📅⏰ DateTime: 
+<br>
+
+# 📅⏰ DateTime: 
 MM/dd/yyyy hh:mm:ss a = [Mês/ dia/ ano  hora (0 a 12 AM/PM) :minuto :segundo]<br> 
 MM/dd/yyyy HH:mm:ss = [Mês/ dia/ ano  hora (0 a 23) :minuto: segundo]<br> 
 dd/MM/yyyy hh:mm:ss a = [dia/ mês/ ano  hora (0 a 12 AM/PM) :minuto :segundo]<br> 
 dd/MM/yyyy HH:mm:ss = [dia/ mês/ ano  hora (0 a 23) :minuto :segundo]
 
-##### ⏰ Time:  
+<br>
+
+# ⏰ Time:  
 HH:mm:ss = [Horas (0 a 23) :minutos :segundos]<br> 
 hh:mm :ss = [Horas (0 a 12) :minutos :segundos]
 
-##### 🔢 Decimal:
+<br>
+
+# 🔢 Decimal:
 . (ponto)<br> 
 , (vírgula)
 
@@ -2797,15 +3029,21 @@ MM/dd/yyyy HH:mm:ss = [Mês/ dia/ ano  hora (0 a 23) :minuto: segundo]<br>
 dd/MM/yyyy hh:mm:ss a = [dia/ mês/ ano  hora (0 a 12 AM/PM) :minuto :segundo]<br>
 dd/MM/yyyy HH:mm:ss = [dia/ mês/ ano  hora (0 a 23) :minuto :segundo]<br>
 
-##### Time:<br> 
+<br>
+
+# Time:<br> 
 HH:mm:ss = [Horas (0 a 23) :minutos :segundos]<br>
 hh:mm :ss = [Horas (0 a 12) :minutos :segundos]<br>
 
-##### Decimal:<br>
+<br>
+
+# Decimal:<br>
 . (ponto)<br>
 , (vírgula)<br>
 
-#### 🙎‍♂️ End-User Access
+<br>
+
+## 🙎‍♂️ End-User Access
 
 Ao selecionar a aba do “End-User Access”, a seguinte tela irá aparecer:
 
@@ -2912,7 +3150,9 @@ Roles x Users Form (Formulário de usuário x funções)
 
 <div id='id-2Menus'/>
 
-#### 🧰 Menus
+<br>
+
+## 🧰 Menus
 ![image](https://user-images.githubusercontent.com/81401104/117502994-b72a8f00-af56-11eb-9329-f0927a9e3b98.png)
 
 Name: Nome do menu que o usuário final verá no site.
@@ -2963,7 +3203,9 @@ Menu Hierarchy (Hierarquia do menu): Onde irá visualizar a ordem e relação de
 
 <div id='id-DataBaseManager'/>
 
-#### 🖥️ DataBase Manager
+<br>
+
+## 🖥️ DataBase Manager
 ![image](https://user-images.githubusercontent.com/81401104/117503595-8b5bd900-af57-11eb-9c82-8ba78fb969d2.png)
 
 Ao clicar no  ![image](https://user-images.githubusercontent.com/81401104/117503609-8f87f680-af57-11eb-92f6-469b50bb54dd.png)(Embaixo de “Tables”), você poderá ver o ID e os campos de cada formulário:
@@ -2976,7 +3218,9 @@ Ao clicar no  ![image](https://user-images.githubusercontent.com/81401104/117503
 
 <div id='id-Editors'/>
 
-#### 📝 Editors
+<br>
+
+## 📝 Editors
 ![image](https://user-images.githubusercontent.com/81401104/117503687-adedf200-af57-11eb-9aa4-c6f9d3ec0575.png)
 
 Member Users (usuários membros) podem visualizar e editar o seu sistema.
@@ -2991,7 +3235,9 @@ Então clique no botão ![image](https://user-images.githubusercontent.com/81401
 
 <div id='id-2Email'/>
 
-#### 📧 Email
+<br>
+
+## 📧 Email
 ![image](https://user-images.githubusercontent.com/81401104/117503760-cb22c080-af57-11eb-8d2a-e5bf7f5c7b0b.png)
 
  🔳Create default email form: Criar formulário de email padrão
@@ -3008,7 +3254,9 @@ Body: Corpo
 
 <div id='id-2Images'/>
 
-#### 🖼️ Images
+<br>
+
+## 🖼️ Images
 ![image](https://user-images.githubusercontent.com/81401104/117503797-db3aa000-af57-11eb-988b-3cfb2da12c11.png)
 
 Na seção “Icons” é possível realizar o upload das imagens dos ícones, que podem ser das proporções “144x144”, “76x76”, “32x32” e “16x16”.
@@ -3023,6 +3271,8 @@ Para fazer o upload de qualquer uma imagem, apenas clique no botão ![image](htt
 
 <div id="id-apis"/>
 
+<br>
+
 ## Builder Apis ☁️
 
 Abaixo você vai conhecer algumas apis que você pode usar de forma externa.<br> 
@@ -3030,7 +3280,9 @@ Note que para usa-las você deve obter autenticação.
 
 <div id="id-authentication">
     
-### Api para autenticação
+  <br>
+
+# Api para autenticação
     
 Endereço:
     https://builder.easy.rocks/Api/Account/Login
@@ -3057,7 +3309,9 @@ Reponse:
     
 <div id="id-paginate">
 
-### 📃 Paginação
+<br>
+
+# 📃 Paginação
         
 Para requisitar dados de paginação de um formulário você deve utilizar a seguinte api:
     
@@ -3120,7 +3374,9 @@ Você pode utilizar a ferramenta de filtro do Builder pra facilitar a geração 
  - List: Lista de objetos com os valores.
  - Formats: Formato dos campos Ex:Date, String, Number.
     
-### ⚫ Get
+    <br>
+
+# ⚫ Get
 A api Get serve para pegar uma entidade de um form, passando um id em específico
 O endereço da api é esse logo abaixo: 
     
@@ -3143,7 +3399,9 @@ A api retorna um objeto com os valores da entidade ex:
     
 ![image](https://user-images.githubusercontent.com/13450436/155111583-65fa3dce-9781-4f7b-ae13-0d96609d8909.png)
 
-### ⚫ Post
+<br>
+
+# ⚫ Post
 A api de Post serve tanto para criar uma nova entidade como também atualizar uma entidade, ela possui o seguinte endereço:
     
 https://builder.easy.rocks/api/FormBuilderSave
@@ -3176,7 +3434,9 @@ Quando o update do valor da chave primária (PrimaryKeyValue) deve ser incluido
 A reposta da api consiste no objeto abaixo:
     
 {"updateMainForm":false,"item":{"ProjectId":2072,"FormId":50839,"RootFormId":null,"TableName":"SimpleForm_Person","PrimaryKeyName":"SimpleForm_PersonId","PrimaryKeyValue":"22600a54-c329-46c8-9b74-ebb02332ec7f","PrimaryKeyType":"Guid","WorkflowId":null,"WorkflowStepId":null,"WorkflowActionId":null,"EntityFormKey":null,"WorkflowFormKey":null,"Values":[{"FieldName":"Name","Value":"John Doe","SystemTypeName":"String","IsAutoIncrement":false,"OneToManyRows":null},{"FieldName":"Birth","Value":"1956-01-01T00:00:00Z","SystemTypeName":"Date","IsAutoIncrement":false,"OneToManyRows":null}],"IsNew":true,"ProjectHash":"163a7de6b6a2","FieldValuesChanged":null,"oneToManyData":null,"UserId":null,"IsBuilderUser":true,"Facilities":[]}}
-    
+
+  <br>
+
 - updateMainForm: Flag é utilizada pelo sistema caso o form seja um children para que o form principal também seja atualizado.
 - item: Dados da entidade que foi atualizada.
   - ProjectId: Id do Projeto.
@@ -3198,7 +3458,9 @@ A reposta da api consiste no objeto abaixo:
   - IsBuilderUser - Flag que define se o usuário foi do Builder.
   - Facilities - Lista de Facilities do usuário caso o projeto utilize facilities.
     
- ### ❌ Delete
+    <br>
+
+ # ❌ Delete
  
  A api que serve para apagar uma entidade consiste no seguinte endereço, a requisição deve ser feita em modo delete:
     
@@ -3234,7 +3496,9 @@ Todos parâmetros são query string:
 
 <div id="id-gridInPage"/>
 
-### Criar gride em uma page
+<br>
+
+# Criar gride em uma page
 ⚠️ Importante:
 - Para este procedimento será necessário utilizar uma variável de sessão.
 - Certifique-se de Salvar após cada alteração.
@@ -3322,6 +3586,9 @@ function addNew() {
 <img src="./BuilderImages/GridInPage/img/0009.png">
 
 ⚠️ É muito importante que os botões estejam dentro dos repeater para que funcionem corretamente.
+
+<br>
+
 
 ## Resultado:
 <img src="./BuilderImages/GridInPage/gifs/0014.gif">
