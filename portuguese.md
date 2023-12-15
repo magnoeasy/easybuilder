@@ -1877,6 +1877,26 @@ Agora volte para a tela do "PageChat" clique no botão ![image](./BuilderImages/
 
 ![image](./BuilderImages/chatpage.png)
 
+<div id='id-Location'/>
+
+## Location 🗺️
+
+O componente "Location" captura sua localização atual de maneira precisa.
+
+Selecione o componente "Location", arrastando-o e soltando-o onde está escrito "Drop new field here!". 
+
+Ao adicionar o componente ao formulário, você perceberá que ele é apenas um mapa, com a única função de exibir sua localização.
+
+Para armazená-la, insira o componente "Textfield" ao lado do "Location".
+
+Em seguida execute o formulário, clicando no botão "Run", e crie um novo registro.
+
+Não faça nenhuma inserção, apenas clique no botão Save & Close. 
+
+Perceba que sua localização ficará salva na grid do form em detalhes, incluindo informações como cidade, bairro, nome da rua, CEP, etc.
+
+⚠️ AVISO: Para que o componente funcione corretamente, certifique-se de permitir em seu navegador que o Builder acesse suas informações de localização.
+
 <div id='id-form'/>
 
 ## Tab (Form)
