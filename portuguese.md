@@ -11,6 +11,7 @@
     - [Hidden 🙈](#id-Hidden)
     - [Integer 🔢](#id-Integer)
     - [Decimal 💲](#id-Decimal)
+    - [ProgressBar 📶](#id-Decimal)
     - [Date 📆](#id-Date)
     - [DateTime 📆⏲️](#id-DateTime)
     - [Time ⌛](#id-Time)
@@ -33,6 +34,8 @@
     - [Password *️⃣](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
     - [Repeater 🔁](#id-Repeater)
+    - [Location 🗺️](#id-Location)
+    - [Chart 📊](#id-Chart)
 - [Form 📃](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
@@ -50,7 +53,6 @@
     - [🔧 Process](#id-Process)
     - [🔧 Process Job](#id-Job)
     - [🔧 Report](#id-Report)
-    - [🔧 Chart](#id-Chart)
     - [🔧 API](#id-API)
     - [🔧 Template](#id-Template)
     - [🔧 Scheduler](#id-Scheduler)
@@ -693,6 +695,36 @@ No “Number1” insira o valor “2.55”, e no “Number2” insira o valor �
 
 Após adicionar os valores, clique no botão ![image](https://user-images.githubusercontent.com/81401104/115919054-b3731480-a44e-11eb-9cd3-02fef99ed26b.png)
 .
+
+<div id='id-ProgressBar'/>
+
+## ProgressBar 📶
+
+![image](./BuilderImages/IconeProgressbar.png)
+
+O componente "Progress Bar" cria uma barra de progresso com um valor definido previamente.
+
+Selecione o componente, então arraste-o e solte-o onde está escrito “Drop new field here!”. Quando soltá-lo, irá aparecer do lado direito da tela uma aba chamada “Properties of Field” (Se não aparecer, apenas clique no campo que você acabou de soltar).
+
+![image](./BuilderImages/gifProgressbar.gif)
+
+## ProgressBar 📶 > VALUES
+
+Em "Default Value", insira o valor de progresso da barra.
+
+![image](./BuilderImages/ValuesProgressbar.png)
+
+## ProgressBar 📶 > OTHERS
+
+Em "Unit", defina a unidade de medida do progresso. O uso mais comum é o da porcentagem (%).
+
+![image](./BuilderImages/othersProgressbar.png)
+
+Execute a aplicação.
+
+Ao criar um novo registro, o componente estará disposto dessa maneira:
+![image](./BuilderImages/RunProgressbar.png)
+
 
 <div id='id-Date'/>
 
@@ -1881,21 +1913,85 @@ Agora volte para a tela do "PageChat" clique no botão ![image](./BuilderImages/
 
 ## Location 🗺️
 
+![image](./BuilderImages/location1.png)
+
 O componente "Location" captura sua localização atual de maneira precisa.
 
 Selecione o componente "Location", arrastando-o e soltando-o onde está escrito "Drop new field here!". 
+
+![image](./BuilderImages/location2.gif)
 
 Ao adicionar o componente ao formulário, você perceberá que ele é apenas um mapa, com a única função de exibir sua localização.
 
 Para armazená-la, insira o componente "Textfield" ao lado do "Location".
 
-Em seguida execute o formulário, clicando no botão "Run", e crie um novo registro.
+![image](./BuilderImages/location3.gif)
 
-Não faça nenhuma inserção, apenas clique no botão Save & Close. 
+Em seguida execute o formulário, clicando no botão ![image](./BuilderImages/run.png) , e crie um novo registro, clicando em ![image](./BuilderImages/new.png).
+
+Não faça nenhuma inserção, apenas salve o formulário.
+
+![image](./BuilderImages/locationgrid.gif)
 
 Perceba que sua localização ficará salva na grid do form em detalhes, incluindo informações como cidade, bairro, nome da rua, CEP, etc.
 
+![image](./BuilderImages/datagridprint.png)
+
 ⚠️ AVISO: Para que o componente funcione corretamente, certifique-se de permitir em seu navegador que o Builder acesse suas informações de localização.
+
+<div id='id-Chart'/>
+
+## Chart 📊
+
+![image](./BuilderImages/chart.png)
+
+🚨ATENÇÃO: Para utilizar esse componente, é necessário já ter realizado o tutorial “DataSource”.
+
+O componente "Chart" cria automaticamente um gráfico a partir de registros em um formulário. Você tem a liberdade de escolher o tipo de gráfico desejado e o esquema de cores presente nele.
+
+![image](./BuilderImages/printChart.png)
+
+Comece gerando os dados que serão exibidos no gráfico. Crie um formulário e registre as informações desejadas.
+
+![image](./BuilderImages/formChart.png)
+
+![image](./BuilderImages/datagridChart.png)
+
+Em seguida, crie um DataSource para cada gráfico. Ele servirá como fonte de dados do componente.
+
+Selecione o formulário criado anteriormente e marque apenas o campo que contém os dados a serem apresentados.
+
+![image](./BuilderImages/gifChart.gif)
+
+Para contar o número de registros desse campo, escolha Count em Operations. Em Field, selecione o campo assinalado e, em Alias, atribua um nome a essa variável.
+
+![image](./BuilderImages/gif2Chart.gif)
+
+Clique em ![image](./BuilderImages/saveclouse.png) para concluir a etapa do DataSource.
+
+Finalmente, crie uma page e insira o componente "Chart", arrastando-o e soltando-o onde está escrito "Drop new field here!".
+
+![image](./BuilderImages/dropChart.gif)
+
+Nas propriedades do campo, clique em Edit Chart Properties. 
+
+![image](./BuilderImages/printValueChart.png)
+
+Selecione o DataSource criado, escolha a variável que armazena a contagem dos registros em "Value" e, em "Label", o único campo marcado no DataSource. 
+
+![image](./BuilderImages/valueChart.gif)
+
+Clique em ![image](./BuilderImages/addProperty.png) e, em seguida, em ![image](./BuilderImages/save.png).
+
+Salve a página.
+
+Escolha o tipo de gráfico desejado em "Chart Type" e selecione uma paleta de cores adequada em "Color Scheme".
+
+![image](./BuilderImages/colorChart.gif)
+
+Repita esse processo para criar outros gráficos.
+
+🔗 Vídeo: https://www.youtube.com/watch?v=EOJhpeBf8Yo
 
 <div id='id-form'/>
 
@@ -2560,57 +2656,6 @@ E resultará nisso:
 
 🔗Vídeo: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
 
-<div id='id-Chart'/>
-
-### 🔧 Chart
-
-Para realizar esse tutorial, é necessário que já tenha realizado os passos do tutorial “Formulário X” e  “DataSource”.
-
-Na tela inicial, quando logar na conta, se depará com a seguinte tela:
-
-![image](https://user-images.githubusercontent.com/81401104/117500168-a546ed00-af52-11eb-8f92-f53eb209c406.png)
-
-
-Clique no “Tools”, na barra cinza no cabeçalho e selecione o “Chart”.
-
-![image](https://user-images.githubusercontent.com/81401104/117500204-aed05500-af52-11eb-8835-8227434d6a60.png)
-
-Será adicionado mais uma aba nessa tela inicial.
- Nessa aba do “Chart” clique no botão ![image15](https://user-images.githubusercontent.com/81401104/117500373-ed660f80-af52-11eb-925a-67afe16e1688.png). 
- 
- Irá abrir a seguinte janela modal:
-
-![image](./BuilderImages/chartmodal.png)
-
-Em “Chart” selecione a opção “Pie”, em “Style” a opção “Default”. Em “Title” escreva “Porcentagem por Função”. Em “Position” escreva “1”.
-
-Na caixa de seleção “Internal/External” selecione a opção “Internal”. 
-
-Em “DataSource” selecione a opção “DataSource X” (Criado durante o tutorial  “Como Criar Um DataSource”).
-
-Em “Group by” selecione a opção “Função”, em “Value” a opção “Nome_Completo”. Em “Operation” selecione “Count”. (Ficará similar a imagem abaixo)
-
-![image](./BuilderImages/chartcomplet.png)
-
-
-Agora clique no botão ![add](https://user-images.githubusercontent.com/81401104/126830643-f2451501-2481-41c5-9864-b4b1450064ea.png) e depois no botão ![image](./BuilderImages/saveclosebutton.png)
-
-![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
-
-
-Agora clique na aba do “Project” e execute o projeto sob o qual criou o seu “Chart”.
-
-![image](https://user-images.githubusercontent.com/81401104/117500573-31f1ab00-af53-11eb-884e-9df70220a071.png)
-
-
-Clique no botão verde ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project):
-
-![image](https://user-images.githubusercontent.com/81401104/117500632-4635a800-af53-11eb-853d-cf459742db3e.png)
-
-
-E aqui você consegue visualizar a porcentagem de funcionários por função em formato de pizza. 
-
-🔗Vídeo: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
 
 <div id='id-API'/>
 
@@ -3346,4 +3391,48 @@ function addNew() {
 ## Resultado:
 <img src="./BuilderImages/GridInPage/gifs/0014.gif">
 
-Documentação em Desenvolvimento.
+<div id="id-FiltroDDB"/>
+
+### Como filtrar um DropdownDB por outro DropdownDB
+
+⚠️ Será usado como exemplo o filtro de cidade por estado. Fique tranquilo, você precisará apenas repetir esse processo em outros cenários.
+
+Crie os formulários que servirão como source dos componentes e popule suas tabelas com as informações desejadas. Segue o exemplo:
+
+Form de Estado
+
+![image](./BuilderImages/estadosfiltrodropdowndb.png)
+
+![image](./BuilderImages/gridestadosfiltrodropdowndb.png)
+
+Form de Cidade
+
+![image](./BuilderImages/municipiosfiltrodropdowndb.png)
+
+![image](./BuilderImages/gridmunicipiosfiltrodropdowndb.png)
+
+Crie uma page e insira os componentes "DropdownDB".
+
+![image](./BuilderImages/arrastarcamposfiltrodropdowndb.gif)
+
+Insira as informações necessárias na seção Source ("Form" e "Description Field").
+
+![image](./BuilderImages/sourceestadosfiltrodropdowndb.png)
+
+![image](./BuilderImages/sourcemunicipiosfiltrodropdowndb.png)
+
+Abra as "Properties of Field" do campo que terá os dados filtrados.
+
+![image](./BuilderImages/propriedadesfiltrodropdowndb.gif)
+
+### DropdownDB 📥 > SOURCE 🔌 > FILTERS 🖇️
+
+Em "Use" e "Filter By", selecione o Name do DropdownDB que servirá como parâmetro.
+
+![image](./BuilderImages/filtersfiltrodropdowndb.png)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runfiltrodropdowndb.gif)
+
+🚨 ATENÇÃO: Documentação em Desenvolvimento.
