@@ -11,7 +11,8 @@
     - [Hidden 🙈](#id-Hidden)
     - [Integer 🔢](#id-Integer)
     - [Decimal 💲](#id-Decimal)
-    - [ProgressBar 📶](#id-Decimal)
+    - [ProgressBar 📶](#id-ProgressBar)
+    - [Gantt 📊📅](#id-Gantt)
     - [Date 📆](#id-Date)
     - [DateTime 📆⏲️](#id-DateTime)
     - [Time ⌛](#id-Time)
@@ -21,10 +22,12 @@
     - [DropdownDB 📥](#id-DropdownDB)
     - [AutoComplete 🗄️🧲](#id-AutoComplete)
     - [Label 🔤](#id-Label)
+    - [Wizard 🛤️](#id-Wizard)
     - [Signature ✒️](#id-Signature)
     - [Static Image 🖼️](#id-Static)
     - [File Upload 📂📩](#id-File)
     - [One-To-Many 📃➡️📃](#id-One-To-Many)
+    - [Multi Upload 📂➕](#id-MultiUpload)
     - [MultiTag 🏷️](#id-MultiTag)
     - [Additional Data ➡️📃](#id-Additional)
     - [Button ⏸️](#id-Button)
@@ -36,6 +39,8 @@
     - [Repeater 🔁](#id-Repeater)
     - [Location 🗺️](#id-Location)
     - [Chart 📊](#id-Chart)
+    - [Multi-Select 🌐](#id-Multi-Select)
+    - [Carousel 🎠](#id-Carousel)
 - [Form 📃](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
@@ -74,6 +79,8 @@
    - [☁️ Delete](#id-delete)
 - [Page Tutorials 📄](#id-PageTutorials)
    - [Criar gride em uma page](#id-gridInPage)
+   - [Como filtrar um DropdownDB por outro DropdownDB](#id-FiltroDDB)
+   
 
 <div id='id-frist'/>
 
@@ -725,6 +732,104 @@ Execute a aplicação.
 Ao criar um novo registro, o componente estará disposto dessa maneira:
 ![image](./BuilderImages/RunProgressbar.png)
 
+<div id='id-Gantt'/>
+
+## Gantt 📊📅
+
+![image](./BuilderImages/iconeGantt.png)
+
+Com o componente "Gantt" é possível acompanhar o progresso de tarefas através do tempo.
+
+⚠️ Para o funcionamento desse componente, será necessário criar dois forms extras: Projetos e Tarefas.
+
+No form "Projetos", registre o nome dos projetos em um Textfield.
+
+![image](./BuilderImages/telatodaprojetosGantt.png)
+
+No form "Tarefas", registre as seguintes informações:
+
+- Projeto (DropdownDB);
+- Tarefa (Textfield);
+- Tarefa principal (DropdownDB);
+- Data de início planejada (Date);
+- Data de término planejada (Date);
+- Data de início real (Date);
+- Data de término real (Date);
+- Progresso da tarefa (Integer).
+
+![image](./BuilderImages/telatodatarefasGantt.png)
+
+💡O DropdownDB de Projeto deve referenciar o textfield do Form "Projetos".
+
+💡O DropdownDB Tarefa Principal deve referenciar o campo Tarefa desse form "Tarefas".
+
+🚨As labels dos componentes podem variar, porém TODOS eles são INDISPENSÁVEIS para o funcionamento do componente "Gantt".
+
+Segue exemplo de registros de Projetos e Tarefas, respectivamente.
+
+![image](./BuilderImages/gridprojetosGantt.png)
+
+![image](./BuilderImages/gridtarefasGantt.png)
+
+Agora crie uma page e insira o componente "Gantt", arrastando-o e soltando-o onde está escrito “Drop new field here!”.
+
+![image](./BuilderImages/arrastarcampoGantt.gif)
+
+### Gantt 📊📅 > SOURCE 🔌
+
+![image](./BuilderImages/sourceGantt.png)
+
+Em "DataSource", clique no botão ![image](./BuilderImages/plusDatasource.png) para criar um novo DataSource.
+
+Insira um título, selecione o form "Tarefas" e marque todos os campos desse form.
+
+![image](./BuilderImages/datasourcegifGantt.gif)
+
+Clique em ![image](./BuilderImages/saveclouse.png).
+
+Agora selecione o DataSource criado.
+
+![image](./BuilderImages/datasourceselecionarGantt.gif)
+
+Em "Id (Primary Key)", selecione a chave primária do form "Tarefas".
+
+![image](./BuilderImages/idprimarykeyGantt.png)
+
+Em "Parent", selecione o campo "Tarefa principal".
+
+![image](./BuilderImages/parentGantt.png)
+
+Em "Name", selecione o campo "Tarefa".
+
+![image](./BuilderImages/nameGantt.png)
+
+Em "Progress", selecione o campo "Progresso da tarefa".
+
+![image](./BuilderImages/progressGantt.png)
+
+Em "Start Date Planned", selecione o campo "Data de início planejada".
+
+![image](./BuilderImages/startdateplannedGantt.png)
+
+Em "End Date Planned", selecione o campo "Data de término planejada".
+
+![image](./BuilderImages/enddateplannedGantt.png)
+
+Em "Start Date", selecione o campo "Data de início real".
+
+![image](./BuilderImages/startdateGantt.png)
+
+Em "End Date", selecione o campo "Data de término real".
+
+![image](./BuilderImages/enddateGantt.png)
+
+Aumente a apresentação do componente para 100%.
+
+![image](./BuilderImages/presentationGantt.png)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runGantt.png)
 
 <div id='id-Date'/>
 
@@ -1124,6 +1229,50 @@ E após salvar, não será salvo no banco de dados, pois esse texto é apenas pa
 
 🔗Vídeo: https://www.youtube.com/watch?v=SM_LHGXmJm0&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=25
 
+<div id='id-Wizard'/>
+
+## Wizard 🛤️
+
+![image](./BuilderImages/iconeWizard.png)
+
+O componente "Wizard" cria um fluxo de etapas e orienta o usuário através de uma fácil navegação, com os botões "Back" e "Next".
+
+Selecione o componente “Wizard”, arrastando-o e soltando-o onde está escrito “Drop new field here!”.
+
+![image](./BuilderImages/arrastaarcampoWizard.gif)
+
+Clique em "Step 0" e renomeie sua label.
+
+![image](./BuilderImages/identificacaoWizard.gif)
+
+Para adicionar componentes a etapa, há um espaço “Drop new field here!” dentro do componente "Wizard".
+
+![image](./BuilderImages/arrastarcamposparadentroWizard.gif)
+
+Para criar uma nova etapa, clique em "New Step +".
+
+![image](./BuilderImages/newstepWizard.gif)
+
+Note que agora o botão "Back" está disponível, possibilitando o retorno à etapa anterior.
+
+![image](./BuilderImages/backsetaWizard.png)
+
+Crie uma nova etapa e retorne ao "Step 1".
+
+![image](./BuilderImages/voltandostep2Wizard.gif)
+
+Note que agora está disponível também o botão "Next", possibilitando o retorno e o avanço entre as etapas.
+
+![image](./BuilderImages/backnextWizard.png)
+
+Para excluir uma etapa, clique em "Delete".
+
+![image](./BuilderImages/deleteWizard.gif)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runWizard.gif)
+
 <div id='id-Box'/>
 
 ## Box 📦
@@ -1411,6 +1560,58 @@ Refresh Source (Atualizar fonte): Ás vezes pode ter sido criado o source recent
   <td>Output (Resultado)</td>
  </tr>
 </table>
+
+<div id='id-MultiUpload'/>
+
+## Multi Upload 📂➕
+
+![image](./BuilderImages/iconeMultiupload.png)
+
+O componente "Multi Upload" permite que o usuário faça upload de diversas imagens ou arquivos.
+
+⚠️ O componente requer que os arquivos sejam armazenados em um form criado previamente. Por isso, antes de utilizá-lo, crie um form contendo o componente "File Upload". Segue exemplo:
+
+![image](./BuilderImages/telatodaMultiupload.png)
+
+Feito isso, selecione o componente “Multi Upload”, arrastando-o e soltando-o onde está escrito “Drop new field here!”.
+
+![image](./BuilderImages/arrastandocampoMultiupload.gif)
+
+### Multi Upload 📂➕ > UPLOAD 🗂️
+
+![image](./BuilderImages/tiposdearquivoMultiupload.gif)
+
+Em "Accepted Types", selecione os formatos de arquivos desejados.
+
+Em "Max. File Size", insira o tamanho máximo de arquivo aceito.
+
+### Multi Upload 📂➕ > SOURCE 🔌
+
+![image](./BuilderImages/sourceMultiupload.png)
+
+Em "Form", selecione o form criado anteriormente.
+
+![image](./BuilderImages/formMultiupload.png)
+
+Em "DataSource", clique no botão ![image](./BuilderImages/plusDatasource.png) para criar um novo DataSource.
+
+Insira um título, selecione o form criado anteriormente e marque o campo "File Upload".
+
+![image](./BuilderImages/datasourceMultiupload.gif)
+
+Clique em ![image](./BuilderImages/saveclouse.png).
+
+Agora selecione o DataSource criado.
+
+![image](./BuilderImages/selecionandodatasourceMultiupload.gif)
+
+Em "Upload Field", selecione o campo "File Upload".
+
+![image](./BuilderImages/uploadfieldMultiupload.png)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runMultiupload.gif)
 
 <div id='id-MultiTag'/>
 
@@ -1992,6 +2193,98 @@ Escolha o tipo de gráfico desejado em "Chart Type" e selecione uma paleta de co
 Repita esse processo para criar outros gráficos.
 
 🔗 Vídeo: https://www.youtube.com/watch?v=EOJhpeBf8Yo
+
+<div id='id-Multi-Select'/>
+
+## Multi-Select 🌐
+
+![image](./BuilderImages/iconeMultiselect.png)
+
+O componente "Multi-Select" é um dropdown que possibilita a seleção de várias opções.
+
+Insira o componente, arrastando-o e soltando-o onde está escrito "Drop new field here!". 
+
+![image](./BuilderImages/multi-select.gif)
+
+⚠️ O componente "Multi-Select" utiliza como source o componente <a href="#dropdowndb-📥">"DropdownDB"</a>. Por isso, antes de utilizar o "Multi-Select", certifique-se de já ter criado em outro form um "DropdownDB" com as opções desejadas. 
+
+![image](./BuilderImages/dropdowndbesportesMultiselect.png)
+
+### Multi-Select 🌐 > SOURCE🔌
+
+![image](./BuilderImages/sourceMultiselect.png)
+
+Em "Form", selecione o formulário que contém o campo "DropdownDB".
+
+![image](./BuilderImages/formMultiselect.png)
+
+Em "Description Field", selecione o name do campo "DropdownDB".
+
+![image](./BuilderImages/discriptionfieldMultiselect.png)
+
+Em "Label Field", selecione a label do campo "DropdownDB".
+
+![image](./BuilderImages/labelfieldMultiselect.png)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runMultiselect.gif)
+
+<div id='id-Carousel'/>
+
+## Carousel 🎠
+
+![image](./BuilderImages/iconeCarousel.png)
+
+🚨ATENÇÃO: Esse componente requer a utilização do componente <a href="#upload-image-📸📩">"Upload Image"</a> e do “DataSource”.
+
+O componente "Carousel" cria um carrosel de imagens a partir de um DataSource.
+
+Primeiro você deve criar o formulário que armazenará as imagens desejadas. Salve os registros através do componente "Upload Image".
+
+![image](./BuilderImages/cadastrandimagemCarousel.gif)
+
+Em seguida crie uma page e insira o componente "Carousel", arrastando-o e soltando-o.
+
+![image](./BuilderImages/arrastarcampoCarousel.gif)
+
+### Carousel 🎠 > SOURCE🔌
+
+![image](./BuilderImages/sourceCarousel.png)
+
+Em "DataSource", clique no botão ![image](./BuilderImages/plusDatasource.png) para criar um novo DataSource.
+
+Insira um título, selecione o form criado anteriormente e marque o campo "Upload Image".
+
+![image](./BuilderImages/datasourceCarousel.gif)
+
+Clique em ![image](./BuilderImages/saveclouse.png).
+
+Agora selecione o DataSource criado.
+
+![image](./BuilderImages/selecionardatasourceCarousel.gif)
+
+Em "Image", selecione o componente "Upload Image".
+
+![image](./BuilderImages/imageCarousel.png)
+
+Em "Visible Items", defina quantas imagens serão carregadas por default no carrosel.
+
+![image](./BuilderImages/visibleitemsCarousel.png)
+
+Em "N. Scroll Items", defina quantas imagens irão aparecer a cada mudança de slide.
+
+![image](./BuilderImages/nscrollitemsCarousel.png)
+
+OBS: Tanto em "Visible Items" quanto em "N. Scroll Items", o mais comum é a definição de somente 1 imagem. 
+
+Em "Height", defina a altura do carrosel (em pixels).
+
+![image](./BuilderImages/heightCarousel.png)
+
+Execute a página e teste a funcionalidade.
+
+![image](./BuilderImages/runCarousel.gif)
 
 <div id='id-form'/>
 
