@@ -11,32 +11,46 @@
     - [Hidden 🙈](#id-Hidden)
     - [Integer 🔢](#id-Integer)
     - [Decimal 💲](#id-Decimal)
+    - [ProgressBar 📶](#id-ProgressBar)
+    - [Gantt 📊📅](#id-Gantt)
     - [Date 📆](#id-Date)
     - [DateTime 📆⏲️](#id-DateTime)
     - [Time ⌛](#id-Time)
-    - [CheckBox ✅](#id-CheckBox)
+    - [Checkbox ✅](#id-CheckBox)
     - [ChecklistDB 📁](#id-ChecklistDB)
     - [Radio 🔘](#id-Radio)
+    - [Dropdown🗄️](#id-Dropdown)
     - [DropdownDB 📥](#id-DropdownDB)
     - [AutoComplete 🗄️🧲](#id-AutoComplete)
     - [Label 🔤](#id-Label)
+    - [Wizard 🛤️](#id-Wizard)
+    - [Box 📦](#id-Box)
     - [Signature ✒️](#id-Signature)
     - [Static Image 🖼️](#id-Static)
+    - [Upload Image 📸📩](#id-Upload)
     - [File Upload 📂📩](#id-File)
     - [One-To-Many 📃➡️📃](#id-One-To-Many)
+    - [Multi Upload 📂➕](#id-MultiUpload)
     - [MultiTag 🏷️](#id-MultiTag)
     - [Additional Data ➡️📃](#id-Additional)
     - [Button ⏸️](#id-Button)
     - [HTML Field 🦰](#id-HTMLFIELD)
     - [Quiz 🧩](#id-Quiz)
     - [Email 📧](#id-Email)
-    - [Password *️⃣](#id-Password)
+    - [Password 🔐](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
-- [Form 📃](#id-Tab)
     - [Repeater 🔁](#id-Repeater)
+    - [Video call 🎥](#id-Video)
+    - [Chat 💬](#id-Chat)
+    - [Location 🗺️](#id-Location)
+    - [Chart 📊](#id-Chart)
+    - [Multi-Select 🌐](#id-Multi-Select)
+    - [Carousel 🎠](#id-Carousel)
+- [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
     - [Dev Properties (Form)](#id-Properties)
+    - [CSS Class (Dev Properties)](#id-CSS)
     - [Notification (Form)](#id-Notification)
     - [Event type](#id-Event)
     - [Kanban 🎰](#id-Kanban)
@@ -50,7 +64,6 @@
     - [🔧 Process](#id-Process)
     - [🔧 Process Job](#id-Job)
     - [🔧 Report](#id-Report)
-    - [🔧 Chart](#id-Chart)
     - [🔧 API](#id-API)
     - [🔧 Template](#id-Template)
     - [🔧 Scheduler](#id-Scheduler)
@@ -695,6 +708,123 @@ In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and
 
 After adding the values, click on the ![Save Close](https://user-images.githubusercontent.com/81401104/123151025-694fe480-d439-11eb-99e8-eb9adf5fe805.png) button.
 
+<div id='id-ProgressBar'/>
+
+## ProgressBar 📶
+
+![image](./BuilderImages/IconeProgressbar.png)
+
+The "Progress Bar" component creates a progress bar with a pre-defined value.
+
+Select the component, then drag and drop it where it says "Drop new field here!" When you release it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
+
+![image](./BuilderImages/gifProgressbar.gif)
+
+## ProgressBar 📶 > VALUES
+
+In the "Default Value" field, enter the progress value for the bar.
+
+![image](./BuilderImages/ValuesProgressbar.png)
+
+## ProgressBar 📶 > OTHERS
+
+In the "Unit" field, set the unit of measurement for the progress. The most common usage is percentage (%).
+
+![image](./BuilderImages/othersProgressbar.png)
+
+Run the application.
+
+When creating a new record, the component will be arranged like this:
+
+![image](./BuilderImages/RunProgressbar.png)
+
+<div id='id-Gantt'/>
+
+## Gantt 📊📅
+
+![image](./BuilderImages/iconeGantt.png)
+
+With the "Gantt" component, it is possible to track the progress of tasks over time.
+
+⚠️ For the functionality of this component, it will be necessary to create two additional forms: Projects and Tasks.
+
+In the "Projects" form, record the names of the projects in a Textfield.
+
+![image](./BuilderImages/telatodaGanttinglês.png)
+
+In the "Tasks" form, record the following information:
+
+- Project (DropdownDB);
+- Task (Textfield);
+- Main task (DropdownDB);
+- Start date planned (Date);
+- End date planned (Date);
+- Start date (Date);
+- End date (Date);
+- Task progress (Integer).
+
+![image](./BuilderImages/tasksGantt.png)
+
+💡The Project DropdownDB should reference the Textfield from the "Projects" form.
+
+💡The Main task DropdownDB should reference the Task field in the "Tasks" form.
+
+🚨The labels of the components may vary, but ALL of them are ESSENTIAL for the proper functioning of the "Gantt" component.
+
+Here is an example of records for Projects and Tasks, respectively.
+
+![image](./BuilderImages/datagridprojectsGantt.png)
+
+![image](./BuilderImages/datagridtasksGantt.png)
+
+Now, create a page and insert the "Gantt" component by dragging and dropping it where it says "Drop new field here!"
+
+![image](./BuilderImages/arrastandocomponenteGanttINGLÊS.gif)
+
+### Gantt 📊📅 > SOURCE 🔌
+
+![image](./BuilderImages/sourcepreenchidoGanttINGLÊS.png)
+
+In "DataSource," click on the button ![image](./BuilderImages/plusDatasource.png) to create a new DataSource.
+
+Enter a title, select the "Tasks" form, and check all the fields in that form.
+
+![image](./BuilderImages/criardatasourceGanttINGLÊS.gif)
+
+Click on ![image](./BuilderImages/saveclouse.png).
+
+Now, select the created DataSource.
+
+![image](./BuilderImages/selecionandodatasourceGanttINGLÊS.gif)
+
+In "Id (Primary Key)," select the primary key of the "Tasks" form.
+
+![image](./BuilderImages/idprimarykey.png)
+
+In "Parent," select the "Main task" field.
+
+![image](./BuilderImages/parent-en-Gantt.png)
+
+In "Name," select the "Task" field.
+
+![image](./BuilderImages/name-en-Gantt.png)
+
+In "Progress," select the "Task progress" field.
+
+![image](./BuilderImages/progress-en-Gantt.png)
+
+Fill in the date fields as shown in the screenshot below.
+
+![image](./BuilderImages/datesGantt.png)
+
+Increase the display of the component to 100%.
+
+![image](./BuilderImages/presentationGantt.png)
+
+Run the application and test the functionality.
+
+![image](./BuilderImages/run-en-Gantt.png)
+
 <div id='id-Date'/>
 
 ## Date 📆 
@@ -792,7 +922,7 @@ Default: The field will be filled with a predetermined time, but you can change 
 
 <div id='id-CheckBox'/>
 
-## CheckBox ✅
+## Checkbox ✅
 ![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
 
 The "Checkbox" component is a checkbox that allows the user to make a binary choice, i.e. a choice between two mutually exclusive options.
@@ -1104,6 +1234,52 @@ Add the values in the two fields and then click the button ![image](https://user
 
 🔗Video: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
+<div id='id-Wizard'/>
+
+## Wizard 🛤️
+
+![image](./BuilderImages/iconeWizard.png)
+
+The "Wizard" component creates a step-by-step flow and guides the user through easy navigation, using the "Back" and "Next" buttons.
+
+Select the "Wizard" component by dragging and dropping it where it says "Drop new field here!"
+
+![image](./BuilderImages/arrastandocomponenteWizard.gif)
+
+Click on "Step 0" and rename its label.
+
+![image](./BuilderImages/nomestepWizard.gif)
+
+To add components to the step, there is a space called "Drop new field here!" inside the "Wizard" component.
+
+![image](./BuilderImages/arrastandocomponentedentrodestepWizard.gif)
+
+To create a new step, click on "New Step +".
+
+![image](./BuilderImages/newstep-en-Wizard.gif)
+
+Note that now the "Back" button is available, allowing you to return to the previous step.
+
+![image](./BuilderImages/setabackWizard.png)
+
+Create a new step and return to "Step 1".
+
+![image](./BuilderImages/step3Wizard.gif)
+
+Note that now the "Next" button is also available, allowing you to move both backward and forward between the steps.
+
+![image](./BuilderImages/setasbacknextWizard.png)
+
+To delete a step, click on "Delete".
+
+![image](./BuilderImages/deletWizard.gif)
+
+Run the application and test its functionality.
+
+![image](./BuilderImages/run-en-Wizard.gif)
+
+<div id='id-Box'/>
+
 ## Box 📦
 ![image](https://user-images.githubusercontent.com/81401104/116139702-afdcc900-a6ac-11eb-8314-3a977ca34b4e.png)
 
@@ -1394,6 +1570,58 @@ Refresh Source: Sometimes the source may have been created recently but the list
   <td>Output (Result)</td>
  </tr>
 </table>
+
+<div id='id-MultiUpload'/>
+
+## Multi Upload 📂➕
+
+![image](./BuilderImages/iconeMultiupload.png)
+
+The "Multi Upload" component allows the user to upload multiple images or files.
+
+⚠️ The component requires that the files be stored in a form created beforehand. Therefore, before using it, create a form containing the "File Upload" component. Here's an example:
+
+![image](./BuilderImages/picturesMultiupload.png)
+
+With that done, select the "Multi Upload" component by dragging and dropping it into the area called "Drop new field here!".
+
+![image](./BuilderImages/arrastandocampoMultiupload.gif)
+
+### Multi Upload 📂➕ > UPLOAD 🗂️
+
+![image](./BuilderImages/tiposdearquivoMultiupload.gif)
+
+In "Accepted Types," choose the desired file formats.
+
+In "Max. File Size," enter the maximum accepted file size.
+
+### Multi Upload 📂➕ > SOURCE 🔌
+
+![image](./BuilderImages/sourceMultiupload.png)
+
+In "Form," select the form created earlier.
+
+![image](./BuilderImages/form-en-Multiupload.png)
+
+In "DataSource," click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
+
+Enter a title, select the form created earlier, and check the "File Upload" field.
+
+![image](./BuilderImages/datasourcefilesMultiupload.gif)
+
+Click on ![image](./BuilderImages/saveclouse.png).
+
+Now select the created DataSource.
+
+![image](./BuilderImages/escolhendodatasourceMultiupload.gif)
+
+In "Upload Field," select the "File Upload" field.
+
+![image](./BuilderImages/uploadfieldMultiupload.png)
+
+Run the application and test the functionality.
+
+![image](./BuilderImages/runMultiupload.gif)
 
 <div id='id-MultiTag'/>
 
@@ -1741,7 +1969,7 @@ For example, on the GIF above, when it was only written "Easy" it was not possib
 
 <div id='id-Password'/>
 
-## Password *️⃣
+## Password 🔐
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
 
 The "Password" component comes with its field submask set up for password (****), i.e. to make it unobtrusive to fill in sensitive information, for example passwords or important documents.
@@ -1839,6 +2067,8 @@ To start the video call click on ![image](./BuilderImages/videocallbutton.png) y
 
 ⚠️WARNING: Make sure your browser isn't blocking pop-ups, if it is disabled the video call may not work.⚠️
 
+<div id='id-Chat'/>
+
 ## Chat 💬
 ![image](./BuilderImages/chaticon1.png)
 
@@ -1905,6 +2135,334 @@ Now go back to the PageChat screen and click on the ![image](./BuilderImages/new
 this is how your chat will look like in the image below:
 
 ![image](./BuilderImages/chatpage.png)
+
+<div id='id-Location'/>
+
+## Location 🗺️
+
+![image](./BuilderImages/location1.png)
+
+The "Location" component captures your current location accurately.
+
+Select the "Location" component by dragging and dropping it into the area labeled "Drop new field here!".
+
+![image](./BuilderImages/location2.gif)
+
+When you add the component to the form, you'll notice that it's an embed of Google Maps.
+
+To store your location, insert the "Textfield" component next to the "Location."
+
+![image](./BuilderImages/location3.gif)
+
+Then, run the form by clicking on the ![image](./BuilderImages/run.png) button, and create a new record by clicking on ![image](./BuilderImages/new.png).
+
+Do not make any entries, just save the form.
+
+![image](./BuilderImages/locationgrid.gif)
+
+Note that your location will be saved in the form's grid in detail, including information such as city, street name, ZIP code, etc.
+
+![image](./BuilderImages/datagridprint.png)
+
+⚠️ WARNING: To ensure the proper functioning of the component, make sure to allow the Builder to access your location information in your browser settings.
+
+<div id='id-Chart'/>
+
+## Chart 📊
+
+![image](./BuilderImages/chart.png)
+
+🚨ATTENTION: To use this component, it is necessary to have already completed the "DataSource" tutorial.
+
+The "Chart" component automatically creates a chart based on records in a form. You have the freedom to choose the desired chart type and the color scheme present in it.
+
+![image](./BuilderImages/printChart.png)
+
+Start by generating the data that will be displayed in the chart. Create a form and record the desired information.
+
+![image](./BuilderImages/formChart.png)
+
+![image](./BuilderImages/datagridChart.png)
+
+Next, create a DataSource for each chart. It will serve as the data source for the component.
+
+Select the previously created form and check only the field that contains the data to be presented.
+
+![image](./BuilderImages/gifChart.gif)
+
+To count the number of records for this field, choose "Count" in Operations. In Field, select the highlighted field, and in Alias, assign a name to this variable.
+
+![image](./BuilderImages/gif2Chart.gif)
+
+Click on ![image](./BuilderImages/saveclouse.png) to complete the DataSource setup step.
+
+Finally, create a page and insert the "Chart" component by dragging and dropping it into the area called "Drop new field here!".
+
+![image](./BuilderImages/dropChart.gif)
+
+In the field properties, click on "Edit Chart Properties." 
+
+![image](./BuilderImages/printValueChart.png)
+
+Select the created DataSource, choose the variable that stores the count of records in "Value," and in "Label," select the only field marked in the DataSource.
+
+![image](./BuilderImages/valueChart.gif)
+
+Click on ![image](./BuilderImages/addProperty.png), and then on ![image](./BuilderImages/save.png).
+
+Save the page.
+
+Choose the desired chart type in "Chart Type" and select a suitable color palette in "Color Scheme."
+
+![image](./BuilderImages/colorChart.gif)
+
+Repeat this process to create other charts.
+
+🔗 Video: https://www.youtube.com/watch?v=EOJhpeBf8Yo
+
+<div id='id-Multi-Select'/>
+
+## Multi-Select 🌐
+
+![image](./BuilderImages/iconeMultiselect.png)
+
+The "Multi-Select" component is a dropdown that allows the selection of multiple options.
+
+Insert the component by dragging and dropping it into the area called "Drop new field here!".
+
+![image](./BuilderImages/multi-select.gif)
+
+⚠️ The "Multi-Select" component uses the <a href="#dropdowndb-📥">"DropdownDB"</a> component as its source. Therefore, before using "Multi-Select," make sure you have already created a "DropdownDB" with the desired options in another form.
+
+![image](./BuilderImages/dropdowndbsportsMultiselect.png)
+
+### Multi-Select 🌐 > SOURCE🔌
+
+![image](./BuilderImages/sourceMultiselect.png)
+
+In "Form," select the form that contains the "DropdownDB" field.
+
+![image](./BuilderImages/form-en-Multiselect.png)
+
+In "Description Field," select the name of the "DropdownDB" field.
+
+![image](./BuilderImages/descriptionfieldMultiselect.png)
+
+In "Label Field," select the label of the "DropdownDB" field.
+
+![image](./BuilderImages/labelfield-en-Multiselect.png)
+
+Run the application and test the functionality.
+
+![image](./BuilderImages/run-en-Multiselect.gif)
+
+<div id='id-Carousel'/>
+
+## Carousel 🎠
+
+![image](./BuilderImages/iconeCarousel.png)
+
+🚨ATTENTION: This component requires the use of the <a href="#upload-image-📸📩">"Upload Image"</a> component and the "DataSource."
+
+The "Carousel" component creates an image carousel from a DataSource.
+
+First, you should create the form that will store the desired images. Save the records using the "Upload Image" component.
+
+![image](./BuilderImages/runCarouse.gif)
+
+Next, create a page and insert the "Carousel" component by dragging and dropping it.
+
+![image](./BuilderImages/arrastarcampoCarousel.gif)
+
+### Carousel 🎠 > SOURCE🔌
+
+![image](./BuilderImages/sourceCarousel.png)
+
+In "DataSource," click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
+
+Enter a title, select the form created earlier, and check the "Upload Image" field.
+
+![image](./BuilderImages/criandodatasouceCarousel.gif)
+
+Click on ![image](./BuilderImages/saveclouse.png).
+
+Now select the created DataSource.
+
+![image](./BuilderImages/selecionardatasourceCarousel.gif)
+
+In "Image," select the "Upload Image" component.
+
+![image](./BuilderImages/imageCarousel.png)
+
+In "Visible Items," set the number of images each slide will have.
+
+![image](./BuilderImages/visibleitemsCarousel.png)
+
+In "N. Scroll Items," set how many images will appear with each slide change.
+
+![image](./BuilderImages/nscrollitemsCarousel.png)
+
+NOTE: In both "Visible Items" and "N. Scroll Items," it is most common to set only 1 image.
+
+In "Height," set the height of the carousel (in pixels).
+
+![image](./BuilderImages/heightCarousel.png)
+
+Run the page and test the functionality.
+
+![image](./BuilderImages/runCarousel.gif)
+
+## FORM 📄
+
+<div id='id-form'/>
+
+<div id='id-CSS'/>
+
+## CSS Class 🎨🖌️
+
+The CSS component is integrated into the "Properties of Field" of the components and does not require extensive programming knowledge, allowing the user to avoid coding.
+
+The "Properties of Field" tab will always be displayed when dragging and dropping a component or clicking on an existing component in the application.
+
+![image](./BuilderImages/addclassCSS.gif)
+
+In the "Presentation" section, click on "Add Class" and then on the plus button.
+
+In "Type your style," enter the name of the class. Through classes, it is possible to reuse styles in other components within the same project.
+
+![image](./BuilderImages/inputstyleCSS.gif)
+
+From now on, you can start styling your component:
+
+![image](./BuilderImages/section1.png)
+
+🔹Width (in pixels)
+
+🔹Height (in pixels)
+
+🔹Background
+
+➡️ Activate the "Border" option to style the borders of the component.
+
+![image](./BuilderImages/bordaCSS.png)
+
+🔸Size (in pixels)
+
+🔸Radius (in pixels)
+
+Click on ![image](./BuilderImages/setainvertidaCSS.png) to add thickness to the borders in different dimensions of the component, in this order: border-top, border-right, border-bottom, border-left.
+
+![image](./BuilderImages/section2.png)
+
+🔸Color (component's border)
+
+🔹Padding: the distance between a component's content and its borders (in pixels)
+
+🔹Margin: the distance between components (in pixels)
+
+![image](./BuilderImages/section3.png)
+
+➡️ Add these measurements in different dimensions of the component.
+
+- Top
+- Right
+- Bottom
+- Left
+
+➡️ Activate the "Display Flex" option to transform the component into a flexible container and align "child" items.
+
+![image](./BuilderImages/displayflexCSS.png)
+
+📌 Flex-Direction: alignment direction.
+
+![image](./BuilderImages/flexdirectionCSS.png)
+
+📌 Justify-Content: horizontal alignment of items.
+- center
+- flex-start (beginning border)
+- flex-end (final border)
+- space around (equal space between items, with equal spacing for margins)
+- space-between (equal space between items, close to the margin)
+
+![image](./BuilderImages/justifycontentCSS.png)
+
+📌 Flex-Wrap: defines whether items should break the line or not.
+- wrap (breaks the line as soon as one of the flex items can no longer be compressed)
+- nowrap (default value, does not allow line break)
+- wrap-reverse (breaks the line as soon as one of the flex items can no longer be compressed. The break is in the opposite direction, meaning to the above line)
+
+![image](./BuilderImages/flexwrapCSS.png)
+
+📌 Align-Items: vertical alignment of items.
+- center
+- flex-start (beginning border)
+- flex-end (final border)
+- stretch (stretches the items to fill the entire container)
+- baseline (items are aligned according to the alignment of their texts)
+
+![image](./BuilderImages/alignitemsCSS.png)
+
+📌 Align-Content: organizes the rows of the container when there is extra space on the vertical axis.
+- space-between (items evenly distributed; the first row at the beginning of the container, and the last row at the end of the container)
+- space-around (items evenly distributed with the same spacing between each row)
+- stretch (items in each row stretch to fill the remaining space between them)
+- center
+- flex-start
+- flex-end
+
+![image](./BuilderImages/aligncontentCSS.png)
+
+🔹Font-Family
+
+🔹Text align
+
+![image](./BuilderImages/section4.png)
+
+🔹Size (label): px, %, vh, vw, rem, em
+
+![image](./BuilderImages/section5.png)
+
+🔹Color (label)
+
+🔹Weight (label): bold, normal, bolder, lighter
+
+![image](./BuilderImages/weightCSS.png)
+
+🔹Style (label): italic, normal, oblique
+
+![image](./BuilderImages/styleCSS.png)
+
+🔹Decoration (above and below the label)
+
+![image](./BuilderImages/decorationCSS.png)
+
+🔹Line Height (label)
+
+🔹Letter Spacing (label)
+
+🔹Opacity (label)
+
+![image](./BuilderImages/section6.png)
+
+➡️ Activate the "Shadow" option to add shadows to the component.
+
+![image](./BuilderImages/section7.png)
+
+![image](./BuilderImages/section8.png)
+
+🔸X: horizontal shadow (in pixels).
+
+🔸Y: vertical shadow (in pixels).
+
+🔸Blur (in pixels)
+
+🔸Spread (in pixels)
+
+🔸Color (shadow)
+
+Click on ![image](./BuilderImages/saveCSS.png) to save the class.
+
+🔗 Video: https://www.youtube.com/watch?v=7w-d7rYo8LQ
 
 <div id='id-Tab'/>
 
@@ -2565,58 +3123,6 @@ And it will result in this:
 ![image](https://user-images.githubusercontent.com/81401104/117500134-95c7a400-af52-11eb-87be-3f2715215787.png)
 
 🔗Video: https://www.youtube.com/watch?v=u3dAaaYlvaw&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=39
-
-<div id='id-Chart'/>
-
-### 🔧 Chart
-
-To perform this tutorial, you must have already performed the steps in the "Form X" and "DataSource" tutorial.
-
-On the home screen, when you log into the account, you will be faced with the following screen:
-
-![image](https://user-images.githubusercontent.com/81401104/117500168-a546ed00-af52-11eb-8f92-f53eb209c406.png)
-
-Click on "Tools" in the gray bar in the header and select "Chart".
-
-![Tools Chart](https://user-images.githubusercontent.com/81401104/123692397-20c76b00-d82d-11eb-80b6-91f6573af638.png)
-
-One more tab will be added to this home screen.
- In this "Chart" tab, click the ![image15](https://user-images.githubusercontent.com/81401104/117500373-ed660f80-af52-11eb-925a-67afe16e1688.png) button. 
- 
- The following modal window will open:
-
-![image](./BuilderImages/chartmodal.png)
-
-In "Chart" select the "Pie" option, in "Style" the "Default" option. In "Title" write "Percentage by Function". In "Position" write "1".
-
-In the "Internal/External" selection box select the "Internal" option. 
-
-In "DataSource" select the option "DataSource X" (Created during the tutorial "How to Create a DataSource").
-
-<ul>
-  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-DataSource">How to Create a DataSource</a></li>
-</ul>
-
-In "Group by" select the "Function" option, in "Value" the "Full_Name" option. In "Operation" select "Count". (It will look like the image below)
-
-[image](./BuilderImages/chartcomplet.png)
-
-
-Now click the button ![image](https://user-images.githubusercontent.com/81401104/126830643-f2451501-2481-41c5-9864-b4b1450064ea.png) and then the ![image](./BuilderImages/saveclosebutton.png)
-
-![image](https://user-images.githubusercontent.com/81401104/117500518-21d9cb80-af53-11eb-9057-be164a09d6a8.png)
-
-Now click on the "Project" tab and run the project under which you created your "Chart".
-
-![image](https://user-images.githubusercontent.com/81401104/117500573-31f1ab00-af53-11eb-884e-9df70220a071.png)
-
-Click on the green ![image](https://user-images.githubusercontent.com/81401104/117500601-3a49e600-af53-11eb-9dc9-27020f89211b.png)(Run Project) button:
-
-![image](https://user-images.githubusercontent.com/81401104/117500632-4635a800-af53-11eb-853d-cf459742db3e.png)
-
-And here you can see the percentage of employees per function in a pie chart format. 
-
-🔗Video: https://www.youtube.com/watch?v=NoAdmVLlnqc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=40
 
 <div id='id-API'/>
 

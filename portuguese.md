@@ -16,35 +16,41 @@
     - [Date 📆](#id-Date)
     - [DateTime 📆⏲️](#id-DateTime)
     - [Time ⌛](#id-Time)
-    - [CheckBox ✅](#id-CheckBox)
+    - [Checkbox ✅](#id-CheckBox)
     - [ChecklistDB 📁](#id-ChecklistDB)
     - [Radio 🔘](#id-Radio)
+    - [Dropdown🗄️](#id-Dropdown)
     - [DropdownDB 📥](#id-DropdownDB)
     - [AutoComplete 🗄️🧲](#id-AutoComplete)
     - [Label 🔤](#id-Label)
     - [Wizard 🛤️](#id-Wizard)
+    - [Box 📦](#id-Box)
     - [Signature ✒️](#id-Signature)
     - [Static Image 🖼️](#id-Static)
+    - [Upload Image 📸📩](#id-Upload)
     - [File Upload 📂📩](#id-File)
     - [One-To-Many 📃➡️📃](#id-One-To-Many)
     - [Multi Upload 📂➕](#id-MultiUpload)
-    - [MultiTag 🏷️](#id-MultiTag)
+    - [Multi-tag 🏷️](#id-MultiTag)
     - [Additional Data ➡️📃](#id-Additional)
     - [Button ⏸️](#id-Button)
     - [HTML Field 🦰](#id-HTML)
     - [Quiz 🧩](#id-Quiz)
     - [Email 📧](#id-Email)
-    - [Password *️⃣](#id-Password)
+    - [Password 🔐](#id-Password)
     - [Horizontal Line 📏🪓](#id-Horizontal)
     - [Repeater 🔁](#id-Repeater)
+    - [Video call 🎥](#id-Video)
+    - [Chat 💬](#id-Chat)
     - [Location 🗺️](#id-Location)
     - [Chart 📊](#id-Chart)
     - [Multi-Select 🌐](#id-Multi-Select)
     - [Carousel 🎠](#id-Carousel)
-- [Form 📃](#id-form)
+- [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
     - [Dev Properties (Form)](#id-Properties)
+    - [CSS Class (Dev Properties)](#id-CSS)
     - [Notification (Form)](#id-Notification)
     - [Event type](#id-Event)
     - [Kanban 🎰](#id-Kanban)
@@ -1942,7 +1948,7 @@ Perceba que quando estava escrito apenas “Easy” não era possível salvar, m
 
 <div id='id-Password'/>
 
-## Password *️⃣
+## Password 🔐
 ![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
 
 O componente “Password” vem com sua submáscara de campo preparada para password (****), ou seja, para tornar discreto o preenchimento de informações sensíveis, por exemplo, de CPF.
@@ -2041,6 +2047,8 @@ Para Convidar pessoas para video call clique no icone ![image](./BuilderImages/v
 Para iniciar a video call clique em ![image](./BuilderImages/videocallbutton.png) voce vai ser redirecionado pra outra aba aonde ira abrir sua câmera e voce poderá iniciar a video call.<br>
 ⚠️ATENÇÃO: Verifique se o seu navegador esta bloqueando pop-up , se estiver desative para funcionar a video call.⚠️
 
+<div id='id-Chat'/>
+
 ## Chat 💬
 ![image](./BuilderImages/chaticon1.png)
 
@@ -2122,9 +2130,9 @@ Selecione o componente "Location", arrastando-o e soltando-o onde está escrito 
 
 ![image](./BuilderImages/location2.gif)
 
-Ao adicionar o componente ao formulário, você perceberá que ele é apenas um mapa, com a única função de exibir sua localização.
+Ao adicionar o componente ao formulário, você perceberá que ele é uma incorporação do Google Maps.
 
-Para armazená-la, insira o componente "Textfield" ao lado do "Location".
+Para armazenar sua localização, insira o componente "Textfield" ao lado do "Location".
 
 ![image](./BuilderImages/location3.gif)
 
@@ -2268,7 +2276,7 @@ Em "Image", selecione o componente "Upload Image".
 
 ![image](./BuilderImages/imageCarousel.png)
 
-Em "Visible Items", defina quantas imagens serão carregadas por default no carrosel.
+Em "Visible Items", defina quantas imagens cada slide terá.
 
 ![image](./BuilderImages/visibleitemsCarousel.png)
 
@@ -2286,7 +2294,164 @@ Execute a página e teste a funcionalidade.
 
 ![image](./BuilderImages/runCarousel.gif)
 
+## FORM 📄
+
 <div id='id-form'/>
+
+<div id='id-CSS'/>
+
+## CSS Class 🎨🖌️
+
+O Componente CSS está integrado às “Properties of Field” dos componentes e não exige amplo conhecimento de programação, proporcionando ao usuário a dispensa de código.
+
+A aba “Properties of Field” sempre será exibida ao arrastar e soltar um componente ou ao clicar em um componente já presente na aplicação.
+
+![image](./BuilderImages/addclassCSS.gif)
+
+Na seção “Presentation”, clique em “Add Class” e em seguida no botão +.
+
+Em “Type your style”, insira o nome da classe. Através das classes, é possível reutilizar estilos em outros componentes do mesmo projeto.
+
+![image](./BuilderImages/inputstyleCSS.gif)
+
+A partir de agora, você pode começar a estilizar seu componente:
+
+![image](./BuilderImages/section1.png)
+
+🔹Width: largura (em pixels).
+
+🔹Height: altura (em pixels).
+
+🔹Background: cor de fundo.
+
+➡️ Ative a opção Border para estilizar as bordas do componente.
+
+![image](./BuilderImages/bordaCSS.png)
+
+🔸Size: espessura da borda (em pixels).
+
+🔸Radius: arredondamento da borda (em pixels).
+
+Clique em ![image](./BuilderImages/setainvertidaCSS.png) para adicionar espessuras nas bordas em diferentes dimensões do componente, nesta ordem: borda superior, borda direita, borda inferior, borda esquerda.
+
+![image](./BuilderImages/section2.png)
+
+🔸Color: cor da borda do componente.
+
+🔹Padding: distância entre o conteúdo de um componente e suas bordas (em pixels).
+
+🔹Margin: distância entre componentes (em pixels).
+
+![image](./BuilderImages/section3.png)
+
+➡️ Adicione medidas em diferentes dimensões do componente. Observe que:
+
+- Top: superior
+- Right: direita
+- Bottom: inferior
+- Left: esquerda
+
+➡️ Ative a opção Display Flex para transformar o componente em um container flexível e alinhar itens “filhos”.
+
+![image](./BuilderImages/displayflexCSS.png)
+
+📌 Flex-Direction: direção em que os itens são alinhados.
+
+- column: coluna
+- column-reverse: coluna de baixo para cima
+- row: linha
+- row-reverse: linha da direita para esquerda
+
+![image](./BuilderImages/flexdirectionCSS.png)
+
+📌 Justify-Content: alinhamento horizontal dos itens.
+- center: centro
+- flex-start: borda de início
+- flex-end: borda final
+- space around: mesmo espaço entre os itens, com um espaço igual para as margens
+- space-between: mesmo espaço entre os itens, colados junto à margem.
+
+![image](./BuilderImages/justifycontentCSS.png)
+
+📌 Flex-Wrap: Define se os itens devem quebrar ou não a linha.
+- wrap: Quebra a linha assim que um dos flex itens não puder mais ser compactado.
+- nowrap: Valor padrão, não permite a quebra de linha.
+- wrap-reverse: Quebra a linha assim que um dos flex itens não puder mais ser compactado. A quebra é na direção contrária, ou seja para a linha acima.
+
+![image](./BuilderImages/flexwrapCSS.png)
+
+📌 Align-Items: alinhamento vertical dos itens
+- center: centro
+- flex-start: borda de início
+- flex-end: borda final
+- stretch: estica os itens para preencher todo o container
+- baseline: itens são alinhados de acordo com o alinhamento de seus textos.
+
+![image](./BuilderImages/alignitemsCSS.png)
+
+📌 Align-Content: organiza as linhas do container quando há espaço sobrando no eixo vertical
+- space-between: ítens distribuídos igualmente; a primeira linha junto ao início do container e a última linha junto ao final do container.
+- space-around: ítens distribuídos igualmente com o mesmo espaçamento entre cada linha.
+- stretch: ítens em cada linha esticam para ocupar o espaço remanescente entre elas.
+- center: ítens centralizados no container.
+- flex-start: ítens alinhados com o início do container.
+- flex-end: ítens alinhados com o final do container.
+
+![image](./BuilderImages/aligncontentCSS.png)
+
+🔹Font-Family: define a família da fonte do componente.
+
+🔹Text align: define o alinhamento do texto do componente.
+
+![image](./BuilderImages/section4.png)
+
+🔹Size: tamanho da label do componente, podendo escolher a medida (px, %, vh, vw, rem, em).
+
+![image](./BuilderImages/section5.png)
+
+🔹Color: cor da label do componente.
+
+🔹Weight: intensidade do negrito da label do componente (bold, normal, bolder, lighter)
+
+![image](./BuilderImages/weightCSS.png)
+
+🔹Style: estilo da label do componente (italic, normal, oblique)
+
+![image](./BuilderImages/styleCSS.png)
+
+🔹Decoration: decorações acima e abaixo da label do componente
+
+![image](./BuilderImages/decorationCSS.png)
+
+🔹Line Height: altura da linha da label do componente (em pixels)
+
+🔹Letter Spacing: espaço entre as letras da label do componente (em pixels)
+
+🔹Opacity: opacidade da label do componente (em pixels).
+
+![image](./BuilderImages/section6.png)
+
+➡️ Ative a opção Shadow para adicionar sombras ao componente.
+
+![image](./BuilderImages/section7.png)
+
+![image](./BuilderImages/section8.png)
+
+🔸X: sombra horizontal (em pixels)
+
+🔸Y: sombra vertical (em pixels)
+
+🔸Blur: desfoque da sombra (em pixels)
+
+🔸Spread: propagação da sombra (em pixels)
+
+🔸Color: cor da sombra 
+
+Clique em ![image](./BuilderImages/saveCSS.png) para salvar a classe.
+
+🔗 Vídeo: https://www.youtube.com/watch?v=7w-d7rYo8LQ
+
+<div id='id-Tab'/>
 
 ## Tab (Form)
 ![+Tab2](https://user-images.githubusercontent.com/81401104/117342044-28941000-ae79-11eb-9404-4869e9a5de3d.gif)

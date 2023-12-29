@@ -1,4 +1,8 @@
 # Easybuilder WebSite
 https://builder.easy.rocks
 
-"# builder-tutorials" 
+## Tutoriais em Português
+https://www.youtube.com/@easycomtec/videos
+
+## English Tutorials
+https://www.youtube.com/@easyus/videos
