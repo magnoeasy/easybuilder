@@ -26,7 +26,7 @@
     - [Wizard 🛤️](#id-Wizard)
     - [Box 📦](#id-Box)
     - [Signature ✒️](#id-Signature)
-    - [Static Image 🖼️](#id-Static)
+    - [Static Image 🌄](#id-Static)
     - [Upload Image 📸📩](#id-Upload)
     - [File Upload 📂📩](#id-File)
     - [One-To-Many 📃➡️📃](#id-One-To-Many)
@@ -41,10 +41,12 @@
     - [Horizontal Line 📏🪓](#id-Horizontal)
     - [Repeater 🔁](#id-Repeater)
     - [Video call 🎥](#id-Video)
+    - [Page View 🖼️](#id-PageView)
     - [Chat 💬](#id-Chat)
     - [Location 🗺️](#id-Location)
     - [Chart 📊](#id-Chart)
     - [Multi-Select 🌐](#id-Multi-Select)
+    - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
 - [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
@@ -736,6 +738,7 @@ Em "Unit", defina a unidade de medida do progresso. O uso mais comum é o da por
 Execute a aplicação.
 
 Ao criar um novo registro, o componente estará disposto dessa maneira:
+
 ![image](./BuilderImages/RunProgressbar.png)
 
 <div id='id-Gantt'/>
@@ -1409,7 +1412,7 @@ Info field: Selecionar o campo que contém o componente “Hidden” atrelado à
 
 <div id='id-Static'/>
 
-## Static Image 🖼️
+## Static Image 🌄
 ![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
 
 Com este componente você pode adicionar uma imagem que sempre estará sendo mostrada no formulário e não será salva dentro do banco de dados. 
@@ -2047,6 +2050,44 @@ Para Convidar pessoas para video call clique no icone ![image](./BuilderImages/v
 Para iniciar a video call clique em ![image](./BuilderImages/videocallbutton.png) voce vai ser redirecionado pra outra aba aonde ira abrir sua câmera e voce poderá iniciar a video call.<br>
 ⚠️ATENÇÃO: Verifique se o seu navegador esta bloqueando pop-up , se estiver desative para funcionar a video call.⚠️
 
+<div id='id-PageView'/>
+
+## Page View 🖼️
+
+![image](./BuilderImages/iconePageview.png)
+
+O componente "Page View" incorpora o conteúdo de uma page dentro de outra page.
+
+![image](./BuilderImages/mostrandoquadradosPageview.gif)
+
+Primeiro crie uma página com o conteúdo desejado.
+
+![image](./BuilderImages/pagenavbarPageview.png)
+
+Em seguida, crie outra página e insira o componente "Page View", arrastando-o e soltando-o onde está escrito “Drop new field here!”.
+
+![image](./BuilderImages/arrastandocomponentePageview.gif)
+
+Na aba “Properties of Field”, em Page, insira o nome da página criada anteriormente.
+
+![image](./BuilderImages/namePageview.gif)
+
+Por fim, escolha uma porcentagem de apresentação para o componente.
+
+![image](./BuilderImages/presentationPageview.gif)
+
+Execute a aplicação e teste a funcionalidade.
+
+![image](./BuilderImages/runPageview.png)
+
+💡 A utilização do "Page View" é uma excelente maneira de economizar tempo de desenvolvimento e facilitar a manutenção de seu projeto, uma vez que ele dispensa a necessidade de desenvolver elementos repetitivos.
+
+⚠️ ATENÇÃO: Qualquer modificação feita na page original será automaticamente refletida em todas as outras pages que estão utilizando o componente.
+
+![image](./BuilderImages/changePageview.gif)
+
+🔗 Vídeo: https://www.youtube.com/watch?v=NQLAC_KBAM4
+
 <div id='id-Chat'/>
 
 ## Chat 💬
@@ -2237,6 +2278,74 @@ Em "Label Field", selecione a label do campo "DropdownDB".
 Execute a aplicação e teste a funcionalidade.
 
 ![image](./BuilderImages/runMultiselect.gif)
+
+<div id='id-Grid'/>
+
+## Grid 🗃️
+
+![image](./BuilderImages/iconeGrid.png)
+
+O componente "Grid" exibe dados inseridos pelo usuário através de um layout semelhante a Datagrid do form. 
+
+Primeiramente, crie o form que irá armazenar os dados.
+
+![image](./BuilderImages/formGrid.png)
+
+Em seguida, crie uma page e insira o componente "Grid", arrastando-o e soltando-o onde está escrito "Drop new field here!". 
+
+![image](./BuilderImages/arrastandocomponenteGrid.gif)
+
+### Grid 🗃️ > SOURCE🔌
+
+![image](./BuilderImages/sourceGrid.png)
+
+Em "DataSource", clique no botão ![image](./BuilderImages/plusDatasource.png) para criar um novo DataSource.
+
+Insira um título, selecione o form criado anteriormente e marque todos os campos.
+
+![image](./BuilderImages/datasourceGrid.gif)
+
+Salve o DataSource clicando em ![image](./BuilderImages/saveclouse.png).
+
+Selecione o DataSource criado.
+
+![image](./BuilderImages/selecionardatasourceGrid.gif)
+
+Posteriormente, clique em ![image](./BuilderImages/addcolumnsGrid.png) para organizar as colunas da grid.
+
+Insira o nome da coluna, a largura em porcentagem e o campo que armazena o dado. Clique em ![image](./BuilderImages/addGrid.png) para salvar.
+
+![image](./BuilderImages/addcolumnsgifGrid.gif)
+
+Após adicionar todas as colunas, clique em ![image](./BuilderImages/closeGif.png).
+
+![image](./BuilderImages/closegifGrid.gif)
+
+Você também pode adicionar controles a grid clicando em ![image](./BuilderImages/addcontrolsGrid.png), porém atente-se ao aviso.
+
+⚠️ AVISO: Os próximos passos irão exigir conhecimentos específicos em programação, mais especificamente na linguagem JavaScript.
+
+Insira um título e um ícone para o controle e, em "Function", o nome da função que irá gerar a funcionalidade.
+
+![image](./BuilderImages/addcontrolsgifGrid.gif)
+
+🚨 Em "Control Icon", você deve inserir a classe do ícone desejado. Busque as opções disponíveis no site Font Awesome (https://fontawesome.com/icons)
+
+![image](./BuilderImages/fontawesomeGrid.png)
+
+🚨 O código em JavaScript deve ser escrito na aba "Custom Script", disponível em "Dev Properties".
+
+![image](./BuilderImages/scriptGrid.gif)
+
+Finalmente, execute o form e faça um registro.
+
+![image](./BuilderImages/runformGrid.gif)
+
+Em seguida, execute a page e visualize na grid o registro feito no form.
+
+![image](./BuilderImages/runpageGrid.gif)
+
+🔗 Vídeo: https://www.youtube.com/watch?v=LZUeBbknHs0
 
 <div id='id-Carousel'/>
 

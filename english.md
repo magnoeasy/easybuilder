@@ -26,7 +26,7 @@
     - [Wizard 🛤️](#id-Wizard)
     - [Box 📦](#id-Box)
     - [Signature ✒️](#id-Signature)
-    - [Static Image 🖼️](#id-Static)
+    - [Static Image 🌄](#id-Static)
     - [Upload Image 📸📩](#id-Upload)
     - [File Upload 📂📩](#id-File)
     - [One-To-Many 📃➡️📃](#id-One-To-Many)
@@ -41,10 +41,12 @@
     - [Horizontal Line 📏🪓](#id-Horizontal)
     - [Repeater 🔁](#id-Repeater)
     - [Video call 🎥](#id-Video)
+    - [Page View 🖼️](#id-PageView)
     - [Chat 💬](#id-Chat)
     - [Location 🗺️](#id-Location)
     - [Chart 📊](#id-Chart)
     - [Multi-Select 🌐](#id-Multi-Select)
+    - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
 - [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
@@ -785,7 +787,7 @@ Now, create a page and insert the "Gantt" component by dragging and dropping it 
 
 ![image](./BuilderImages/sourcepreenchidoGanttINGLÊS.png)
 
-In "DataSource," click on the button ![image](./BuilderImages/plusDatasource.png) to create a new DataSource.
+In "DataSource", click on the button ![image](./BuilderImages/plusDatasource.png) to create a new DataSource.
 
 Enter a title, select the "Tasks" form, and check all the fields in that form.
 
@@ -797,19 +799,19 @@ Now, select the created DataSource.
 
 ![image](./BuilderImages/selecionandodatasourceGanttINGLÊS.gif)
 
-In "Id (Primary Key)," select the primary key of the "Tasks" form.
+In "Id (Primary Key)", select the primary key of the "Tasks" form.
 
 ![image](./BuilderImages/idprimarykey.png)
 
-In "Parent," select the "Main task" field.
+In "Parent", select the "Main task" field.
 
 ![image](./BuilderImages/parent-en-Gantt.png)
 
-In "Name," select the "Task" field.
+In "Name", select the "Task" field.
 
 ![image](./BuilderImages/name-en-Gantt.png)
 
-In "Progress," select the "Task progress" field.
+In "Progress", select the "Task progress" field.
 
 ![image](./BuilderImages/progress-en-Gantt.png)
 
@@ -1417,7 +1419,7 @@ Info field: Select the field that contains the "Hidden" component attached to th
 
 <div id='id-Static'/>
 
-## Static Image 🖼️
+## Static Image 🌄
 ![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
 
 With this component you can add an image that will always be shown on the form and will not be saved in the database. 
@@ -1591,19 +1593,19 @@ With that done, select the "Multi Upload" component by dragging and dropping it 
 
 ![image](./BuilderImages/tiposdearquivoMultiupload.gif)
 
-In "Accepted Types," choose the desired file formats.
+In "Accepted Types", choose the desired file formats.
 
-In "Max. File Size," enter the maximum accepted file size.
+In "Max. File Size", enter the maximum accepted file size.
 
 ### Multi Upload 📂➕ > SOURCE 🔌
 
 ![image](./BuilderImages/sourceMultiupload.png)
 
-In "Form," select the form created earlier.
+In "Form", select the form created earlier.
 
 ![image](./BuilderImages/form-en-Multiupload.png)
 
-In "DataSource," click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
+In "DataSource", click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
 
 Enter a title, select the form created earlier, and check the "File Upload" field.
 
@@ -1615,7 +1617,7 @@ Now select the created DataSource.
 
 ![image](./BuilderImages/escolhendodatasourceMultiupload.gif)
 
-In "Upload Field," select the "File Upload" field.
+In "Upload Field", select the "File Upload" field.
 
 ![image](./BuilderImages/uploadfieldMultiupload.png)
 
@@ -2067,6 +2069,44 @@ To start the video call click on ![image](./BuilderImages/videocallbutton.png) y
 
 ⚠️WARNING: Make sure your browser isn't blocking pop-ups, if it is disabled the video call may not work.⚠️
 
+<div id='id-PageView'/>
+
+## Page View 🖼️
+
+![image](./BuilderImages/iconePageview.png)
+
+The "Page View" component incorporates the content of one page into another page.
+
+![image](./BuilderImages/mostrandoquadradosPageview.gif)
+
+First, create a page with the desired content.
+
+![image](./BuilderImages/pagenavbarPageview.png)
+
+Next, create another page and insert the "Page View" component by dragging and dropping it where it says "Drop new field here!".
+
+![image](./BuilderImages/arrastandocomponentePageview.gif)
+
+In the "Properties of Field" tab, under Page, enter the name of the previously created page.
+
+![image](./BuilderImages/namePageview.gif)
+
+Finally, choose a presentation percentage for the component.
+
+![image](./BuilderImages/presentationPageview.gif)
+
+Run the application and test the functionality.
+
+![image](./BuilderImages/runPageview.png)
+
+💡 The use of "Page View" is an excellent way to save development time and streamline the maintenance of your project, as it eliminates the need to develop repetitive elements.
+
+⚠️ WARNING: Any modification made to the original page will be automatically reflected in all other pages that are using the component.
+
+![image](./BuilderImages/changePageview.gif)
+
+🔗 Video: https://www.youtube.com/watch?v=NQLAC_KBAM4
+
 <div id='id-Chat'/>
 
 ## Chat 💬
@@ -2172,7 +2212,7 @@ Note that your location will be saved in the form's grid in detail, including in
 
 ![image](./BuilderImages/chart.png)
 
-🚨ATTENTION: To use this component, it is necessary to have already completed the "DataSource" tutorial.
+🚨 WARNING: To use this component, it is necessary to have already completed the "DataSource" tutorial.
 
 The "Chart" component automatically creates a chart based on records in a form. You have the freedom to choose the desired chart type and the color scheme present in it.
 
@@ -2204,7 +2244,7 @@ In the field properties, click on "Edit Chart Properties."
 
 ![image](./BuilderImages/printValueChart.png)
 
-Select the created DataSource, choose the variable that stores the count of records in "Value," and in "Label," select the only field marked in the DataSource.
+Select the created DataSource, choose the variable that stores the count of records in "Value", and in "Label", select the only field marked in the DataSource.
 
 ![image](./BuilderImages/valueChart.gif)
 
@@ -2232,7 +2272,7 @@ Insert the component by dragging and dropping it into the area called "Drop new 
 
 ![image](./BuilderImages/multi-select.gif)
 
-⚠️ The "Multi-Select" component uses the <a href="#dropdowndb-📥">"DropdownDB"</a> component as its source. Therefore, before using "Multi-Select," make sure you have already created a "DropdownDB" with the desired options in another form.
+⚠️ The "Multi-Select" component uses the <a href="#dropdowndb-📥">"DropdownDB"</a> component as its source. Therefore, before using "Multi-Select", make sure you have already created a "DropdownDB" with the desired options in another form.
 
 ![image](./BuilderImages/dropdowndbsportsMultiselect.png)
 
@@ -2240,15 +2280,15 @@ Insert the component by dragging and dropping it into the area called "Drop new 
 
 ![image](./BuilderImages/sourceMultiselect.png)
 
-In "Form," select the form that contains the "DropdownDB" field.
+In "Form", select the form that contains the "DropdownDB" field.
 
 ![image](./BuilderImages/form-en-Multiselect.png)
 
-In "Description Field," select the name of the "DropdownDB" field.
+In "Description Field", select the name of the "DropdownDB" field.
 
 ![image](./BuilderImages/descriptionfieldMultiselect.png)
 
-In "Label Field," select the label of the "DropdownDB" field.
+In "Label Field", select the label of the "DropdownDB" field.
 
 ![image](./BuilderImages/labelfield-en-Multiselect.png)
 
@@ -2256,13 +2296,81 @@ Run the application and test the functionality.
 
 ![image](./BuilderImages/run-en-Multiselect.gif)
 
+<div id='id-Grid'/>
+
+## Grid 🗃️
+
+![image](./BuilderImages/iconeGrid.png)
+
+The "Grid" component displays user-entered data through a layout similar to the form datagrid.
+
+Firstly, create the form that will store the data.
+
+![image](./BuilderImages/formGrid.png)
+
+Next, create a page and insert the "Grid" component by dragging and dropping it where it says "Drop new field here!"
+
+![image](./BuilderImages/arrastandocomponenteGrid.gif)
+
+### Grid 🗃️ > SOURCE🔌
+
+![image](./BuilderImages/sourceGrid.png)
+
+In "DataSource", click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
+
+Enter a title, select the form created earlier, and check all the fields.
+
+![image](./BuilderImages/datasourceGrid.gif)
+
+Save the DataSource by clicking on ![image](./BuilderImages/saveclouse.png).
+
+Select the created DataSource.
+
+![image](./BuilderImages/selecionardatasourceGrid.gif)
+
+Later, click on ![image](./BuilderImages/addcolumnsGrid.png) to organize the columns in the grid.
+
+Enter the column name, width in percentage, and the field that stores the data. Click on ![image](./BuilderImages/addGrid.png) to save.
+
+![image](./BuilderImages/addcolumnsgifGrid.gif)
+
+After adding all the columns, click on ![image](./BuilderImages/closeGif.png).
+
+![image](./BuilderImages/closegifGrid.gif)
+
+You can also add controls to the grid by clicking on ![image](./BuilderImages/addcontrolsGrid.png), but please pay attention to the warning.
+
+⚠️ WARNING: The next steps will require some programming knowledge, specifically in the JavaScript language.
+
+Enter a title and icon for the control, and in the "Function" field, input the name of the function that will generate the functionality.
+
+![image](./BuilderImages/addcontrolsgifGrid.gif)
+
+🚨 In "Control Icon", you should enter the class of the desired icon. Look for available options on the Font Awesome website. (https://fontawesome.com/icons)
+
+![image](./BuilderImages/fontawesomeGrid.png)
+
+🚨 The JavaScript code should be written in the "Custom Script" tab, available under "Dev Properties".
+
+![image](./BuilderImages/scriptGrid.gif)
+
+Finally, run the form and create a record.
+
+![image](./BuilderImages/runformGrid.gif)
+
+Then, execute the page and observe the record made in the form displayed in the grid.
+
+![image](./BuilderImages/runpageGrid.gif)
+
+🔗 Vídeo: https://www.youtube.com/watch?v=LZUeBbknHs0
+
 <div id='id-Carousel'/>
 
 ## Carousel 🎠
 
 ![image](./BuilderImages/iconeCarousel.png)
 
-🚨ATTENTION: This component requires the use of the <a href="#upload-image-📸📩">"Upload Image"</a> component and the "DataSource."
+🚨 WARNING: This component requires the use of the <a href="#upload-image-📸📩">"Upload Image"</a> component and the "DataSource."
 
 The "Carousel" component creates an image carousel from a DataSource.
 
@@ -2278,7 +2386,7 @@ Next, create a page and insert the "Carousel" component by dragging and dropping
 
 ![image](./BuilderImages/sourceCarousel.png)
 
-In "DataSource," click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
+In "DataSource", click on the ![image](./BuilderImages/plusDatasource.png) button to create a new DataSource.
 
 Enter a title, select the form created earlier, and check the "Upload Image" field.
 
@@ -2290,21 +2398,21 @@ Now select the created DataSource.
 
 ![image](./BuilderImages/selecionardatasourceCarousel.gif)
 
-In "Image," select the "Upload Image" component.
+In "Image", select the "Upload Image" component.
 
 ![image](./BuilderImages/imageCarousel.png)
 
-In "Visible Items," set the number of images each slide will have.
+In "Visible Items", set the number of images each slide will have.
 
 ![image](./BuilderImages/visibleitemsCarousel.png)
 
-In "N. Scroll Items," set how many images will appear with each slide change.
+In "N. Scroll Items", set how many images will appear with each slide change.
 
 ![image](./BuilderImages/nscrollitemsCarousel.png)
 
-NOTE: In both "Visible Items" and "N. Scroll Items," it is most common to set only 1 image.
+NOTE: In both "Visible Items" and "N. Scroll Items", it is most common to set only 1 image.
 
-In "Height," set the height of the carousel (in pixels).
+In "Height", set the height of the carousel (in pixels).
 
 ![image](./BuilderImages/heightCarousel.png)
 
@@ -2328,7 +2436,7 @@ The "Properties of Field" tab will always be displayed when dragging and droppin
 
 In the "Presentation" section, click on "Add Class" and then on the plus button.
 
-In "Type your style," enter the name of the class. Through classes, it is possible to reuse styles in other components within the same project.
+In "Type your style", enter the name of the class. Through classes, it is possible to reuse styles in other components within the same project.
 
 ![image](./BuilderImages/inputstyleCSS.gif)
 
