@@ -1470,6 +1470,19 @@ To view the photo you just added, click the ![image](https://user-images.githubu
 
 🔗Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
 
+### Upload Image 📸 > Upload 🔼 > Public 📮
+![public-property](https://github.com/magnoeasy/easybuilder/assets/60669964/5cbc5048-37d6-4583-a46b-60fc83270e74)
+
+Use the `public` property when:
+- Your image is not sensitive data and sharing it won't expose private information
+- You want to optimize performance, since your image can be loaded faster due lack of extra process to verify the permissions
+- You are working on a public page(like a landing page) which should not require your users to log in
+
+When you mark an upload image as `public` it'll no longer get verified by you configured permissions
+- It will be accessable by users even if they don't have not been granted with permissions to view the form where the image was saved
+- It will be accessable even by users that are not logged in
+- It will be stored on a public repository
+  
 <div id='id-File'/>
 
 ## File Upload 📂📩

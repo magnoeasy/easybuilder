@@ -1462,6 +1462,19 @@ Para visualizar a foto que você acabou de adicionar, clique no botão ![image](
 
 🔗Vìdeo: https://www.youtube.com/watch?v=NR-vrNGcl7E&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=28
 
+### Upload Image 📸 > Upload 🔼 > Public 📮
+![public-property](https://github.com/magnoeasy/easybuilder/assets/60669964/5cbc5048-37d6-4583-a46b-60fc83270e74)
+
+Use a properiedade `public` quando:
+- A imagem não contém dados sensíveis e compartilhar ela não vai expor informação privada
+- Você quer otimizar a performance, já que a sua imagem pode ser carregada mais rapidamente por que não gastamos tempo verificando as permissões
+- Você está trabalhando em uma página publica(por exemplo, uma landing page) que não vai exigir que o usuário faça log in
+
+Quando você marca um `upload image` como `public` a imagem carregada não será mais protegida pelas configurações de permissão
+- Será acessível por usuários, mesmo que você não tenha concedido permissão para que eles vejam os dados do formulário onde a imagem foi salva
+- Será acessível por usuários que não fizeram log in
+- Será salva em um repositório público de imagens
+  
 <div id='id-File'/>
 
 ## File Upload 📂📩
