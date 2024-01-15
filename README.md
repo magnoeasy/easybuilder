@@ -1,4 +1,4 @@
-# Easybuilder WebSite
+# Easy Builder WebSite
 https://builder.easy.rocks
 
 ## Tutoriais em Português
