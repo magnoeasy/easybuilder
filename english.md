@@ -2060,7 +2060,14 @@ Notice that the fields are automatically displayed as defined in the Datasource
 ![image](https://github.com/magnoeasy/easybuilder/assets/60669964/18221230-061f-4909-9697-a0da0fd188ce)
 
 2 - Declare your function\
-![image](https://github.com/magnoeasy/easybuilder/assets/60669964/1b3eb56e-871c-4f15-8fea-23a87c46189c)
+<code>function getRepeaterValue() {
+    const repeaterInstances = this.getField("MyRepeater");
+    const firstInstance = repeaterInstances[0];
+    const instanceLines = firstInstance.value;
+    const firstLine = instanceLines[0];
+    const name = firstLine.Name;
+}
+</code>
 
 ### How to set the value of a repeater on the page script
 
@@ -2068,8 +2075,14 @@ Notice that the fields are automatically displayed as defined in the Datasource
 ![image](https://github.com/magnoeasy/easybuilder/assets/60669964/38906244-8581-4527-95ba-308cd38aa754)
 
 2 - Declare your function\
-![image](https://github.com/magnoeasy/easybuilder/assets/60669964/1764a559-b5e3-4cfc-a793-9801f4015b6c)
-
+<code>function setRepeaterValue() {
+    const repeaterInstances = this.getField("MyRepeater");
+    const firstInstance = repeaterInstances[0];
+    firstInstance.setValue([{
+        Name: 'Paul'
+    }]);
+}
+</code>
 
 <div id='id-Video'/>
 
