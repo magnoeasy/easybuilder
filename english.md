@@ -2054,6 +2054,36 @@ This data link was defined in the Datasource that we created in the previous ste
 
 Notice that the fields are automatically displayed as defined in the Datasource
 
+### How to get a value from a repeater on the page script
+
+1 - Configure an event for your function\
+![image](https://github.com/magnoeasy/easybuilder/assets/60669964/18221230-061f-4909-9697-a0da0fd188ce)
+
+2 - Declare your function\
+<code>function getRepeaterValue() {
+    const repeaterInstances = this.getField("MyRepeater");
+    const firstInstance = repeaterInstances[0];
+    const instanceLines = firstInstance.value;
+    const firstLine = instanceLines[0];
+    const name = firstLine.Name;
+}
+</code>
+
+### How to set the value of a repeater on the page script
+
+1 - Configure and event for your function\
+![image](https://github.com/magnoeasy/easybuilder/assets/60669964/38906244-8581-4527-95ba-308cd38aa754)
+
+2 - Declare your function\
+<code>function setRepeaterValue() {
+    const repeaterInstances = this.getField("MyRepeater");
+    const firstInstance = repeaterInstances[0];
+    firstInstance.setValue([{
+        Name: 'Paul'
+    }]);
+}
+</code>
+
 <div id='id-Video'/>
 
 ## Video call 🎥
