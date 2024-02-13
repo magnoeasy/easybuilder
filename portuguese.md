@@ -1,5 +1,5 @@
 <h1>Easy Builder Tutorial em português</h1>
-<img src="https://user-images.githubusercontent.com/81401104/114604033-d7747000-9c6e-11eb-8150-05be1f550f81.png" />
+<img src="https://easybuilder.easy.rocks/wp-content/uploads/2023/07/logoladoazul-300x83.png" />
 
 # Table Content
 - [First steps in Easy Builder 🦶](#id-frist)
