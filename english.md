@@ -1200,7 +1200,7 @@ Checkboxes:
 Allow add and edit
 Enable barcode scanner
 
-DataLink: Where the configurated data is being pulled out from;
+Databind: Where the configurated data is being pulled out from;
 
 Additional Data: 
 
@@ -1790,8 +1790,8 @@ Now in the Source section, under "DataSource" select the "Source" option, under 
 now select and drag the "Label" component on top of the "Additional Data" and name it "Status" like in the GIF below:
 ![image](./BuilderImages/AdditionalDateLabel.gif)
 
-now in the "Source" section, under "DataLink" select the "Status" option:
-![image](./BuilderImages/sourcedatalink.png)
+now in the "Source" section, under "Databind" select the "Status" option:
+![image](./BuilderImages/sourceDatabind.png)
 
 run the application:
 ![image](https://user-images.githubusercontent.com/81401104/116297363-93569480-a771-11eb-8c70-2e70c8236691.png)
@@ -2046,10 +2046,10 @@ Note that when you insert the Repeater you cannot save the page until you have s
 
 We can easily do this using builder. To add the Datasource that we will use, we must go to the "Source" tab in the component properties and click on the "+" button. In this example our DataSource will contain three fields: Name, Age and Phone.
 
-To display the data on the repeater we use another component, label, and add a Datalink to it
+To display the data on the repeater we use another component, label, and add a Databind to it
 ![image](https://user-images.githubusercontent.com/81401104/116301880-e8e17000-a776-11eb-93ab-12295c0cfeb8.png)
 
-This data link was defined in the Datasource that we created in the previous step. Look in properties for the Datalink tab and select the element you want to display.
+This data link was defined in the Datasource that we created in the previous step. Look in properties for the Databind tab and select the element you want to display.
 ![image](https://user-images.githubusercontent.com/81401104/116302012-10d0d380-a777-11eb-80b4-27ff612e3271.png)
 
 Notice that the fields are automatically displayed as defined in the Datasource
@@ -2195,7 +2195,7 @@ Now drag the "Chat" component into the "Repeater" as in the gif below:
 
 ![image](./BuilderImages/chatrepeatergif.gif)
 
-In "Properties of Field" go to "source" under "DataLink" select "Chat" as in the image below:
+In "Properties of Field" go to "source" under "Databind" select "Chat" as in the image below:
 
 ![image](./BuilderImages/sourcechat2.png)
 
@@ -3998,12 +3998,12 @@ Using Label we will make the header of our grid.
 To list the data we’ll use the repeater tool, in its property > Source > DataSource will be picked and the Datasource created.
 <img src="./BuilderImages/GridInPage/img/0003.png">
 
-With the Label tool the Datalink with the data source's data “Datasource for grid” will be done
+With the Label tool the Databind with the data source's data “Datasource for grid” will be done
 <img src="./BuilderImages/GridInPage/gifs/0003.gif">
 
-⚠️ The step will be repeated for the other entries with their respective datalinks.
+⚠️ The step will be repeated for the other entries with their respective Databinds.
 
-Add another label and add on your datalink the form Id and uncheck the visible option.
+Add another label and add on your Databind the form Id and uncheck the visible option.
 <img src="./BuilderImages/GridInPage/gifs/0004.gif">
 
 Page 02 - Edit the data:
@@ -4019,10 +4019,10 @@ Add a repeater in your properties Source > DataSource and Source >Show, respecti
 Add the fields that will receive the to-be edited data or will create new ones. The fields should match with the fields created at the beginning of this tutorial.
 <img src="./BuilderImages/GridInPage/img/0006.png">
 
-The added fields should also contain the respective datalinks in addition to Page Class and Class Property in properties > Others.
+The added fields should also contain the respective Databinds in addition to Page Class and Class Property in properties > Others.
 <img src="./BuilderImages/GridInPage/gifs/0006.gif">
 
-Add a Hidden to receive the form’s datalink.
+Add a Hidden to receive the form’s Databind.
 <img src="./BuilderImages/GridInPage/gifs/0007.gif">
 
 Add a button and set it up to be responsible for saving the information.
