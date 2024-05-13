@@ -1784,7 +1784,7 @@ Agora na seção “Source”, em “DataSource”, selecione a opção “Orige
 Agora selecione e arraste o componente “Label” em cima do “Additional Data” e nomeie ele de "Status" como no GIF abaixo:
 ![image](./BuilderImages/AdditionalDateLabel.gif)
 
-Agora na seção “Source”, no “DataLink” selecione a opção “Status”:
+Agora na seção “Source”, no “DataBind” selecione a opção “Status”:
 ![image](./BuilderImages/sourcedatalink.png)
 
 Execute a aplicação:
@@ -2027,10 +2027,10 @@ Perceba que ao inserir o Repeater não poderá salvar a page até que tenha sele
 
 Podemos fazer isso facilmente utilizando o builder. Para adicionar a fonte de dados que utilizaremos, devemos procurar a aba “Source”, dentro das propriedades do componente, e clicar no botão “+”. Neste exemplo nosso DataSource conterá três campos: Nome, idade e telefone.
 
-Para exibir os dados no repeater utilizamos outro componente, o label, e adicionamos um Datalink para ele
+Para exibir os dados no repeater utilizamos outro componente, o label, e adicionamos um Databind para ele
 ![image](https://user-images.githubusercontent.com/81401104/116301880-e8e17000-a776-11eb-93ab-12295c0cfeb8.png)
 
-Essa ligação de dados foi definida no Datasource que criamos no passo anterior. Procure em properties pela aba Datalink e selecione o elemento que você deseja exibir.
+Essa ligação de dados foi definida no Datasource que criamos no passo anterior. Procure em properties pela aba Databind e selecione o elemento que você deseja exibir.
 ![image](https://user-images.githubusercontent.com/81401104/116302012-10d0d380-a777-11eb-80b4-27ff612e3271.png)
 
 Perceba que os campos são exibidos automaticamente conforme o que foi definido no Datasource
@@ -2177,7 +2177,7 @@ Agora arraste o componente "Chat" para dentro do "Repeater" como no gif abaixo:
 
 ![image](./BuilderImages/chatrepeatergif.gif)
 
-Em “Properties of Field” vá até "source" em "DataLink" selecione "Chat" como na imagem abaixo:
+Em “Properties of Field” vá até "source" em "DataBind" selecione "Chat" como na imagem abaixo:
 
 ![image](./BuilderImages/sourcechat2.png)
 
@@ -3931,12 +3931,12 @@ Usando Label faremos o cabeçalho de nossa grid.
 Para listar os dados usaremos a ferramenta repeater, em sua propriedade > Source > DataSource será escolhido o Datasouce criado.
 <img src="./BuilderImages/GridInPage/img/0003.png">
 
-Com a ferramenta Label será feito o Datalink com os dados vindo do datasource “Datasource for grid”.
+Com a ferramenta Label será feito o Databind com os dados vindo do datasource “Datasource for grid”.
 <img src="./BuilderImages/GridInPage/gifs/0003.gif">
 
-⚠️ O passo será repetido para as demais entradas com seus respectivos datalinks.
+⚠️ O passo será repetido para as demais entradas com seus respectivos databinds.
 
-Adicione uma outra label e adicione em seu datalink o Id do formulário e desmarque a opção visible.
+Adicione uma outra label e adicione em seu databind o Id do formulário e desmarque a opção visible.
 <img src="./BuilderImages/GridInPage/gifs/0004.gif">
 
 Page 02 – Editar os dados
@@ -3952,10 +3952,10 @@ Adicione um repeater um em suas propriedades Source > DataSource e Source > Show
 Adicione os campos que iram receber os dados a serem editados ou criarão novos dados. Os campos devem corresponder aos campos criados no formulário no começo deste tutorial.
 <img src="./BuilderImages/GridInPage/img/0006.png">
 
-Os campos adicionados também devem conter os respectivos datalinks além de Page Class e Class Property em propriedades > Others.
+Os campos adicionados também devem conter os respectivos databinds além de Page Class e Class Property em propriedades > Others.
 <img src="./BuilderImages/GridInPage/gifs/0006.gif">
 
-Adicione um HIdden para receber o datalink do formulário.
+Adicione um HIdden para receber o databind do formulário.
 <img src="./BuilderImages/GridInPage/gifs/0007.gif">
 
 Adicione um botão e configure-o para que seja responsável por salvar as informações.
