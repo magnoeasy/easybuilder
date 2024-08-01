@@ -89,7 +89,7 @@
     
 - Accessing the link https://builder.easy.rocks/
     
-<img src="./BuilderImages/login.png">
+<img src="./BuilderImages/BuilderImagesAtualizadas/login.png">
 
  In this image we can see a login screen, this is where you will sign up, there are several ways to sign up like through Google, Microsoft Teams,Facebook or with your email, the recommended is to use Easy's email (....@easyteam.rocks) which you received by clicking <i>"Sign UP".
     
@@ -103,7 +103,7 @@ Click "_Link Here_" to confirm the email.⤴️
     
 Now you can already log in to <b>"Easy Builder"</b> without problems by clicking _Sign In_.⤵️
     
-<img src="./BuilderImages/login2.png">
+<img src="./BuilderImages/BuilderImagesAtualizadas/loginSingIn.png">
     
 
 
@@ -116,15 +116,13 @@ Now we will learn how to make a basic project, menu and form, so you can try out
     
 After logging in to Builder you will find the following content:
 
-<img src="https://user-images.githubusercontent.com/81401104/114769820-107d1500-9d41-11eb-9ae1-29954922a707.png">
+<img src="./BuilderImages/BuilderImagesAtualizadas/ProjetoNew.png">
 
 In the "Main" tab and right under "Project title" type in your project's title (can be "ProjectTest") 
     
-![ProjectTest13](https://user-images.githubusercontent.com/81401104/120087176-30cc1d80-c0bc-11eb-99a3-9f1dba3ae763.gif)
+[image](./BuilderImages/BuilderImagesAtualizadas/ProjetoNewInfo.png)
    
 and click on the "_Save & Close_" button
-
-![Save$closeg](https://user-images.githubusercontent.com/81401104/120087205-5b1ddb00-c0bc-11eb-93fd-7c4d2d961a28.gif)
 
 (As the database for your project is being created, this step might take a while)
 
@@ -132,14 +130,14 @@ Now you'll be on the "Project" tab in the home page with three other main tabs (
 
 Then, you will be back at the home screen with the two main tabs "Form" and "Report" (which means "Form" and "Report" respectively), now click on the "Form" tab which is marked in green:
 
-![image](./BuilderImages/form.png)
-
+![image](./BuilderImages/BuilderImagesAtualizadas/Forms.png)
+    
 And now click on the _Form_ button, which is marked in red in the image above, will automatically open a new tab in your browser.
     
-<img src="https://user-images.githubusercontent.com/81401104/114773410-694eac80-9d45-11eb-9582-bb667046a328.png">
+<img src="./BuilderImages/BuilderImagesAtualizadas/FormsNew.png">
     
 On this new page, in the "Form Title" field write the title of your form (it can be "FormTest").    
-![image](https://user-images.githubusercontent.com/81401104/120087290-f57e1e80-c0bc-11eb-96d1-919007483897.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/FormTitle.png)
     
 Click the _"Save"_ button that is on the page bottom right.
     
@@ -1206,7 +1204,7 @@ Additional Data:
 
 Source From: where the data is coming from;
 
-To: where it is going.
+To: where it is going.+                              
 
 <div id='id-Label'/>
 
