@@ -150,7 +150,7 @@ Clique no botão _"Save"_ que se encontra na parte superior a direita.
 
 Selecione o componente “Textfield” (da aba lateral Tools - Gallery Fields) e arraste para o campo cinza onde está escrito “Drop new field here!”.
 
-Agora clique no componente que você arrastou (“Textfield”), e logo irá abrir uma aba lateral na direita chamada “Properties of Field”.⤵️
+Agora clique no componente que você arrastou (“Textfield”), e logo irá abrir uma aba lateral na direita chamada “Properties of Field”.
 
 
 Lá no topo do “Properties of Field”, abaixo de “General”, No campo “Name”  escreva ‘‘Nome’’ e no campo “Label” também escreva “Nome”.
@@ -194,6 +194,7 @@ Ao chegar na tela do formulário, preencha o “Form Title”(o titulo do formul
 Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé da página e depois clique no botão _"Run"_
 
 ![image](./BuilderImages/BuilderImagesAtualizadas/Run.gif)
+
 <br>Irá para a seguinte tela
 
 ![image](./BuilderImages/BuilderImagesAtualizadas/FormNew.gif)
@@ -201,7 +202,7 @@ Já podemos executar a aplicação, para isso, clique no botão _"SAVE"_ no pé 
 
 Essa é a tela dos registros após eles terem sido inseridos e salvos.⤴️
 
-Para inserir novos registros, clique no botão _"New"_ no topo desta tela⬇⤴️
+Para inserir novos registros, clique no botão _"New"_ no topo desta tela
 
 Então irá abrir a seguinte tela:
 
@@ -407,6 +408,7 @@ Agora desmarque a caixa de seleção “Visible”.
 ![image](./BuilderImages/BuilderImagesAtualizadas/Visible.png)
 
 Então clique na lista suspensiva do “Visibility Rules” (do campo “Idade”) e selecione “Regra da Idade”:
+
 ![image](./BuilderImages/BuilderImagesAtualizadas/RegraIdade.png)
 
  e então aparecerá mais uma lista embaixo, clique e selecione “Idade”.
@@ -1033,7 +1035,7 @@ e adicione a opção  “Feminino” e então clique no botão ![image13](https:
 Três coisas importantes de saber sobre a janela “Enumerations”:
 Em “Type” você tem duas opções que pode selecionar: “String” ou “Integer”. “String” se refere a palavras, “Integer” se refere a números.
 “Max Length” se refere a quantidade máxima de caracteres que cada opção terá.    
-E na opção ![image](./BuilderImages/BuilderImagesAtualizadas/RadioAlert.png) podemos adicionar um alerta quando selecionar a opção.
+E na opção ![image](./BuilderImages/BuilderImagesAtualizadas/RadioAlert.png) podemos adicionar um alerta quando selecionamos a opção.
 
 ![image](./BuilderImages/BuilderImagesAtualizadas/RadioEnumerations.png)
 
@@ -1507,7 +1509,8 @@ Caso queira visualizar o registro do “FileUpload”, clique no ![image](https:
 Então irá para a seguinte tela (próxima página):
 ![image](/BuilderImages/BuilderImagesAtualizadas/FIleUploadDowlond.png)
 
-E para fazer o download do arquivo é só clicar no botão ![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png).
+E para fazer o download do arquivo é só clicar no botão 
+![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png).
 
 🔗Vídeo: https://www.youtube.com/watch?v=Hk_XcIS_U_E
 

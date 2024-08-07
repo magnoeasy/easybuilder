@@ -120,7 +120,7 @@ After logging in to Builder you will find the following content:
 
 In the "Main" tab and right under "Project title" type in your project's title (can be "ProjectTest") 
     
-[image](./BuilderImages/BuilderImagesAtualizadas/ProjetoNewInfo.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/ProjetoNewInfo.png)
    
 and click on the "_Save & Close_" button
 
@@ -141,32 +141,31 @@ On this new page, in the "Form Title" field write the title of your form (it can
     
 Click the _"Save"_ button that is on the page bottom right.
     
-<img src="https://user-images.githubusercontent.com/81401104/114774084-31943480-9d46-11eb-992d-d3c930421db8.png">
+<img src="./BuilderImages/BuilderImagesAtualizadas/Save.png">
 
 Select the "Textfield" component (which is on the left menu - "Tools") and drag it to the gray field where it says "Drop new field here!"
 
-Now click on the component you dragged ("Textfield"), and soon a side tab called "Properties of Field" will open on the right.⤵️
+Now click on the component you dragged ("Textfield"), and soon a side tab called "Properties of Field" will open on the right.
     
-![Animação](https://user-images.githubusercontent.com/81401104/120087612-c5844a80-c0bf-11eb-98df-d4e9f601fc26.gif)
     
 There at the top of the "Properties of Field", under "General", on the "Name" field write ''Name'' and in the "Label" field also write "Name".
 Now click the _"Save"_ button and then click the _"Run"_ button, it will open the following page:
     
-![textemaild2](https://user-images.githubusercontent.com/81401104/121060294-d7897b80-c798-11eb-8639-350840b5b68f.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/FormTeste.png)
 
 The preview of the saved records will be available here. ⤴️
 
 > Click on the _"New"_ button, you'll be directed to the following screen:
 
-![formtestnew](https://user-images.githubusercontent.com/81401104/121061502-4a472680-c79a-11eb-9e3c-0eb0807ac8ad.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/FormNew.gif)
 
-Add the name "Lopes", and click the _"Save & Close"_ button !!!
+Add the name "Samuel", and click the _"Save & Close"_ button !!!
     
-![formtestnewnamelopes2](https://user-images.githubusercontent.com/81401104/121063430-aad76300-c79c-11eb-9304-515445ae9ca9.gif)
-    
+![image](./BuilderImages/BuilderImagesAtualizadas/FormSaveClose.gif)
+
 <h3>⚠️Be careful to not confuse "Save" instead of "Save & Close"</h3>
 
-<img src="https://user-images.githubusercontent.com/81401104/114779385-702ced80-9d4c-11eb-8838-8133ec0a3aea.png">
+![image](./BuilderImages/BuilderImagesAtualizadas/FormName.png)
 
 Repeat the process putting different names.
 
@@ -174,27 +173,25 @@ You can download the list of records in excel list format by clicking on the _"E
     
 A short gif to help you:
 
-<img src="https://user-images.githubusercontent.com/81401104/114777405-09a6d000-9d4a-11eb-8a04-d538d5b34a76.gif">
+![image](./BuilderImages/BuilderImagesAtualizadas/FormExportExel.gif)
     
 ### How to Run the Application 💻
     
 When you get to the form screen, fill in the "Form Title"(the title of the form) and insert the "Textfield" and "Email" components:
     
-![textemail](https://user-images.githubusercontent.com/81401104/120090145-8c0b0980-c0d6-11eb-9d19-a338ebf9ae7d.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/ExecutarAplicação.gif)
 
 We can now run the application, to do this, click the _"SAVE"_ button at the bottom of the page and then click the _"Run"_ button 
 
-<img src="https://user-images.githubusercontent.com/81401104/114936682-20fdc000-9e13-11eb-93dc-1dcc895356fa.gif">
+![image](./BuilderImages/BuilderImagesAtualizadas/Run.gif)
     
 You will go to the following screen
 
-![image](https://user-images.githubusercontent.com/81401104/121071158-fb9f8980-c7a5-11eb-8f1f-3017724cdcb9.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/FormNew.gif)
 
 This is the screen of the inserted and saved records.⤴️
 
-To insert new records, click the _"New"_ button at the top of this screen⬇️
-    
-![image](https://user-images.githubusercontent.com/81401104/121071360-373a5380-c7a6-11eb-8657-e45baf0201d6.png)
+To insert new records, click the _"New"_ button at the top of this screen
 
 Then the following screen will open:
 
@@ -207,7 +204,7 @@ After filling in the fields, click the _"Save & Close" button.
 ![formtestnewnamelopesemail](https://user-images.githubusercontent.com/81401104/121073189-96996300-c7a8-11eb-8af4-374d46eaa43a.gif)
 
 And you will be back at the records screen, with the form saved and available for viewing. 
-*If you want to edit the saved form,click the <img src="https://user-images.githubusercontent.com/81401104/115065229-41d21e00-9ec4-11eb-85f7-9674e8483492.png"> (Under the "Control" column)
+*If you want to edit the saved form,click the ![imagem](./BuilderImages/BuilderImagesAtualizadas/Editar.png) (Under the "Control" column)
 
 ## WARNINGS⚠️
 
@@ -274,7 +271,7 @@ It is important to realize that in the "Properties of Field" right menu, there a
 
 This is an example from the "Properties of Field" area of the "Textfield" component.
 
-<img src="https://user-images.githubusercontent.com/81401104/115268685-e5b00980-a110-11eb-9b9e-1215c566626a.png">
+![sq](./BuilderImages/BuilderImagesAtualizadas/Componentes.gif)
 
 It is important to know this so that it makes the process of locating the sections, items, etc easier.
 
@@ -286,7 +283,7 @@ It is also important that you have already performed the steps in the tutorials 
 
 ## Textfield 📓
 
-![image](https://user-images.githubusercontent.com/81401104/116603558-6e922680-a903-11eb-8b7f-65c1a9b26f2f.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Texrfield.png)
 
 The "Textfield" component is for writing text, mainly names, but it can also be used to record phone numbers using the mask on the field properties, which will be shown how to do it soon.
 
@@ -294,13 +291,13 @@ Select the "Textfield" component, then drag and drop it where it says "Drop new 
 
 (If it doesn't appear, click on the component you just dropped).
 
-![image](./BuilderImages/textfieldgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Textfield.gif)
 
 🔗Video:https://www.youtube.com/watch?v=ySN4K9JrlwQ&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=11
 
 ### Textfield 📓 > GENERAL 🎖️
 
-<img src="https://user-images.githubusercontent.com/81401104/115269185-6f5fd700-a111-11eb-992d-2e9493159141.png">
+![image](./BuilderImages/BuilderImagesAtualizadas/General.png)
 
 In this "Properties of Field" tab, under "General", you have the "Name" field, this refers to the field identification for the coding, for possible programming later. Generally you will repeat what is written in "Label", which is the field identification for the user.
 
@@ -312,7 +309,7 @@ The "Placeholder" field serves as a guide for what to fill in, it is interesting
 
 ### Textfield 📓 > VALUES 1️⃣
 
-<img src="https://user-images.githubusercontent.com/81401104/115285074-d5555a00-a123-11eb-80ae-0092b27958a4.png">
+![image](./BuilderImages/BuilderImagesAtualizadas/Values.png)
 
 In "Properties of Field", under "Values", there are 4 fields and a checkbox, which are respectively "Mask", "Default", "Minimum Length", "Maximum Length" and "Enable Barcode Scanner".
 
@@ -323,15 +320,16 @@ To make it harmonious, go to "Name" and "Label" and write "Phone Number". Leave 
 
 Run the application.
 
-![formtestnumber](https://user-images.githubusercontent.com/81401104/121075901-1ffe6480-c7ac-11eb-9c4c-efed9654570d.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/MaskTelefone.png)
 
 
 Fill in the "Phone number" field with any number, it can be (99)99999-9999
-and then click the button ![Save Close](https://user-images.githubusercontent.com/81401104/123150638-fc3c4f00-d438-11eb-9895-674a5dc67a82.png)
+and then click the button ![image63](https://user-images.githubusercontent.com/81401104/126811136-c8402d22-6277-4071-835d-1afcd6c25227.png)
+
 
 
 You are now able to view your records:
-![1](https://user-images.githubusercontent.com/81401104/121239691-f1e25880-c86f-11eb-8288-028d7c89dd6a.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TelefoneSaveTeste.png)
 
  and it is the same process when adding new records.
 
@@ -339,7 +337,7 @@ You are now able to view your records:
 
 Run the application.
 
-<img src="https://user-images.githubusercontent.com/81401104/115288674-1b142180-a128-11eb-82f0-3a930b0e05aa.png">
+![image](./BuilderImages/BuilderImagesAtualizadas/TelefoneDefault.png)
 
 Note that it is already filled in with (45)99887-6655, but you can change it.
 
@@ -356,7 +354,7 @@ click on <img src="https://user-images.githubusercontent.com/81401104/115289090-
 
 ### Textfield 📓 > BEHAVIOR 🎬
 
-<img src="https://user-images.githubusercontent.com/81401104/115289428-ed7ba800-a128-11eb-89a1-a0fd60d1efef.png">
+![image](./BuilderImages/BuilderImagesAtualizadas/BehaviorText.png)
 
 Here you will find 3 checkboxes (Required, Disabled and Visible) and 3 drop-down lists (Visibility Rules, Required Rules and Disabled Rules).
 
@@ -378,39 +376,37 @@ Regarding the rules for visibility, mandatory and disabled, it is important to n
 
 Let's test this in practice. Select and drag the "Integer" component into the form.
 
-![2 1](./BuilderImages/intege.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Integer.gif)
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
 
-![4 1](https://user-images.githubusercontent.com/81401104/121244680-8b603900-c875-11eb-8355-85aca08299c5.gif)
+![idade2](./BuilderImages/BuilderImagesAtualizadas/GeneralIdade.png)
 
-Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](https://user-images.githubusercontent.com/81401104/116604024-00019880-a904-11eb-9089-83baafbf8fa3.png) of the "Visibility Rules" ⤵️
+Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](./BuilderImages/BuilderImagesAtualizadas/+.png) of the "Visibility Rules" ⤵️
 
-![5 1](https://user-images.githubusercontent.com/81401104/121245012-e8f48580-c875-11eb-8ec4-a5db31048de3.gif)
+will open the following window:
 
-will open the following window:<img src="https://user-images.githubusercontent.com/81401104/115290616-223c2f00-a12a-11eb-902f-4ff56b703292.png">
+![image13](./BuilderImages/BuilderImagesAtualizadas/VisibilityRules.png)
 
 in "Name" write "Age Rule", in "Type" select "Integer", in "Operation" select "Greater or Equal", in "Value" write "18".⤵️
 
-![6](https://user-images.githubusercontent.com/81401104/121246873-fca0eb80-c877-11eb-8738-726df64130c7.gif)
-
 Now click on the button ![Save](https://user-images.githubusercontent.com/81401104/123150789-22fa8580-d439-11eb-81a7-83fdbd8d3bc3.png) and deselect the "Visible" checkbox.
 
-![image](https://user-images.githubusercontent.com/81401104/115290773-50217380-a12a-11eb-805e-a2f0cde5d796.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Visible.png)
 
 Then click on the "Visibility Rules" drop-down list (from the "Age" field) and select "Age Rule":
 
-![image](https://user-images.githubusercontent.com/81401104/121247013-20fcc800-c878-11eb-9b72-00ab4a7722cf.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/RegraIdade.png)
 
  and then another list will appear below, click and select "Age".
 (image on the next page)
-![image](https://user-images.githubusercontent.com/81401104/121248260-a03ecb80-c879-11eb-8dae-0318adc16220.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/visibilityRulesNew.png)
 
-Now run the application.
+Now run the application.![image](./BuilderImages/BuilderImagesAtualizadas/Run.gif).
 
 Automatically a new page will open in your browser (records screen), click on the button ![image](https://user-images.githubusercontent.com/81401104/115290892-7810d700-a12a-11eb-8693-bb6fb8a2f6a0.png)
 
-![7](https://user-images.githubusercontent.com/81401104/121250169-c9605b80-c87b-11eb-8f29-9c06afae1cb4.gif)
+![image](https://user-images.githubusercontent.com/81401104/115290923-8101a880-a12a-11eb-83b8-c57244d444a9.png)
 
 Fill the field "Age" with "18" and notice that the field "Telephone Number" appears to be filled in.
 
@@ -419,7 +415,7 @@ and if you fill in the field "Age" with "17", the field "Phone Number" won't app
 You can apply these rules in the same way for mandatory and deactivation.
 
 ### Textfield 📓 > OTHERS 📝
-![image](https://user-images.githubusercontent.com/81401104/115293506-cb385900-a12d-11eb-95ab-031c63694490.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Others.png)
 
 Here in the "Others" section you will find this "Feed Data" list, which is used to fill the field with dummy data to validate it.
 
@@ -432,7 +428,7 @@ Automatically a new page will open in your browser, and you will see the registr
 
 
 ### Textfield 📓 > PRESENTATION 📊
-![image](https://user-images.githubusercontent.com/81401104/115293763-17839900-a12e-11eb-8100-e65a2bbc0b0b.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Presentation.png)
 
 In this section you can edit how much space the field will occupy on the screens of desktops, tablets, horizontal mobiles and vertical mobiles respectively. The space occupied can vary from 8% to 100%.
 
@@ -451,24 +447,24 @@ You can go back to the form editing screen and test with the other measurements 
 In the "CSS Class" item you can enter the custom css class for the component.
 
 ### Textfield 📓 > EVENTS 🎞️
-![image](https://user-images.githubusercontent.com/81401104/115293973-63364280-a12e-11eb-98a0-b3d95c613664.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Events.png)
 
 To learn more about how to use this feature, go to the "Events" section of the "Decimal" and "Button" components.
 
 ### Textfield 📓 > INTRO ℹ️ 
 
-![image](https://user-images.githubusercontent.com/81401104/115294185-a7c1de00-a12e-11eb-9481-9df98b38dfef.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Intro.png)
 
 The "Intro" section serves as an instructive introduction, to explain about filling out the fields or whatever you think is important.
 
 It is important to know that this functionality will only work the first time, if you want to test it again you will need to create a new form.
 
 Let's test this now, select and drop two "Textfield" components into the form. 
-![image](https://user-images.githubusercontent.com/81401104/115294159-9d9fdf80-a12e-11eb-8c99-378be69a4962.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/IntroText.png)
 
 On the first "Textfield", under "Position" select "Top", under "Order" type "1", under "Message" write "This is the first" (image on the next page).
 
-![10](https://user-images.githubusercontent.com/81401104/121413506-202d6a00-c93c-11eb-94b7-dd5ff872cc6c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/IntroMessage.gif)
 
 In the second "Textfield", in "Position" select "Right", in "Order" type "2", in "Message" write "This is the second one" .
 
@@ -492,13 +488,13 @@ You can keep adding new fields and switching the order and messages, but remembe
 <div id='id-textarea'/>
 
 ## TextArea 📄
-![image](https://user-images.githubusercontent.com/81401104/115908738-edd5b500-a440-11eb-95f4-8c0d9bba0801.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TextareaLogo.png)
 
 With the "Textarea" component you can add values of the type letters and numbers, with an area larger than a line.
 
 Select the "Textarea" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/textarea.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/textarea.gif)
 
 Run the application
 
@@ -514,7 +510,7 @@ After saving:
 
 ### TextArea 📄 > PRESENTATION 📊
 
-![image](https://user-images.githubusercontent.com/81401104/115909214-97b54180-a441-11eb-9ca8-45c8cfff9f75.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TextareaPresentation.png)
 
 To learn more about how to use this functionality, go to the "Presentation" section of the "Textfield" component.
 
@@ -523,22 +519,22 @@ The "Rows" item refers to how many rows you want for your "Textarea" component. 
 <div id='id-Editor'/>
 
 ## Editor 🎬
-![image](https://user-images.githubusercontent.com/81401104/115909368-cdf2c100-a441-11eb-9d97-395d34503e72.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Editor.png)
 
 This is a component that allows the user to insert text with the desired formatting.
 
 Select the "Editor" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field"  will appear on the right side of the screen (If it doesn't, click on the field you just dropped).
 
-![image](./BuilderImages/editor.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Editor.gif)
 
 Run the application:
-![image](https://user-images.githubusercontent.com/81401104/115909971-9c2e2a00-a442-11eb-9d79-740daa7fcc39.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/EditorExecução%20.png)
 
 And here you can edit the text with any formatting you want (underline, bold, and so on), you can add links, emojis, and others.
 
 After adding the information you want, click on the button ![image](https://user-images.githubusercontent.com/81401104/115909993-a8b28280-a442-11eb-90a0-60ada9302880.png), and it will show as this:
 
-![image](https://user-images.githubusercontent.com/81401104/115910982-e532ae00-a443-11eb-8384-8290a56f32fe.png)
+![image](./BuilderImages//BuilderImagesAtualizadas/EditorForm.png)
 
 To edit the added record, click the ![image](https://user-images.githubusercontent.com/81401104/115912062-3e4f1180-a445-11eb-9f37-620b54b1690f.png) button (under "Control").
  
@@ -547,7 +543,7 @@ To edit the added record, click the ![image](https://user-images.githubuserconte
 <div id='id-Hidden'/>
 
 ## Hidden 🙈
-![image](https://user-images.githubusercontent.com/81401104/115912857-4196cd00-a446-11eb-8bf0-f3a091c444b5.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Hidden.png)
 
 With this component you can calculate values that are hidden to the end user, and send it to save in the database and consult it later in reports.
 
@@ -555,12 +551,8 @@ Select the "Hidden" component, then drag and drop it where it says "Drop new fie
 
 To learn how to use the "Hidden" component, go to the "Signature" component tutorial.
 
-<ul>
-  <li><a href="https://github.com/magnoeasy/easybuilder/blob/main/english.md#id-Signature">Signature</a></li>
-</ul>
-
 ### Hidden 🙈 > DATA TYPE 🗃️
-![image](https://user-images.githubusercontent.com/81401104/115913172-a3573700-a446-11eb-9742-4f8601e03fb9.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/hiddenDataType.png)
 
 Under Type you can select one of these 5 possible options:
 
@@ -579,32 +571,33 @@ Default Value: Default value (the value will be filled in automatically, but can
 <div id='id-Integer'/>
 
 ## Integer 🔢
-![image](https://user-images.githubusercontent.com/81401104/115914587-858ad180-a448-11eb-9aba-1acc58ef85e3.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Integer.png)
 <br>
 This is a component used for when you need to enter integer numbers for an application.
 
 Select the "Integer" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
-![image](./BuilderImages/intege.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Integer.gif)
 
 Run the application.
-![image](https://user-images.githubusercontent.com/81401104/115914683-a6ebbd80-a448-11eb-8d68-2b03746f00f7.png)
+
+![image](./BuilderImages/BuilderImagesAtualizadas/IntegerRun.png)
 
 Note that you can only insert numbers into the field.
 
 After saving, it will look like this on the records screen:
-![image](https://user-images.githubusercontent.com/81401104/115914760-c1259b80-a448-11eb-88bf-61d43623e625.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/IntegerSave.png)
 
 🔗Video: https://www.youtube.com/watch?v=hP0mfTJ18Qs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=14
 
 ### Integer 🔢 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115914830-d69ac580-a448-11eb-8680-dde1bf8d8b14.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ValuesInteger.png)
 
 Under "Values", there are 3 fields and a checkbox, which are respectively: Default, Minimum Value, Maximum Value and Auto Increment.
 
 Default: refers to an automatic value filling, for example, enter in the "Default" field the value "10".
 
 Run the application:
-![image](https://user-images.githubusercontent.com/81401104/115914900-eb775900-a448-11eb-8f06-749e07b0e1c0.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/IntegerValues.gif)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115915188-5fb1fc80-a449-11eb-89e1-57eae620af5d.png). 
 
@@ -624,58 +617,57 @@ Fill the field with "15" and then with "16" and notice that the maximum value al
 
 Auto Increment: Will start with the value 1 and then continue with the sequence (2,3,4...) automatically. If you have an initial value defined, for example "34", it will continue from there (35,36,37...), like in the following example images:
 
-![image](https://user-images.githubusercontent.com/81401104/115915247-73f5f980-a449-11eb-9de3-3542a5336c36.png)
-![image](https://user-images.githubusercontent.com/81401104/115915296-86703300-a449-11eb-8bce-144d0ff7cab7.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AutoIncrement.gif)
 
 <div id='id-Decimal'/>
 
 ## Decimal 💲
-![image](https://user-images.githubusercontent.com/81401104/115915315-8d974100-a449-11eb-8ba7-dd634492ea2e.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Decimal.png)
 
 This is a component used to enter decimal numbers for an application.
 
 Select the "Decimal" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/decimal.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Decimal.gif)
 
 Run the application.
 
-![image](https://user-images.githubusercontent.com/81401104/115915563-dfd86200-a449-11eb-941a-b79f87108c94.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DecimalRun.png)
 
 Notice that on the register screen the default structure is decimal number.
 
 After adding and saving, it will look like this on the record screen:
 
-![image](https://user-images.githubusercontent.com/81401104/115915596-e9fa6080-a449-11eb-8dcc-099eadcd2201.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DecimalForm.png)
 
 🔗Video: https://www.youtube.com/watch?v=IS_NL5Txe7A&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=15
 
 ### Decimal 💲 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115916759-9be65c80-a44b-11eb-944a-788bd6dcbe1d.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DecimalValues.png)
 
 To learn more about how to use this functionality, go to the "Values" section of the "Integer" component.
 
 Scale: This refers to the number of digits after the period or comma, for example, add the value "5" in the "Scale" field. When you run the application, it will look like the following image:
 
-![image](https://user-images.githubusercontent.com/81401104/115916779-a1dc3d80-a44b-11eb-8f38-110d8c4f9cf3.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DecimalScale.png)
 
 Note that there are five digits after the period.
 
 ### Decimal 💲 > EVENTS ⚙️
 
-![image](./BuilderImages/eventsdecimal.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Events.png)
 
 To test the "Events" section we will delete the fields created previously with the "Decimal" component and leave the form empty.
 
 Now select and drag 3 "Decimal" components, one next to the other.
 Name the first as "Number1", the second as "Number2" and the third as "Total" (Like in the image below)
-![image](https://user-images.githubusercontent.com/81401104/115918250-b0c3ef80-a44d-11eb-89f5-cc208a92f92e.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DecimalEventsComponentes.png)
 
 We will perform the following function: when filling the value of the "Number1" and of the "Number2", the result of the sum of these two fields will automatically be given in the "Total". 
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115918296-bfaaa200-a44d-11eb-9e3a-a822c082bf99.png) (is located in the "Events" section) of the "Total" field and will automatically open this tab:
+Now click on the button ![add your script here](/BuilderImages/BuilderImagesAtualizadas/AddScript.png) (is located in the "Events" section) of the "Total" field and will automatically open this tab:
  
-![image](https://user-images.githubusercontent.com/81401104/115918367-d18c4500-a44d-11eb-95a9-80bc573cfad9.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/addScrptPromp.png)
 
 In this "Custom Scripts" field copy and paste the following function:
 
@@ -685,23 +677,25 @@ In this "Custom Scripts" field copy and paste the following function:
 
 Now go back to the "Form Design" on the "Dev Properties" side, at the top of the page. 
 (Image below)
-![image](https://user-images.githubusercontent.com/81401104/115918444-e7016f00-a44d-11eb-98df-a46551bd1200.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Designer.png)
 
-Click on the "Number1" field, go to the "Events" section, under "Name" select the "onkeyup" option and under "On" write "sum()" 
+Click on the "Number1" field, go to the "Events" section, under "Name" select the "onkeyup" option and under "On" write "soma()" 
 and then click on the ![image](https://user-images.githubusercontent.com/81401104/115918481-f2549a80-a44d-11eb-88f0-43c93d31576e.png) button.
 
-![events add()](https://user-images.githubusercontent.com/81401104/122480810-edbae700-cfa3-11eb-8eec-2acb3783df61.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/EventsDecimalInfomaç.png)
 
 After clicking on the button, it will look like this:
 
-![Nomeonaction1](https://user-images.githubusercontent.com/81401104/122481353-eba55800-cfa4-11eb-8440-38f3b964c964.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/EventsDecimal+.png)
 
 Do the same thing with the field "Number2".
 
 Run the application.
-![image](https://user-images.githubusercontent.com/81401104/115918669-2d56ce00-a44e-11eb-8062-aa61ad0cdb77.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/FormDecimalEvents.png)
 
-then click on button ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png) and this page will open:
+then click on button ![image](https://user-images.githubusercontent.com/81401104/115918700-3778cc80-a44e-11eb-9a07-4f211134ff73.png) 
+
+and this page will open:
 ![image](https://user-images.githubusercontent.com/81401104/115919016-a524f880-a44e-11eb-8654-73047c48392f.png)
 
 In "Number1" enter the value "2.55", and in "Number2" enter the value "1.32" and automatically it will show the value "3.87" in the "Total" field. You can test it with other values if you want to.
@@ -828,26 +822,26 @@ Run the application and test the functionality.
 <div id='id-Date'/>
 
 ## Date 📆 
-![image](https://user-images.githubusercontent.com/81401104/115919138-d0a7e300-a44e-11eb-9376-8aeb6e83f45c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Date.png)
 
 With the "Date" component you can add a date, current date, a pre-defined date or any other date that you fill in.
 
 Select the "Date" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/dategif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateDrop.gif)
 
 Run the application
 
 On the register screen, the field will be shown as in the image:
-![image](https://user-images.githubusercontent.com/81401104/115919215-eae1c100-a44e-11eb-8f03-627c920c96d7.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateRun.png)
 
 Note that the format is month/day/year. So just select the date and then save:
-![image](https://user-images.githubusercontent.com/81401104/115919256-f8974680-a44e-11eb-816e-f9438eb08109.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateForm.png)
 
 🔗Video: https://www.youtube.com/watch?v=ZINKzaGHI-w&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=16
 
 ### Date 📆 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115919565-60e62800-a44f-11eb-913a-b0a2256a3b8d.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateValues.png)
 
 Default: The field will be filled with a pre-determined date, but you can change it if necessary.
 
@@ -858,30 +852,30 @@ Current Date. By checking this box, the "Date" field will always be automaticall
 <div id='id-DateTime'/>
 
 ## DateTime 📆⏲️ 
-![image](https://user-images.githubusercontent.com/81401104/116605437-cb8edc00-a905-11eb-9d85-da4e8267a93c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTime.png)
 
 With this component you can add date and time, it can be a current one, a pre-defined one or any other you want.
 
 Select the "DateTime" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/datetime.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTime.gif)
 
 Run the application.
 
-![image](https://user-images.githubusercontent.com/81401104/115919778-aacf0e00-a44f-11eb-9db4-d2b72adada8a.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTimeNew.png)
 
 Notice that the date is in month/day/year format and the time is in AM/PM format.
 
-![image](https://user-images.githubusercontent.com/81401104/115919857-c803dc80-a44f-11eb-854f-cea22d401e9a.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTimeNewInform.png)
 
 After saving, it will be arranged as follows on the records screen:
 
-![image](https://user-images.githubusercontent.com/81401104/115919887-d18d4480-a44f-11eb-9f07-a3ee4eae8c79.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTimeForm.png)
 
 🔗Video: https://www.youtube.com/watch?v=Qw93cdchp-c&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=17
 
 ### DateTime 📆⏲️ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115919926-de119d00-a44f-11eb-84e3-f7d7e912f67c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DateTimeValues.png)
 
 Default: The field will be filled with a predetermined date and time, but you can change it if necessary.
 
@@ -894,60 +888,58 @@ Current Date/Time: By checking this box, the "DateTime" field will always be aut
 <div id='id-Time'/>
 
 ## Time ⌛ 
-![image](https://user-images.githubusercontent.com/81401104/115920003-faadd500-a44f-11eb-9908-55c0199797e6.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Time.png)
 
 With this component you can add a current time, a predefined time or any other time that you filled in.
 
 To use it, select the "Time" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/Time.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Time.gif)
 
 Run the application.
 
 The component will be arranged as follows on the registration screen:
 
-![image](https://user-images.githubusercontent.com/81401104/115920056-0bf6e180-a450-11eb-82fc-eac0276ca393.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TimeNew.png)
 
 Note that it is in the format "--:-- --", this means that the time is in AM/PM (AM for before noon and PM for after noon). 
 
 After saving the time, the logs screen will look like this:
-![image](https://user-images.githubusercontent.com/81401104/115920088-14e7b300-a450-11eb-91e3-6e54e96d6872.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TimeForm.png)
 
 Video: https://www.youtube.com/watch?v=9kFXdYT4GAY&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=18
 
 ### Time ⌛ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115920106-1c0ec100-a450-11eb-8461-27ea86d57921.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TimeValues.png)
 
 Default: The field will be filled with a predetermined time, but you can change it if necessary.
 
 <div id='id-CheckBox'/>
 
 ## Checkbox ✅
-![image](https://user-images.githubusercontent.com/81401104/115920191-39dc2600-a450-11eb-98bc-b0c17f7c2f6e.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Checkbok.png)
 
 The "Checkbox" component is a checkbox that allows the user to make a binary choice, i.e. a choice between two mutually exclusive options.
 
 To use it select the "Checkbox" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen  (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/checkbox.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Checkbox.gif)
 
 Type "Required" in the "Name" and "Label" fields that are in the "General" section of the "Properties of Field" checkbox.
 
- ![CheckBoxTutorial 1](https://user-images.githubusercontent.com/81401104/121757221-3c273c00-caf3-11eb-90c4-594cb9b61ff3.png)
+ ![image](./BuilderImages/BuilderImagesAtualizadas/CheckboxGeneral.png)
 
  Now run the application.
 In the registration screen you can see the component:
 
-![CheckBoxTutorial 2](https://user-images.githubusercontent.com/81401104/121757271-62e57280-caf3-11eb-9dc2-04c5a4e06c2f.png)
-
-![CheckBoxTutorial 3 true](https://user-images.githubusercontent.com/81401104/121757301-801a4100-caf3-11eb-8329-519ebb458ead.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckboxNew.gif)
 
 After saving them, they will be arranged as follows on the registration screen:
 
-![CheckBoxTutorial 4 bank](https://user-images.githubusercontent.com/81401104/121757336-9de7a600-caf3-11eb-833b-56285962e150.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckboxForm.png)
 
 ### CheckBox ✅ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115920485-a48d6180-a450-11eb-8410-2395926bef07.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckboxValues.png)
 
 The "Default Value" checkbox refers to whether the field is already checked or unchecked when making the records.
 
@@ -956,13 +948,13 @@ The "Default Value" checkbox refers to whether the field is already checked or u
 <div id='id-ChecklistDB'/>
 
 ## ChecklistDB 📁
-![image](https://user-images.githubusercontent.com/81401104/115920530-b2db7d80-a450-11eb-80a9-2f7f035b7451.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckListDB.png)
 
 This component creates a checklist that will be connected to a DataSource. The records can be entered by the end user.
 
 Select the "ChecklistDB" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If not, just click on the field you just dropped).
 
-![image](./BuilderImages/checkboxDB.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckListDB.gif)
 
 To see how this component is used, scroll down to the "Source" section of this tutorial.
 
@@ -973,7 +965,7 @@ You can do that by clicking the communication icon on the top right menu and wri
 
 ### ChecklistDB 📁 > PRESENTATION 📊
 
-![image](https://user-images.githubusercontent.com/81401104/115920727-f635ec00-a450-11eb-9b9e-5ce77c810e4c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckListDBPresen.png)
 
 To be able to view the presentation differences, it is mandatory that you have already added values in the "Values" section.
 
@@ -983,7 +975,7 @@ Under "Style" you have three options that you can select: "Fixed", "Fluid" or "V
 
 ### ChecklistDB 📁 > SOURCE 🔌
 
-![image](./BuilderImages/Source.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/CheckListDBSource1.png)
 
 To make the "ChecklistDB" component work, you need to pull data from another form/datasource. 
 
@@ -999,32 +991,35 @@ So, it is necessary, that you have created that other form/database, and after u
 <div id='id-Radio'/>
 
 ## Radio 🔘
-![image](https://user-images.githubusercontent.com/81401104/115922262-0d75d900-a453-11eb-9b6b-ddc37d5b072d.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Radio.png)
 
 With the "Radio" component you can provide a list of options but select only one of them as true.
 
 Select the "Radio" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/Radio.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Radio.gif)
 
 Scroll down to the "Values" section of this tutorial to learn how to use this component.
 
 🔗Video: https://www.youtube.com/watch?v=RPHA64EMDEE&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=20
 
 ### Radio 🔘 > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/115922505-5cbc0980-a453-11eb-816d-9ec435070fba.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/RadioValues.png)
 
 Here you will add the values, for example, create lists with the options to select, remembering that only one option can be selected with this component.
 
-Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115922523-634a8100-a453-11eb-95a4-2eb6c60f6164.png), it will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
+Now click on the button ![image](./BuilderImages/BuilderImagesAtualizadas/+.png), it will automatically open the modal window "Enumerations" (image on the next page), in "Name" write "Gender", in "Type" keep the option "String".
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png) and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png) and add "Female" and then click the ![Save](https://user-images.githubusercontent.com/81401104/123151110-81276880-d439-11eb-8d8d-51e68a8ffb59.png) button. (Image on the next page)
+
+ ![image](./BuilderImages/BuilderImagesAtualizadas/RadioValues.gif)
 
 Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
 "Max Length" refers to the maximum amount of characters each option will have.
+And in the option ![image](./BuilderImages/BuilderImagesAtualizadas/RadioAlert.png) we can add an alert when we select the option.
 
-<img src="./BuilderImages/Changes/enumerations.jpg">
+![image](./BuilderImages/BuilderImagesAtualizadas/RadioEnumerations.png)
 
 Still on the "Values" section, there is the "Default" item, clicking on it, it will show the "Male" and "Female" options, this means that if you select one of these two now, when filling out the form one of them will already be selected, but you can still change it if you want. 
 
@@ -1037,15 +1032,16 @@ The component will look like this on the registration screen:
 <div id='id-Dropdown'/>
 
 ## Dropdown 🗄️
-![image](https://user-images.githubusercontent.com/81401104/115923839-4020d100-a455-11eb-9f00-1e9c4c39a47d.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Dropdown.png)
 
 The "Dropdown" component is for you to provide a list of options in a menu format.
 
 Select the "Dropdown" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field"  will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/Dropdown.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Dropdown.gif)
 
-In the "Values" section of the "Properties of Field", click the ![image](https://user-images.githubusercontent.com/81401104/116135875-05fb3d80-a6a8-11eb-90a7-38590cd054c5.png) button, the following modal window will appear:
+In the "Values" section of the "Properties of Field", click the ![image](./BuilderImages/BuilderImagesAtualizadas/+.png) 
+button, the following modal window will appear:
 
 ![image](https://user-images.githubusercontent.com/81401104/116135980-24f9cf80-a6a8-11eb-8a04-ba06728e76e6.png)
 
@@ -1069,14 +1065,14 @@ On the registration screen, the "Dropdown" will work as follows:
 🔗Video: https://www.youtube.com/watch?v=QsfoAgq2EIs&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=21
 
 ### Dropdown 🗄️ > VALUES 1️⃣
-![image](https://user-images.githubusercontent.com/81401104/116136301-8457df80-a6a8-11eb-9989-de387c22fe47.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/RadioValues.png)
 
 To learn more about how to use this feature, go to the "Values" section of the "Radio" component.
 
 <div id='id-DropdownDB'/>
 
 ## DropdownDB 📥
-![image](https://user-images.githubusercontent.com/81401104/116136414-a6e9f880-a6a8-11eb-8374-e4210d16ff89.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DropdownDB.png)
 
 The "DropdownDB" component is for you to provide a list of options in menu format from a DataSource. The end user can insert data into this list.
 
@@ -1084,13 +1080,13 @@ The "DropdownDB" component is for you to provide a list of options in menu forma
 
 Select the "DropdownDB" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/DropdownDB.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/DropdownDB.gif)
 
 To learn how to use this component, scroll down to the "Source" section of this tutorial.
 
 ### DropdownDB 📥 > SOURCE 🔌
 
-![image](./BuilderImages/sourcedropDB.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DropdownDBSource.png)
 
 In this "Source" section, it will be brought the set of values entered into another field, which can be from another or the same form, as long as it is under the same project.
 
@@ -1102,17 +1098,11 @@ So, let's start by creating one more form (as shown in the tutorial "How to Crea
 
 And on this new form we will add the "Textfield" component into it.
 
-![form color text](https://user-images.githubusercontent.com/81401104/121950606-3b2f1e00-cd30-11eb-8ad6-a123d6cd272f.png)
-
-
 In the "General" section,Name the "Name" and "Label" fields "Color".
 
-![image](./BuilderImages/generalcor.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TextfieldGeneralCores.png)
 
 Now run the application.
-
-![SaveAndRun](https://user-images.githubusercontent.com/81401104/122146655-d823b100-ce2d-11eb-970c-ec287ded561c.gif)
-
 The next page will open:
 
 ![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
@@ -1153,7 +1143,7 @@ Still in the "Source" section, under "Additional Data" you can add another set o
 <div id='id-AutoComplete'/>
 
 ## AutoComplete 🗄️🧲
-![image](https://user-images.githubusercontent.com/81401104/116138049-b8340480-a6aa-11eb-93d7-6b47352f7108.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AutoComplete.png)
 
 The "AutoComplete" component serves to provide auto-complete item insertion from a DataSource. The end user is able to insert data into this list.
 
@@ -1163,7 +1153,7 @@ That is, if you know how to use "DropdownDB" you will also know how to use the "
 
 Select the "Dropdown" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field"  will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/AutoCompletr.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/AutoComplete.gif)
 
 In the "Source" section under "Class" of the "Autocomplete", select the "Color" option and under "Description Field" also select "Color". 
 
@@ -1180,7 +1170,7 @@ And then just select the desired option and proceed.
 🔗Video: https://www.youtube.com/watch?v=l0tQAqhDfVk&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=24
 
 ### AutoComplete 🗄️🧲 > FILTER 📮
-![image](https://user-images.githubusercontent.com/81401104/116138542-532cde80-a6ab-11eb-8703-6a7f19e6288a.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AutoCompleteFilter.png)
 
 Filter Name: Filter name.
 
@@ -1188,7 +1178,7 @@ Filter Value: Filter value.
 
 ### AutoComplete 🗄️🧲 > SOURCE 🗂️
 
-![image](./BuilderImages/sourceautocomplete.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AutoCompleteSource.png)
 
 Class (class, form name or datasource) - you pick the form you want to link the component to;
 
@@ -1209,17 +1199,17 @@ To: where it is going.+
 <div id='id-Label'/>
 
 ## Label 🔤
-![image](https://user-images.githubusercontent.com/81401104/116139186-1f9e8400-a6ac-11eb-82d0-6d9d36c4f6f4.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Label.png)
 
 With this component you can display values of type letters and numbers, these values will not be saved in the database.
 
 Select the "Label" component, then drag and drop it where it says "Drop new field here!
 
-![image](./BuilderImages/labelgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Label.gif)
 
  In the "Label" field of the "General" section of the "Properties of Field", click this button ![image](https://user-images.githubusercontent.com/81401104/116139313-43fa6080-a6ac-11eb-8ec1-44a4518a202e.png) to import a text document from your computer.
  
-![image](https://user-images.githubusercontent.com/81401104/116139356-51afe600-a6ac-11eb-86d4-71bd0fea7901.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/LabelSelect.png)
 
 * The text document has to be in ".txt" format.
 
@@ -1281,7 +1271,7 @@ Run the application and test its functionality.
 <div id='id-Box'/>
 
 ## Box 📦
-![image](https://user-images.githubusercontent.com/81401104/116139702-afdcc900-a6ac-11eb-8314-3a977ca34b4e.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Box.png)
 
 With this component, you can create sections within the form, to organize the components that will be in it and perform joint functionality (of visibility rules, for example).
 
@@ -1289,11 +1279,11 @@ This will save you time when editing the "Properties of Field" sections, for exa
 
 Select the "Box" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/Boxgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/box.gif)
 
 Now drag a "Textfield" and an "Integer" component into the "Groupbox" in the field where it says "Drop new field here!" and name the textfield "Letter", and the "Integer" from "Number":
 
-![image](./BuilderImages/Boxgif2.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/BoxInfo.png)
 
 And now, by selecting the box you can set the Behavior, Presentation and Intro of all components within it at once. 
 
@@ -1303,33 +1293,32 @@ Note: You can also edit these properties for each component individually in Grou
 
 Run the application
 
-![image](https://user-images.githubusercontent.com/81401104/116139918-f5999180-a6ac-11eb-901b-18c68eb5108c.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/BoxNew.png)
 
 Add the values in these two fields and then click the![image](https://user-images.githubusercontent.com/81401104/116139938-fc280900-a6ac-11eb-9f51-c7d0873d32e3.png).
 
-![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/BoxForm.png)
 
 🔗Vídeo: https://www.youtube.com/watch?v=WQSmUF8h9Co&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=26
 
 ### Box 📦 > GENERAL 🎖️
 
-![image](https://user-images.githubusercontent.com/81401104/116140548-dbac7e80-a6ad-11eb-9680-d9d5d23e0364.png)
-
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
-![image](https://user-images.githubusercontent.com/81401104/116140285-7c4e6e80-a6ad-11eb-9482-8febc12b037d.png)
 
-By selecting this checkbox ![image](https://user-images.githubusercontent.com/81401104/116140566-e23af600-a6ad-11eb-8a0c-79dd83cab49f.png), you will create the border for the component, and you can also edit the "Label" field.
+![image](./BuilderImages/BuilderImagesAtualizadas/BoxGeneral.png)
+
+By selecting this checkbox "Border", you will create the border for the component, and you can also edit the "Label" field.
 
 <div id='id-Signature'/>
 
 ## Signature ✒️
-![image](https://user-images.githubusercontent.com/81401104/116140680-0c8cb380-a6ae-11eb-9d6b-4cbce5e464a6.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Signature.png)
 
 With this component you can add a user signature to your form.
 
 Select the "Signature" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/Signaturegif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Signature.gif)
 
 To fully visualize the process of using the "Signature" component it will be necessary to follow the steps of the tutorials "How to Add a User" and "How to Give Permission to a User".
 ![image](https://user-images.githubusercontent.com/81401104/116140718-1b736600-a6ae-11eb-897c-7476531eaf87.png)
@@ -1349,29 +1338,29 @@ Now select and drop the 2 "Hidden" components on top of the "Signature" and the 
 Select the first "Hidden" that is above the "Signature" and name it "Signature Hidden". 
 And in the "Data Type" section, under "Type" select the "String" option. (image below)
 
-![image](https://user-images.githubusercontent.com/81401104/116140861-4fe72200-a6ae-11eb-85b4-ba85a0922eeb.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/SignatureAssinatura.png)
 
 And in the "Hidden" that is above the "DateTime" name it "DateTime's Hidden". 
 And in the "Data Type" section, under "Type" select the "DateTime" option. (image below)
 
-![image](https://user-images.githubusercontent.com/81401104/116140915-642b1f00-a6ae-11eb-8baf-4c522e0ddbc1.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/SignatureDataTime.png)
 
 Now go to the "Signature" section of the "Signature" component. In the "Date field" select the "Date and Time" option and in the "Info field" select the "Hidden Signature" option.
 
-![image](https://user-images.githubusercontent.com/81401104/116140947-6ee5b400-a6ae-11eb-8de9-748a987a4ed5.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureConf.png)
 
 Run the application.
 
 Then this screen will open:
-![image](https://user-images.githubusercontent.com/81401104/116140966-75742b80-a6ae-11eb-9cd3-0ed8ad6a32e6.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureForm.png)
 
 Now copy the URL (Link) of this form:
 
-![image](https://user-images.githubusercontent.com/81401104/116141019-83c24780-a6ae-11eb-9fd7-dbb5de4ffbab.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureURL.png)
 
 And then open it in an anonymous window:
 
-![image](https://user-images.githubusercontent.com/81401104/116141051-8cb31900-a6ae-11eb-90f5-2a87e50ba625.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureLoguin.png)
 
 Log in with your username. 
 
@@ -1383,11 +1372,11 @@ To continue from here, you need to have done the steps in the tutorials "How to 
 </ul>
 
 This screen will appear:
-![image](https://user-images.githubusercontent.com/81401104/116141142-abb1ab00-a6ae-11eb-9f0b-649dc9fd5d2a.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureForm.png)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/116141954-b6207480-a6af-11eb-8b8e-157154509935.png)
  and this screen will open:
-![image](https://user-images.githubusercontent.com/81401104/116141979-bf114600-a6af-11eb-8cda-c7385c77f094.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/SignatureNew.png)
 
 Click on the yellow "Click to Sign" box, and this field will appear:
 
@@ -1418,7 +1407,7 @@ Info field: Select the field that contains the "Hidden" component attached to th
 <div id='id-Static'/>
 
 ## Static Image 🌄
-![image](https://user-images.githubusercontent.com/81401104/116142936-ddc40c80-a6b0-11eb-8c96-d0e9252f2f4d.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/StaticImage.png)
 
 With this component you can add an image that will always be shown on the form and will not be saved in the database. 
 
@@ -1426,43 +1415,43 @@ On top of the images you can add events like opening other forms or hyperlink to
 
 Select the "Image" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/StaticImagegif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/StaticImage.gif)
 
 Now follow the GIF below to add your image: 
 
-![image](./BuilderImages/StaticImagegif2.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/StaticImageUpload.gif)
 
 Now run the application.
 
-![image](https://user-images.githubusercontent.com/81401104/116143236-43b09400-a6b1-11eb-9a9c-5fec3787631a.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/StaticImageNew.png)
 
 The image appears in the form, but will not be saved in the database! It can be used as an instructional reference, logo or hyperlink, among others.
 
 🔗Video: https://www.youtube.com/watch?v=-B3EjQvR_UM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=27
 
 ### Static Image 🖼️ > IMAGE 🚞
-![image](https://user-images.githubusercontent.com/81401104/116143264-4dd29280-a6b1-11eb-8a11-e98399a84373.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/StaticImageImage.png)
 
 In the "Image" section of the "Image" component you can give description ("Description") and a link, to which you will be directed when you click on the image. Remember to on the add button ![image](https://user-images.githubusercontent.com/81401104/116143294-5a56eb00-a6b1-11eb-84a9-37a064bb07e3.png)
 to really add the event that clicking on the image will take you to the link.
-![ImageGreenButtonUrl1](https://user-images.githubusercontent.com/81401104/122851870-1c0f2e00-d2e6-11eb-93d5-8edd06f1018a.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/StaticImageBotao.png)
 
 <div id='id-Upload'/>
 
 ## Upload Image 📸📩
-![image](https://user-images.githubusercontent.com/81401104/116143456-8d997a00-a6b1-11eb-9ff1-0436b57b9ad6.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/UploadImage.png)
 
 This component allows you to add an image with the desired format that will be visible in the registry
 
 Select the "ImageInput" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/UploadImagegif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/UploadImage.gif)
 
 Run the application by clicking on the ![image](./BuilderImages/RunButton.png) button:
 
 Now Follow the GIF below to Upload the Image:
 
-![image](./BuilderImages/UploadImagegif2.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/UploadImageNew.gif)
 
 To view the photo you just added, click the ![image](https://user-images.githubusercontent.com/81401104/116143693-d3564280-a6b1-11eb-8522-78da4e1fef90.png) button (under "Control")
 
@@ -1484,37 +1473,36 @@ When you mark an upload image as `public` it'll no longer get verified by you co
 <div id='id-File'/>
 
 ## File Upload 📂📩
-![image](https://user-images.githubusercontent.com/81401104/116143924-1adcce80-a6b2-11eb-8c4d-62e5bd5a86ec.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/FileUpload.png)
 
 This is a component that allows you to attach files to a registration.
 
 Select the "FileUpload" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If not, just click on the field you just dropped).
 
-![image](./BuilderImages/FileUploadgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/FileUpload.gif)
 
 Save by pressing the button ![image](./BuilderImages/saveButton.png) and Then Run the application by clicking on this button ![image](./BuilderImages/RunButton.png).
 
 Now follow the GIF below to upload the desired file:
 
-![image](./BuilderImages/FileUploadgif2.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/FileUploadNew.gif)
 
 After the step above you will go to the records screen below:
 
-![image](https://user-images.githubusercontent.com/81401104/116144349-9e96bb00-a6b2-11eb-9e8d-5fa5acc0f58b.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/FileUploadForm.png)
 
 If you want to view the "FileUpload" log, click on the ![image](https://user-images.githubusercontent.com/81401104/116144386-a8b8b980-a6b2-11eb-9872-e7b158064521.png) button (Control).
 
 Then you'll go to the following screen (next page):
-![image](https://user-images.githubusercontent.com/81401104/116144593-c25a0100-a6b2-11eb-9a55-7f29f846d8a1.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/FIleUploadDowlond.png)
 
 And to download the file, just click the button
-
 ![image](https://user-images.githubusercontent.com/81401104/116144826-dc93df00-a6b2-11eb-8281-b7987cb96718.png).
 
 🔗Video: https://www.youtube.com/watch?v=BXDgIbmrTOM&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=29
 
 ### File Upload 📂📩 > UPLOAD 🗂️
-![image](https://user-images.githubusercontent.com/81401104/116145890-3f39aa80-a6b4-11eb-8e30-daab08873130.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/FileUploadUp.png)
 
 You can upload these type of files:
 <table>
@@ -1532,20 +1520,20 @@ You can upload these type of files:
 If you leave all the checkboxes unchecked, you will be able to upload files of all the available formats. If you only select one of them, you'll be able to upload files just of the selected format type.
 
 ### File Upload 📂📩 > OTHERS 🖥️
-![image](https://user-images.githubusercontent.com/81401104/116146427-de5ea200-a6b4-11eb-887d-e113a9397c09.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/UploadImageOthers.png)
 
 Selecting the checkbox "Allow to delete file from storage" will allow deleting files from storage (where files are stored) .
 
 <div id='id-One-To-Many'/>
 
 ## One-To-Many 📃➡️📃
-![image](https://user-images.githubusercontent.com/81401104/116146516-f6362600-a6b4-11eb-9153-cb823edc918e.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OneToMany.png)
 
 With this component you can make a one-to-many relationship, for example: Classroom - who are the students, company - who are the employees.
 
 Select the "OneToMany" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/OneToManygif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/OneToMany.gif)
 
 In the "OneToMany" properties, in the "Source" section, add the "Color" option (This "Color" form was created during the "DropdownDB" tutorial).
 
@@ -1572,7 +1560,7 @@ Source: Is where the data will be taken from.
 Refresh Source: Sometimes the source may have been created recently but the list hasn't been refreshed.
 
 ### One-To-Many 📃➡️📃 > Aggregation Data
-![image](https://user-images.githubusercontent.com/81401104/116293240-0ad5f500-a76d-11eb-8e8d-57a1da964cdb.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OneToManyAggregationData.png)
 
 <table>
  <tr>
@@ -1640,18 +1628,18 @@ Run the application and test the functionality.
 
 ## MultiTag 🏷️
 
-![image](https://user-images.githubusercontent.com/81401104/116293660-820b8900-a76d-11eb-989d-784ab96c9c0a.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Multi-tag.png )
 
 This is a component that works as an autocomplete for multiple values (1:N ratio).
 
 Select the "MultiTag" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
+![image](./BuilderImages/BuilderImagesAtualizadas/Multi-tag.gif)
 
 To run the tutorial for this component, scroll down to the "Source" section.
 
-
 ### MultiTag 🏷️ > SOURCE 🔌
 
-![image](./BuilderImages/Sourcemulttag.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Multi-tagSource.png)
 
 To make use of the "MultiTag" component we will have to create 3 forms. The first to add the names, the second to connect the names to a "DropdownDB" component, and then connect the second to the third form that will be the "MultiTag" form.
 
@@ -1699,27 +1687,27 @@ To view and edit this added form, click the ![image](https://user-images.githubu
 <div id='id-Additional'/>
 
 ## Additional Data ➡️📃
-![image](https://user-images.githubusercontent.com/81401104/116295496-89cc2d00-a76f-11eb-908d-21fef404e665.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/AdditionalData.png)
 
 This component allows you to present extra data through a DataSource.
 
 Select the "AdditionalData" component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the field you just dropped).
 
-![image](./BuilderImages/AdditionalDategif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/AdditionalData.gif)
 
 To see how this component is used, scroll down to the "Additional Data" section of this tutorial
 
 ### Additional Data➡️📃 > GENERAL 🎖️
-![image](https://user-images.githubusercontent.com/81401104/116295959-0828cf00-a770-11eb-87d6-744a17419669.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AdditionalDataGeneral.png)
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
 
-By selecting the ![image](./BuilderImages/BorderCheck.png) checkbox, a border for the component will be created, and you can also edit the "Label" field.
+By selecting the ![image](./BuilderImages/BuilderImagesAtualizadas/GeneralBorder.png) checkbox, a border for the component will be created, and you can also edit the "Label" field.
 
-By selecting the ![image](./BuilderImages/Collapsible.png) checkbox, a collapse will be created in the component, and it will also be possible to edit the "Label" field.
+By selecting the ![image](./BuilderImages/BuilderImagesAtualizadas/GeneralCollapsible.png) checkbox, a collapse will be created in the component, and it will also be possible to edit the "Label" field.
 
 ### Additional Data➡️📃 > SOURCE
-![image](./BuilderImages/sourceaditionaldate.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AdditionalDataSource.png)
 
 Under "DataSource" you will select the DataSource created earlier. Beside it, this ![image](https://user-images.githubusercontent.com/81401104/116296065-27276100-a770-11eb-87e6-82d451cce125.png) is for updating the list, and the ![image](https://user-images.githubusercontent.com/81401104/116296149-3f977b80-a770-11eb-8771-9dfb8c91937a.png) is for adding a DataSource. 
 
@@ -1741,7 +1729,7 @@ We will test this by creating two forms. On the first one we will name it "Sourc
 
 Drag the "Textfield" component into the form and name it "Name", do the same with the "Dropdown" component and name it "Status". 
 
-![Origin](https://user-images.githubusercontent.com/81401104/122852967-d8b5bf00-d2e7-11eb-8f77-dc2333c0c2e6.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OrigemForm.png)
 
 (To learn more about the "Dropdown" component, go to its tutorial)
 
@@ -1803,13 +1791,13 @@ Select the name "Maria Aparecida" and notice the message beside:
 <div id='id-Button'/>
 
 ## Button ⏸️
-![image](https://user-images.githubusercontent.com/81401104/116297504-b4b78080-a771-11eb-8a78-7491dd87ff6b.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Button.png)
 
 With this component you can insert custom JavaScript functions.
 
 Select the "Button" component, then drag and drop it where it says "Drop new field here!"
 
-![image](./BuilderImages/Buttongif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Button.gif  )
 
 To learn more about how to use this component, scroll down to the "Events" section of this tutorial.
 
@@ -1821,7 +1809,7 @@ To learn more about how to use this component, scroll down to the "Events" secti
 
 ### Button ⏸️ > GENERAL 🎖️
 
-![image](./BuilderImages/GeneralButton.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ButtonGeneral.png)
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component.
 
@@ -1833,17 +1821,17 @@ To learn more about how to use this functionality, go to the "General" section o
 
 ### Button ⏸️ > EVENTS ⚙️ 
 
-![image](./BuilderImages/EventsButton.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ButtonEvents.png)
 
 Let's test the "Events" section by first dragging a new "Button" component into the form. 
 
 In this test we will make sure that clicking the button will display a message.
 
 Now in the "Events" section of this new button we will click on the button.  
-![image](./BuilderImages/addScriptButton.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/AddScriptHere.png)
 
 Then the following tab will open: 
-![image](https://user-images.githubusercontent.com/81401104/116297876-22fc4300-a772-11eb-85d9-5ce36a4c9f75.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/CustomScript.png)
 
 Under "Custom Scripts" copy and paste this script: 
 
@@ -1851,30 +1839,30 @@ Under "Custom Scripts" copy and paste this script:
                                    alert('Can be used in alerts, redirect to another page, execute a javascript function')
                                    }
 
-then click on ![image](https://user-images.githubusercontent.com/81401104/116298561-f4329c80-a772-11eb-9144-cf14ea87e784.png) button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
+then click on ![image](/BuilderImages/BuilderImagesAtualizadas/Save.png) button to test if the script is valid, if it is, a message will appear on the top right saying: "Confirmation Custom Script Valid".
 
 Now go back to the "Events" section, under "Name" select the "OnClick" option, and under "On" write "alert()", then click on the ![image](https://user-images.githubusercontent.com/81401104/116298711-27752b80-a773-11eb-9b58-b0e031acccb3.png) button . 
 
 Then it will look like this:
-![image](https://user-images.githubusercontent.com/81401104/116298756-38be3800-a773-11eb-80b5-377dcd0ca9b9.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ButtonAlert.png)
 
 Run the application:
-![image](https://user-images.githubusercontent.com/81401104/116298763-3f4caf80-a773-11eb-9706-6cb3823fecb4.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/ButtonFormRun.png)
 
 Click on the blue ![image](https://user-images.githubusercontent.com/81401104/116298781-45db2700-a773-11eb-9d95-db2991ee2dd1.png) button, which will take you to the next page ⬇️:
 ![image](https://user-images.githubusercontent.com/81401104/116298880-63a88c00-a773-11eb-9473-d1eb9946b026.png)
 
 Click on this ![image](https://user-images.githubusercontent.com/81401104/116298917-702ce480-a773-11eb-88bd-3830605f5c17.png) and you will see the following message on the top of the screen:
-![image](https://user-images.githubusercontent.com/81401104/116298965-7d49d380-a773-11eb-91d1-c0fc8c7437b5.png) then just click on the "Ok" button.
+![image](/BuilderImages/BuilderImagesAtualizadas/ButtonAlertExecut.gif)
 
 ## HTML Field 🦰
-![image](https://user-images.githubusercontent.com/81401104/116299196-c26e0580-a773-11eb-9812-83ce2acc8d91.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HtmlField.png)
 
  This is a component that allows you to insert a html text into the form.
 
 Select the "HTMLField" component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the field you just dropped).
 
-![image](./BuilderImages/HTMLFieldgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/HtmlFIeld.gif)
 
 In the "HTML" field under "General" (where the arrow is pointing), you will paste your HTML code.
 
@@ -1886,37 +1874,38 @@ Soon you will see this notice:
 
 The word "mandatory" will be in bold, due to the html code.
 
-![image](https://user-images.githubusercontent.com/81401104/116300162-f4339c00-a774-11eb-8a26-5e41adbadded.png)
-
 Run the application
 
 And here you can see the message with text formatting inside your form.
 
 ![image](./BuilderImages/HTMLFieldprint.png)
+
 🔗Video: https://www.youtube.com/watch?v=izhSKwdUDvg&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=32
 
 <div id='id-HTMLFIELD'/>
 
 ### HTML Field 🦰 > GENERAL 🎖️
-![image](https://user-images.githubusercontent.com/81401104/116300186-fd246d80-a774-11eb-9bdb-b092cae16ad4.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HtmlFieldGeneral.png)
 
 HTML: This is where you will paste your HTML code. 
 
 To learn more about how to use this functionality, go to the "General" section of the "Textfield" component. (Click here to go to the Textfield section)
 
+![image](/BuilderImages/BuilderImagesAtualizadas/HtmlEditor.png)
+
 
 <div id='id-Quiz'/>
 
 ## Quiz 🧩
-![image](https://user-images.githubusercontent.com/81401104/116300208-057ca880-a775-11eb-99b5-c148ddf86614.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Quiz.png)
 
 This component creates a quiz where the user adds true and false alternatives, placing the score of the true answers in it.
 
 Select the "Decimal" component, then drag and drop it where it says "Drop new field here!
-![image](./BuilderImages/decimal1.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Decimal.gif)
 
 Now select the "Quiz" component, then drag and drop it where it says "Drop new field here!" When you drop it, a tab will appear on the right side of the screen called "Properties of Field" (If it doesn't, just click on the field you just dropped).
-![image](https://user-images.githubusercontent.com/81401104/116300290-1d542c80-a775-11eb-8615-ed2d342a04e8.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Quiz.gif)
 
 Now follow the steps:
 
@@ -1954,7 +1943,7 @@ Then you will see the records screen and if you want to edit the saved form, jus
 🔗Video: https://www.youtube.com/watch?v=eVAWxyWRydA&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=33
 
 ### Quiz 🧩 > OTHERS 
-![image](./BuilderImages/others2.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/QuizOthersB.png)
 
 To learn more about how to use this feature, go to the "Others" section of the "Textfield" component.
 
@@ -1963,18 +1952,18 @@ Score Field: Will select the field that is inside the same form to show the quiz
 <div id='id-Email'/>
 
 ## Email 📧
-![image](https://user-images.githubusercontent.com/81401104/116300945-df0b3d00-a775-11eb-94f1-020c4570ff92.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Email.png)
 
 The "Email" component is for accepting email only.
 
 Select the "Email" component, then drag and drop it where it says "Drop new field here! If you need to confurate it, you can do it on the right side menu, if it didn't open when you dragged the component it's just to click on it.
 
-![image](./BuilderImages/Emailgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Email.gif)
 
 After dropping the email component into the form, run the application by clicking the ![image](./BuilderImages/RunButton.png) button.
 
 Notice that on the register screen you will only be allowed to save what you have entered in the "Email" field if the system considers that as email, for example:
-![image](./BuilderImages/EmailvalidationGif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/EmailSave.gif)
 
 For example, on the GIF above, when it was only written "Easy" it was not possible to save, but when "@team" was added to the end it became possible to save it.
 
@@ -1983,20 +1972,20 @@ For example, on the GIF above, when it was only written "Easy" it was not possib
 <div id='id-Password'/>
 
 ## Password 🔐
-![image](https://user-images.githubusercontent.com/81401104/116301136-1679e980-a776-11eb-9dc3-a47df9044b6a.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Password.png)
 
 The "Password" component comes with its field submask set up for password (****), i.e. to make it unobtrusive to fill in sensitive information, for example passwords or important documents.
 
 Select the "Password" component, then drag and drop it where it says "Drop new field here! If you need to confurate it, you can do it on the right side menu, if it didn't open when you dragged the component it's just to click on it.
 
-![image](./BuilderImages/Passwordgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Password.gif)
 
 Run the application by clicking on the ![image](./BuilderImages/RunButton.png) button<br>
 When entering the characters, notice that it will be hidden.
-![image](./BuilderImages/Passwordjpg.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/PasswordNew.png)
 
 And after saving, you will go to the records screen:
-![image](https://user-images.githubusercontent.com/81401104/116301438-6658b080-a776-11eb-8d57-5b9642f39791.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/PasswordForm.png)
 
 And even if you access the form again, by clicking on the ![image](https://user-images.githubusercontent.com/81401104/116301456-6eb0eb80-a776-11eb-9bc3-afd8ee4e4456.png) button (under "Control"), you still wont be able to see the information you entered:
 
@@ -2005,25 +1994,25 @@ And even if you access the form again, by clicking on the ![image](https://user-
 <div id='id-Horizontal'/>
 
 ## Horizontal Line 📏🪓
-![image](https://user-images.githubusercontent.com/81401104/116301516-7f616180-a776-11eb-8a5e-2ba596712fd3.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HorizontalLine.png)
 
 "Horizontal Line" does line breaks, with the main purpose of organizing the arrangement of components.
 
 Select the "Horizontal Line" component, then drag and drop it where it says "Drop new field here! 
-![image](./BuilderImages/HorizontalLinegif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/HorizontalLine.gif)
 
 When you place the "Horizontal Line" inside the form, you will notice that it is just a line, with the only function of organizing the arrangement of the components inside the screen.
 
 Let's add two "Textfield" components inside the form, one to the left and one to the right of the "Horizontal Line".
-![image](https://user-images.githubusercontent.com/81401104/116301693-b172c380-a776-11eb-86cb-10f56540a199.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HorizontalLineSepar.png)
 
 Now, go to the "Horizontal Line" properties (you can do that by clicking on the dragged component), in the "Presentation" section, on the first list (desktop), select the "Col-lg-12-100%" option. The visual layout will look like this:
-![image](https://user-images.githubusercontent.com/81401104/116301717-b899d180-a776-11eb-9c8e-c57364ab9365.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HorizontalLineVert.png)
 
 Now run the application by clicking on the ![image](./BuilderImages/RunButton.png) button.
 
 You will notice that the registration screen is organized in the same way:
-![image](https://user-images.githubusercontent.com/81401104/116301747-c0597600-a776-11eb-851c-d2cb1b5df620.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/HorizontalLineNew.png)
 
 This is what the "Horizontal Line" does, it breaks lines to organize the layout of the components.
 
@@ -2032,23 +2021,23 @@ This is what the "Horizontal Line" does, it breaks lines to organize the layout 
 <div id='id-Repeater'/>
 
 ## Repeater 🔁
-![image](https://user-images.githubusercontent.com/81401104/116301777-c9e2de00-a776-11eb-8741-38544753cb5d.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/Repeater.png)
 
 The repeater is the component used for data presentation within a page, with it you can reproduce the content of a form in the page environment
 
 Select the component, then drag and drop it where it says "Drop new field here! When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the component you just dropped).
-![image](./BuilderImages/RepeaterGif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Repeater.gif)
 
 Note that when you insert the Repeater you cannot save the page until you have selected a Datasource in the properties tab.  
-![image](https://user-images.githubusercontent.com/81401104/116301842-dd8e4480-a776-11eb-947a-2b584c4d1a07.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/RepeaterSource.png)
 
 We can easily do this using builder. To add the Datasource that we will use, we must go to the "Source" tab in the component properties and click on the "+" button. In this example our DataSource will contain three fields: Name, Age and Phone.
 
 To display the data on the repeater we use another component, label, and add a Databind to it
-![image](https://user-images.githubusercontent.com/81401104/116301880-e8e17000-a776-11eb-93ab-12295c0cfeb8.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/RepeaterLabel.gif)
 
 This data link was defined in the Datasource that we created in the previous step. Look in properties for the Databind tab and select the element you want to display.
-![image](https://user-images.githubusercontent.com/81401104/116302012-10d0d380-a777-11eb-80b4-27ff612e3271.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/RepeaterDataBind.png)
 
 Notice that the fields are automatically displayed as defined in the Datasource
 
@@ -2081,34 +2070,6 @@ Notice that the fields are automatically displayed as defined in the Datasource
     }]);
 }
 </code>
-
-<div id='id-Video'/>
-
-## Video call 🎥
-![image](./BuilderImages/videocallicon.png)
-
-The "Video Call" component is for you to make Video calls and Meetings within your application. 
-
-Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't appear, just click on the component you just dropped).
-![image](./BuilderImages/Videocallgif.gif)
-
-to use this component we will need two more components: a "DateTime" and a "TextField" component. Drag them to the side of the "video call" and name the "DateTime" as "Agenda" and the "TextField" as "Host" like in the image below:
-![image](./BuilderImages/Videocall1.png)
-Now click on the "Video call" and on the right side a tab called "Properties of Field" will open, in this tab go to "Others" and in "Room Field" select "Host" in "Date Field" select "Agenda" and in "Participant Field" select "Host" as in the image below:<br>
-![image](./BuilderImages/OthersVidecall.png)
-
-Now run the application by clicking the ![image](./BuilderImages/RunButton.png) button.<br>
-To Create a new video call click on new insert the date and time in the "Agenda" field and add a name in the "Host" field then click Save&Close as gif below:
-![image](./BuilderImages/Videocallnew.gif)
-
-To access the video call click on edit ![image](./BuilderImages/editar.png) under the control the following screen will appear:
-![image](./BuilderImages/videocalltela.png)
-
-To Invite people to the video call click on the icon ![image](./BuilderImages/videocallurl.png) it will copy the link of the video call now you just have to share the link with those who will participate in the video call.<br>
-
-To start the video call click on ![image](./BuilderImages/videocallbutton.png) you will be redirected to another tab where your camera will open and you can start the video call.<br>
-
-⚠️WARNING: Make sure your browser isn't blocking pop-ups, if it is disabled the video call may not work.⚠️
 
 <div id='id-PageView'/>
 
@@ -2151,35 +2112,36 @@ Run the application and test the functionality.
 <div id='id-Chat'/>
 
 ## Chat 💬
-![image](./BuilderImages/chaticon1.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/Chat.png)
 
 The "Chat" component creates a chat inside your application.
 
 Select the component, then drag and drop it where it says "Drop new field here!". When you drop it, a tab called "Properties of Field" will appear on the right side of the screen (If it doesn't, just click on the component you just dropped).
-![image](./BuilderImages/ChatGif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/Chat.gif)
 
 Name the form "FormChat", now in the "Properties of Field" tab go to "Behavior" and leave selected the options "Visible" and "Admin" as in the image below:<br>
-![image](./BuilderImages/BehaviorChat.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatBehavior.png)
 
 After doing this click on the ![image](./BuilderImages/saveButton.png) button.
 
 Now create a new form and name it "PageChat" and drag the Repeater Component into it like in the Gif below:
-![image](./BuilderImages/PageChatgif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatRepeater.gif)
 
 Now click on the "Repeater", it will open a window called "Properties of Field" on the right side of the screen, in it you'll go to "Source" on the "DataSource" line and click on the button ![image](./BuilderImages/addbutton.png), it will open the following Modal window:
 
-![image](./BuilderImages/modaldatasourcechat.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/DataSource.png)
 
-Name the "Title" field as "DatasourceChat", in the Class field select the previously created "ChatForm" as in the image below:
-![image](./BuilderImages/datasourcechat.png)
+Name the "Title" field as "DatasourceChat", in the Class field select the previously created "DataSouce" as in the image below:
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatDataSource.png)
+
 Now double click on "chat" which is marked in red and the window will look like this:
 
-![image](./BuilderImages/datasourcechat2.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatDataSourcec.png)
 
 Click the ![image](./BuilderImages/saveButton.png) button and then the ![image](./BuilderImages/saveclosebutton.png) button.<br>
 Still in "Source" under "DataSource" select the datasource we just created ("DatasourceChat") and under "Sorted By" select "Chat" as in the image below:
 
-![image](./BuilderImages/sourcechatc.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatSource.png)
 
 Now click on the ![image](./BuilderImages/filterButton.png) button and the following modal window will open:
 
@@ -2187,15 +2149,15 @@ Now click on the ![image](./BuilderImages/filterButton.png) button and the follo
 
 On the modal window under "Filter name" type "GetAll" click the ![image](./BuilderImages/buttonaddfilter.png) button under "Field" select "Chat" and under "Operation" select "DIFFERENT" as in the Gif below:
 
-![image](./BuilderImages/Filtergif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatRepeaterFilter.gif)
 
 Now drag the "Chat" component into the "Repeater" as in the gif below:
 
-![image](./BuilderImages/chatrepeatergif.gif)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatRepeater.gif)
 
 In "Properties of Field" go to "source" under "DataBind" select "Chat" as in the image below:
 
-![image](./BuilderImages/sourcechat2.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/ChatDataBind.png)
 
 Now click on the ![image](./BuilderImages/saveButton.png) button and then run the application by clicking on the ![image](./BuilderImages/RunButton.png) button and you will see the following page:
 
@@ -2203,7 +2165,7 @@ Now click on the ![image](./BuilderImages/saveButton.png) button and then run th
 
 Go back to the "FormChat" and run the application by clicking on the ![image](./BuilderImages/RunButton.png) button, you will be redirected to another tab, there you will click on ![image](./BuilderImages/newbutton.png) and make the chat request like in the Gif below:
 
-![image](./BuilderImages/formechatgifrun.gif)
+![image](./BuilderImages/pagechatjpg.png)
 
 After the request is made on the screen a box will open as in the image below, in it you can add the Chat topic and the number of participants.
 
