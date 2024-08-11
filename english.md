@@ -380,7 +380,7 @@ Let's test this in practice. Select and drag the "Integer" component into the fo
 
  in the "Properties of Field", under "General", under "Name" and "Label" fill the field with "Age". 
 
-![idade2](./BuilderImages/BuilderImagesAtualizadas/GeneralIdade.png)
+![idade2](./BuilderImages/BuilderImagesAtualizadas/TextfieldGeneralAge.png)
 
 Go back to edit the properties of the "Phone Number" under "Behavior" ,click on the ![image](./BuilderImages/BuilderImagesAtualizadas/+.png) of the "Visibility Rules" ⤵️
 
@@ -396,11 +396,11 @@ Now click on the button ![Save](https://user-images.githubusercontent.com/814011
 
 Then click on the "Visibility Rules" drop-down list (from the "Age" field) and select "Age Rule":
 
-![image](./BuilderImages/BuilderImagesAtualizadas/RegraIdade.png)
+![image](./BuilderImages/BuilderImagesAtualizadas/TextfieldAgeRule.png)
 
  and then another list will appear below, click and select "Age".
 (image on the next page)
-![image](/BuilderImages/BuilderImagesAtualizadas/visibilityRulesNew.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/VisibilityRulesAge.png)
 
 Now run the application.![image](./BuilderImages/BuilderImagesAtualizadas/Run.gif).
 
@@ -438,7 +438,7 @@ Click on the "Number" field created earlier.⬇️
 
 If you are using desktop, click on the first drop-down list and then choose the "col-lg-12:100%" option and observe how it looks on the form.
 
-![9](https://user-images.githubusercontent.com/81401104/121412846-7f3eaf00-c93b-11eb-8f7f-f9ed34fa502a.gif)
+![9](./BuilderImages/BuilderImagesAtualizadas/NumberPresentation.gif)
 
 Run the application.
 
@@ -468,11 +468,12 @@ On the first "Textfield", under "Position" select "Top", under "Order" type "1",
 
 In the second "Textfield", in "Position" select "Right", in "Order" type "2", in "Message" write "This is the second one" .
 
-![11](https://user-images.githubusercontent.com/81401104/121413692-54a12600-c93c-11eb-8624-ae422147da0c.png)
+![11](/BuilderImages/BuilderImagesAtualizadas/TextfieldIntro.png)
 
+![imagem](/BuilderImages/BuilderImagesAtualizadas/TextfieldIntroHtml.png)
 Now run the application, and the following page will open:
 
-![image](https://user-images.githubusercontent.com/81401104/121414734-5e775900-c93d-11eb-9796-59e6901722a0.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/IntroFormNew.png)
 
 click on this button ![image](https://user-images.githubusercontent.com/81401104/115294470-05562a80-a12f-11eb-9dd2-e6adb2664492.png).
 
@@ -500,11 +501,11 @@ Run the application
 
 And on the register screen, in the "Textarea" field you can add values of type letters and numbers, with 2 lines or more (you can add more lines in the "Presentation" section, under "Rows")
 
-![formTesttextarea1](https://user-images.githubusercontent.com/81401104/121755779-6aeee380-caee-11eb-9317-9ff02b5b49e9.png)
+![formTesttextarea1](/BuilderImages/BuilderImagesAtualizadas/TextareaNew.png)
 
 After saving:
 
-![FormTesthellowworldbanc1](https://user-images.githubusercontent.com/81401104/121755816-8b1ea280-caee-11eb-844e-b11543000447.png)
+![FormTesthellowworldbanc1](/BuilderImages/BuilderImagesAtualizadas/TextareaForm.png)
 
 🔗Video: https://www.youtube.com/watch?v=5M0pQUNpSHc&list=PLTHIfO0UrihGXWtezzJnmZgS74lfA3PdH&index=12
 
@@ -1012,7 +1013,7 @@ Now click on the button ![image](./BuilderImages/BuilderImagesAtualizadas/+.png)
 
 Now click on the button ![image](https://user-images.githubusercontent.com/81401104/115923580-d30d3b80-a454-11eb-8fd6-3a7feb9d307d.png) and add "Male", again click ![image](https://user-images.githubusercontent.com/81401104/115923596-d99bb300-a454-11eb-89e1-866c67f5326a.png) and add "Female" and then click the ![Save](https://user-images.githubusercontent.com/81401104/123151110-81276880-d439-11eb-8d8d-51e68a8ffb59.png) button. (Image on the next page)
 
- ![image](./BuilderImages/BuilderImagesAtualizadas/RadioValues.gif)
+ ![image](./BuilderImages/BuilderImagesAtualizadas/RadioGender.gif)
 
 Two important things to know about the "Enumerations" window:
 Under "Type" you have two options you can select: "String" or "Integer". "String" refers to words, "Integer" refers to numbers.
@@ -1027,7 +1028,7 @@ Run the application.
 
 The component will look like this on the registration screen:
 
-![RadioTutorial MaFe 1](https://user-images.githubusercontent.com/81401104/121758308-4a775700-caf7-11eb-8d0c-ce9ece02e82e.png)
+![RadioTutorial MaFe 1](./BuilderImages/BuilderImagesAtualizadas/RadioGenderNew.png)
 
 <div id='id-Dropdown'/>
 
@@ -1105,37 +1106,37 @@ In the "General" section,Name the "Name" and "Label" fields "Color".
 Now run the application.
 The next page will open:
 
-![formcolor](https://user-images.githubusercontent.com/81401104/121950280-ca880180-cd2f-11eb-8c82-ea4f4ae2430d.png)
+![formcolor](/BuilderImages/BuilderImagesAtualizadas/FormColor.png)
 
 In the "Color" field write "Red", then click the button ![image](https://user-images.githubusercontent.com/81401104/116137555-14e2ef80-a6aa-11eb-8ad0-c16e743bb352.png)
 
-![formcolorall](https://user-images.githubusercontent.com/81401104/122147259-eaeab580-ce2e-11eb-979d-465079f9e0d2.gif)
+![formcolorall](/BuilderImages/BuilderImagesAtualizadas/ColorRed.gif)
 
 Repeat the process to add the colors "Green", "Yellow" and "Blue".
 
-![FormColorGreenYellow](https://user-images.githubusercontent.com/81401104/122149234-220e9600-ce32-11eb-958c-3fed00deebc6.png)
+![FormColorGreenYellow](./BuilderImages/BuilderImagesAtualizadas/FormColors.png)
 
 Now let's go back to the other form with the "DropdownDB" component.
 
-![Component DropdownDb1](https://user-images.githubusercontent.com/81401104/122851165-e289f300-d2e4-11eb-8a2d-5f1e732326e7.png)
+![Component DropdownDb1](/BuilderImages/BuilderImagesAtualizadas/FormDropdownDB.png)
 
 And then in "Properties of Field", go down to "Source" and in "Class" select the form that the "Color" field was created and in "Description Field" select the "Color" field.
 
 Run the application.
 
-![ComponentDropDownDBRUN](https://user-images.githubusercontent.com/81401104/123847563-1a98c380-d8ed-11eb-88e5-862fa6b050c3.png)
+![ComponentDropDownDBRUN](/BuilderImages/BuilderImagesAtualizadas/FormDropdownNew.png)
 
 Click the ![image](https://user-images.githubusercontent.com/81401104/116137809-68553d80-a6aa-11eb-9117-ccec127c6faf.png) button and this next page will open:
 
-![ComponentDropDownDBRUN2](https://user-images.githubusercontent.com/81401104/123852564-d3adcc80-d8f2-11eb-83ab-fa0e938a1d18.png)
+![ComponentDropDownDBRUN2](/BuilderImages/BuilderImagesAtualizadas/DropdownDbNewColor.png)
 
 Select the DropDownDB field:
 
-![ComponentDropDownDBRUN3](https://user-images.githubusercontent.com/81401104/123852620-e6280600-d8f2-11eb-92f8-0729c659abd5.png)
+![ComponentDropDownDBRUN3](/BuilderImages/BuilderImagesAtualizadas/DropdownDBOpções.png)
 
 And you will see the values added in the "Color" field of the other form. Select an option and then click the ![image63](https://user-images.githubusercontent.com/81401104/123853433-d4932e00-d8f3-11eb-983c-1598a467f5a9.png) button
 
-![ComponentDropDownDBRUN4red](https://user-images.githubusercontent.com/81401104/123853517-ec6ab200-d8f3-11eb-8553-5ad4e13eddc9.png)
+![ComponentDropDownDBRUN4red](/BuilderImages/BuilderImagesAtualizadas/FormColorGreen.png)
 
  You can do the same process with both fields in the same form.
 Still in the "Source" section, under "Additional Data" you can add another set of values from a field as long as it is from the same form selected in "Class".
@@ -1163,7 +1164,7 @@ Now run the application.
 
 On the registration screen, you will notice that when you type the initial letters, the available options will appear:
 
-![Component AutoCompleteRun](https://user-images.githubusercontent.com/81401104/123853840-4c615880-d8f4-11eb-8743-23839677fb10.png)
+![Component AutoCompleteRun](/BuilderImages/BuilderImagesAtualizadas/AutoCompleteGreen.png)
 
 And then just select the desired option and proceed.
 
@@ -1398,7 +1399,7 @@ And here you can view the records.
 To view the form filled with the signature, just click on the ![image](https://user-images.githubusercontent.com/81401104/116142292-1fa08300-a6b0-11eb-859f-e8a3af060214.png) button (under "Control").
 
 ### Signature ✒️ > SIGNATURE ✒️🗄️
-![image](https://user-images.githubusercontent.com/81401104/116142331-2929eb00-a6b0-11eb-9114-227e4a7a6f04.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/SignatureConf.png)
 
 Date field: Select the field that contains the "Date" or "DateTime" component
 
@@ -1539,19 +1540,19 @@ In the "OneToMany" properties, in the "Source" section, add the "Color" option (
 
 It is important that you are logged in to the "Color" form's registration screen to be able to see the result of the process. At the moment, the color registration screen looks like this:
 
-![FormColorOnetOmany](https://user-images.githubusercontent.com/81401104/123468726-8ff05580-d5c8-11eb-9f04-d4bfdd40f181.png)    
+![FormColorOnetOmany](/BuilderImages/BuilderImagesAtualizadas/FormColors.png)    
 
 Go back to the One-To-Many screen and run the application.
-![image](https://user-images.githubusercontent.com/81401104/116289811-322ac300-a769-11eb-9028-279990166b68.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OneToManyNew.png)
 
 In the "Color" field, fill in with "Orange", then click the button ![image](https://user-images.githubusercontent.com/81401104/116289846-3bb42b00-a769-11eb-9772-eaed741142d9.png).
-![image](https://user-images.githubusercontent.com/81401104/116290130-86ce3e00-a769-11eb-8ae5-336dcc0f6b33.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OneToManyOrange.png)
 
 Now click on the button ![Save Close](https://user-images.githubusercontent.com/81401104/123152006-77523500-d43a-11eb-9677-a60fe86d4df6.png).
 
 The One-To-Many registration screen will look like this:
 
-![image](https://user-images.githubusercontent.com/81401104/116290453-d9a7f580-a769-11eb-80e5-d7ee45d896e1.png)
+![image](/BuilderImages/BuilderImagesAtualizadas/OneToManySource.png)
 
  Open as Modal: Open as a modal - a modal is a highlighted window inside the page (like the one when you create or edit a project).
 
@@ -1644,11 +1645,11 @@ To run the tutorial for this component, scroll down to the "Source" section.
 To make use of the "MultiTag" component we will have to create 3 forms. The first to add the names, the second to connect the names to a "DropdownDB" component, and then connect the second to the third form that will be the "MultiTag" form.
 
 First step, create a new form with the "Textfield" component, also naming it "Team Member". 
-![TeamMember](https://user-images.githubusercontent.com/81401104/122629734-9432e500-d095-11eb-941e-bed31ce41b26.png)
+![TeamMember](/BuilderImages/BuilderImagesAtualizadas/FormTeammember.png)
 
 Run the application, on the "Run screen" click on "New" and add the names "John", "Mary", "Charles" and "Luke" (for each name you'll have to save, save & close and then repeat the process of adding the name)
 
-<img src="./BuilderImages/Changes/teammember.jpg">
+<img src="./BuilderImages/BuilderImagesAtualizadas/TeammemberNames.png">
 
 Second step, create one more form using the "DropdownDB" component and name it "team meeting".
 ![TeamMeeting](https://user-images.githubusercontent.com/81401104/122629793-04da0180-d096-11eb-9273-2578bb40404f.png)
