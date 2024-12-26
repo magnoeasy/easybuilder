@@ -47,6 +47,7 @@
     - [Multi-Select 🌐](#id-Multi-Select)
     - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
+    - [BarCode](#id-BarCode)
 - [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
@@ -2452,6 +2453,11 @@ Em "Default" inserimos o código do produto ou objeto para gerar o código de ba
 ![image](./BuilderImages/BuilderImagesAtualizadas/BarCodeDefault.png)
 
 🔗 Vídeo: https://www.youtube.com/watch?v=vlpTgBW2874
+
+## QRcode
+
+
+
 
 ## FORM 📄
 
