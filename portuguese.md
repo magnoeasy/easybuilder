@@ -48,6 +48,7 @@
     - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
     - [BarCode](#id-BarCode)
+    - [QrCode](#id-QrCode)
 - [Form 📄](#id-form)
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
@@ -2428,7 +2429,7 @@ Execute a página e teste a funcionalidade.
 
 <div id='id-BarCode'/>
 
-## BarCode 
+## BarCode
 
 ![image](./BuilderImages/BuilderImagesAtualizadas/BarCode.png)
 
@@ -2454,10 +2455,34 @@ Em "Default" inserimos o código do produto ou objeto para gerar o código de ba
 
 🔗 Vídeo: https://www.youtube.com/watch?v=vlpTgBW2874
 
-## QRcode
 
+## QrCode
 
+<div id='id-QrCode'/>
 
+![image](./BuilderImages/BuilderImagesAtualizadas/QrCode.png)
+
+O componente é utilizado para gerar e decodificar códigos QR, permitindo a criação de informações codificadas ou a leitura de dados armazenados nesses códigos.
+
+🚨ATENÇÃO: Deve ter o Form e o DataSource criado:
+
+![image](./BuilderImages/BuilderImagesAtualizadas/FormQrCode.png)
+Form
+
+![image](./BuilderImages/BuilderImagesAtualizadas/DataSourceQrCode.png)
+DataSource
+
+Para criar o QrCode, arrastamos o componente para local desejado e alteramos no nome.
+
+![image](./BuilderImages/BuilderImagesAtualizadas/QrCodeArrastar.gif)
+
+A seguir, em "Data Bind" ligamos o componente QrCode ao campo desejado no DataSource.
+
+![image](./BuilderImages/BuilderImagesAtualizadas/DataBindQrCode.png)
+
+Salve, execute e teste o componente.
+
+![image](./BuilderImages/BuilderImagesAtualizadas/ResultQrCode.png)
 
 ## FORM 📄
 
