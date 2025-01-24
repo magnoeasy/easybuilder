@@ -1,0 +1,62 @@
+*Priemiro exemplo*
+ 
+.b-top-nav{
+   border: none;
+}
+ 
+.menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+}
+.menu ul li {
+   float: right;
+   background-color: #8043f4;
+   border-radius: 10px;
+   margin-right: 5px;
+}
+ 
+.menu li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+ 
+*Segundo exemplo*
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ 
+p {
+    color: #555;
+    font-size: 1.2rem;
+    margin: 0 20px 20px;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
+    }
+ 
+    iframe {
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+ 
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    }
