@@ -81,6 +81,7 @@
     - [🧰 Images](#id-2Images)
 - [Page Tutorials 📄](#id-PageTutorials)
    - [ Create a grid on a page ](#id-gridInPage)
+   - [Dev Properties (Page)](#id-PropertiesPage)
 
 <div id='id-first'/>
 
@@ -2673,11 +2674,12 @@ And it is also possible to save more fields in the tab for the same animal, just
 ## Dev Properties (Form)
 ![formtesev](https://user-images.githubusercontent.com/81401104/117347868-f2a65a00-ae7f-11eb-92df-85b8c9cea828.gif)
 <ul>
- <li>Use AutoSaved Form: Use automatically saved form.</li>
- <li>Use AutoSaved Form: Use form saved automatically.</li>
+ <li>Use AutoSaved Form: The form  is saved automatically.</li>
  <li>Use Data History Change: Use data history change.</li>
  <li>Use Default Columns: Use default columns.</li>
  <li>Can Receive Emails: Can receive emails.</li>
+ <li>Use its own permissions.</li>
+ <li>Allow anonymous access: When enabled, it will allow users to access the form without needing to log in. Beneficial when you wish to share the form with an individual outside of the organization.".</li>
  </ul>
  
 Synchronize Data
@@ -4034,5 +4036,18 @@ Script:
 
 ## Results:
 <img src="./BuilderImages/GridInPage/gifs/0014.gif">
+
+<div id="id-PropertiesPage"/>
+
+### Dev Properties (Page)
+
+<ul>
+  <li>Use its own permissions.</li>
+  <li>Allow anonymous access: When enabled, it will allow people to access the page without needing to log in. Beneficial when you wish to share the page with an user outside of the organization.</li>
+  <li>Not Available on Mobile.</li>
+  <li>Side Form.</li>
+  <li>Side Form Direction.</li>
+  <li>Show Menu.</li>
+</ul>
 
 Documentation in Development.

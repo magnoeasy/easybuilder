@@ -86,6 +86,7 @@
 - [Page Tutorials 📄](#id-PageTutorials)
    - [Criar gride em uma page](#id-gridInPage)
    - [Como filtrar um DropdownDB por outro DropdownDB](#id-FiltroDDB)
+   - [Dev Properties (Page)](#id-PropertiesPage)
 
 
 <div id='id-frist'/>
@@ -2709,6 +2710,8 @@ E também é possível salvar mais campos na tab referente ao mesmo animal, bast
  <li>Use Data History Change: Usar mudança de histórico dos dados.</li>
  <li>Use Default Columns: Usar colunas padrão.</li>
  <li>Can Receive E-mails: Pode receber e-mails.</li>
+ <li>Use its own permissions: Usar suas próprias permissões.</li>
+ <li>Allow anonymous access: Permitir acesso anônimo. (quando habilitado permitirá usuários acessarem o formulário sem precisar de login. Útil quando voce quer compartilhar o formulário com um usuário fora da organização).</li>
  </ul>
  
 Synchronize Data (Sincronizar dados)
@@ -3974,5 +3977,18 @@ Em "Use" e "Filter By", selecione o Name do DropdownDB que servirá como parâme
 Execute a aplicação e teste a funcionalidade.
 
 ![image](./BuilderImages/runfiltrodropdowndb.gif)
+
+<div id="id-PropertiesPage"/>
+
+### Dev Properties (Page)
+
+<ul> 
+  <li>Use its own permissions: Use suas próprias permissões.</li>
+  <li>Allow anonymous access: Permitir acesso anônimo. (Quando habilitado, permitirá que os usuários acessem a página sem precisar fazer login. Útil quando você deseja compartilhar a página com um usuário fora da organização).</li>
+  <li>Not Available on Mobile: Não disponível em dispositivos móveis.</li>
+  <li>Side Form: Formulário lateral.</li>
+  <li>Side Form Direction: Direção do formulário lateral.</li>
+  <li>Show Menu: Mostrar menu</li>
+</ul>
 
 🚨 ATENÇÃO: Documentação em Desenvolvimento.
