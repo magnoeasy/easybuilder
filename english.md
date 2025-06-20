@@ -4049,5 +4049,32 @@ Script:
   <li>Side Form Direction.</li>
   <li>Show Menu.</li>
 </ul>
+<br>
+
+# 🛠️ Behavior of `PageClass` When Saving Records
+
+When saving a record using `PageClass`:
+
+- If **all fields are outside the repeater**, the system will try to **create a new record**.
+- If **all fields are inside the repeater**, the system will try to **update the existing record**, **unless the primary key is not filled in**.
+
+If you want to force a different behavior, you must **manually set a flag on the `this.entity` object** with a specific value:
+
+```javascript
+// Force update
+entity['builder@isnew'] = false;
+
+// Force creation
+entity['builder@isnew'] = true;
+```
+
+This flag can be set in `beforeSave`, but it is **recommended to set it in the button click event** for more reliable control.
+
+> ⚠️ **Depending on the form**, the user might **mix contexts**, such as:
+> - Fields **inside and outside the repeater**
+> - Primary key **inside or outside the repeater**
+> - Fields **with or without values**
+
+In such cases, the flag might be set incorrectly or always default to `false`. So if the expected behavior is not achieved, the user **must manually configure the flag** to ensure the desired outcome.
 
 Documentation in Development.

@@ -3842,6 +3842,8 @@ Todos parâmetros são query string:
 
 <div id="id-gridInPage"/>
 
+
+
 ### Criar gride em uma page
 ⚠️ Importante:
 - Para este procedimento será necessário utilizar uma variável de sessão.
@@ -3990,5 +3992,34 @@ Execute a aplicação e teste a funcionalidade.
   <li>Side Form Direction: Direção do formulário lateral.</li>
   <li>Show Menu: Mostrar menu</li>
 </ul>
+<br>
+
+
+# 🛠️ Comportamento do `PageClass` ao Salvar Registros
+
+o salvar um registro usando `PageClass`:
+
+- Se **todos os campos estiverem fora do repeater**, o sistema tentará **criar um novo registro**.
+- Se **todos os campos estiverem dentro do repeater**, o sistema tentará **atualizar o registro existente**, **a menos que a chave primária não esteja preenchida**.
+
+Se você quiser forçar um comportamento diferente, é necessário **definir manualmente uma flag no objeto `this.entity`** com um valor específico:
+
+```javascript
+// Forçar atualização
+entity['builder@isnew'] = false;
+
+// Forçar criação
+entity['builder@isnew'] = true;
+```
+
+Essa flag pode ser configurada no `beforeSave`, mas **é recomendado definir no clique do botão**, para garantir controle mais preciso.
+
+> ⚠️ **Dependendo do formulário**, o usuário pode acabar **misturando contextos**, como:
+> - Campos **dentro e fora do repeater**
+> - Chave primária **fora ou dentro do repeater**
+> - Campos **com ou sem valor**
+
+Nesses casos, a flag pode ser definida incorretamente ou sempre como `false`. Portanto, **se o comportamento esperado não for respeitado**, o usuário **deve configurar a flag manualmente** para garantir o resultado desejado.
+
 
 🚨 ATENÇÃO: Documentação em Desenvolvimento.
