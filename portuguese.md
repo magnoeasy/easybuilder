@@ -87,6 +87,7 @@
    - [Criar gride em uma page](#id-gridInPage)
    - [Como filtrar um DropdownDB por outro DropdownDB](#id-FiltroDDB)
    - [Dev Properties (Page)](#id-PropertiesPage)
+   - [Comportamento do 'PageClass' ao Salvar Registros](#id-BehaviorPageclass)
 
 
 <div id='id-frist'/>
@@ -3992,7 +3993,7 @@ Execute a aplicação e teste a funcionalidade.
   <li>Side Form Direction: Direção do formulário lateral.</li>
   <li>Show Menu: Mostrar menu</li>
 </ul>
-<br>
+<div id="id-BehaviorPageclass"/>
 
 
 # 🛠️ Comportamento do `PageClass` ao Salvar Registros

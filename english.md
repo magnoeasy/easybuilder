@@ -82,6 +82,8 @@
 - [Page Tutorials 📄](#id-PageTutorials)
    - [ Create a grid on a page ](#id-gridInPage)
    - [Dev Properties (Page)](#id-PropertiesPage)
+   - [Behavior of `PageClass` When Saving Records](#id-BehaviorPageclass)
+
 
 <div id='id-first'/>
 
@@ -4049,7 +4051,10 @@ Script:
   <li>Side Form Direction.</li>
   <li>Show Menu.</li>
 </ul>
-<br>
+
+
+<div id="id-BehaviorPageclass"/>
+
 
 # 🛠️ Behavior of `PageClass` When Saving Records
 
