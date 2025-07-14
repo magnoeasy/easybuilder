@@ -49,6 +49,12 @@
     - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
 - [Form 📄](#id-form)
+    - <a href="./functions/en/events.md">Events</a>
+    - <a href="./functions/en/getField.md">Field API (GetField)</a>
+    - <a href="./functions/en/getPageClass.md">Class API (GetPageClass)</a>
+    - <a href="./functions/en/loadFormAndOpenModal.md">Open Form in Modal</a>
+    - <a href="./functions/en/menuClick.md">Navigation (MenuClick)</a>
+    - <a href="./functions/en/translate.md">Translation (Translate)</a>
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
     - [Dev Properties (Form)](#id-Properties)
