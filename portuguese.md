@@ -48,6 +48,12 @@
     - [Grid 🗃️](#id-Grid)
     - [Carousel 🎠](#id-Carousel)
 - [Form 📄](#id-form)
+    - <a href="./functions/ptbr/events.md">Eventos</a>
+    - <a href="./functions/ptbr/getField.md">API para Campos (GetField)</a>
+    - <a href="./functions/ptbr/getPageClass.md">API para Classes (GetPageClass)</a>
+    - <a href="./functions/ptbr/loadFormAndOpenModal.md">Abrir Formulário em Modal</a>
+    - <a href="./functions/ptbr/menuClick.md">Navegação (MenuClick)</a>
+    - <a href="./functions/ptbr/translate.md">Tradução (Translate)</a>
     - [Video call Coming Soon](id-Video)
     - [Tab (Form)](#id-Tab)
     - [Dev Properties (Form)](#id-Properties)
